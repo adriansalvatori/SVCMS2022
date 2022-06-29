@@ -32,6 +32,14 @@
 
 ## Supporting
 
+Tools added: 
+- Advanced Custom fields
+- Advanced Custom Fields Extended
+- Post Layouts
+- Soil
+- Password Bcrypt
+- Stage Switcher
+
 **Bedrock** is an open source project and completely free to use.
 
 However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider donating using the links below:
