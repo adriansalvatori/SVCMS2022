@@ -53,21 +53,9 @@ Tools added:
 - Enhanced Blocks for Inner Pages and Articles
 - Collaboration tool for commenting and tasking on-site
 
-**Bedrock** is an open source project and completely free to use.
-
-However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider donating using the links below:
-
-<div align="center">
-
-[![Sponsor on GitHub](https://img.shields.io/static/v1?label=sponsor&message=%E2%9D%A4&logo=GitHub&style=flat-square)](https://github.com/sponsors/roots)
-[![Sponsor on Patreon](https://img.shields.io/badge/sponsor-patreon-orange.svg?style=flat-square&logo=patreon")](https://www.patreon.com/rootsdev)
-[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/rootsdev)
-
-</div>
-
 ## Overview
 
-Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
+Movidagrafica CMS is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
 Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
 
@@ -89,7 +77,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 1. Create a new project:
    ```sh
-   $ composer create-project roots/bedrock
+   $ git clone https://github.com/adriansalvatori/SVCMS2022
    ```
 2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
 
@@ -108,7 +96,8 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 3. Add theme(s) in `web/app/themes/` as you would for a normal WordPress site
 4. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
-5. Access WordPress admin at `https://example.com/wp/wp-admin/`
+5. Import the Default SQL Database located at /config/SVCMS2022/movidagrafica_svcms2022_latest.sql
+6. Access WordPress admin at `https://example.com/wp/wp-admin/`
 
 ## Bedrock sponsors
 
