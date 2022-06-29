@@ -4,9 +4,7 @@ web/app/plugins/*
 !web/app/mu-plugins/*/
 web/app/themes/twentytwentytwo/
 web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/2022/06/*/
-!web/app/uploads/.gitkeep
+web/app/uploads/wp-defender
 web/app/cache/*
 
 # WordPress
