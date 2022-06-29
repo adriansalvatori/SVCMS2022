@@ -1,0 +1,1 @@
+/Users/adrian.salvatori/Documents/Projects/movidagrafica/web/app/plugins/query-monitor/wp-content/db.php
