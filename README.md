@@ -51,6 +51,7 @@ Tools added:
 - Enhanced User Administration tools
 - Enhanced Reaction to Articles
 - Enhanced Blocks for Inner Pages and Articles
+- Collaboration tool for commenting and tasking on-site
 
 **Bedrock** is an open source project and completely free to use.
 
