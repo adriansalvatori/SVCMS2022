@@ -33,12 +33,24 @@
 ## Supporting
 
 Tools added: 
+- Enhanced Dashboard and UI
 - Advanced Custom fields
 - Advanced Custom Fields Extended
 - Post Layouts
 - Soil
 - Password Bcrypt
 - Stage Switcher
+- AntiMalware Security
+- Anti Brute-Force Attack Security
+- 2FA for Authentication
+- reCaptcha v3
+- Default SMTP
+- Automated SEO with Autodescription
+- MiniApp for Banner Design
+- MiniApp for Live CRM
+- Enhanced User Administration tools
+- Enhanced Reaction to Articles
+- Enhanced Blocks for Inner Pages and Articles
 
 **Bedrock** is an open source project and completely free to use.
 
