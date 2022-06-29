@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://roots.io/bedrock/">
-    <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
+  <a href="https://movidagrafica.co">
+    <img alt="image" src="https://user-images.githubusercontent.com/9261546/176410648-abd10a26-1b44-4269-b42e-91464db88d80.png">
   </a>
 </p>
 
