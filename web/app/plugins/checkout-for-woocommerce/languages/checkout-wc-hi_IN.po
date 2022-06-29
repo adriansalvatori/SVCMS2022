@@ -1,0 +1,1386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:38-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Action/LogInAction.php:38
+msgid "There was an error logging in. Please check your credentials and try again."
+msgstr "लॉग इन करने में एक त्रुटि हुई। कृपया अपनी साख जांचें और पुनः प्रयास करें।"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "ईमेल पते में अमान्य डोमेन नाम है।"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "कृपया एक मान्य %s दर्ज करें।"
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "पूरा नाम"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "घर का नंबर"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "सड़क का नाम"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "पता पंक्ति जोड़ें 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "कंपनी जोड़ें"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692 sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "बिल भेजने का पता"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "पेपैल के साथ में लॉग इन किया । कृपया नीचे अपना ऑर्डर जारी रखें ।"
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "लागू करें"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "क्या प्रोमो कोड है? यहाँ क्लिक करें।"
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "प्रचार कोड"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "प्रोमो कोड दर्ज करें"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "बधाई! आपको मुफ्त मानक शिपिंग मिलती है।"
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "आप %s मुफ़्त शिपिंग से दूर हैं!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "इस पते का उपयोग करें"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "पता का सत्यापन"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from our verification "
+"service. Please verify your address."
+msgstr ""
+"आपके द्वारा प्रदान किया गया शिपिंग पता हमारी सत्यापन सेवा से सुझाए गए पते से मेल नहीं खाता है। कृपया अपना पता "
+"सत्यापित करें।"
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "आपने दर्ज किया"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "हम सुझाव देते हैं"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "कृपया मान्य फोन नंबर दर्ज करें।"
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "कृप्या अपना पेहला और आखीरी नाम दर्ज करे।"
+
+#: includes/Managers/AssetManager.php:437 sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "शिपिंग पता"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "कृपया एक नई मात्रा दर्ज करें:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American Express cards have a 4-"
+"digit code located on the front."
+msgstr ""
+"3-अंकीय सुरक्षा कोड आमतौर पर आपके कार्ड के पीछे पाया जाता है। अमेरिकन एक्सप्रेस कार्ड में सामने की ओर 4 अंकों का कोड "
+"होता है।"
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "क्या आप वाकई इस आइटम को अपनी कार्ट से निकालना चाहते हैं?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "कृपया एक मान्य पोस्टकोड / ज़िप दर्ज करें।"
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "कोई शिपिंग तरीके उपलब्ध नहीं हैं"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "पूरा क्रम"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006 sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "भुगतान"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "सभी लेनदेन सुरक्षित और एन्क्रिप्टेड हैं।"
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "आपका आदेश मुफ़्त है कोई भुगतान की आवश्यकता नहीं है."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "शिपिंग पते के रूप में ही"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "किसी भिन्न बिलिंग पते का उपयोग करें"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "गाड़ी में वापसी"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "शिपिंग जारी रखें"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "भुगतान जारी रखें"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "ऑर्डर की समीक्षा करें"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "जानकारी पर वापस लौटें"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "शिपिंग पर लौटें"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "भुगतान पर लौटें"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "या"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "घटती"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "वेतन वृद्धि"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "ऑर्डर सारांश दिखाएँ"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "ऑर्डर सारांश छिपाएं"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "स्पष्ट नियंत्रण"
+
+#: sources/php/template-functions.php:295 sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "जानकारी"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "ऑर्डर की समीक्षा"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "पहले से ही हमारे साथ एक खाता है?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "तेज़ चेकआउट अनुभव के लिए लॉग इन करें ।"
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "%s खरीदारी खाता बनाएं ।"
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "यदि आप एक खाता नहीं है, हम आपके लिए एक पैदा करेगा ।"
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "आपका स्वागत है,%1$s (%2$s)।"
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "लोग आउट।"
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "वापसी पर स्वागत है"
+
+#: sources/php/template-functions.php:576
+msgid "It looks like you already have an account. Please enter your login details below."
+msgstr "ऐसा लगता है कि आपके पास पहले से ही एक खाता है। कृप्या नीचे अपना लॉग इन विवरण दर्ज करें।"
+
+#: sources/php/template-functions.php:579
+msgid "If you have shopped with us before, please enter your login details below."
+msgstr "यदि आपने पहले हमारे साथ खरीदारी की है, तो कृपया नीचे अपना लॉगिन विवरण दर्ज करें।"
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "या अतिथि के रूप में जारी रखें"
+
+#: sources/php/template-functions.php:682 sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "बिलिंग और शिपिंग पता"
+
+#: sources/php/template-functions.php:903 sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "यहां भेजें"
+
+#: sources/php/template-functions.php:926 sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "संपर्क करें"
+
+#: sources/php/template-functions.php:934 sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994 sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025 sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083 sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "परिवर्तन"
+
+#: sources/php/template-functions.php:1017 sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "तरीका"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "शिपिंग का तरीका"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "उस पते का चयन करें जो आपके कार्ड या भुगतान विधि से मेल खाता है।"
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "प्रचार कोड"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "आदेश %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "धन्यवाद %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "आदेश की स्थिति"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "ऑर्डर अपडेट"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "आपको ईमेल द्वारा शिपिंग और वितरण अपडेट मिलेंगे।"
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "संपर्क जानकारी"
+
+#: sources/php/template-functions.php:2054 sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "यातायात"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "लॉग इन"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "समीक्षा"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "आपकी गाड़ी खाली है"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "अपनी गाड़ी"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "WooCommerce के लिए सुंदर, रूपांतरण अनुकूलित चेकआउट टेम्प्लेट।"
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "कोई देश चुनें"
+
+#~ msgid "Password"
+#~ msgstr "पासवर्ड"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "लॉगिन वैकल्पिक है। आप नीचे अपने आदेश के साथ जारी रख सकते हैं।"
+
+#~ msgid "Address Required"
+#~ msgstr "पता आवश्यक है"
+
+#, php-format
+#~ msgid "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC.</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : PHP 7.0 या अधिक से अधिक CheckoutWC का उपयोग करना आवश्यक है। </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will have a positive effect "
+#~ "on your site&#8217;s performance."
+#~ msgstr ""
+#~ "PHP के नए संस्करण तेजी से और अधिक सुरक्षित हैं, इसलिए अपडेट करने से आपकी साइट के प्रदर्शन पर सकारात्मक प्रभाव "
+#~ "पड़ेगा।"
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, which disables all "
+#~ "features and functionality. In most cases, upgrading only takes a few minutes. Contact your "
+#~ "hosting provider for more information."
+#~ msgstr ""
+#~ "घातक त्रुटियों को रोकने के लिए, हमने %s को <strong> %s</strong> में लोड किया है, जो सभी सुविधाओं और "
+#~ "कार्यक्षमता को अक्षम करता है। ज्यादातर मामलों में, उन्नयन में केवल कुछ मिनट लगते हैं। अधिक जानकारी के लिए अपने "
+#~ "होस्टिंग प्रदाता से संपर्क करें।"
+
+#~ msgid "safe mode"
+#~ msgstr "सुरक्षित मोड"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "बीवर थीमर समर्थन सक्षम करें।"
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "बीवर थीमर को हेडर और फुटर को बदलने की अनुमति दें।"
+
+#~ msgid "Elementor Pro"
+#~ msgstr "एलिमेंटरी प्रो"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "एलिमेंट प्रो प्रो सपोर्ट सक्षम करें।"
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "शीर्ष लेख और पाद लेख को बदलने के लिए एलिमेंटर प्रो की अनुमति दें।"
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "चेकआउट फ़ील्ड संपादक"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "चेकआउट फ़ील्ड संपादक पता फ़ील्ड ओवरराइड सक्षम करें।"
+
+#~ msgid "Allow WooCommerce Checkout Field Editor to modify billing and shipping address fields."
+#~ msgstr "WooCommerce चेकआउट फ़ील्ड संपादक को बिलिंग और शिपिंग पते फ़ील्ड को संशोधित करने की अनुमति दें।"
+
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~ msgid "Premium Features"
+#~ msgstr "प्रीमियम सुविधाएँ"
+
+#~ msgid "Template"
+#~ msgstr "टेम्पलेट"
+
+#~ msgid "Design"
+#~ msgstr "डिजाइन"
+
+#~ msgid "Integrations"
+#~ msgstr "एकीकरण"
+
+#~ msgid "Addons"
+#~ msgstr "ऐड-ऑन"
+
+#~ msgid "License"
+#~ msgstr "लाइसैंस"
+
+#~ msgid "Tools"
+#~ msgstr "उपकरण"
+
+#~ msgid "Support"
+#~ msgstr "समर्थन करना"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "अनुशंसित प्लगइन्स"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized checkout templates for "
+#~ "WooCommerce."
+#~ msgstr "WooCommerce के लिए चेकआउट WooCommerce के लिए सुंदर, रूपांतरण अनुकूलित चेकआउट टेम्पलेट प्रदान करता है।"
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "यह सेटिंग WooCommerce Checkout फ़ील्ड संपादक द्वारा ओवरराइड की गई है।"
+
+#~ msgid "Enable / Disable"
+#~ msgstr "अक्षम सक्षम"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "WooCommerce टेम्पलेट के लिए चेकआउट का उपयोग करें"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always enabled for admin "
+#~ "users.)"
+#~ msgstr ""
+#~ "WooCommerce विषयवस्तु के लिए चेकआउट सक्षम या अक्षम करें. (ध्यान दें: विषय हमेशा व्यवस्थापक उपयोगकर्ताओं के लिए "
+#~ "सक्षम है.)"
+
+#~ msgid "Login Style"
+#~ msgstr "लॉगिन शैली"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "संवर्धित (अनुशंसित)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce डिफ़ॉल्ट"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether the entered email "
+#~ "address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "एन्हांस किया गया: दर्ज किए गए ईमेल पते एक खाते से मेल खाता है या नहीं, इसके आधार पर लॉगिन फ़ील्ड को स्वचालित "
+#~ "रूप से दिखाएं और छुपाएं। (सिफारिश की)"
+
+#~ msgid "WooCommerce Default: Show a login reminder in a banner above the checkout form."
+#~ msgstr "WooCommerce डिफ़ॉल्ट: चेकआउट फ़ॉर्म के ऊपर एक बैनर में एक लॉगिन अनुस्मारक दिखाएं।"
+
+#~ msgid "Registration Style"
+#~ msgstr "पंजीकरण शैली"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to the customer using the "
+#~ "native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "एन्हांस किया गया: स्वचालित रूप से एक उपयोगकर्ता नाम और पासवर्ड जेनरेट करें और इसे देशी WooCommerce कार्यक्षमता "
+#~ "का उपयोग करके ग्राहक को ईमेल करें। (सिफारिश की)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to select their own "
+#~ "password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce डिफ़ॉल्ट: ग्राहक को अपना पासवर्ड चुनने के लिए एक पासवर्ड फ़ील्ड प्रदान की जाती है। सिफारिश नहीं "
+#~ "की गई।"
+
+#~ msgid "Field Label Style"
+#~ msgstr "फील्ड लेबल शैली"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "फ़्लोटिंग (अनुशंसित)"
+
+#~ msgid "Normal"
+#~ msgstr "सामान्य"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field has a value. "
+#~ "(Recommended)"
+#~ msgstr "फ्लोटिंग: फ़ील्ड का मान है या नहीं, इसके आधार पर लेबल को स्वचालित रूप से दिखाएं और छुपाएं। (सिफारिश की)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "सामान्य: लेबल हर समय प्रत्येक क्षेत्र के ऊपर दिखाई देते हैं।"
+
+#~ msgid "Cart Item Label"
+#~ msgstr "कार्ट आइटम लेबल"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "पाठ (अनुशंसित)"
+
+#~ msgid "Link"
+#~ msgstr "लिंक"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr "पाठ: कार्ट आइटम को एकल उत्पाद पृष्ठ से लिंक न करें। (सिफारिश की)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "लिंक: प्रत्येक कार्ट आइटम को उत्पाद पृष्ठ से लिंक करें।"
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "कार्ट आइटम डेटा डिस्प्ले"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "लघु (अनुशंसित)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red is displayed as XL / "
+#~ "Red. (Recommended)"
+#~ msgstr ""
+#~ "लघु केवल भिन्नता मान प्रदर्शित करता है। उदाहरण के लिए, आकार: XL, रंग: लाल को XL / Red के रूप में प्रदर्शित "
+#~ "किया जाता है। (सिफारिश की)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate line using this "
+#~ "format: Label: Value "
+#~ msgstr ""
+#~ "WooCommerce डिफ़ॉल्ट का उपयोग करते समय, प्रत्येक भिन्नता इस प्रारूप का उपयोग करके एक अलग लाइन पर प्रदर्शित "
+#~ "होती है: लेबल: मान"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "शिपिंग कदम छोड़ें"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "शिपिंग कदम छोड़ें"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one shipping option for all "
+#~ "orders."
+#~ msgstr ""
+#~ "शिपिंग विधि चरण को छिपाने के लिए सक्षम करें। उपयोगी है यदि आपके पास सभी आदेशों के लिए केवल एक शिपिंग विकल्प है।"
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "आदेश नोट्स फ़ील्ड सक्षम करें"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr "आदेश नोट्स फ़ील्ड को सक्षम या अक्षम करें। डिफ़ॉल्ट रूप से अक्षम।"
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "मोबाइल कूपन फ़ील्ड"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "मोबाइल पर भुगतान विकल्प के ऊपर कूपन फ़ील्ड दिखाएं।"
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps customers find the coupon "
+#~ "field without expanding the cart summary."
+#~ msgstr ""
+#~ "मोबाइल उपकरणों पर भुगतान गेटवे के ऊपर कूपन फ़ील्ड दिखाएं। कार्ट सारांश का विस्तार किए बिना ग्राहकों को कूपन "
+#~ "फ़ील्ड खोजने में मदद करता है।"
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "मोबाइल क्रेडिट कार्ड लोगो"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "मोबाइल पर क्रेडिट कार्ड लोगो सक्षम करें"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be rendered properly on "
+#~ "mobile. It is recommended you test before enabling. Default: Off"
+#~ msgstr ""
+#~ "मोबाइल पर क्रेडिट कार्ड लोगो दिखाएं। नोट: कई गेटवे लोगो को मोबाइल पर ठीक से प्रस्तुत नहीं किया जा सकता है। "
+#~ "यह सक्षम करने से पहले आपको परीक्षण करने की सलाह दी जाती है। डिफ़ॉल्ट: बंद"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "कार्ट सारांश मोबाइल लेबल"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "उदाहरण: आदेश सारांश और कूपन दिखाएं"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "यदि खाली छोड़ दिया जाता है, तो इस डिफ़ॉल्ट का उपयोग किया जाएगा:"
+
+#~ msgid "Header Scripts"
+#~ msgstr "शीर्ष लेख स्क्रिप्ट"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</code> tag in the "
+#~ "document source."
+#~ msgstr "यह कोड तुरंत बंद <code>&lt;/head&gt;</code> टैग दस्तावेज़ स्रोत में आउटपुट होगा ।"
+
+#~ msgid "Footer Scripts"
+#~ msgstr "पाद लेख स्क्रिप्ट"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</code> tag in the "
+#~ "document source."
+#~ msgstr "यह कोड तुरंत बंद <code>&lt;/body&gt;</code> टैग दस्तावेज़ स्रोत में आउटपुट होगा ।"
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "उपयोग ट्रैकिंग सक्षम करें"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "प्लगइन उपयोग को ट्रैक करने के लिए WooCommerce के लिए चेकआउट की अनुमति दें?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "स्टेट कलेक्शन डेटा व्यूअर"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "प्रायोगिक एकीकरण"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the same testing processes as "
+#~ "our recommended configurations."
+#~ msgstr ""
+#~ "प्रायोगिक एकीकरण समर्थित नहीं हैं और हमारे अनुशंसित कॉन्फ़िगरेशन के समान परीक्षण प्रक्रियाओं से नहीं गुजरते हैं।"
+
+#~ msgid "Template Loader"
+#~ msgstr "टेम्प्लेट लोडर"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "व्याकुलता मुक्त पोर्टल (अनुशंसित)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "वर्डप्रेस थीम"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction free portal which does "
+#~ "not load the active WordPress theme or styles. (Recommended)"
+#~ msgstr ""
+#~ "व्याकुलता मुक्त पोर्टल: एक व्याकुलता मुक्त पोर्टल में CheckoutWC टेम्पलेट्स प्रदर्शित करें जो सक्रिय वर्डप्रेस थीम या "
+#~ "शैलियों को लोड नहीं करता है। (सिफारिश की)"
+
+#~ msgid "WordPress Theme: Load CheckoutWC templates within active WordPress theme content area."
+#~ msgstr "वर्डप्रेस थीम: सक्रिय वर्डप्रेस विषय सामग्री क्षेत्र के भीतर CheckoutWC टेम्पलेट्स लोड करें।"
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "प्रायोगिक - असमर्थित विन्यास"
+
+#~ msgid "Cart Editing"
+#~ msgstr "कार्ट संपादन"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "कार्ट संपादन सक्षम करें।"
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or adjust quantity of cart "
+#~ "items."
+#~ msgstr ""
+#~ "कार्ट संपादन सुविधा सक्षम या अक्षम करें। ग्राहक को कार्ट आइटम की मात्रा को निकालने या समायोजित करने की "
+#~ "अनुमति देता है।"
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "कार्ट संपादन खाली कार्ट पुनर्निर्देशित"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr "जब ग्राहक चेकआउट पृष्ठ से कार्ट खाली करता है तो URL पुनर्निर्देशित होता है।"
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "यदि खाली छोड़ दिया जाता है, तो ग्राहक को कार्ट पेज पर भेज दिया जाएगा।"
+
+#~ msgid "Order Pay"
+#~ msgstr "ऑर्डर पे"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "ऑर्डर पे पेज के लिए समर्थन सक्षम करें।"
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "ऑर्डर पे पेज के लिए चेकआउट टेम्पलेट का उपयोग करें।"
+
+#~ msgid "One Page Checkout"
+#~ msgstr "एक पेज चेकआउट"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "एक पृष्ठ चेकआउट सक्षम करें।"
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores that force the billing "
+#~ "and shipping address to be the same."
+#~ msgstr ""
+#~ "एक टैब पर सभी चेकआउट फ़ील्ड दिखाएं। डिजिटल स्टोर या स्टोर के लिए उपयोगी जो बिलिंग और शिपिंग पते को समान "
+#~ "करने के लिए मजबूर करते हैं।"
+
+#~ msgid "Thank You Page"
+#~ msgstr "थैंक यू पेज"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "धन्यवाद पृष्ठ के लिए समर्थन सक्षम करें।"
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also used when viewing orders "
+#~ "in My Account."
+#~ msgstr ""
+#~ "धन्यवाद पृष्ठ सक्षम करें / प्राप्त आदेश प्राप्त करें। माई अकाउंट में ऑर्डर देखने के दौरान भी इस टेम्पलेट का उपयोग किया "
+#~ "जाता है।"
+
+#~ msgid "Order Statuses"
+#~ msgstr "आदेश क़ानून"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "धन्यवाद पृष्ठ पर दिखाने के लिए स्थितियां।"
+
+#~ msgid "Map Embed"
+#~ msgstr "नक्शा एम्बेड करें"
+
+#~ msgid "Enable map embed."
+#~ msgstr "मानचित्र एम्बेड सक्षम करें।"
+
+#~ msgid "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr "धन्यवाद पृष्ठ पर मानचित्र एम्बेड को सक्षम या अक्षम करें। Google API कुंजी की आवश्यकता है।"
+
+#~ msgid "My Account"
+#~ msgstr "मेरा खाता"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "ऑर्डर पे पेज के लिए चेकआउट टेम्पलेट का उपयोग करें।"
+
+#~ msgid "When checked, viewing orders in My Account will use the thank you page template."
+#~ msgstr "जब जांच की जाती है, तो मेरा खाता में आदेश देखने के लिए धन्यवाद पृष्ठ टेम्पलेट का उपयोग किया जाएगा।"
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "पता स्वतः पूर्ण"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "पता स्वत: पूर्ण सक्षम करें।"
+
+#~ msgid "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr "पता स्वत: पूर्ण सुविधा सक्षम या अक्षम करें। Google API कुंजी की आवश्यकता है।"
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API कुंजी"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://developers.google.com/"
+#~ "places/web-service/get-api-key\">Google Cloud Platform Console</a>."
+#~ msgstr ""
+#~ "Google API कुंजी। <a target=\"_blank\" href=\"https://developers.google.com/places/web-service/"
+#~ "get-api-key\">Google क्लाउड प्लेटफ़ॉर्म कंसोल</a> में उपलब्ध है।"
+
+#~ msgid "User Matching"
+#~ msgstr "उपयोगकर्ता मिलान"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "संवर्धित (अनुशंसित)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new purchase as well as on "
+#~ "registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "सक्षम: नई खरीद के साथ-साथ नए उपयोगकर्ता के पंजीकरण पर उपयोगकर्ता के खातों के लिए स्वचालित रूप से अतिथि के "
+#~ "आदेश से मेल खाता है। (सिफारिश की)"
+
+#~ msgid "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr "WooCommerce डिफ़ॉल्ट: चेकआउट फ़ॉर्म के ऊपर एक बैनर में एक लॉगिन अनुस्मारक दिखाएं।"
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP स्निपेट"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of snippets, you may want "
+#~ "to consider using <a target=\"_blank\" href=\"%s\">Code Snippets</a>."
+#~ msgstr ""
+#~ "अपने चेकआउट पृष्ठ को संशोधित करने के लिए PHP स्निपेट्स जोड़ें। यदि आपके पास बहुत सारे स्निपेट्स हैं, तो आप <a target="
+#~ "\"_blank\" href=\"%s\">कोड स्निपेट्स</a> का उपयोग करने पर विचार कर सकते हैं।"
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "लाइसेंस अपग्रेड आवश्यक है"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr "इन सुविधाओं को सक्षम करने के लिए ग्रोथ या डेवलपर लाइसेंस की आवश्यकता होती है।"
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My Account</a>. For help "
+#~ "upgrading your license, <a target=\"_blank\" href=\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "आप अपना लाइसेंस <a target=\"_blank\" href=\"%1$s\">माई अकाउंट</a> में अपग्रेड कर सकते हैं। अपना लाइसेंस "
+#~ "अपग्रेड करने में मदद के लिए, <a target=\"_blank\" href=\"%2$s\">यहां क्लिक करें।</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "ओवरराइड करना सेटिंग"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it remove your custom code."
+#~ msgstr ""
+#~ "यह सेटिंग वर्तमान में प्रोग्रामेटिक रूप से ओवरराइड हो गई है। इसे सक्षम करने के लिए अपने कस्टम कोड को हटा दें।"
+
+#~ msgid "Templates"
+#~ msgstr "टेम्पलेट्स"
+
+#~ msgid "Active: "
+#~ msgstr "सक्रिय:"
+
+#~ msgid "Activate"
+#~ msgstr "एक्टिवेट "
+
+#~ msgid "Global Settings"
+#~ msgstr "वैश्विक सेटिंग्स"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "ये सेटिंग्स सभी विषयवस्तुओं पर लागू होती हैं ।"
+
+#~ msgid "Logo"
+#~ msgstr "लो़गो"
+
+#~ msgid "Upload image"
+#~ msgstr "छवि अपलोड करें"
+
+#~ msgid "Clear Logo"
+#~ msgstr "स्पष्ट लोगो"
+
+#~ msgid "Footer Text"
+#~ msgstr "फूटर टेक्स्ट"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a single space to override "
+#~ "this behavior."
+#~ msgstr ""
+#~ "यदि खाली छोड़ा जाता है, तो मानक कॉपीराइट सूचना प्रदर्शित होगी. इस व्यवहार को ओवरराइड करने के लिए किसी "
+#~ "एकल स्थान पर सेट करें."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "विषयवस्तु विशिष्ट सेटिंग्स"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "ये सेटिंग्स आपके चयनित विषय पर लागू होती हैं। ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "फ़ॉन्ट्स"
+
+#~ msgid "Body Font"
+#~ msgstr "शरीर का अगला हिस्सा"
+
+#~ msgid "System Font Stack"
+#~ msgstr "सिस्टम फ़ॉन्ट स्टैक"
+
+#~ msgid "Heading Font"
+#~ msgstr "हेडिंग फॉन्ट"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest performance. You may "
+#~ "choose to use a Google Font here."
+#~ msgstr ""
+#~ "डिफ़ॉल्ट रूप से, CheckoutWC एक सिस्टम फ़ॉन्ट स्टैक का उपयोग करता है, जो सबसे तेज़ प्रदर्शन करता है। आप यहां "
+#~ "Google फ़ॉन्ट का उपयोग करना चुन सकते हैं।"
+
+#~ msgid "Color Settings"
+#~ msgstr "रंग सेटिंग्स"
+
+#~ msgid "Custom CSS"
+#~ msgstr "कस्टम CSS"
+
+#~ msgid "Add Custom CSS rules to fully control the appearance of the checkout template."
+#~ msgstr "कस्टम सीएसएस नियम जोड़ें पूरी तरह से checkout टेम्पलेट की उपस्थिति को नियंत्रित करने के लिए."
+
+#~ msgid "Export Settings"
+#~ msgstr "सेटिंग्स एक्सपोर्ट करें"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "अपनी सेटिंग्स की बैकअप फ़ाइल डाउनलोड करें।"
+
+#~ msgid "Import Settings"
+#~ msgstr "रंग सेटिंग्स"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "फ़ाइल और आयात सेटिंग्स अपलोड करें"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "समर्थन से संपर्क करने से पहले"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb.checkoutwc.com\" target="
+#~ "\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "आप हमारे <a href=\"https://kb.checkoutwc.com\" target=\"_blank\">ज्ञानकोष</a> में अधिकांश सवालों के "
+#~ "जवाब पा सकते हैं।"
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "यहाँ कुछ लोकप्रिय गाइड हैं:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "अभी भी सहायता चाहिए?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be happy to assist you."
+#~ msgstr ""
+#~ "यदि आपको हमारे ज्ञानकोष को खोजने के बाद भी मदद की आवश्यकता है, तो हमें आपकी सहायता करने में खुशी होगी।"
+
+#~ msgid "Contact Support"
+#~ msgstr "समर्थन से संपर्क करें"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few that work really well "
+#~ "with CheckoutWC that we wholeheartedly recommend to our customers. (A few of these links may "
+#~ "include affiliate tracking. This does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerce पारिस्थितिकी तंत्र शानदार प्लगइन्स से भरा है। यहाँ CheckoutWC के साथ वास्तव में अच्छी तरह से काम "
+#~ "करने वाले कुछ हैं जो हम अपने ग्राहकों को तहे दिल से अनुशंसा करते हैं। (इनमें से कुछ लिंक में संबद्ध ट्रैकिंग शामिल हो सकती "
+#~ "है। यह प्लगइन को शामिल करने के हमारे निर्णय को प्रभावित नहीं करता है।)"
+
+#~ msgid "More Info"
+#~ msgstr "और जानकारी"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "<strong> %s</strong> : असंगत प्लगइन्स का पता लगाने की चेतावनी!"
+
+#~ msgid "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "अपने चेकआउट की समस्याओं से बचने के लिए कृपया इन प्लग इन को निष्क्रिय कर दें!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site but your template is "
+#~ "disabled for normal users. To fix this, go to %s > %s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : इस साइट के लिए आपका लाइसेंस वैध और सक्रिय है लेकिन सामान्य उपयोगकर्ताओं के लिए आपका "
+#~ "टेम्पलेट अक्षम है। इसे ठीक करने के लिए, %s> %s> %s पर जाएं और \" %s\" जांचें।"
+
+#~ msgid "Settings"
+#~ msgstr "सेटिंग्स"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please verify that your license "
+#~ "key is valid or <a target=\"_blank\" href=\"https://www.checkoutwc.com/checkout/?"
+#~ "edd_license_key=%s\">renew your license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : आपकी लाइसेंस कुंजी की समय सीमा समाप्त हो गई है। कृपया सत्यापित करें कि पूर्ण "
+#~ "कार्यक्षमता को बहाल करने के लिए आपकी लाइसेंस कुंजी वैध है या <a target=\"_blank\" href=\"https://www."
+#~ "checkoutwc.com/checkout/?edd_license_key=%s\">अपने लाइसेंस को नवीनीकृत करें</a> ।"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please verify that your license "
+#~ "key is valid or <a target=\"_blank\" href=\"https://www.checkoutwc.com/\">purchase a license</"
+#~ "a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : आपकी लाइसेंस कुंजी गायब या अमान्य है। कृपया सत्यापित करें कि आपकी लाइसेंस कुंजी वैध है "
+#~ "या पूर्ण कार्यक्षमता को पुनर्स्थापित करने के लिए <a target=\"_blank\" href=\"https://www.checkoutwc.com/"
+#~ "\">लाइसेंस खरीदना</a> ।"
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click on <strong>License</"
+#~ "strong> below and activate your license key!"
+#~ msgstr ""
+#~ "WooCommerce के लिए Checkout स्थापित करने के लिए धन्यवाद! आरंभ करने के लिए, नीचे <strong>लाइसेंस</strong> "
+#~ "पर क्लिक करें और अपनी लाइसेंस कुंजी सक्रिय करें!"
+
+#~ msgid "Phone"
+#~ msgstr "फोन"
+
+#~ msgid "CheckoutWC: Unable to import settings. Did you select a JSON file to upload?"
+#~ msgstr "CheckoutWC: सेटिंग्स आयात करने में असमर्थ। क्या आपने अपलोड करने के लिए JSON फ़ाइल का चयन किया?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: सफलतापूर्वक आयातित सेटिंग्स।"
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch templates in the "
+#~ "customizer, these settings will become unavailable but saving will publish any changes here "
+#~ "prior to switching templates!"
+#~ msgstr ""
+#~ "ये सेटिंग्स केवल वर्तमान में सक्रिय टेंपलेट पर लागू होती हैं । यदि आप कस्टमाइज़र में टेम्पलेट्स स्विच करते हैं, तो ये सेटिंग्स "
+#~ "अनुपलब्ध हो जाएंगी लेकिन सहेजने से टेंपलेट्स स्विच करने से पहले यहां कोई भी परिवर्तन प्रकाशित होगा!"
+
+#~ msgid "Activation failed: Please activate WooCommerce in order to use Checkout for WooCommerce"
+#~ msgstr "सक्रियण विफल: WooCommerce के लिए चेकआउट का उपयोग करने के लिए कृपया WooCommerce सक्रिय करें"
+
+#~ msgid "Body Background Color"
+#~ msgstr "शरीर के पृष्ठिभूमि का रंग"
+
+#~ msgid "Body Text Color"
+#~ msgstr "बॉडी टेक्स्ट कलर"
+
+#~ msgid "Header Background Color"
+#~ msgstr "हैडर पृष्ठभूमि का रंग"
+
+#~ msgid "Header Text Color"
+#~ msgstr "शीर्ष लेख पाठ रंग"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "पाद पृष्ठभूमि का रंग"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "पाद लेख पाठ रंग"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "सारांश पृष्ठभूमि रंग"
+
+#~ msgid "Accent Color"
+#~ msgstr "स्वरोंका रंग"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "प्राथमिक बटन पृष्ठभूमि रंग"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "प्राथमिक बटन पाठ रंग"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "प्राथमिक बटन पृष्ठभूमि हॉवर रंग"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "प्राथमिक बटन पाठ हॉवर रंग"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "माध्यमिक बटन पृष्ठभूमि रंग"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "द्वितीयक बटन पाठ रंग"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "सेकेंडरी बटन बैकग्राउंड होवर कलर"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "सेकेंडरी बटन टेक्स्ट हॉवर कलर"
+
+#~ msgid "Link Color"
+#~ msgstr "लिंक रंग"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "कार्ट आइटम मात्रा पृष्ठभूमि रंग"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "कार्ट आइटम मात्रा पाठ का रंग"
+
+#, php-format
+#~ msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+#~ msgstr "%1$s का नया संस्करण उपलब्ध है. %2$sView संस्करण%3$s विवरण%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now"
+#~ "%6$s."
+#~ msgstr "%1$s का नया संस्करण उपलब्ध है. %2$sView संस्करण%3$s विवरण%4$s या%5$supdate अब%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "आप प्लगइन अद्यतन स्थापित करने की अनुमति नहीं है"
+
+#~ msgid "Error"
+#~ msgstr "त्रुटि।"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout for WooCommerce better."
+#~ msgstr ""
+#~ "प्लगइन उपयोग को ट्रैक करने के लिए WooCommerce के लिए चेकआउट की अनुमति दें? WooCommerce के लिए चेकआउट को "
+#~ "बेहतर बनाने में मदद करें।"
+
+#~ msgid "Allow"
+#~ msgstr "अनुमति दें"
+
+#~ msgid "Do not allow"
+#~ msgstr "अनुमति नहीं है"
+
+#~ msgid "Not Calculated"
+#~ msgstr "परिकलित नहीं"
+
+#~ msgid "Not Available"
+#~ msgstr "उपलब्ध नहीं"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if you recognize this order."
+#~ msgstr "आप एक अतिथि आदेश के लिए भुगतान कर रहे हैं। यदि आप इस आदेश को पहचानते हैं तो कृपया भुगतान जारी रखें।"
+
+#~ msgid "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr "इस आर्डर के लिए भुगतान नहीं किया जा सकता। यदि आपको सहायता की आवश्यकता है तो कृपया हमसे संपर्क करें"
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid for. Please contact us if "
+#~ "you need assistance."
+#~ msgstr ""
+#~ "यह आदेश & rsquo; की स्थिति है & ldquo; %s & rdquo; & mdash; के लिए इसका भुगतान नहीं किया जा सकता। यदि "
+#~ "आपको सहायता की आवश्यकता हो तो कृपया हमसे संपर्क करें।"
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "त्रुटि संसाधन चेकआउट । कृपया पुन: प्रयास करें ।"
+
+#~ msgid "Edit"
+#~ msgstr "संपादित करें"
+
+#~ msgid "Remove"
+#~ msgstr "हटाना"
+
+#~ msgid "Lost your password?"
+#~ msgstr "आपका पासवर्ड खो गया है?"
+
+#~ msgid "Customer information"
+#~ msgstr "ग्राहक जानकारी"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "एक शिपिंग विधि चुनें:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout for WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "उत्कृष्ट समर्थन हमारे डीएनए में है"
+
+#~ msgid "First Name"
+#~ msgstr "प्रथम नाम"
+
+#~ msgid "Last Name"
+#~ msgstr "कुल नाम"
+
+#~ msgid "Email"
+#~ msgstr "ई-मेल"
+
+#~ msgid ""
+#~ "You are using a legacy child theme which will be disabled in a future version. Changing theme "
+#~ "settings is not possible for legacy themes."
+#~ msgstr ""
+#~ "आप एक पैतृक चाइल्ड विषयवस्तु का उपयोग कर रहे है जो कि भविष्य के संस्करण में अक्षम कर दिया जाएगा । विषयवस्तु "
+#~ "सेटिंग्स परिवर्तित करना लीगेसी विषयवस्तुओं के लिए संभव नहीं है ।"
+
+#~ msgid ""
+#~ "It looks like you are using a legacy checkout theme, located in %s. Legacy themes are "
+#~ "deprecated and you should upgrade to the new theme structure as soon as possible to prevent "
+#~ "problems with future release. For more information, <a target=\"_blank\" href=\"https://www."
+#~ "checkoutwc.com/docs/developer-api/template-files/upgrading-legacy-custom-templates/\">read our "
+#~ "migration guide.</a>"
+#~ msgstr ""
+#~ "ऐसा लगता है कि आप एक लिगेसी चेकआउट थीम का उपयोग कर रहे हैं, जो %s में स्थित है । लीगेसी विषयवस्तुएं पदावनत की "
+#~ "जाती है और आपको भविष्य के रिलीज़ के साथ समस्याओं को रोकने के लिए जल्द ही नई विषयवस्तु संरचना में अपग्रेड करना "
+#~ "चाहिए । अधिक जानकारी के लिए, < a target = \"_blank\" href = \"https://www.checkoutwc.com/docs/"
+#~ "developer-api/template-files/upgrading-legacy-custom-templates/\" > हमारी माइग्रेशन मार्गदर्शिका "
+#~ "पढ़ें. </a>"
+
+#~ msgid "Subtotal"
+#~ msgstr "उप- योग"
+
+#~ msgid "Taxes"
+#~ msgstr "कर"
+
+#~ msgid "Total"
+#~ msgstr "योग"
+
+#~ msgid "Show Phone Fields"
+#~ msgstr "फ़ोन फ़ील्ड्स दिखाएं"
+
+#~ msgid "Enable billing and shipping phone fields"
+#~ msgstr "बिलिंग और शिपिंग फ़ोन फ़ील्ड सक्षम करें"
+
+#~ msgid ""
+#~ "Enable or disable billing and shipping phone fields as required fields. (Default: Disabled)"
+#~ msgstr "आवश्यक फ़ील्ड्स के रूप में बिलिंग और शिपिंग फ़ोन फ़ील्ड्स सक्षम या अक्षम करें । (डिफ़ॉल्ट: अक्षम)"
+
+#~ msgid "Last name"
+#~ msgstr "अंतिम नाम।"
+
+#~ msgid "Address"
+#~ msgstr "पता"
+
+#~ msgid "Apt, suite, etc."
+#~ msgstr "अपार्टमेंट, सूट, आदि।"
+
+#~ msgid "Country"
+#~ msgstr "देश"
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "डाक कोड"
+
+#~ msgid "State / County"
+#~ msgstr "राज्य / काउंटी"
+
+#~ msgid "Town / City"
+#~ msgstr "शहर "
+
+#~ msgid "Update country"
+#~ msgstr "अपडेट देश"
+
+#~ msgid "Select a state&hellip;"
+#~ msgstr "किसी राज्य का चयन करें &hellip;"
+
+#~ msgid "Choose an option"
+#~ msgstr "कोई विकल्प चुनें"
+
+#~ msgctxt "shipping packages"
+#~ msgid "Shipping"
+#~ msgid_plural "Shipping %d"
+#~ msgstr[0] "यातायात"
+#~ msgstr[1] "यातायात %d"
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please double check your address, or contact us if you "
+#~ "need any help."
+#~ msgstr ""
+#~ "इसमें कोई शिपिंग विधियां उपलब्ध नहीं हैं कृपया अपना पता दोबारा जांच लें, या अगर आपको कोई मदद की ज़रूरत है तो "
+#~ "हमसे संपर्क करें।"
+
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your location. Please contact "
+#~ "us if you require assistance or wish to make alternate arrangements."
+#~ msgstr ""
+#~ "क्षमा करें, यह लगता है कि वहाँ कोई उपलब्ध भुगतान विधियाँ आपके स्थान के लिए कर रहे हैं। आप सहायता की आवश्यकता "
+#~ "होती है या वैकल्पिक व्यवस्था करने के लिए चाहते हैं, तो कृपया हमसे संपर्क करें।"
+
+#~ msgid "Checkout is not available whilst your cart is empty."
+#~ msgstr "चेकआउट उपलब्ध नहीं है, जबकि अपनी गाड़ी खाली है."
+
+#~ msgid "Select an option&hellip;"
+#~ msgstr "एक विकल्प चुनें&hellip;"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "कोई मेल नहीं मिला"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Loading failed"
+#~ msgstr "लोड करना विफल रहा"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "कृपया% मात्रा% या अधिक वर्ण दर्ज करें"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "कृपया 1 वर्ण हटाएं"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "कृपया% मात्रा% वर्ण हटाएं"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select 1 item"
+#~ msgstr "आप केवल 1 आइटम का चयन कर सकते है"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select %qty% items"
+#~ msgstr "आप केवल% मात्रा% आइटम चुन सकते है"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "अधिक परिणाम लोड हो रहा है &hellip;"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "Searching&hellip;"
+#~ msgstr "खोज &hellip;"
+
+#~ msgid "Cart"
+#~ msgstr "गाड़ी"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+#~ "\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">संस्करण देखें%3$s "
+#~ "विवरण</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s"
+#~ "\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+#~ msgstr ""
+#~ "%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">संस्करण देखें%3$s "
+#~ "विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please ensure that your address has been entered "
+#~ "correctly, or contact us if you need any help."
+#~ msgstr ""
+#~ "इसमें कोई शिपिंग विधियां उपलब्ध नहीं हैं कृपया अपना पता दोबारा जांच लें, या अगर आपको कोई मदद की ज़रूरत है तो "
+#~ "हमसे संपर्क करें।"
+
+#~ msgctxt "checkout-wc"
+#~ msgid "Apt, suite, etc. (optional)"
+#~ msgstr "अपार्टमेंट, सूट, आदि। (वैकल्पिक)"
+
+#~ msgid ""
+#~ "If you do not have an account, the information provided here will be used to create an account "
+#~ "on checkout."
+#~ msgstr ""
+#~ "यदि आपके पास कोई खाता नहीं है, तो यहां उपलब्ध कराई गई जानकारी को चेकआउट पर एक खाता बनाने के लिए उपयोग "
+#~ "किया जाएगा।."
+
+#~ msgid ""
+#~ "We can't wait to help you with Checkout for WooCommerce! Please fill out the following form and "
+#~ "one of our support staff will respond within 12-24 hours. (average)"
+#~ msgstr ""
+#~ "हम WooCommerce के लिए Checkout के साथ आपकी सहायता करने के लिए प्रतीक्षा नहीं कर सकते! कृपया निम्नलिखित "
+#~ "फॉर्म को भरें और हमारे समर्थन स्टाफ में से एक 12-24 घंटों के भीतर जवाब देंगे। (औसत)"
+
+#~ msgid "Many issues are addressed in our documentation:"
+#~ msgstr "कई दस्तावेज हमारे दस्तावेज में दिए गए हैं:"
+
+#~ msgid "View Documentation"
+#~ msgstr "दस्तावेज़ीकरण देखें"
+
+#~ msgid ""
+#~ "If you need help for something not covered in our documentation, please click this button to "
+#~ "file a support request:"
+#~ msgstr ""
+#~ "अगर आपको हमारे दस्तावेज़ीकरण में न मिली हुई चीज़ों के लिए मदद चाहिए, तो कृपया एक समर्थन अनुरोध दर्ज करने के लिए "
+#~ "इस बटन पर क्लिक करें:"
+
+#~ msgid "Support Request"
+#~ msgstr "समर्थन का अनुरोध करें"
+
+#~ msgid "Create a %s shopping account."
+#~ msgstr "%s खरीदारी खाते बनाएं"
+
+#~ msgid "Shipping costs will be calculated once you have provided your address."
+#~ msgstr "आपके द्वारा अपना पता प्रदान करने के बाद शिपिंग लागत की गणना की जाएगी"
+
+#~ msgid "Apartment, suite, unit etc."
+#~ msgstr "अपार्टमेंट, सूट, यूनिट आदि"
+
+#~ msgid "Header Shadow Color"
+#~ msgstr "शीर्ष लेख छाया रंग"
+
+#~ msgid "Brandon Tassone"
+#~ msgstr "Brandon Tassone"

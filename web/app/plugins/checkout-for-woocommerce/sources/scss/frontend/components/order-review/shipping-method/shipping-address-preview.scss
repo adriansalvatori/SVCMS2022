@@ -1,0 +1,77 @@
+.cfw-review-pane {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
+    li {
+        display: flex;
+        padding: 0 0.85em;
+
+        .inner {
+            display: flex;
+            flex: 1;
+        }
+
+        .cfw-review-pane-link, .cfw-review-pane-right {
+            text-align: right;
+        }
+
+        .cfw-review-pane-label {
+            color: lighten(#333, 25%);
+            font-weight: normal;
+            flex: 0 0 6em;
+        }
+
+        .cfw-review-pane-label.shipping-details-label-long {
+            flex: 0 0 9em;
+        }
+
+        .cfw-review-pane-content {
+            padding-right: 1em;
+            color: #333;
+        }
+
+        .cfw-review-pane-link a {
+            white-space: nowrap;
+            color: lighten(#737373, 25%);
+
+            &:hover {
+                color: #737373;
+            }
+        }
+
+        .inner, .cfw-review-pane-link, .cfw-review-pane-right {
+            padding: 0.85em 0;
+        }
+
+        &:not(:last-child) > div {
+            border-bottom: 1px solid #ddd;
+        }
+    }
+}
+
+.cfw-review-pane-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cfw-review-pane li .cfw-order-review-total-label {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: 500;
+}
+
+.cfw-order-review-total {
+    font-size: 1.25em;
+}
+
+.cfw-review-pane-right {
+    font-weight: 500;
+}
+
+#cfw-review-order-totals li .inner {
+    align-items: center;
+}

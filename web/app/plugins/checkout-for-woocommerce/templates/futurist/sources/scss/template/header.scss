@@ -1,0 +1,15 @@
+#cfw-logo-container {
+  text-align: center;
+
+  .cfw-logo {
+    padding: 0;
+    height: auto;
+
+    .logo {
+      background-position: center;
+      height: 4em;
+      display: block;
+      margin: 0.75em auto;
+    }
+  }
+}

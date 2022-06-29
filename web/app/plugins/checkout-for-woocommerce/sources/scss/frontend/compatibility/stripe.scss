@@ -1,0 +1,23 @@
+#cfw-payment-request-buttons {
+
+  #wc-stripe-payment-request-wrapper {
+    padding-top: 0 !important;
+    clear: none !important;
+    order: 2;
+    width: 140px;
+  }
+
+}
+
+#wc-stripe-payment-request-button-separator {
+  display: none;
+}
+
+/**
+ Firefox fix
+ */
+@supports (-moz-appearance:none) {
+  .woocommerce-checkout #payment ul.payment_methods li img.stripe-icon {
+    min-width: 40px;
+  }
+}

@@ -1,0 +1,108 @@
+/**
+ * Liker
+ * Liker helps you rate and like articles on a website and keep track of results.
+ * Exclusively on https://1.envato.market/liker
+ *
+ * @encoding        UTF-8
+ * @version         2.2.3
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Nemirovskiy Vitaliy (nemirovskiyvitaliy@gmail.com), Dmitry Merkulov (dmitry@merkulov.design)
+ * @support         help@merkulov.design
+ **/
+
+.mdp-liker-box
+  //--mdp-liker-text-color: rgba(255, 33, 40, 1)
+  //--mdp-liker-text-active: rgba(255, 33, 40, 1)
+  //--mdp-liker-bg-color: rgba(255, 255, 255, 1)
+  //--mdp-liker-bg-color-active: rgba(255, 255, 255, 1)
+  //--mdp-liker-radius: 8px
+  //--mdp-liker-border: 1px
+
+  font-size: initial
+  font-weight: initial
+
+  .mdp-liker-buttons
+
+    button
+      outline: none
+      margin-right: .5rem
+      margin-bottom: .5rem
+      vertical-align: inherit
+      transition: .1s
+      transition-timing-function: ease-in-out
+      transform-origin: center center
+      border-radius: var( --mdp-liker-radius )
+
+      &:hover,
+      &:focus
+        transform: scale( 1.05 )
+        transition: .2s
+
+      &:active
+        transform: scale( .95 )
+
+      &:disabled
+        cursor: default
+        transform: scale( .90 )
+        opacity: .1
+
+      span
+        margin-left: 8px
+        padding-left: 8px
+        border-left: 1px solid rgba( 0, 0, 0, .15 )
+
+        &.val-1,
+        &.val-2,
+        &.val-3
+          display: none
+
+
+        &.mdp-liker-result
+          display: initial
+
+      &.mdp-liker-results-hide
+
+        span
+
+          &.mdp-liker-result
+            display: none
+
+  @import "import/styles"
+  @import "import/layouts"
+
+.mdp-hidden
+  display: none !important
+
+.mdp-liker-msg
+  font-size: smaller
+  margin: 0
+  opacity: 1
+  overflow: hidden
+  display: block
+
+.mdp-liker-fade
+  animation-name: mdp-liker-fade
+  animation-duration: 3s
+  animation-fill-mode: both
+
+@import "import/meta"
+
+@import "import/shortcode-top"
+
+@keyframes mdp-liker-fade
+
+  0%
+    opacity: 1
+    height: 2em
+
+  50%
+    opacity: 0.8
+
+  80%
+    height: 2em
+
+  100%
+    opacity: 0
+    height: 0
+

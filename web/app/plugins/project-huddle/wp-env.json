@@ -1,0 +1,16 @@
+{
+  "core": null,
+  "plugins": [
+    "./project-huddle",
+    "../plugins/ph-file-uploads",
+    "../../plugins/ph-pdf-mockups"
+  ],
+  "env": {
+    "tests": {
+      "config": {
+        "FS_METHOD": "direct",
+        "PH_TEST_INSTALL": true
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+.xt_woofc-inner {
+	position: fixed;
+	transition: transform .2s, opacity .3s .5s, background .3s 0s;
+	/* Force Hardware Acceleration in WebKit */
+	transform: scale(0);
+	-webkit-backface-visibility: hidden;
+	will-change: background, height;
+	backface-visibility: hidden;
+	opacity: 0;
+	z-index: calc(var(--xt-woofc-zindex) + 1);
+	width: var(--xt-woofc-width);
+	height: var(--xt-woofc-height);
+	max-width: calc(100% - (var(--xt-woofc-hoffset) * 2));
+	max-height: calc(100% - (var(--xt-woofc-voffset) * 2));
+	margin: var(--xt-woofc-voffset) var(--xt-woofc-hoffset) var(--xt-woofc-voffset) var(--xt-woofc-hoffset);
+	min-height: 350px;
+	min-width: 300px;
+	pointer-events: none;
+	transform-origin: center center;
+
+	.admin-bar.xt_woofc-is-desktop & {
+		max-height: calc(100% - (var(--xt-woofc-voffset) * 2) - 32px);
+	}
+
+	.admin-bar.xt_woofc-is-tablet &,
+	.admin-bar.xt_woofc-is-mobile & {
+		max-height: calc(100% - (var(--xt-woofc-voffset) * 2) - 46px);
+	}
+
+	.xt_woofc-ready & {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.xt_woofc-hide-thumbs & {
+		.xt_woofc-product-image {
+			display: none;
+		}
+
+		.xt_woofc-product-details {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-bottom-right &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-bottom-right &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-bottom-right & {
+		bottom: 0;
+		right: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-bottom-left &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-bottom-left &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-bottom-left & {
+		bottom: 0;
+		left: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-top-right &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-top-right &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-top-right & {
+		top: 0;
+		right: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-top-left &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-top-left &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-top-left & {
+		top: 0;
+		left: 0;
+	}
+
+	.xt_woofc-cart-open.xt_woofc-modal &,
+	.xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal & {
+		margin: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-pos-bottom-right &,
+	.xt_woofc-is-tablet .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-tablet-pos-bottom-right &,
+	.xt_woofc-is-mobile .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-mobile-pos-bottom-right &,
+	.xt_woofc-is-desktop .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-pos-bottom-right &,
+	.xt_woofc-is-tablet .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-tablet-pos-bottom-right &,
+	.xt_woofc-is-mobile .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-mobile-pos-bottom-right & {
+		top: 50% !important;
+		left: 50% !important;
+		bottom: initial !important;
+		right: initial !important;
+		transform: translateX(-50%) translateY(-50%) !important;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-pos-bottom-left &,
+	.xt_woofc-is-tablet .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-tablet-pos-bottom-left &,
+	.xt_woofc-is-mobile .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-mobile-pos-bottom-left &,
+	.xt_woofc-is-desktop .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-pos-bottom-left &,
+	.xt_woofc-is-tablet .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-tablet-pos-bottom-left &,
+	.xt_woofc-is-mobile .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-mobile-pos-bottom-left & {
+		top: 50% !important;
+		right: 50% !important;
+		bottom: initial !important;
+		left: initial !important;
+		transform: translateX(50%) translateY(-50%) !important;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-pos-top-right &,
+	.xt_woofc-is-tablet .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-tablet-pos-top-right &,
+	.xt_woofc-is-mobile .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-mobile-pos-top-right &,
+	.xt_woofc-is-desktop .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-pos-top-right &,
+	.xt_woofc-is-tablet .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-tablet-pos-top-right &,
+	.xt_woofc-is-mobile .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-mobile-pos-top-right & {
+		bottom: 50% !important;
+		left: 50% !important;
+		top: initial !important;
+		right: initial !important;
+		transform: translateX(-50%) translateY(50%) !important;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-pos-top-left &,
+	.xt_woofc-is-tablet .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-tablet-pos-top-left &,
+	.xt_woofc-is-mobile .xt_woofc-cart-open.xt_woofc-modal.xt_woofc-mobile-pos-top-left &,
+	.xt_woofc-is-desktop .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-pos-top-left &,
+	.xt_woofc-is-tablet .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-tablet-pos-top-left &,
+	.xt_woofc-is-mobile .xt_woofc-cart-close:not(.xt_woofc-cart-closed).xt_woofc-modal.xt_woofc-mobile-pos-top-left & {
+		bottom: 50% !important;
+		right: 50% !important;
+		top: initial !important;
+		left: initial !important;
+		transform: translateX(50%) translateY(50%) !important;
+	}
+
+
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-bottom-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-bottom-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-bottom-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-bottom-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-bottom-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-bottom-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) & {
+		transform: translateY(150px);
+		opacity: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-top-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-top-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-top-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-top-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-top-right:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-top-left:not(.xt_woofc-force-visible):not(.xt_woofc-cart-open) & {
+		transform: translateY(-150px);
+		opacity: 0;
+	}
+
+	.xt_woofc-empty & {
+
+		.xt_woofc-body-header {
+			display: none;
+		}
+
+		.xt_woofc-checkout {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.xt_woofc-no-product {
+			opacity: 1;
+			visibility: visible;
+			height: inherit;
+		}
+
+		.xt_woofc-footer {
+			box-shadow: none;
+		}
+
+		.xt_woofc-body-footer {
+			display: none;
+		}
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-bottom-right &,
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-top-right &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-bottom-right &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-top-right &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-bottom-right &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-top-right & {
+
+		.xt_woofc-checkout {
+			transform: translateX(-10%);
+		}
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-bottom-left &,
+	.xt_woofc-is-desktop .xt_woofc-empty.xt_woofc-pos-top-left &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-bottom-left &,
+	.xt_woofc-is-tablet .xt_woofc-empty.xt_woofc-tablet-pos-top-left &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-bottom-left &,
+	.xt_woofc-is-mobile .xt_woofc-empty.xt_woofc-mobile-pos-top-left & {
+
+		.xt_woofc-checkout {
+			transform: translateX(10%);
+		}
+	}
+}

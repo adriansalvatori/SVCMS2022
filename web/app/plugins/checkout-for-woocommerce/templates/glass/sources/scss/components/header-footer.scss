@@ -1,0 +1,16 @@
+#cfw-header {
+    z-index: 2;
+}
+
+#cfw-footer {
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+    min-height: 6rem;
+    z-index: 10000000000;
+}
+
+body.checkout-wc {
+    position: relative;
+    min-height: 100vh;
+}

@@ -1,0 +1,13 @@
+/*!
+  Template Name:   	Midas
+  Author:           Brandon Tassone
+  Author URI:       https://objectiv.co/
+  Description:  	The base Checkout For WooCommerce plugin theme.
+  Version:      	3.0.0
+  Supports:         header-background, footer-background, order-pay, order-received, breadcrumb-colors
+ */
+body {
+  --cfw-cart-summary-background-color: var(--cfw-body-background-color);
+}
+
+/*# sourceMappingURL=style.css.map*/

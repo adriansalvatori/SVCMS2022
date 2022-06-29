@@ -1,0 +1,33 @@
+{
+  "chromeWebSecurity": false,
+  "video": true,
+  "videoUploadOnPasses": false,
+  "env": {
+    "account": {
+      "username": "",
+      "password": "",
+      "email": ""
+    },
+    "shipping": {
+      "default": {
+        "first_name": "",
+        "last_name": "",
+        "address1": "",
+        "address2": "",
+        "company": "",
+        "country": "",
+        "postcode": "",
+        "state": "",
+        "city": ""
+      }
+    },
+    "product": {
+      "id": 1,
+      "sku": "",
+      "quantity": 1
+    },
+    "site": {
+      "path": ""
+    }
+  }
+}

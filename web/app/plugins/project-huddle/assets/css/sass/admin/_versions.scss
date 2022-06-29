@@ -1,0 +1,214 @@
+// use compass
+#backbone_versions_modal {
+  * {
+    box-sizing: border-box;
+  }
+  .backbone_modal {
+    height: auto;
+  }
+  .backbone_modal-content {
+    height: 100%;
+    background-color: #32373c;
+  }
+  .backbone_modal-main {
+    padding: 0;
+    height: 100%;
+  }
+
+  .spinner {
+    visibility: visible;
+    left: 0;
+    top: 0;
+    display: block;
+    float: none;
+    margin: auto;
+  }
+
+  span.media-modal-icon:before {
+    color: #fff;
+  }
+
+  h1 {
+    border: none;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .ph-versions-list {
+    background-color: #fff;
+    padding: 50px;
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    position: relative;
+    z-index: 2;
+
+    .ph-versions {
+      position: relative;
+      overflow: hidden;
+
+      &:before {
+        content: " ";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        left: 61px;
+        bottom: 61px;
+        background:#dcdcdc;
+      }
+    }
+
+    .ph-version {
+      display: block;
+      position: relative;
+      padding-left: 90px;
+      margin-bottom: 30px;
+      cursor: pointer;
+
+      &:before {
+        content: " ";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 52px;
+        top: 0;
+        border-radius: 100px;
+        background:#fff;
+        border: 3px solid #dcdcdc;
+        transition: background-color 0.5s ease, border-color 0.5s ease;
+      }
+
+      .ph-version-tag {
+        display: inline-block;
+        background: #dcdcdc;
+        border-radius: 2px;
+        padding: 5px;
+        line-height: 10px;
+        font-size: 10px;
+        min-width: 35px;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        color: #fff;
+        transition: background-color 0.5s ease;
+      }
+      .ph-version-date {
+        color: #32373c;
+        font-size: 14px;
+        line-height: 12px;
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #777;
+        transform: color 0.5s ease;
+      }
+      .ph-restore {
+        float: right;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 5px;
+        color:#ccc;
+        display: inline-block;
+        border: 3px solid #dcdcdc;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+
+        i {
+          font-size: 12px;
+          line-height: 10px;
+          margin-right: 2px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .ph-version-time {
+        color: #999;
+      }
+
+      &.ph-current-version {
+        &:before {
+          width: 7px;
+          height: 7px;
+          left: 56px;
+          top: 0;
+          background:#dcdcdc;
+        }
+      }
+
+      &.ph-version-selected, &:hover {
+        .ph-version-date {
+          font-weight: 600;
+          color: #32373c;
+        }
+        .ph-restore {
+          opacity: 1;
+          transition: color 0.5s ease, border 0.5s ease, background 0.5s ease;
+
+          &:hover {
+            color: #fff;
+            background: #32373c;
+            border-color: #32373c;
+          }
+        }
+        .ph-version-tag {
+          background: #32373c;
+        }
+
+        &:before {
+          border-color: #32373c;
+        }
+
+        &.ph-current-version {
+          &:before {
+            background: #fff;
+          }
+          .ph-restore {
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .ph-version-display-wrap {
+    position: absolute;
+    right: 0;
+    padding-left: 445px;
+    padding-right: 45px;
+    padding-top: 45px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .ph-version-image-inner {
+      position: relative;
+      height: 100%;
+      text-align: center;
+    }
+
+    p {
+      color: #fff;
+      height: 25px;
+      margin-top: -30px;
+      opacity: 0.5;
+      display: inline-block;
+      margin-bottom: 30px;
+      font-size: 20px;
+      max-width: 600px;
+    }
+  }
+  .ph-version-display {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 60px;
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+}

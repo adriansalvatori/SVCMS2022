@@ -1,0 +1,11 @@
+.xt_woofc-header-message {
+  text-align: center;
+  padding:10px 15px;
+  font-size:18px;
+  background-color: var(--xt-woofc-header-msg-bg-color);
+  color: var(--xt-woofc-header-msg-color);
+
+  p{
+    margin:0!important;
+  }
+}

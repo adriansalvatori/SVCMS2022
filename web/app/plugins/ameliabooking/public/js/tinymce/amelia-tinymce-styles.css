@@ -1,0 +1,31 @@
+.mce-am-step-booking-shortcode {
+    background-color: rgba(38, 92, 242, 0.1) !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mce-am-step-booking-shortcode:hover {
+    background-color: #2271b1 !important;
+}
+
+.mce-am-step-booking-shortcode.mce-active {
+    background-color: #2271b1 !important;
+}
+
+.mce-am-step-booking-shortcode span:after {
+    content: "" !important;
+    background-image: url(../../img/beta.svg) !important;
+    display: inline-block !important;
+    background-size: contain !important;
+    width: 40px !important;
+    height: 20px !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -39px;
+}
+
+.mce-am-step-booking-shortcode span {
+    display: flex !important;
+    align-items: center !important;
+}
+

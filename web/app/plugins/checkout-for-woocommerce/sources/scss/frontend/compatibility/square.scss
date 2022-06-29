@@ -1,0 +1,58 @@
+.woocommerce #payment div.payment_method_square_credit_card .wc-square-credit-card-hosted-field {
+    background: #fff !important;
+    padding: .94em .8em !important;
+    transition: all .2s ease !important;
+    color: #333 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 16px !important;
+    line-height: normal !important;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9 !important;
+    box-shadow: none;
+    height: 3.5em;
+}
+
+#wc-square-credit-card-credit-card-form .wc-square-credit-card-hosted-field-parent iframe {
+    background: #fff !important;
+    padding: .94em .8em !important;
+    transition: all .2s ease !important;
+    color: #333 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 16px !important;
+    line-height: normal !important;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9 !important;
+    box-shadow: none;
+    height: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+main.checkoutwc #wc-square-digital-wallet {
+    max-width: 100% !important;
+    padding: 0;
+    display: inline-flex;
+    width: unset;
+    margin: 0 7px 0 0;
+
+    > div {
+        max-width: 140px;
+        min-width: 140px;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 35px !important;
+
+        &:not(:last-of-type) {
+            margin: 0 7px 0 0;
+        }
+
+        &.google-pay-button {
+            padding: 9px 10px;
+        }
+    }
+
+    #wc-square-wallet-divider {
+        display: none;
+    }
+}

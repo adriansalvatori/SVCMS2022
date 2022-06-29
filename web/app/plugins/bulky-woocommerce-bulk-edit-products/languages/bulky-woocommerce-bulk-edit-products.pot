@@ -1,0 +1,777 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulky - Bulk Edit Products fo Woo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 06:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.7.2\n"
+"X-Domain: woocommerce-bulk-editor"
+
+#: admin/editor.php:599
+msgid "Action"
+msgstr ""
+
+#: admin/editor.php:540
+msgid "Actions"
+msgstr ""
+
+#: admin/editor.php:539
+msgid "Active"
+msgstr ""
+
+#: includes/i18n.php:19
+msgid "Add"
+msgstr ""
+
+#: includes/i18n.php:31
+msgid "Add file"
+msgstr ""
+
+#: includes/i18n.php:27
+msgid "Add image"
+msgstr ""
+
+#: admin/editor.php:73 includes/i18n.php:37
+msgid "Add new"
+msgstr ""
+
+#: includes/i18n.php:43
+msgid "Add variation"
+msgstr ""
+
+#: admin/editor.php:444
+msgid "All fields"
+msgstr ""
+
+#: includes/data.php:184
+msgid "Allow backorder"
+msgstr ""
+
+#: admin/editor.php:853
+msgid "And"
+msgstr ""
+
+#: includes/i18n.php:11
+msgid "Any..."
+msgstr ""
+
+#: includes/i18n.php:15
+msgid "Attribute"
+msgstr ""
+
+#: includes/data.php:119
+msgid "Attributes"
+msgstr ""
+
+#: admin/editor.php:44
+msgid "Author"
+msgstr ""
+
+#: includes/support.php:48
+msgid "Auto update key"
+msgstr ""
+
+#: admin/editor.php:366
+msgid "Backorders"
+msgstr ""
+
+#: admin/editor.php:831
+msgid "Begin"
+msgstr ""
+
+#. Name of the plugin
+msgid "Bulky - Bulk Edit Products fo Woo"
+msgstr ""
+
+#: includes/data.php:146
+msgid "Button text"
+msgstr ""
+
+#: includes/i18n.php:47
+msgid "Calculator"
+msgstr ""
+
+#: admin/editor.php:381 includes/data.php:263
+msgid "Catalog visibility"
+msgstr ""
+
+#: admin/editor.php:387 includes/data.php:191
+msgid "Categories"
+msgstr ""
+
+#: includes/i18n.php:26
+msgid "Choose file"
+msgstr ""
+
+#: admin/editor.php:429
+msgid "Clear"
+msgstr ""
+
+#: admin/editor.php:536
+msgid "Column name"
+msgstr ""
+
+#: admin/editor.php:538
+msgid "Column type"
+msgstr ""
+
+#: admin/editor.php:128
+msgid "Content"
+msgstr ""
+
+#: includes/i18n.php:44
+msgid "Create variations from all attributes"
+msgstr ""
+
+#: includes/data.php:213
+msgid "Cross-sells"
+msgstr ""
+
+#: includes/i18n.php:38
+msgid "Custom attribute name"
+msgstr ""
+
+#: includes/i18n.php:12
+msgid "Custom product attribute"
+msgstr ""
+
+#: admin/editor.php:597
+msgid "Date"
+msgstr ""
+
+#: admin/editor.php:510
+msgid "day(s)"
+msgstr ""
+
+#: includes/data.php:126
+msgid "Default attributes"
+msgstr ""
+
+#: includes/i18n.php:41
+msgid "Delete selected rows"
+msgstr ""
+
+#: includes/data.php:112
+msgid "Description"
+msgstr ""
+
+#: includes/data.php:156
+msgid "Disable"
+msgstr ""
+
+#: includes/data.php:224
+msgid "Download expiry"
+msgstr ""
+
+#: includes/data.php:219
+msgid "Download file"
+msgstr ""
+
+#: includes/data.php:223
+msgid "Download limit"
+msgstr ""
+
+#: admin/editor.php:344 includes/data.php:215
+msgid "Downloadable"
+msgstr ""
+
+#: admin/editor.php:310 includes/data.php:67
+msgid "Draft"
+msgstr ""
+
+#: includes/i18n.php:13
+msgid "Edit attributes"
+msgstr ""
+
+#: includes/i18n.php:40
+msgid "Edit metadata"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:93
+msgid "Editor"
+msgstr ""
+
+#: admin/editor.php:833
+msgid "Empty"
+msgstr ""
+
+#: includes/data.php:155
+msgid "Enable"
+msgstr ""
+
+#: includes/data.php:256
+msgid "Enable reviews"
+msgstr ""
+
+#: admin/editor.php:832
+msgid "End"
+msgstr ""
+
+#: includes/i18n.php:34
+msgid "Enter a name for the new attribute term:"
+msgstr ""
+
+#: includes/i18n.php:39
+msgid "Enter some text, or some attributes by \"|\" separating values."
+msgstr ""
+
+#: admin/editor.php:829
+msgid "Exact"
+msgstr ""
+
+#: admin/editor.php:135
+msgid "Excerpt"
+msgstr ""
+
+#: admin/editor.php:452
+msgid "Exclude fields to edit"
+msgstr ""
+
+#: admin/editor.php:330 includes/data.php:161
+msgid "Featured"
+msgstr ""
+
+#: admin/editor.php:443
+msgid "Fields to edit"
+msgstr ""
+
+#: includes/i18n.php:30
+msgid "File URL"
+msgstr ""
+
+#: admin/editor.php:58 admin/editor.php:103 admin/editor.php:426
+msgid "Filter"
+msgstr ""
+
+#: includes/i18n.php:54
+msgid "Find"
+msgstr ""
+
+#: includes/i18n.php:48
+msgid "Find and Replace"
+msgstr ""
+
+#: admin/editor.php:84
+msgid "Full screen"
+msgstr ""
+
+#: includes/data.php:114
+msgid "Gallery"
+msgstr ""
+
+#: admin/editor.php:550
+msgid "Get meta fields"
+msgstr ""
+
+#: includes/enqueue.php:142
+msgid "Go to Bulk Editor page"
+msgstr ""
+
+#: includes/i18n.php:49
+msgid "Go to edit product page"
+msgstr ""
+
+#: includes/data.php:133
+msgid "Grouped"
+msgstr ""
+
+#: includes/data.php:210
+msgid "Height"
+msgstr ""
+
+#: admin/editor.php:258
+msgid "Height from"
+msgstr ""
+
+#: admin/editor.php:263
+msgid "Height to"
+msgstr ""
+
+#: admin/editor.php:69 admin/editor.php:106
+msgid "History"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://villatheme.com/extensions/woocommerce-bulk-editor/"
+msgstr ""
+
+#: admin/editor.php:115
+msgid "ID"
+msgstr ""
+
+#: includes/data.php:109
+msgid "Image"
+msgstr ""
+
+#: includes/i18n.php:53
+msgid "Invalid or duplicated SKU"
+msgstr ""
+
+#: admin/editor.php:273
+msgid "Lenght from"
+msgstr ""
+
+#: admin/editor.php:278
+msgid "Lenght to"
+msgstr ""
+
+#: includes/data.php:208
+msgid "Length"
+msgstr ""
+
+#: admin/editor.php:828
+msgid "Like"
+msgstr ""
+
+#: admin/editor.php:468
+msgid "Load variations"
+msgstr ""
+
+#: includes/data.php:181
+msgid "Manage stock"
+msgstr ""
+
+#: includes/data.php:255
+msgid "Menu order"
+msgstr ""
+
+#: admin/editor.php:66 admin/editor.php:105
+msgid "Meta fields"
+msgstr ""
+
+#: admin/editor.php:535
+msgid "Meta key"
+msgstr ""
+
+#: admin/ajax.php:63
+msgid "Method is not exist"
+msgstr ""
+
+#: includes/i18n.php:29
+msgid "Name"
+msgstr ""
+
+#: admin/editor.php:556
+msgid "new_meta_key"
+msgstr ""
+
+#: admin/editor.php:332 admin/editor.php:346 admin/editor.php:355
+#: admin/editor.php:471
+msgid "No"
+msgstr ""
+
+#: admin/editor.php:453
+msgid "No field"
+msgstr ""
+
+#: admin/ajax.php:507
+msgid "No history id"
+msgstr ""
+
+#: admin/ajax.php:447
+msgid "No meta field was found"
+msgstr ""
+
+#: includes/i18n.php:21
+msgid "No round"
+msgstr ""
+
+#: includes/data.php:237
+msgid "None"
+msgstr ""
+
+#: admin/editor.php:830
+msgid "Not"
+msgstr ""
+
+#: admin/editor.php:854
+msgid "Not in"
+msgstr ""
+
+#: includes/i18n.php:52
+msgid "Nothing change to save"
+msgstr ""
+
+#: includes/i18n.php:25
+msgid "OK"
+msgstr ""
+
+#: includes/i18n.php:16
+msgid "Option"
+msgstr ""
+
+#: admin/editor.php:852
+msgid "Or"
+msgstr ""
+
+#: admin/editor.php:491
+msgid "Order"
+msgstr ""
+
+#: admin/editor.php:478
+msgid "Order by"
+msgstr ""
+
+#: includes/data.php:160
+msgid "Password"
+msgstr ""
+
+#: admin/editor.php:311 includes/data.php:66
+msgid "Pending"
+msgstr ""
+
+#: includes/i18n.php:51
+msgid "Please enter new product name"
+msgstr ""
+
+#: admin/editor.php:168
+msgid "Post date from"
+msgstr ""
+
+#: admin/editor.php:173
+msgid "Post date to"
+msgstr ""
+
+#: admin/editor.php:312 includes/data.php:68
+msgid "Private"
+msgstr ""
+
+#: admin/ajax.php:495 admin/ajax.php:521
+msgid "Product is not exist"
+msgstr ""
+
+#: admin/editor.php:309
+msgid "Product status"
+msgstr ""
+
+#: admin/editor.php:303 includes/data.php:108
+msgid "Product type"
+msgstr ""
+
+#: includes/data.php:140
+msgid "Product URL"
+msgstr ""
+
+#: admin/admin.php:33 admin/admin.php:34
+msgid "Products Bulk Editor"
+msgstr ""
+
+#: admin/editor.php:462
+msgid "Products per page"
+msgstr ""
+
+#: admin/editor.php:313
+msgid "Publish"
+msgstr ""
+
+#: includes/data.php:65
+msgid "Published"
+msgstr ""
+
+#: includes/data.php:254
+msgid "Purchase note"
+msgstr ""
+
+#: admin/editor.php:482 includes/data.php:166
+msgid "Regular price"
+msgstr ""
+
+#: admin/editor.php:183
+msgid "Regular price from"
+msgstr ""
+
+#: admin/editor.php:188
+msgid "Regular price to"
+msgstr ""
+
+#: admin/editor.php:80
+msgid "Reload this page"
+msgstr ""
+
+#: includes/i18n.php:28
+msgid "Remove all"
+msgstr ""
+
+#: includes/i18n.php:55
+msgid "Replace"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:102
+msgid "require PHP version at least 7.0"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:111
+msgid "require WooCommerce is activated"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:116
+msgid "require WooCommerce version at least 4.0"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:107
+msgid "require WordPress version at least 5.0"
+msgstr ""
+
+#: includes/i18n.php:56
+msgid "Revert all product in this point"
+msgstr ""
+
+#: includes/i18n.php:24
+msgid "Round down"
+msgstr ""
+
+#: includes/i18n.php:23
+msgid "Round up"
+msgstr ""
+
+#: includes/i18n.php:22
+msgid "Round with decimal"
+msgstr ""
+
+#: admin/editor.php:213 includes/data.php:179
+msgid "Sale date from"
+msgstr ""
+
+#: admin/editor.php:218 includes/data.php:180
+msgid "Sale date to"
+msgstr ""
+
+#: admin/editor.php:483 includes/data.php:174
+msgid "Sale price"
+msgstr ""
+
+#: admin/editor.php:198
+msgid "Sale price from"
+msgstr ""
+
+#: admin/editor.php:203
+msgid "Sale price to"
+msgstr ""
+
+#: includes/data.php:79
+msgid "Same as parent"
+msgstr ""
+
+#: admin/editor.php:76 admin/editor.php:525 admin/editor.php:553
+#: admin/editor.php:645 includes/i18n.php:14 admin/views/html-settings.php:24
+msgid "Save"
+msgstr ""
+
+#: admin/editor.php:648
+msgid "Save & Close"
+msgstr ""
+
+#: admin/editor.php:516
+msgid "Save filter when reload page"
+msgstr ""
+
+#: includes/i18n.php:45
+msgid "Save new attributes before"
+msgstr ""
+
+#: includes/i18n.php:33
+msgid "Search products..."
+msgstr ""
+
+#: includes/i18n.php:32
+msgid "Search tags..."
+msgstr ""
+
+#: admin/editor.php:501
+msgid "second(s)"
+msgstr ""
+
+#: includes/i18n.php:35
+msgid "Select all"
+msgstr ""
+
+#: includes/i18n.php:36
+msgid "Select none"
+msgstr ""
+
+#: includes/i18n.php:20
+msgid "Set default attributes"
+msgstr ""
+
+#: bulky-bulk-edit-products-for-woo.php:94 admin/admin.php:41
+#: admin/admin.php:42 admin/editor.php:62 admin/editor.php:104
+msgid "Settings"
+msgstr ""
+
+#: includes/data.php:270
+msgid "Shipping class"
+msgstr ""
+
+#: includes/data.php:236
+msgid "Shipping only"
+msgstr ""
+
+#: includes/data.php:113
+msgid "Short Desc"
+msgstr ""
+
+#: admin/editor.php:149 admin/editor.php:484 includes/data.php:110
+msgid "SKU"
+msgstr ""
+
+#: admin/editor.php:142 includes/data.php:111
+msgid "Slug"
+msgstr ""
+
+#: admin/editor.php:353 includes/data.php:185
+msgid "Sold individually"
+msgstr ""
+
+#: includes/data.php:152
+msgid "Status"
+msgstr ""
+
+#: includes/data.php:182
+msgid "Stock"
+msgstr ""
+
+#: admin/editor.php:228
+msgid "Stock quantity from"
+msgstr ""
+
+#: admin/editor.php:233
+msgid "Stock quantity to"
+msgstr ""
+
+#: admin/editor.php:324 includes/data.php:183
+msgid "Stock status"
+msgstr ""
+
+#: admin/editor.php:395 includes/data.php:200
+msgid "Tags"
+msgstr ""
+
+#: includes/data.php:245
+msgid "Tax class"
+msgstr ""
+
+#: includes/data.php:233
+msgid "Tax status"
+msgstr ""
+
+#: includes/data.php:235
+msgid "Taxable"
+msgstr ""
+
+#: admin/editor.php:509
+msgid "Time to delete revision"
+msgstr ""
+
+#: admin/editor.php:500
+msgid "Time to save revision"
+msgstr ""
+
+#: admin/editor.php:121 admin/editor.php:481 includes/data.php:107
+msgid "Title"
+msgstr ""
+
+#: includes/data.php:212
+msgid "Upsells"
+msgstr ""
+
+#: includes/i18n.php:18
+msgid "Used for variations"
+msgstr ""
+
+#: admin/editor.php:598
+msgid "User"
+msgstr ""
+
+#: admin/editor.php:537
+msgid "Value format"
+msgstr ""
+
+#: includes/i18n.php:46
+msgid "variations are added"
+msgstr ""
+
+#: includes/i18n.php:42
+msgid "Variations cannot revert after save"
+msgstr ""
+
+#: includes/i18n.php:50
+msgid "View on Single product page"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: includes/data.php:186
+msgid "Virtual"
+msgstr ""
+
+#: includes/i18n.php:17
+msgid "Visible on the product page"
+msgstr ""
+
+#: admin/admin.php:24
+msgid "WC Bulk Editor"
+msgstr ""
+
+#: includes/data.php:207
+msgid "Weight"
+msgstr ""
+
+#: admin/editor.php:288
+msgid "Weight from"
+msgstr ""
+
+#: admin/editor.php:293
+msgid "Weight to"
+msgstr ""
+
+#: includes/data.php:209
+msgid "Width"
+msgstr ""
+
+#: admin/editor.php:243
+msgid "Width from"
+msgstr ""
+
+#: admin/editor.php:248
+msgid "Width to"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Bulk Edit Products helps easily work with products in bulk. The "
+"plugin offers sufficient simple and advanced tools to help filter various "
+"available attributes of simple and variable products such as  ID, Title, "
+"Content, Excerpt, Slugs, SKU, Post date, range of regular price and sale "
+"price, Sale date, range of stock quantity, Product type, Categories.... "
+"Users can quickly search for wanted products fields and work with the "
+"product fields in bulk. The plugin promises to help users to save time and "
+"optimize manipulation when working with products in bulk."
+msgstr ""
+
+#: admin/views/html-settings.php:10
+msgid "WooCommerce Bulk Edit Settings"
+msgstr ""
+
+#: admin/admin.php:23
+msgid "WooCommerce Bulk Editor"
+msgstr ""
+
+#: admin/editor.php:331 admin/editor.php:345 admin/editor.php:354
+#: admin/editor.php:470
+msgid "Yes"
+msgstr ""

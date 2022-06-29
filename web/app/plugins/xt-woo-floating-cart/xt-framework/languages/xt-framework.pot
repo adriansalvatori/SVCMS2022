@@ -1,0 +1,909 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: XT Framework\n"
+"POT-Creation-Date: 2021-11-10 21:05-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: XplodedThemes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: start.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/customizer/xirki\n"
+"X-Poedit-SearchPathExcluded-2: includes/freemius\n"
+
+#: includes/admin-tabs/class-framework-tabs.php:70
+#: includes/admin-tabs/class-framework-tabs.php:76
+#: includes/admin-tabs/class-plugin-tabs.php:248
+#: includes/admin-tabs/class-plugin-tabs.php:254
+msgid "Change Log"
+msgstr ""
+
+#: includes/admin-tabs/class-framework-tabs.php:85
+msgid "Get Support"
+msgstr ""
+
+#: includes/admin-tabs/class-framework-tabs.php:97
+#: includes/admin-tabs/class-plugin-tabs.php:263
+msgid "XplodedThemes.com"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:165
+msgid "Upgrade&nbsp;&nbsp;➤"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:180
+msgid "Network Account"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:180
+msgid "Account"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:192
+msgid "Opt In"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:205
+msgid "Make $$$"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:209
+msgid "Affiliate Program"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:220
+#: includes/admin-tabs/class-plugin-tabs.php:234
+#: includes/class-framework.php:659
+msgid "Support"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:523
+msgid "Active License"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:525
+msgid "Inactive License"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:528
+#: includes/class-admin-messages.php:103
+msgid "Premium Version"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:532
+msgid "Free Version"
+msgstr ""
+
+#: includes/admin-tabs/class-plugin-tabs.php:536
+#: includes/admin-tabs/class-plugin-tabs.php:541
+msgid "Free"
+msgstr ""
+
+#: includes/class-admin-messages.php:42 includes/class-admin-messages.php:72
+#, php-format
+msgid ""
+"You can <a href=\"%s\">Upgrade</a> or %s your license to unlock access to %s."
+msgstr ""
+
+#: includes/class-admin-messages.php:44 includes/class-admin-messages.php:74
+msgid "Activate"
+msgstr ""
+
+#: includes/class-admin-messages.php:49 includes/class-admin-messages.php:82
+#, php-format
+msgid "You can <a href=\"%s\">Upgrade</a> your license to unlock access to %s."
+msgstr ""
+
+#: includes/class-admin-messages.php:102
+#, php-format
+msgid "The %s will unlock access to %s."
+msgstr ""
+
+#: includes/class-admin-messages.php:110
+msgid "Upgrade License"
+msgstr ""
+
+#: includes/class-admin-messages.php:114 includes/class-framework.php:2117
+#: includes/license/includes/class-license.php:109
+msgid "Activate License"
+msgstr ""
+
+#: includes/class-conflicts-check.php:89
+#, php-format
+msgid "%1$s has been disabled since it cannot be active while using %2$s!"
+msgstr ""
+
+#: includes/class-dependencies-check.php:114
+#, php-format
+msgid "%1$s%2$s%3$s plugin requires %4$s to be installed and active."
+msgstr ""
+
+#: includes/class-framework.php:2400 includes/class-framework.php:2410
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-recommended-plugins.php:130
+msgid "Browse Plugins"
+msgstr ""
+
+#: includes/class-recommended-plugins.php:147
+msgid "XT Plugins"
+msgstr ""
+
+#: includes/class-system-status.php:74
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/class-system-status.php:75
+msgid "WooCommerce Version"
+msgstr ""
+
+#: includes/class-system-status.php:76
+msgid "Available Memory"
+msgstr ""
+
+#: includes/class-system-status.php:77
+msgid "PHP Version"
+msgstr ""
+
+#: includes/class-system-status.php:78
+msgid "TLS Version"
+msgstr ""
+
+#: includes/class-system-status.php:79
+msgid "WordPress Cron"
+msgstr ""
+
+#: includes/class-system-status.php:80
+msgid "SimpleXML"
+msgstr ""
+
+#: includes/class-system-status.php:81
+msgid "MultiByte String"
+msgstr ""
+
+#: includes/class-system-status.php:82
+msgid "GD Library"
+msgstr ""
+
+#: includes/class-system-status.php:83
+msgid "Iconv Module"
+msgstr ""
+
+#: includes/class-system-status.php:84
+msgid "OPCache Save Comments"
+msgstr ""
+
+#: includes/class-system-status.php:85
+msgid "URL FOpen"
+msgstr ""
+
+#: includes/class-system-status.php:136
+msgid ""
+"The system check has detected some compatibility issues on your installation."
+msgstr ""
+
+#: includes/class-system-status.php:145
+msgid "The system check has detected some outdated plugin templates"
+msgstr ""
+
+#: includes/class-system-status.php:162
+msgid "System Status"
+msgstr ""
+
+#: includes/class-system-status.php:466
+msgid "General Info"
+msgstr ""
+
+#: includes/class-system-status.php:470
+msgid "Site URL"
+msgstr ""
+
+#: includes/class-system-status.php:479
+msgid "Output IP Address"
+msgstr ""
+
+#: includes/class-system-status.php:487
+msgid "XT Framework Active PATH"
+msgstr ""
+
+#: includes/class-system-status.php:496
+msgid "XT Framework Active Version"
+msgstr ""
+
+#: includes/class-system-status.php:504
+msgid "Active XT Plugins"
+msgstr ""
+
+#: includes/class-system-status.php:504
+msgid "Network Activated"
+msgstr ""
+
+#: includes/class-system-status.php:563
+msgid "No Active XT Plugins Found"
+msgstr ""
+
+#: includes/class-system-status.php:563
+msgid "at the Network Level"
+msgstr ""
+
+#: includes/class-system-status.php:568
+msgid "Active XT Shared Modules"
+msgstr ""
+
+#: includes/class-system-status.php:574
+msgid "Module Name"
+msgstr ""
+
+#: includes/class-system-status.php:577
+msgid "Loaded From"
+msgstr ""
+
+#: includes/class-system-status.php:580
+msgid "Shared By"
+msgstr ""
+
+#: includes/class-system-status.php:606
+msgid "None"
+msgstr ""
+
+#: includes/class-system-status.php:617
+msgid "No shared modules found"
+msgstr ""
+
+#: includes/class-system-status.php:622
+msgid "Active Theme"
+msgstr ""
+
+#: includes/class-system-status.php:626
+msgid "Name"
+msgstr ""
+
+#: includes/class-system-status.php:627
+msgid "The name of the current active theme."
+msgstr ""
+
+#: includes/class-system-status.php:631
+msgid "Version"
+msgstr ""
+
+#: includes/class-system-status.php:632
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/class-system-status.php:637
+#, php-format
+msgid "%1$s (update to version %2$s is available)"
+msgstr ""
+
+#: includes/class-system-status.php:645
+msgid "Author URL"
+msgstr ""
+
+#: includes/class-system-status.php:646
+msgid "The theme developers URL."
+msgstr ""
+
+#: includes/class-system-status.php:650
+msgid "Child theme"
+msgstr ""
+
+#: includes/class-system-status.php:651
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/class-system-status.php:658
+#, php-format
+msgid ""
+"If you are modifying WooCommerce on a parent theme that you did not build "
+"personally we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/class-system-status.php:665
+msgid "Parent theme name"
+msgstr ""
+
+#: includes/class-system-status.php:666
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/class-system-status.php:670
+msgid "Parent theme version"
+msgstr ""
+
+#: includes/class-system-status.php:671
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/class-system-status.php:677
+#, php-format
+msgid "%s is available"
+msgstr ""
+
+#: includes/class-system-status.php:683
+msgid "Parent theme author URL"
+msgstr ""
+
+#: includes/class-system-status.php:684
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: includes/class-system-status.php:689
+msgid "WooCommerce support"
+msgstr ""
+
+#: includes/class-system-status.php:690
+msgid ""
+"Displays whether or not the current active theme declares WooCommerce "
+"support."
+msgstr ""
+
+#: includes/class-system-status.php:694
+msgid "Not declared"
+msgstr ""
+
+#: includes/class-system-status.php:705
+msgid "Template Overrides"
+msgstr ""
+
+#: includes/class-system-status.php:708
+msgid "Click here to learn how to override plugin templates within your theme"
+msgstr ""
+
+#: includes/class-system-status.php:717
+msgid "Learn how to update outdated templates"
+msgstr ""
+
+#: includes/class-system-status.php:732
+#, php-format
+msgid "%s outdated template"
+msgid_plural "%s outdated templates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-system-status.php:749
+#, php-format
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr ""
+
+#: includes/class-system-status.php:771
+msgid "No template overrides found"
+msgstr ""
+
+#: includes/class-system-status.php:777
+msgid "System Info"
+msgstr ""
+
+#: includes/class-system-status.php:779
+msgid "Refresh System Info"
+msgstr ""
+
+#: includes/class-system-status.php:809
+#: includes/license/includes/class-license.php:519
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-system-status.php:809
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-system-status.php:815
+msgid "N/A"
+msgstr ""
+
+#: includes/class-system-status.php:830
+#, php-format
+msgid "%s needs %s enabled"
+msgstr ""
+
+#: includes/class-system-status.php:832
+#, php-format
+msgid "%s needs at least %s of available memory"
+msgstr ""
+
+#: includes/class-system-status.php:835 includes/class-system-status.php:880
+#, php-format
+msgid ""
+"For optimal functioning of our plugins, we suggest setting at least %s of "
+"available memory"
+msgstr ""
+
+#: includes/class-system-status.php:838
+#, php-format
+msgid "%s needs at least %s version"
+msgstr ""
+
+#: includes/class-system-status.php:848
+msgid ""
+"Update it to the latest version in order to benefit of all new features and "
+"security updates."
+msgstr ""
+
+#: includes/class-system-status.php:853
+msgid "Contact your hosting company in order to update it."
+msgstr ""
+
+#: includes/class-system-status.php:857
+#, php-format
+msgid "Remove %s from %s file"
+msgstr ""
+
+#: includes/class-system-status.php:865
+msgid "Contact your hosting company in order to enable it."
+msgstr ""
+
+#: includes/class-system-status.php:868 includes/class-system-status.php:882
+#, php-format
+msgid ""
+"Read more %s here%s or contact your hosting company in order to increase it."
+msgstr ""
+
+#: includes/class-system-status.php:888
+#, php-format
+msgid "We cannot determine which %1$sTLS%2$s version is installed."
+msgstr ""
+
+#: includes/class-system-status.php:901
+msgid "Show Full PHP Info"
+msgstr ""
+
+#: includes/class-system-status.php:905
+msgid "Back to System Status"
+msgstr ""
+
+#: includes/class-system-status.php:921
+msgid "Back to top"
+msgstr ""
+
+#: includes/class-system-status.php:952
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-system-status.php:1048
+#, php-format
+msgid ""
+"{title:}: The system check has detected some compatibility issues on your "
+"installation. %sClick here%s to know more"
+msgstr ""
+
+#: includes/class-system-status.php:1055
+#, php-format
+msgid ""
+"{title:}: The system check has detected %s%s outdated plugin template%s "
+msgid_plural ""
+"{title:}: The system check has detected %s%s outdated plugin templates%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/customizer/class-customizer.php:469
+msgid "Customize"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:499
+msgid "Shared Module"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:531
+#: includes/customizer/class-customizer.php:578
+msgid "Open in Customizer"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:913
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:916
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:919
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#: includes/functions-formatting.php:44
+#: includes/settings/fields/relative_date_selector.php:13
+msgid "Day(s)"
+msgstr ""
+
+#: includes/functions-formatting.php:45
+#: includes/settings/fields/relative_date_selector.php:14
+msgid "Week(s)"
+msgstr ""
+
+#: includes/functions-formatting.php:46
+#: includes/settings/fields/relative_date_selector.php:15
+msgid "Month(s)"
+msgstr ""
+
+#: includes/functions-formatting.php:47
+#: includes/settings/fields/relative_date_selector.php:16
+msgid "Year(s)"
+msgstr ""
+
+#: includes/license/includes/class-access-manager.php:63
+msgid ""
+"{title} plugin has retired from CodeCanyon and will now be sold exclusively "
+"on XplodedThemes.com.<br><span style=\"color:green;\"><strong>To continue "
+"receiving new updates and security patches, please migrate your CodeCanyon "
+"license.</strong></span>"
+msgstr ""
+
+#: includes/license/includes/class-access-manager.php:64
+#, php-format
+msgid ""
+"<a target=\"_blank\" class=\"button button-secondary\" href=\"https://"
+"xplodedthemes.com/codecanyon-license-migration/?id=%d\"><strong>Migrate "
+"License</strong></a>"
+msgstr ""
+
+#: includes/license/includes/class-license.php:112
+msgid "License Activated"
+msgstr ""
+
+#: includes/license/includes/class-license.php:119
+msgid "License"
+msgstr ""
+
+#: includes/license/includes/class-license.php:398
+#: includes/license/includes/class-license.php:506
+#, php-format
+msgid "Your Support License is %1$s."
+msgstr ""
+
+#: includes/license/includes/class-license.php:399
+msgid "Not Activated"
+msgstr ""
+
+#: includes/license/includes/class-license.php:425
+#: includes/license/includes/class-license.php:452
+#: includes/license/includes/class-license.php:584
+msgid "Buy License"
+msgstr ""
+
+#: includes/license/includes/class-license.php:426
+msgid "Validate"
+msgstr ""
+
+#: includes/license/includes/class-license.php:432
+#, php-format
+msgid "This %1$s is activated somewhere else."
+msgstr ""
+
+#: includes/license/includes/class-license.php:440
+msgid "Cancel"
+msgstr ""
+
+#: includes/license/includes/class-license.php:445
+#: includes/license/includes/class-license.php:577
+#, php-format
+msgid "%s is the last available version on CodeCanyon."
+msgstr ""
+
+#: includes/license/includes/class-license.php:447
+#: includes/license/includes/class-license.php:579
+#, php-format
+msgid ""
+"%s plugin has retired from CodeCanyon and will now be sold exclusively on "
+"XplodedThemes.com.<br><span style=\"color:green;\"><strong>To continue "
+"receiving new updates and security patches, please migrate your CodeCanyon "
+"license.</strong></span>"
+msgstr ""
+
+#: includes/license/includes/class-license.php:450
+#: includes/license/includes/class-license.php:582
+#, php-format
+msgid ""
+"<a target=\"_blank\" class=\"button button-primary\" href=\"https://"
+"xplodedthemes.com/codecanyon-license-migration/?id=%d\"><strong>Migrate "
+"License</strong></a>"
+msgstr ""
+
+#: includes/license/includes/class-license.php:454
+#: includes/license/includes/class-license.php:586
+msgid "Revoke License"
+msgstr ""
+
+#: includes/license/includes/class-license.php:464
+#, php-format
+msgid "This %1$s is %2$s."
+msgstr ""
+
+#: includes/license/includes/class-license.php:466
+msgid "Invalid"
+msgstr ""
+
+#: includes/license/includes/class-license.php:483
+#, php-format
+msgid "%1$sOops!%2$s %3$sCannot reach license server!%4$s"
+msgstr ""
+
+#: includes/license/includes/class-license.php:507
+msgid "Valid"
+msgstr ""
+
+#: includes/license/includes/class-license.php:518
+#, php-format
+msgid "Premium features are now %1$s"
+msgstr ""
+
+#: includes/license/includes/class-license.php:518
+#, php-format
+msgid "Premium features, support & automated updates are now %1$s"
+msgstr ""
+
+#: includes/license/includes/class-license.php:532
+#, php-format
+msgid "Your Support License has %1$s."
+msgstr ""
+
+#: includes/license/includes/class-license.php:533
+msgid "Expired"
+msgstr ""
+
+#: includes/license/includes/class-license.php:544
+#, php-format
+msgid "Support & updates are now %1$sDisabled%2$s!%3$s"
+msgstr ""
+
+#: includes/license/includes/class-license.php:544
+#, php-format
+msgid ""
+"Support & automated updates are now %1$sDisabled%2$s!%3$sYou can still use "
+"the plugin%4$s and update it manually from CodeCanyon"
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:55
+msgid "View details"
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:78
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:131
+msgid "Check for updates"
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/license/includes/plugin-update-checker/Puc/v4p8/Vcs/PluginUpdateChecker.php:99
+msgid "There is no changelog available."
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:6
+msgid "Force showing add to cart button on shop page"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:7
+msgid ""
+"Some themes do not show the add to cart button on the catalog. This will "
+"force it to show. Disable it if you see a duplicated button."
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:10
+#: includes/modules/add-to-cart/customizer/fields.php:24
+#: includes/modules/add-to-cart/customizer/fields.php:37
+#: includes/modules/add-to-cart/customizer/fields.php:60
+#: includes/modules/add-to-cart/customizer/fields.php:74
+#: includes/modules/add-to-cart/customizer/fields.php:95
+#: includes/modules/add-to-cart/customizer/fields.php:116
+#: includes/modules/add-to-cart/customizer/fields.php:206
+msgid "No"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:11
+#: includes/modules/add-to-cart/customizer/fields.php:25
+#: includes/modules/add-to-cart/customizer/fields.php:38
+#: includes/modules/add-to-cart/customizer/fields.php:61
+#: includes/modules/add-to-cart/customizer/fields.php:75
+#: includes/modules/add-to-cart/customizer/fields.php:96
+#: includes/modules/add-to-cart/customizer/fields.php:117
+#: includes/modules/add-to-cart/customizer/fields.php:207
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:20
+#: includes/modules/add-to-cart/customizer/fields.php:56
+msgid "Enable Ajax Add To Cart"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:21
+msgid "Enable Ajax Add To Cart on Shop / Archive Pages"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:34
+msgid "Hide \"View Cart\" Link after add to cart"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:57
+msgid "Enable Ajax Add To Cart on Single Product Pages"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:70
+msgid "Force Refresh Fragments After Adding"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:71
+msgid ""
+"Enable this only if you notice that after adding a product to the cart, the "
+"totals are not correct due to conflicts with your theme or other plugins. "
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:91
+msgid "Scroll up to success notice"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:92
+msgid ""
+"Scroll up to \"Added to cart\" notice after successfully adding to cart."
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:112
+#: includes/modules/add-to-cart/customizer/fields.php:125
+msgid "Add To Cart Button Loading Spinner"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:113
+msgid ""
+"If your theme does not show a loading spinner on the add to cart button when "
+"adding a product, this option will try and add one"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:149
+msgid "Add To Cart Button Added Checkmark"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:173
+msgid "Spinner Size"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:203
+msgid "Enable Add To Cart Redirection"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:215
+msgid "Redirect To"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:218
+msgid "Cart"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:219
+msgid "Checkout"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:220
+msgid "Custom Page"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:235
+msgid "Redirect To Custom Page"
+msgstr ""
+
+#: includes/modules/add-to-cart/customizer/fields.php:237
+msgid "Select a redirect page."
+msgstr ""
+
+#: includes/modules/add-to-cart/module-add-to-cart.php:223
+msgid "Shop / Archive Pages"
+msgstr ""
+
+#: includes/modules/add-to-cart/module-add-to-cart.php:229
+msgid "Single Product Page"
+msgstr ""
+
+#: includes/modules/add-to-cart/module-add-to-cart.php:235
+msgid "Loading Spinners"
+msgstr ""
+
+#: includes/modules/add-to-cart/module-add-to-cart.php:241
+msgid "Redirection Settings"
+msgstr ""
+
+#: includes/settings/class-settings.php:785
+msgid "Save Changes"
+msgstr ""
+
+#: includes/settings/class-settings.php:788
+msgid ""
+"Attention!!! This will reset all settings of all sections to their default "
+"values! Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/settings/class-settings.php:789
+msgid "Reset All"
+msgstr ""
+
+#: includes/settings/class-settings.php:863
+msgid "Reset this setting to it's default value!"
+msgstr ""
+
+#: includes/settings/class-settings.php:871
+msgid ""
+"Attention!!! This will reset all settings within this section to their "
+"default values! Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/settings/class-settings.php:872
+msgid "Reset Values"
+msgstr ""
+
+#: includes/settings/class-settings.php:1061
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/settings/class-settings.php:1073
+msgid "Failed saving settings!"
+msgstr ""
+
+#: includes/settings/fields/admin_action.php:14
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/settings/fields/ajax_terms.php:39
+msgid "Search Categories"
+msgstr ""
+
+#: includes/settings/fields/checkbox.php:63
+msgid "Toggle"
+msgstr ""
+
+#: includes/settings/fields/multi_select_countries.php:28
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#: includes/settings/fields/multi_select_countries.php:28
+#: includes/settings/fields/single_select_country.php:29
+msgid "Country"
+msgstr ""
+
+#: includes/settings/fields/multi_select_countries.php:37
+msgid "Select all"
+msgstr ""
+
+#: includes/settings/fields/multi_select_countries.php:37
+msgid "Select none"
+msgstr ""
+
+#: includes/settings/fields/single_select_country.php:29
+msgid "Choose a country&hellip;"
+msgstr ""
+
+#: includes/settings/fields/single_select_page.php:35
+msgid "Select a page&hellip;"
+msgstr ""

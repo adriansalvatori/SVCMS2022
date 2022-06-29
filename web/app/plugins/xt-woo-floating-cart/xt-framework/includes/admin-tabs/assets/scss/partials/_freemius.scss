@@ -1,0 +1,39 @@
+.xtfw-admin-tabs-wrap.xtfw-admin-tabs-minimal {
+
+	.fs-secure-notice{
+		text-align: center;
+
+		@media screen and (max-width: 782px) {
+			display: none;
+		}
+	}
+
+	.xtfw-admin-tabs-header {
+
+		margin: 50px 0 -40px;
+
+		@media screen and (max-width: 782px) {
+			margin: 0;
+		}
+
+		.nav-tab-wrapper {
+			display: none;
+		}
+
+		h1 {
+			margin-bottom: 0;
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 782px) {
+		.fs-full-size-wrapper {
+			margin: 0 -10px -65px -10px;
+		}
+	}
+
+	.xtfw-network-migration {
+		margin-top: 100px;
+		text-align: center;
+	}
+}

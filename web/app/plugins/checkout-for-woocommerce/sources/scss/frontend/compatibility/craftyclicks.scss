@@ -1,0 +1,43 @@
+.crafty_shipping {
+  width: calc(100% - 40px) !important;
+  float: left !important;
+  margin-left: 20px !important;
+  padding: 0 !important;
+}
+
+#crafty_postcode_result_display_shipping {
+  margin-bottom: 10px;
+  color: #f04f63;
+}
+
+#crafty_postcode_result_display_shipping {
+  text-align: center;
+}
+
+#shipping_cp_button {
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 11px 16px;
+  font-size: 1em;
+  background: #999;
+  color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    background: #000;
+  }
+}
+
+#shipping_postcode_search {
+  padding: .80em .8em;
+}
+
+#crafty_shipping_button {
+  label {
+    display: none;
+  }
+}

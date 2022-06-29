@@ -1,0 +1,33 @@
+@import "~normalize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+i {
+  font-style: normal;
+}
+
+@import "@sass/global/_mixins.scss";
+
+@import "./app.scss";
+
+.ph-tutorial-animation {
+  animation: 1s forwards tutorial;
+}
+@keyframes tutorial {
+  0% {
+    transform: translateX(-10px) translateY(-70px);
+  }
+  100% {
+    transform: translateX(-10px) translateY(0);
+  }
+}
+
+.editor-content {
+  &.ph-terms {
+    p {
+      margin-bottom: 1em;
+    }
+  }
+}

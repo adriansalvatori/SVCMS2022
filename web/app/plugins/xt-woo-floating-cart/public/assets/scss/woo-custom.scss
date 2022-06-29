@@ -1,0 +1,18 @@
+@import 'partials/layout'; // shortcode
+@import 'partials/menu_item'; // menu_item
+@import 'partials/shortcode'; // shortcode
+
+.xt_woofc-noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+  supported by Chrome, Edge, Opera and Firefox */
+}
+
+form.checkout .woocommerce-shipping-calculator,
+form.checkout .shipping-calculator-button{
+  display: none!important;
+}

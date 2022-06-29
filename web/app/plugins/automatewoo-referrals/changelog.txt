@@ -1,0 +1,377 @@
+*** AutomateWoo - Refer A Friend Add-on ***
+
+2022-06-07 - version 2.6.7
+* Tweak - WC 6.6 compatibility.
+
+2022-05-17 - version 2.6.6
+* Tweak - WC 6.5 compatibility.
+
+2022-03-16 - version 2.6.5
+* Add - Support for Subscriptions with WooCommerce Payments.
+
+2022-01-17 - version 2.6.4
+* Fix - Replaced: Events::schedule_async_event
+
+2021-12-15 - version 2.6.3
+* Fix - Bump versions to WordPress 5.9 and WooCommerce 6.0 (#118)
+
+2021-07-27 - version 2.6.2
+* Fix - Fix admin language matches site language rather than profile language.
+* Fix - Update plugin for renamed `AutomateWoo\Data_Type` class.
+
+2021-03-17 - version 2.6.1
+* Fix - Ensure `get_available_credit function` returns float to prevent 0.0 referral coupon in checkout.
+* Fix - Remove deprecated jQuery functions.
+
+2021-02-12 - version 2.6.0
+* New Minimum Requirements - AutomateWoo 5.2
+* New - Add support for new WooCommerce translation server which adds translations for several new languages
+* New - Add support for upcoming WooCommerce navigation
+* Tweak - Update some deprecated uses of AutomateWoo core code
+* Tweak - WC 5.0 compatibility
+
+2020-11-25 - version 2.5.7
+* Fix - Missing welcome notice on plugin activation
+* Fix - Issue where the Referrals account tab 404'd until site permalinks we refreshed
+* Fix - Remove duplicate "<tbody/>" tag in account tab HTML
+
+2020-07-31 - version 2.5.6
+* Fix deprecated code compatibility with AutomateWoo 5.0
+
+2020-04-30 - version 2.5.5
+* Add support for WooCommerce 4.1
+
+2020-03-10 - version 2.5.4
+* Add support for WooCommerce 4.0
+
+2020-01-17 - version 2.5.3
+* Privacy - Prevent disclosure of whether an email address belongs to an existing customer using the referral form
+* Tweak - Code cleanup and improved JSON handling
+* Fix - Hide "ex tax" label for referral credit if taxes are disabled on the store
+
+2019-11-08 - version 2.5.2
+
+* New - Tested support for WooCommerce 3.8
+
+2019-11-07 - version 2.5.1
+
+* Fix - Use referral data instead of order data for "Sign Up" referrals
+
+2019-10-22 - version 2.5.0
+* New - Add sharing via WhatsApp (must be enabled in settings)
+* New - [Privacy] Add setting to hide the names of referred customers from advocate's account tab (disabled by default)
+* New - Maintain expired referral codes for 90 days instead of deleting immediately after expiration
+* Tweak - Allow $0 orders to be referrals
+* Fix - Issue with error handling when sending our invite emails in the background
+* Fix - Issue that could prevent store credit from being refunded when used on a cancelled/failed/refunded order
+
+2019-10-10 - version 2.4.0
+* Add support for plugin updates via the WooCommerce.com Extension Marketplace
+
+2019-05-07 - version 2.3.2
+* Fix - Error that occurred when updating a page that contained the `[automatewoo_referrals_page]` shortcode
+* Fix - When using link tracking the referral parameter could be lost when shared via Instagram
+
+2019-04-24 - version 2.3.1
+* Tweak - Allow orders with a total of 0.00 to be counted as referrals
+* Tweak - Add the referral coupon object to the `automatewoo/referrals/coupon_data` filter (only in WooCommerce 3.6+)
+
+2019-03-27 - version 2.3.0
+* Read the update blog post - https://automatewoo.com/blog/product-update-march-2019/
+* New - Added ability to block specific advocates
+* New - Added ability to place a limit on how many referrals an advocate can make
+* Tweak - Removed legacy WooCommerce 3.0 code
+
+2019-01-29 - version 2.2.4
+* Tweak - Don't use ambiguous characters when generating referral coupons
+* Tweak - Allow the share widget to be shown on subscription order emails if the setting **Show widget on order emails** is enabled
+
+2019-01-09 - version 2.2.3
+* Fix - Allow decimal value in all price settings
+* Fix - Issue were refunded orders could be wrongly included in order queries
+* Tweak - Improve store credit caching
+* Tweak - Removed some legacy WC 3.0 code
+
+2018-10-25 - version 2.2.2
+* Tweak - Declare support for WooCommerce 3.5
+
+2018-09-27 - version 2.2.1
+* Fix - Include orders with the status 'processing' when determining if a customer is a paying customer
+
+2018-08-14 - version 2.2.0
+* New - Added a 'primary customer' field to referral triggers to allow more control when triggering workflows for advocates, such as allowing advocates to receive referral notifications in their own language rather than the referred customer's language
+* New - Added {{ share_url }} variable for use in the share email settings
+* Tweak - Exclude order shipping costs when calculating the percentage reward amount for an order
+* Fix - Order shipping tax was not included when calculating the shipping total
+* Fix - Share email preview subject was always blank
+* Fix - Compatibility issue with WC 2.6
+
+2018-05-29 - version 2.1.0
+* Tweak - Only store the advocate's IP address when they click on a share button or submit the share form
+* Tweak - Refactored advocate sharing validation to make it easier for customization
+* Tweak - Added filter to support team-based referrals
+* Fix - Prevent new window on social share button click if no valid URL
+
+2018-05-23 - version 2.0.0
+* New - GDPR - Added support for the **Personal Data Eraser / Exporter** tools in WordPress 4.9.6
+* New - GDPR - Added content for the **Privacy Policy Guide** in WordPress 4.9.6
+* Fix - Issue where the site title wasn't showing in the footer of shared emails
+
+2018-05-18 - version 1.9.2
+* Fix - Error in share page template
+* Fix - Display issue with [automatewoo_referrals_account_tab] shortcode
+
+2018-05-16 - version 1.9.1
+* Fix - Error in referral validation when existing customer referrals were allowed
+
+2018-05-15 - version 1.9.0
+* New - GDPR - Add option to anonymize invited email data
+* New - Add option to restrict or exclude products by category from referrals
+* New - Add ability to set a minimum purchase amount for link tracking referrals
+* New - Add option to auto-approve referrals on order paid instead of order completed
+* New - Add option to display the share widget in the new account email
+* Fix - Issue where the minimum purchase amount for store credit was ignored on subscription renewal payments
+* Fix - Display of the email share buttons in MS Outlook
+
+2018-02-13 - version 1.8.0
+* New - Store credit is now automatically refunded on failed or refunded orders.
+* New - Improve handling of subscription free trials and synchronised renewals. Referral creation is now delayed until the first successful payment.
+* Tweak - Improvements for stores running WooCommerce 3.2 or newer.
+* Tweak - Changed default share link/coupon expiry option from 4 weeks to no expiry. Existing installs will stay at 4 weeks if no other value is set.
+* Tweak - Add log to record the reason when a link based referrals is rejected.
+
+2018-02-09 - version 1.7.12
+* Fix - Checkout issue if an advocate had referral credit and their cart did not meet the minimum purchase amount if one was specified in settings.
+
+2018-02-01 - version 1.7.11
+* New - Additional third-party filters and functions.
+* Various minor fixes.
+
+2017-12-29 - version 1.7.10
+* New - Improve CSS compatibility of share form.
+* New - Add filter to modify number of email fields in share form.
+
+2017-12-12 - version 1.7.9
+* New - Add action **Resend Referral Invite Email**.
+* New - Add trigger **New Invite Sent**.
+* New - Add variables **advocate.referral_code** and **advocate.referral_link**.
+
+2017-11-13 - version 1.7.8
+* New - Add formal german translation.
+* Fix - Issue where referrals could be missing from the account tab.
+* Tweak - Add filter to allow disabling fraud check.
+* Tweak - Improvements to third-party social integrations API.
+
+2017-10-26 - version 1.7.7
+* Tweak - Improve account tab display when not using store credit as advocate reward
+
+2017-09-21 - version 1.7.6
+* New - Add german translation
+* New - Created API for adding custom social integrations
+
+2017-09-14 - version 1.7.5
+* Fix - Issue with share URL shortcode
+* Tweak - Add 'data-title' attributes to tables to support responsive tables
+
+2017-08-23 - version 1.7.4
+* Performance - Database optimizations
+
+2017-08-15 - version 1.7.3
+* Performance - Implement new background processor
+
+2017-07-10 - version 1.7.2
+* Tweak - Various minor internal updates
+* Fix - Rare PHP notice on the account page
+
+2017-06-23 - version 1.7.1
+* New - Add search functionality to referral codes and advocates admin views
+* New - Add customer referral count rules **Customer Approved Referral Count**, **Customer Total Referral Count**, etc
+* Tweak - Button icons are now included as a custom font rather than relying on FontAwesome
+
+2017-05-08 - version 1.7.0
+* New - Added admin page to view and manage referral codes
+* New - The advocates admin page now lists any users who have sent an invite in addition to users with referrals
+* New - Added filtering to referral invites admin page
+* Tweak - Internal refactoring and UI improvements
+
+2017-04-28 - version 1.6.2
+* New - Added rule **Advocate Total Referral Count**
+* Tweak - All advocate referral count rules now work on any trigger with a user object, previously it was just referral based triggers
+
+2017-04-21 - version 1.6.1
+* New - Any store credit applied to an automatic subscription renewal is now available when completing that order manually, e.g. if payment fails
+* Tweak - Added WPML support for batched invite emails
+
+2017-04-08 - version 1.6.0
+* New - Added option to block sharing from users who have not placed an order
+* New - Added pending referrals count to admin menu
+* New - Added separate default share text for Twitter
+* New - Added option to set minimum purchase amount for store credit use
+* New - Made relevant settings translatable with WPML
+* Tweak - Modified referral widget CSS to improve appearance for different widths
+* Tweak - Hide store credit coupon notices as they would be confusing for the end user
+* Tweak - Namespacing and performance improvements
+* Fix - Issue where store credit could not be applied to an initial subscription payment if the cart total was zero
+
+2017-04-07 - version 1.5.3
+* Fix - WooCommerce 3.0 issue with referral coupons not being added to cart
+
+2017-03-28 - version 1.5.2
+* Fix - Ensure store credit coupon is applied after normal coupons
+* Fix - Remove coupon added message when store credit coupon is applied
+* Fix - WooCommerce 3.0 issue with store credit coupon
+
+2017-03-17 - version 1.5.1
+* New - Added variables **user.referral_coupon** and **user.referral_link**
+
+2017-03-13 - version 1.5.0
+[Read release post...](https://automatewoo.com/refer-friend-version-1-5-released/)
+* New - Changed to store credit system due to WooCommerce 3.0
+* New - Referral reward amounts are now editable in backend
+* New - Option to set referral rewards to percentage based
+* New - Added two new shortcodes
+
+2017-03-04 - version 1.4.2
+* Fix - Error in admin referrals list if the advocate of a referral had been deleted
+
+2017-03-01 - version 1.4.1
+* Fix - Issue where a fixed coupon discount could apply to more than one product
+
+2017-02-25 - version 1.4.0
+* New - Added ability to give referral rewards for new account signups
+* New - Allow use of advocate.first_name and advocate.full_name variables in the **Default Share Text** option
+* New - Implement changes from AutomateWoo core such as new object caching and namespacing
+* New - Begin support for WooCommerce 3.0
+
+2017-01-12 - version 1.3.5
+* Tweak - Added filter to modify referral reward amount 'automatewoo/referrals/reward_amount'
+* Fix - Minor issue with the referral update_status() method
+
+2017-01-03 - version 1.3.4
+* Fix - Issue where database tables might fail to install on plugin activation
+* Tweak - Added filter to invite email class before sending 'automatewoo/referrals/invite_email/mailer'
+
+2016-12-18 - version 1.3.3
+* Fix - Date comparision issue on some server environments
+
+2016-12-15 - version 1.3.2
+* Tweak - Added filter 'automatewoo/referrals/invite_email/variable_values' to allow creation of custom variables in the invite email content
+* Fix - Modify account tab template to prevent duplicate messages
+
+2016-12-08 - version 1.3.1
+* New - Added filters to account tab text and minor improvements to account tab template
+
+2016-12-05 - version 1.3
+* New - Added admin view listing advocates and new related metrics
+* New - Data for email invites is now being stored and displayed in a new admin view
+* New - Added option to display the referral share widget on order confirmation emails
+* New - Advocates now see their total credit in the referral account tab and always see a link to the share page
+* Fix - Store credit now accounts for fees added to orders
+
+2016-11-21 - version 1.2.16
+* New - Added status filtering on admin referrals page
+* New - Added filter 'automatewoo/referrals/generate_advocate_key'
+
+2016-11-17 - version 1.2.15
+* Fix - Issue where translations failed to load
+
+2016-11-16 - version 1.2.14
+* New - Send referral emails in batches if more 5 emails are shared at once
+* Tweak - Break up frontend templates into smaller parts so they are easier to customize
+
+2016-11-06 - version 1.2.13
+* Fix - Ensure share page inputs are 100% width
+* Fix - Potential PHP warning in my referrals account tab
+
+2016-11-04 - version 1.2.12
+* Tweak - When existing customers referrals are enabled referrals are limited to 1 referral for the customer
+* Tweak - Changed the default minimum coupon value setting from 100 to 0
+* Fix - Make email 'Send' button translatable
+
+2016-11-04 - version 1.2.11
+* Tweak - Add filter 'automatewoo/referrals/block_existing_customer_share'
+* Fix - Error if add-on was activated without AutomateWoo installed
+
+2016-11-02 - version 1.2.10
+* Tweak - Order counting functions now excludes cancelled, failed and refunded orders
+
+2016-11-01 - version 1.2.9
+* Feature - Added option to allow existing customers referrals
+
+2016-10-31 - version 1.2.8
+* Tweak - Added support for custom checkouts that do not require the billing email field
+
+2016-10-27 - version 1.2.7
+* Performance - Added database indexes for all custom tables
+* Tweak - Updates and clean up as per AutomateWoo 2.7
+
+2016-10-19 - version 1.2.6
+* Fix - Issue where tax on the store credit was not factored into to credit reduction query
+
+2016-10-14 - version 1.2.5
+* Tweak - Workflow log modals now show the relevant referral info
+* Tweak - Follow through AW core changes to logs
+* Tweak - Added shortcode [automatewoo_referrals_account_tab] to display referral account tab if using a custom account tab plugin
+* Fix - Issue where fraud notice would display unnecessarily
+
+2016-10-11 - version 1.2.4
+* Tweak - Improved frontend CSS theme compatibility
+* Fix - Issue with Divi page builder
+
+2016-09-27 - version 1.2.3
+* Fix - Tax issues around referral store credit
+
+2016-09-15 - version 1.2.2
+* Tweak - Added wc_print_notices() to the share page template in case notices did not get printed in the header
+* Minor tweaks and fixes to admin area
+
+2016-09-08 - version 1.2.1
+* Minor tweaks and improvements
+
+2016-08-29 - version 1.2
+* Feature - **Link Based Referrals** are possible as an alternative to coupons referrals
+* Tweak - Coupon expiry can now be disabled if expiry is set to '0'
+* Tweak - Improved coupon validation
+
+2016-08-25 - version 1.1.11
+* Tweak - Implement changes in AW 2.6.1
+
+2016-08-17 - version 1.1.10
+* Feature - Add some referral rules ready for AW 2.6
+* Fix - PHP list table warning
+
+2016-08-07 - version 1.1.9
+* Fix - Login button on share page missing link
+* Fix - Minor PHP warning
+
+2016-08-02 - version 1.1.8
+* Tweak - Update renamed class in AutomateWoo core
+
+2016-07-27 - version 1.1.7
+* Tweak - Tidy up admin page URLs
+* Tweak - Add filter 'automatewoo/referrals/show_share_widget'
+
+2016-07-22 - version 1.1.6
+* Fix - Issue where the referral reward type option could not be set to 'none'
+
+2016-07-21 - version 1.1.5
+* Fix - Change referral coupon type to 'Cart Discount' instead of 'Product Discount'
+
+2016-07-21 - version 1.1.4
+* Feature - Add ability for referral coupons to expire
+* Tweak - Improve coupon validation notices
+
+2016-07-19 - version 1.1.3
+* Feature - WooCommerce subscriptions support - Allow store credit to be applied to recurring payments
+
+2016-07-14 - version 1.1.2
+* Tweak - Use an alternate method in advocate key generation
+
+2016-07-13 - version 1.1.1
+* Feature - Add option to display post purchase widget at bottom of page
+
+2016-07-12 - version 1.1.0
+* Feature - Add Post Purchase Share Widgets
+
+2016-07-01 - version 1.0.0
+* Initial release

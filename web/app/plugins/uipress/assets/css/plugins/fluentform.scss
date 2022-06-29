@@ -1,0 +1,9 @@
+html[uip-toolbar="true"] {
+  .ff_form_wrap {
+    .form_internal_menu {
+      top: var(--uip-toolbar-height);
+      left: var(--uip-menu-width);
+      width: calc(100% - var(--uip-menu-width));
+    }
+  }
+}

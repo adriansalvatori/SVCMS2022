@@ -1,0 +1,32 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/04/2020 07:46
+  	*/
+
+@font-face {
+  font-family: "viwpvs_linkmore";
+  src: url("../fonts/linkmore-icons/linkmore.eot");
+  src: url("../fonts/linkmore-icons/linkmore.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/linkmore-icons/linkmore.woff2") format("woff2"),
+       url("../fonts/linkmore-icons/linkmore.woff") format("woff"),
+       url("../fonts/linkmore-icons/linkmore.ttf") format("truetype"),
+       url("../fonts/linkmore-icons/linkmore.svg#viwpvs_linkmore") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "viwpvs_linkmore";
+    src: url("../fonts/linkmore-icons/linkmore.svg#viwpvs_linkmore") format("svg");
+  }
+}
+
+[class^="viwpvs_linkmore-"]:before, [class*=" viwpvs_linkmore-"]:before,
+[class^="viwpvs_linkmore-"]:after, [class*=" viwpvs_linkmore-"]:after {
+  font-family: viwpvs_linkmore;
+        font-size: inherit;
+    font-style: normal;
+}
+
+.viwpvs_linkmore-plus:before { content: "\f100"; }

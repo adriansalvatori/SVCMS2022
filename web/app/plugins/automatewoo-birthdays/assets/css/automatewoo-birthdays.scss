@@ -1,0 +1,52 @@
+
+$mobile-bp: 900px;
+
+.woocommerce .automatewoo-birthday-section {
+	&.form-row {
+		margin: 0 0 1.41575em;
+	}
+
+	.automatewoo-birthday-field {
+		margin: 2px 0 4px;
+		max-width: 640px;
+
+		&__select {
+			float: left;
+			width: auto;
+			margin: 0 0 0 2%;
+			min-height: 2.2em;
+
+			&:first-child {
+				margin: 0;
+			}
+
+			&--year {
+				width: 30%;
+			}
+
+			&--day {
+				width: 26%;
+			}
+
+			&--month {
+				width: 40%;
+			}
+
+			&[disabled] {
+				color: #999;
+			}
+		}
+
+		&--no-year {
+			.automatewoo-birthday-field__select {
+				width: 49%;
+			}
+		}
+	}
+
+	&__description,
+	&__already-set-text {
+		font-style: italic;
+		display: inline-block;
+	}
+}

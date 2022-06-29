@@ -1,0 +1,88 @@
+.create-account p {
+    margin-bottom: 1em;
+}
+
+#amazon_validate_notice_field {
+    margin-bottom: 0.8em;
+}
+
+#amazon_addressbook_widget, #amazon_wallet_widget, #amazon_consent_widget {
+    iframe {
+        border: none !important;
+    }
+}
+
+#cfw form.checkout.has-overlay, #cfw-coupons.has-overlay {
+    position: relative;
+    overflow: hidden;
+
+    .amazon-pay-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        opacity: 0.9;
+        z-index: 99999;
+    }
+
+    .widget-container {
+        max-height: 300px;
+    }
+}
+
+#cfw-payment-request-buttons {
+
+    .wc-amazon-payments-advanced-populated {
+        max-width: 140px;
+        width: 100%;
+        margin-right: 4px;
+    }
+
+    .wc-amazon-payments-advanced-info {
+        text-indent: -9999999px;
+        background: none;
+        padding: 0;
+        clear: none;
+        border: none;
+        border-radius: 4px;
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        text-align: left !important;
+
+        #pay_with_amazon {
+            position: relative;
+            float: left;
+            margin: 0;
+            line-height: 0;
+            width: 140px;
+            height: 35px;
+            background: #f4d281 url('../../images/amazon-pay.svg') no-repeat center;
+            background-size: 75%;
+            cursor: pointer;
+
+            img {
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.wc-apa-widget-change {
+    line-height: 2.5em;
+    font-size: 0.5em;
+    margin-right: 2em;
+}
+
+#amazon_customer_details h3 {
+    font-size: 1.25em;
+}

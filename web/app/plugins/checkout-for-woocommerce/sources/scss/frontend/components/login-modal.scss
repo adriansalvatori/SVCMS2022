@@ -1,0 +1,40 @@
+.cfw-login-modal-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.6em;
+    margin-bottom: 0.8em;
+
+    .cfw-primary-btn {
+        min-width: 200px;
+    }
+
+    a {
+        margin-top: 0.8em;
+    }
+}
+
+.cfw-login-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8em;
+
+    .lost_password {
+        line-height: 2em;
+    }
+}
+
+.account-exists-text {
+    display: none;
+}
+
+.cfw-account-does-exist {
+    .account-exists-text {
+        display: block;
+    }
+
+    .account-does-not-exist-text {
+        display: none;
+    }
+}

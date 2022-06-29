@@ -1,0 +1,12 @@
+#payment .wc-braintree-credit-card-new-payment-method-form {
+  .woocommerce-error {
+    display: none;
+  }
+
+  .braintree-refreshing {
+    text-align: center;
+    padding: 1em;
+    background-color: orange;
+    color: #fff;
+  }
+}

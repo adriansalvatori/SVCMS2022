@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '70d774d6bd21f11c7231112a888937e66e75e1a0',
+        'name' => 'objectivco/checkout-for-woocommerce',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'objectivco/checkout-for-woocommerce' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '70d774d6bd21f11c7231112a888937e66e75e1a0',
+            'dev_requirement' => false,
+        ),
+        'smartystreets/phpsdk' => array(
+            'pretty_version' => '4.16.10',
+            'version' => '4.16.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../smartystreets/phpsdk',
+            'aliases' => array(),
+            'reference' => '39ca2ee8eafad20b194e1f4587b96389e10ca2d1',
+            'dev_requirement' => false,
+        ),
+        'symfony/finder' => array(
+            'pretty_version' => 'v3.4.47',
+            'version' => '3.4.47.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/finder',
+            'aliases' => array(),
+            'reference' => 'b6b6ad3db3edb1b4b1c1896b1975fb684994de6e',
+            'dev_requirement' => false,
+        ),
+    ),
+);

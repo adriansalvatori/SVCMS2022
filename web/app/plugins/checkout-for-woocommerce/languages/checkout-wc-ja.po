@@ -1,0 +1,1271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:42-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"ログインにエラーが発生しました。資格情報をご確認の上、再度お試しください。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "メールアドレスに無効なドメイン名が含まれています。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "有効な%sを入力してください。"
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "フルネーム"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "ハウスナンバー"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "通り 名"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "アドレス2行目を追加"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "会社を追加"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "お客様情報"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "PayPal でログインしています。以下のご注文を継続してください。"
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "許可"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "プロモコードをお持ちですか？ここをクリックしてください。"
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "プロモコード"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "プロモコードを入力してください"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "おめでとうございます。標準で送料が無料になります。"
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "送料無料まであと%sですね。"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "このアドレスを使う"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "住所確認"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"入力された配送先住所が、当社の検証サービスで提示された住所と一致しません。お"
+"手数ですが、住所を確認してください。"
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "入力しました。"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "私たちが提案するのは"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "有効な電話番号を入力してください。"
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "姓と名を入力してください。"
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "お届け先住所"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "新しい数量を入力してください："
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"通常、カードの裏面に記載されている3桁のセキュリティコード。アメリカン・エキス"
+"プレス・カードには4桁のコードが前面に記載されています。"
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "カートからこのアイテムを削除してもよろしいですか？"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "有効な郵便番号を入力してください。"
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "発送方法はありません。"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "完全な注文"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "支払い"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "すべての取引は安全で暗号化されています。"
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "あなたの注文は無料です。支払いは必要ありません。"
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "配送先住所と同じ"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "異なる請求先住所を使用します"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "戻る"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "出荷を続ける"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "支払いに進む"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "注文の確認"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "情報に戻る"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "出荷に戻る"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "支払いに戻る"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "または"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "デクリメント"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "インクリメント"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "注文の要約を表示する"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "注文の概要を隠す"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "エクスプレスチェックアウト"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "インフォメーション"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "注文レビュー"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "既に私たちと口座をお持ちですか？"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "より速いチェックアウトの経験のためにログインしてください。"
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "ショッピング アカウント %s を作成します。"
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr ""
+"あなたがアカウントを持っていない場合は、我々はあなたのために1つを作成します。"
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "ようこそ、%1$s（%2$s）。"
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "ログアウト."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "ようこそ"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"すでにアカウントをお持ちのようです。以下にログイン情報を入力してください。"
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"以前に当店でお買い物をされたことがある方は、以下にログイン情報を入力してくだ"
+"さい。"
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "またはゲストとして継続"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "請求先および配送先住所"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "お届け先"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "変更"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "方法"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "発送方法"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "ご利用のカードまたはお支払い方法に合った住所を選択してください。"
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "プロモコード"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "注文%s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "ありがとう、%s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "注文ステータス"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "注文ステータスの更新"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "メールで配送と配送の最新情報を入手できます。"
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "連絡先情報"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "送料"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "ログイン"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "レビュー"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "カートは空です"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "カート"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "WooCommerce用の美しい、変換に最適化されたチェックアウトテンプレート。"
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "国を選択"
+
+#~ msgid "Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "ログインはオプションです。以下のご注文の続行することがあります。"
+
+#~ msgid "Address Required"
+#~ msgstr "アドレス必須"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3><strong>%s</strong>:CheckoutWCを使用するにはPHP 7.0以上が必要です。</"
+#~ "h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "PHPの新しいバージョンはより速く、より安全なので、更新することでサイトのパ"
+#~ "フォーマンスにプラスの影響を与えることができます。"
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "致命的なエラーを防ぐために、%<strong>s</strong> に %s をロードして、すべて"
+#~ "の機能と機能を無効にしています。ほとんどの場合、アップグレードは数分で完了"
+#~ "します。詳細については、ホスティング・プロバイダにお問い合わせください。"
+
+#~ msgid "safe mode"
+#~ msgstr "セーフモード"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Beaver Themerのサポートを有効にします。"
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr ""
+#~ "Elementor Proがヘッダーとフッターを置き換えることができるようにします。"
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Elementor Proのサポートを有効にします。"
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr ""
+#~ "Elementor Proがヘッダーとフッターを置き換えることができるようにします。"
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "チェックアウトフィールドエディター"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr ""
+#~ "Checkout Field Editorアドレスフィールドのオーバーライドを有効にします。"
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "WooCommerce Checkoutフィールドエディターが請求先住所と配送先住所フィールド"
+#~ "を変更できるようにします。"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Premium Features"
+#~ msgstr "プレミアム機能"
+
+#~ msgid "Template"
+#~ msgstr "テンプレート"
+
+#~ msgid "Design"
+#~ msgstr "デザイン"
+
+#~ msgid "Integrations"
+#~ msgstr "統合"
+
+#~ msgid "Addons"
+#~ msgstr "アドオン"
+
+#~ msgid "License"
+#~ msgstr "ライセンス"
+
+#~ msgid "Tools"
+#~ msgstr "ツール"
+
+#~ msgid "Support"
+#~ msgstr "サポート"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "おすすめプラグイン"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerceは、WooCommerce用にコンバージョンに最適化された美"
+#~ "しいチェックアウトテンプレートを提供します。"
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "この設定はWooCommerce Checkout Field Editorによって上書きされます。"
+
+#~ msgid "Enable / Disable"
+#~ msgstr "有効化/無効化"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "WooCommerce テンプレートのチェック アウトを使用します。"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "WooCommerce テーマのチェックアウトを有効または無効にします。(注: テーマは"
+#~ "常に管理者ユーザーに対して有効になります。"
+
+#~ msgid "Login Style"
+#~ msgstr "ログインスタイル"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "エンハンスド(推奨)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerceのデフォルト"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "強化されました。入力されたメールアドレスがアカウントと一致するかどうかに応"
+#~ "じて、ログインフィールドを自動的に表示・非表示にします。(推奨)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerceのデフォルト。チェックアウトフォームの上のバナーにログインリマ"
+#~ "インダーを表示します。"
+
+#~ msgid "Registration Style"
+#~ msgstr "登録スタイル"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "強化されました。WooCommerceのネイティブ機能を使用して、ユーザー名とパス"
+#~ "ワードを自動的に生成し、顧客にメールで送信します。(推奨)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerceのデフォルト。顧客が自分のパスワードを選択するためのパスワード"
+#~ "フィールドが用意されています。お勧めしません。"
+
+#~ msgid "Field Label Style"
+#~ msgstr "フィールドラベルスタイル"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "フローティング（推奨"
+
+#~ msgid "Normal"
+#~ msgstr "ノーマル"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "フローティング。フィールドに値があるかどうかに基づいてラベルを自動的に表"
+#~ "示・非表示します。(推奨)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "通常の場合。ラベルは常に各フィールドの上に表示されます。"
+
+#~ msgid "Cart Item Label"
+#~ msgstr "カートアイテムラベル"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "テキスト（おすすめ"
+
+#~ msgid "Link"
+#~ msgstr "リンク"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "テキスト。カートの商品を単一の商品ページにリンクしないでください。(推奨)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "リンクします。カートの各項目を商品ページにリンクします。"
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "カート項目データ表示"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "ショート（おすすめ"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Short はバリエーション値のみを表示します。例えば、Size.XL、カラー：レッド"
+#~ "はXL / レッドと表示されます。(推奨)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "WooCommerce Defaultを使用している場合、各バリエーションはこのフォーマット"
+#~ "を使用して別の行に表示されます。ラベル。値"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "配送ステップをスキップ"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "出荷ステップをスキップ"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "配送方法のステップを非表示にすることを有効にします。すべての注文に1つの配"
+#~ "送オプションしかない場合に便利です。"
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "オーダーノートフィールドを有効にする"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "注文ノートフィールドを有効または無効にします。デフォルトでは無効になってい"
+#~ "ます。"
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "モバイルクーポンフィールド"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "携帯電話の支払いオプションの上にクーポンフィールドを表示します。"
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "モバイルデバイス上の決済ゲートウェイの上にクーポンフィールドを表示します。"
+#~ "顧客がカートのサマリーを拡大せずにクーポンフィールドを見つけるのを助けま"
+#~ "す。"
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "モバイルクレジットカードのロゴ"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "モバイルでクレジットカードのロゴを有効にする"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "モバイルでクレジットカードのロゴを表示します。注意：多くのゲートウェイロゴ"
+#~ "は、モバイルでは正しくレンダリングできません。有効にする前にテストすること"
+#~ "をお勧めします。デフォルト。オフ"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "カートの概要モバイルラベル"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "例：注文の概要とクーポンを表示する"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "空白のままにすると、このデフォルトが使用されます。"
+
+#~ msgid "Header Scripts"
+#~ msgstr "ヘッダー スクリプト"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "このコードは、ドキュメントソース内の <code>&lt;/head&gt;</code> タグを閉じ"
+#~ "る直前に出力されます。"
+
+#~ msgid "Footer Scripts"
+#~ msgstr "フッタースクリプト"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "このコードは、ドキュメントソース内の <code>&lt;/body&gt;</code> タグを閉じ"
+#~ "る直前に出力されます。"
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "使用状況の追跡を有効にする"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "WooCommerceのチェックアウトでプラグインの使用状況を追跡できますか？"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "統計収集データビューア"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "実験的統合"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "実験的な統合はサポートされておらず、推奨されている構成と同じテストプロセス"
+#~ "を経ていません。"
+
+#~ msgid "Template Loader"
+#~ msgstr "テンプレートローダー"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "気晴らしフリーポータル（おすすめ"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "ワードプレスのテーマ"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "気晴らしフリーのポータル。アクティブなWordPressテーマやスタイルを読み込ま"
+#~ "ない気晴らしフリーポータルにCheckoutWCのテンプレートを表示します。(推奨)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "WordPressテーマ。アクティブなWordPressテーマのコンテンツエリア内に"
+#~ "CheckoutWCテンプレートをロードします。"
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "実験 - サポートされていない設定"
+
+#~ msgid "Cart Editing"
+#~ msgstr "カート編集"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "カート編集を有効にします。"
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "カート編集機能を有効または無効にします。顧客がカート品目の数量を削除または"
+#~ "調整できるようにします。"
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "カート編集空のカートリダイレクト"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "顧客がチェックアウトページからカートを空にしたときにリダイレクトするURL。"
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "空白のままにした場合、顧客はカートページにリダイレクトされます。"
+
+#~ msgid "Order Pay"
+#~ msgstr "注文の支払い"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "注文支払いページのサポートを有効にします。"
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "注文の支払いページにチェックアウトテンプレートを使用します。"
+
+#~ msgid "One Page Checkout"
+#~ msgstr "1ページチェックアウト"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "1ページチェックアウトを有効にします。"
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "すべてのチェックアウトフィールドを1つのタブに表示します。デジタルストア"
+#~ "や、請求先と配送先を強制的に同じにする店舗に便利です。"
+
+#~ msgid "Thank You Page"
+#~ msgstr "ありがとうページ"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "サンキューページのサポートを有効にします。"
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "サンキューページ/受注テンプレートを有効にします。このテンプレートは、マイ"
+#~ "アカウントで注文を表示するときにも使用されます。"
+
+#~ msgid "Order Statuses"
+#~ msgstr "注文状況"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "サンキューページに表示するステータス。"
+
+#~ msgid "Map Embed"
+#~ msgstr "地図の埋め込み"
+
+#~ msgid "Enable map embed."
+#~ msgstr "マップの埋め込みを有効にします。"
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "サンキューページでのマップの埋め込みを有効または無効にします。 Google API"
+#~ "キーが必要です。"
+
+#~ msgid "My Account"
+#~ msgstr "マイアカウント"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "注文の支払いページにチェックアウトテンプレートを使用します。"
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "チェックを入れると、マイアカウントで注文を閲覧する際に、サンキューページの"
+#~ "テンプレートが使用されます。"
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "アドレスオートコンプリート"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "アドレスのオートコンプリートを有効にします。"
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "アドレスのオートコンプリート機能を有効または無効にします。 Google APIキー"
+#~ "が必要です。"
+
+#~ msgid "Google API Key"
+#~ msgstr "Google APIキー"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google APIキー。 <a target=\"_blank\" href=\"https://developers.google."
+#~ "com/places/web-service/get-api-key\">Google Cloud Platform Consoleで</a>利"
+#~ "用できます。"
+
+#~ msgid "User Matching"
+#~ msgstr "ユーザーマッチング"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "有効 (推奨)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "有効にします。新規購入時や新規ユーザー登録時に、自動的にユーザーアカウント"
+#~ "とゲスト注文を一致させます。(推奨)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerceのデフォルト。チェックアウトフォームの上のバナーにログインリマ"
+#~ "インダーを表示します。"
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHPスニペット"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "ライセンスのアップグレードが必要"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "これらの機能を有効にするには、GrowthまたはDeveloperライセンスが必要です。"
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "<a target=\"_blank\" href=\"%1$s\">マイアカウントで</a>ライセンスをアップ"
+#~ "グレードできます。ライセンスのアップグレードについては、 <a target="
+#~ "\"_blank\" href=\"%2$s\">ここをクリックしてください。</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "設定オーバーライド"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "この設定は現在プログラムによってオーバーライドされています。有効にするに"
+#~ "は、カスタムコードを削除してください。"
+
+#~ msgid "Templates"
+#~ msgstr "テンプレート"
+
+#~ msgid "Active: "
+#~ msgstr "有効: "
+
+#~ msgid "Activate"
+#~ msgstr "有効化"
+
+#~ msgid "Global Settings"
+#~ msgstr "グローバル設定"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "これらの設定はすべてのテーマに適用されます。"
+
+#~ msgid "Logo"
+#~ msgstr "ロゴ"
+
+#~ msgid "Upload image"
+#~ msgstr "画像のアップロード"
+
+#~ msgid "Clear Logo"
+#~ msgstr "明確なロゴ"
+
+#~ msgid "Footer Text"
+#~ msgstr "フッターテキスト"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "空白のままにすると、標準の著作権表記が表示されます。この動作をオーバーライ"
+#~ "ドするには、1つの領域に設定します。"
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "テーマ固有の設定"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "これらの設定は、選択したテーマに適用されます。(%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "フォント"
+
+#~ msgid "Body Font"
+#~ msgstr "本文フォント"
+
+#~ msgid "System Font Stack"
+#~ msgstr "システムフォントスタック"
+
+#~ msgid "Heading Font"
+#~ msgstr "見出しフォント"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "デフォルトでは、CheckoutWC はシステムフォントスタックを使用しています。こ"
+#~ "こではGoogleフォントを使用することもできます。"
+
+#~ msgid "Color Settings"
+#~ msgstr "色設定"
+
+#~ msgid "Custom CSS"
+#~ msgstr "カスタム CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "カスタム CSS ルールを追加して、チェックアウトテンプレートの外観を完全に制"
+#~ "御します。"
+
+#~ msgid "Export Settings"
+#~ msgstr "設定のエクスポート"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "設定のバックアップファイルをダウンロードします。"
+
+#~ msgid "Import Settings"
+#~ msgstr "設定のインポート"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "ファイルのアップロードとインポート設定"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "サポートに連絡する前に"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr "ほとんどの質問に対する答えは、ナレッジベースの中にあります。"
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "人気のガイドをご紹介します。"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "まだ助けが必要ですか?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "ナレッジベースを検索した後に、まだヘルプが必要な場合は、喜んでお手伝いさせ"
+#~ "ていただきます。"
+
+#~ msgid "Contact Support"
+#~ msgstr "サポートに問い合わせる"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerceエコシステムは素晴らしいプラグインでいっぱいです。ここに私達が"
+#~ "心から私達の顧客に推薦するCheckoutWCと本当にうまくいく少数があります。 "
+#~ "（これらのリンクのいくつかはアフィリエイトトラッキングを含むかもしれませ"
+#~ "ん。これはプラグインを含めるという私たちの決定に影響を与えません。）"
+
+#~ msgid "More Info"
+#~ msgstr "詳細情報"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "%s:互換性のないプラグインが検出されました。"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr ""
+#~ "チェックアウトに関する問題を回避するには、これらのプラグインを無効にしてく"
+#~ "ださい！"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "%s:このサイトではライセンスが有効で有効になっていますが、通常のユーザでは"
+#~ "テンプレートが無効になっています。これを修正するには、%s > %s > %s に移動"
+#~ "し、\"%s\" をチェックしてください。"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "%s:ライセンス・キーがないか、無効です。ライセンス キーが有効であることを確"
+#~ "認するか、ライセンスを購入して機能を完全に復元してください。"
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "WooCommerceのチェックアウトをインストールしていただきありがとうございま"
+#~ "す。開始するには、下の[ <strong>ライセンス</strong> ]をクリックしてライセ"
+#~ "ンスキーを有効にしてください。"
+
+#~ msgid "Phone"
+#~ msgstr "電話番号"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC：設定をインポートできません。アップロードするJSONファイルを選択"
+#~ "しましたか？"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC：設定のインポートに成功しました。"
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "これらの設定は、現在アクティブなテンプレートにのみ適用されます。カスタマイ"
+#~ "ザでテンプレートを切り替えると、これらの設定は使用できなくなりますが、テン"
+#~ "プレートを切り替える前に、ここで変更内容が発行されます。"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "アクティベーションに失敗しました: WooCommerce のためのチェックアウトを使用"
+#~ "するために WooCommerce をアクティブにしてください"
+
+#~ msgid "Body Background Color"
+#~ msgstr "ボディ背景色"
+
+#~ msgid "Body Text Color"
+#~ msgstr "本文テキストの色"
+
+#~ msgid "Header Background Color"
+#~ msgstr "ヘッダー 背景色"
+
+#~ msgid "Header Text Color"
+#~ msgstr "ヘッダーテキストの色"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "フッターの背景色"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "フッターテキスト色"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "概要の背景色"
+
+#~ msgid "Accent Color"
+#~ msgstr "アクセントカラー"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "初期ボタンの背景色"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "プライマリボタンのテキストの色"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "初期ボタンの背景のホバーカラー"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "プライマリボタン テキスト ホバーカラー"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "第二ボタンの背景色"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "セカンダリボタンのテキストの色"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "第二ボタンの背景のホバーカラー"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "セカンダリボタンのテキストのホバーカラー"
+
+#~ msgid "Link Color"
+#~ msgstr "リンクの色"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "カート商品数量 背景色"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "カートアイテム 数量 テキストカラー"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "利用可能な%1$sの新しいバージョンがあります。 %2$sViewバージョン%3$sの詳"
+#~ "細%4$s。"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "利用可能な %1$s の新しいバージョンがあります。%2$sバージョン %3$sの詳"
+#~ "細%4$sを確認するか、%5$s今すぐ更新%6$sしてください。"
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "プラグインを更新する権限がありません"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "WooCommerceのチェックアウトでプラグインの使用状況を追跡できますか？ "
+#~ "WooCommerceのチェックアウトを改善するのに役立ちます。"
+
+#~ msgid "Allow"
+#~ msgstr "許可"
+
+#~ msgid "Do not allow"
+#~ msgstr "許可しない"
+
+#~ msgid "Not Calculated"
+#~ msgstr "計算されない"
+
+#~ msgid "Not Available"
+#~ msgstr "使用不可"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "ゲストの注文に対してお支払いをしています。この注文を認識した場合のみ、お支"
+#~ "払いを続けてください。"
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "このお申込みに対する支払いはできません。サポートが必要な場合は、お問い合わ"
+#~ "せください。"
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "このお申込み&rsquo;s 状況は &ldquo;%s&rdquo;&mdash;支払いが出来ません。必"
+#~ "要があればご連絡ください。"
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "チェックアウトの処理エラーです。もう一度やり直してください。"
+
+#~ msgid "Edit"
+#~ msgstr "編集"
+
+#~ msgid "Remove"
+#~ msgstr "削除"
+
+#~ msgid "Lost your password?"
+#~ msgstr "パスワードをお忘れですか？"

@@ -1,0 +1,90 @@
+.guaven_woos_suggestion {z-index:99990; position: absolute;display:none;background: white;padding:5px;border:3px solid white;}
+.guaven_woos_selected {background: yellow}
+.guaven_woos_suggestion>ul {margin:0; list-style-type:none !important; }
+.guaven_woos_div {padding:5px;}
+
+
+.rtl .guaven_woos_titlediv {padding-right:5px;margin-left:0px;margin-right:55px;}
+.guaven_woos_thereissale {text-decoration: line-through;}
+.guaven_woos_pinnedtitle { margin: 3px 0;font-weight: bold;}
+
+.guaven_woos_suggestion_catul .guaven_woos_suggestion_list{min-height: inherit;}
+.guaven_woos_pinnedtitle {padding-top: 10px}
+.woos_sku {display: none}
+.guaven_woos_hidden,   .guaven_woos_hidden_description, .gwstrn,.gws_cat_img {display: none;}
+.guaven_woos_titlediv_cat {font-size:14px;line-height: 15px}
+.guaven_woos_suggestion_listproduct_cat {margin-left: 5px;line-height: 20px}
+.gwshd,.live-search-results,.ajax_search_response {display: none !important}
+.guaven_woos_suggestion>ul {padding:0}
+.guaven_woos_div {float:left}
+.rtl .guaven_woos_div {float:right;}
+.guaven_woos_showallli {text-align: center;border-top:1px solid #efefef}
+.guaven_woos_suggestion {border:none;padding:0px}
+.guaven_woos_suggestion ul,.guaven_woos_suggestion p {padding:5px !important}
+.guaven_woos_mobilesearch {display:none;position:fixed;width:96%;margin:2%;background:white;top:0;left:0;z-index:99989;border: solid 1px #dcdcdc}
+.guaven_woos_mobilesearch p {text-align:right;padding:5px}
+.guaven_woos_mobilesearch p a {font-weight:bold;font-size:20px;float:right;}
+#guaven_woos_s { width:96%;margin-left:2%;padding:5px;padding: 10px; border: solid 1px #dcdcdc}
+
+.guaven_woos_suggestion_standalone{display: block !important;margin:0px!important; position:inherit !important;width:100% !important}
+.guaven_woos_suggestion_standalone .guaven_woos_div {padding-left:2px;padding-right: 2px}
+.guaven_woos_suggestion_standalone .guaven_woos_final_results li,
+.guaven_woos_suggestion_standalone .guaven_woos_suggestion_unlisted li {width: 25%;float:left;vertical-align: top}
+.guaven_woos_suggestion_standalone .guaven_woos_suggestion_unlisted li:nth-child(4n+1),.guaven_woos_suggestion_standalone .guaven_woos_final_results li:nth-child(4n+1) {
+  clear: left
+}
+@media(max-width:768px){
+.guaven_woos_suggestion_standalone .guaven_woos_suggestion_unlisted li {width: 50%;}
+.guaven_woos_suggestion_standalone .guaven_woos_suggestion_unlisted li:nth-child(2n+1),.guaven_woos_suggestion_standalone .guaven_woos_final_results li:nth-child(2n+1) {
+  clear: left
+}}
+.guaven_woos_suggestion_standalone ul,.guaven_woos_suggestion_standalone p {clear:both}
+.guaven_woos_suggestion_standalone .guaven_woos_img {
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+    position: relative;
+}
+.guaven_woos_suggestion_standalone .guaven_woos_div {
+    float: none;
+}
+.guaven_woos_suggestion_standalone .guaven_woos_titlediv {
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.guaven_woos_titlediv em {font-style: normal;text-decoration: underline;font-weight: bold}
+.gwspc{min-height:inherit !important}
+
+.guaven_woos_mobile_div_state .guaven_woos_titlediv>span {vertical-align: middle;display: table-cell;padding-right:10px}
+.guaven_woos_mobile_div_state .guaven_woos_titlediv {margin-left: 70px;display: table;vertical-align: middle;width:calc(100% - 70px);}
+.guaven_woos_mobile_div_state .guaven_woos_suggestion_list{border-bottom: 1px solid #dfdfdf;padding: 0px 12px;}
+.guaven_woos_mobile_div_state .guaven_woos_titlediv small {text-align: right; display: table-cell; float: right;padding-bottom: 20px;}
+.guaven_woos_mobile_div_state .guaven_woos_suggestion {margin-top:5px}
+.guaven_woos_mobile_div_state .guaven_woos_suggestion_catul .gws_cat_img {display: block;width:70%;margin-left:15%;padding-bottom:8px}
+.guaven_woos_mobile_div_state .guaven_woos_suggestion_catul .guaven_woos_suggestion_list{min-height: inherit;display: inline-block;text-align: center;}
+
+.gws_clearable{
+  position: relative;
+  display: inline-block;
+  width: 100%
+}
+.gws_clearable input[type=text]{
+  padding-right: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.gws_clearable__clear{
+  display: none;
+  position: absolute;
+  right:0; top:0;
+  padding: 5px 15px;
+  font-style: normal;
+  font-size: 24px;
+  user-select: none;
+  cursor: pointer;
+}
+.gws_clearable input::-ms-clear {
+  display: none;
+}
+.guaven_woos_mobile_div_state .off-canvas{display:none}

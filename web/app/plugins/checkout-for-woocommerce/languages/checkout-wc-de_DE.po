@@ -1,0 +1,430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:31-0500\n"
+"Last-Translator: JS\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Es ist ein Fehler bei der Anmeldung aufgetreten. Bitte überprüfe deine "
+"Anmeldedaten und versuche es erneut."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "Die E-Mail-Adresse enthält einen ungültigen Domänennamen."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Bitte geben Sie eine gültige %s an."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Hausnummer"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Straße"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Adresse hinzufügen Zeile 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Unternehmen hinzufügen"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Rechnungsadresse"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Mit PayPal eingeloggt. Bitte setze deine Bestellung weiter unten fort."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Anwenden"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Hast du einen Rabatt-Code? Klicke hier."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Rabatt-Code"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Rabatt-Code eingeben"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Herzlichen Glückwunsch! Du erhältst kostenlosen Standardversand."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Noch %s bis Gratisversand!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Diese Adresse verwenden"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Adressen-Verifikation"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Die von dir angegebene Lieferadresse stimmt nicht mit der von unserem "
+"Verifizierungsdienst vorgeschlagenen Adresse überein. Bitte verifiziere "
+"deine Adresse."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Du hast eingegeben"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Wir schlagen vor"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Bitte eine gültige Telefonnummer eingeben."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Bitte geben Sie Ihren Vor- und Nachnamen ein."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Lieferanschrift"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Bitte gib eine neue Menge ein:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Der 3-stellige Sicherheitscode befindet sich normalerweise auf der Rückseite "
+"deiner Karte. American Express-Karten haben einen 4-stelligen Code, der sich "
+"auf der Vorderseite befindet."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr ""
+"Bist du sicher, dass du diesen Artikel aus deinem Warenkorb entfernen "
+"möchtest?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Bitte geben Sie eine gültige Postleitzahl ein."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Keine Versandarten verfügbar"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Bestellung abschließen"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Zahlung"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Alle Transaktionen sind sicher und verschlüsselt."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Deine Bestellung ist kostenlos - keine Zahlung erforderlich."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Entspricht Lieferadresse"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Verwende eine andere Rechnungsadresse"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Zurück zum Warenkorb"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Weiter zum Versand"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Weiter zur Zahlung"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Bestellung prüfen"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Zurück zu Informationen"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Zurück zu Versand"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Zurück zu Zahlung"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Oder"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Verringern"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Inkrement"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Bestellübersicht anzeigen"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Zusammenfassung von Bestellungen ausblenden"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Express-Kasse"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Information"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Bestellüberprüfung"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Bereits registriert bei uns?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Melde dich für ein bequemeres Einkaufserlebnis an."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Erstelle ein %s-Einkaufskonto."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Wenn du kein Konto hast, erstellen wir eins für dich."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Willkommen zurück, %1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Melde dich ab."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Willkommen zurück"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Es sieht so aus, als hätten Sie bereits ein Konto. Bitte geben Sie unten "
+"Ihre Anmeldedaten ein."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Wenn Sie schon einmal bei uns eingekauft haben, geben Sie bitte unten Ihre "
+"Anmeldedaten ein."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Oder fahren Sie als Gast fort"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Rechnungs- und Lieferadresse"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Versand nach"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Kontakt"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Ändern"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Methode"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Versandart"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+"Wähle die Adresse aus, die deiner Karte oder Zahlungsmethode entspricht."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Rabatt-Code"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Bestellung %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Vielen Dank %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Bestellstatus"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Bestellstatus"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Du erhältst Versand- und Zustellinformationen per E-Mail."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Kontaktinformationen"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Versand"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Anmeldung"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Bewertung"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Dein Warenkorb ist leer"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Dein Warenkorb"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Schöne, konvertierungsoptimierte Checkout-Vorlagen für WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Wähle ein Land"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "Anmelden ist optional. Du kannst deine Bestellung unten fortsetzen."

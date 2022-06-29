@@ -1,0 +1,71 @@
+.xtfw-admin-tabs-wrap{
+
+	input[type=color],
+	input[type=date],
+	input[type=datetime-local],
+	input[type=datetime],
+	input[type=email],
+	input[type=month],
+	input[type=number],
+	input[type=password],
+	input[type=search],
+	input[type=tel],
+	input[type=text],
+	input[type=time],
+	input[type=url],
+	input[type=week],
+	select,
+	textarea{
+		border: 1px solid $input-border-color;
+		border-radius: $input-radius;
+
+		&:focus{
+
+			border-color: $input-primary-color;
+			box-shadow: 0 0 0 1px $input-primary-color;
+			outline: 2px solid transparent;
+		}
+	}
+
+	.button,
+	.button-secondary{
+		background-color:#eaeaea;
+		color: #242424;
+		border:1px solid #ddd;
+		border-radius:3px;
+		outline:none;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+		transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+		will-change: background-color, color, border-color;
+
+		&:hover,
+		&:active,
+		&:focus{
+			background-color:#242424;
+			color: #fff;
+			border:1px solid #242424;
+			outline:none;
+			box-shadow: none;
+		}
+	}
+
+	.button-primary {
+		background: #1b95e0;
+		border-color: #1b95e0;
+		color: #fff;
+		transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+		will-change: background-color, color, border-color;
+
+		&:hover,
+		&:active,
+		&:focus{
+			background-color:#1786ca;
+			border-color: #1786ca;
+			color: #fff;
+			outline:none;
+			box-shadow: none;
+		}
+	}
+}

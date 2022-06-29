@@ -1,0 +1,48 @@
+.xt_woofc-notice{
+
+	> *{
+		display:none;
+	}
+
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+	opacity: 0;
+	visibility: hidden;
+	transition: transform .3s, opacity .3s, visibility 0s;
+	color: var(--xt-woofc-header-color);
+	transform: scale(0);
+	white-space: nowrap;
+	flex: 1;
+
+	&.xt_woofc-notice-error {
+
+		color: var(--xt-woofc-header-error-color);
+	}
+
+	a {
+		text-decoration: underline;
+		color: var(--xt-woofc-header-link-color);
+		transition: color 0.3s;
+
+		.xtfw-no-touchevents &:hover,
+		.xtfw-touchevents &:focus {
+			color: var(--xt-woofc-header-link-hover-color);
+		}
+
+		&.button {
+			color: inherit;
+		}
+	}
+
+	&.xt_woofc-visible {
+		opacity: 1;
+		visibility: visible;
+		transform: scale(1);
+		padding: 0 12px;
+
+		> *{
+			display:initial;
+		}
+	}
+}

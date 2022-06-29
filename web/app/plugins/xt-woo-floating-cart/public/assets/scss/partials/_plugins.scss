@@ -1,0 +1,45 @@
+.xt_woofc{
+
+  // Angel Paypal For WooCommerce
+  .wc-proceed-to-checkout {
+
+    .angelleye_smart_button_bottom {
+      margin-top: 10px;
+    }
+  }
+  // Hide Angel Paypal payment method button in checkout form,
+  // woofc place order will take care of paypal redirection
+  .angelleye_smart_button_checkout_bottom{
+    display: none!important;
+  }
+
+  #checkout_paypal_message {
+    text-align: center;
+    margin-bottom:0!important;
+
+    + div {
+      margin-bottom:0!important;
+    }
+
+    *{
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+
+  // Hide the duplicated paypal button within the checkout since xt_woofc place order button will do the same
+  // https://wordpress.org/plugins/woocommerce-gateway-paypal-express-checkout/
+  #woo_pp_ec_button_checkout {
+    display: none!important;
+  }
+
+  // XT Woo Points Rewards
+  .xt_woopr_alert{
+      margin-bottom: 5px!important;
+  }
+}

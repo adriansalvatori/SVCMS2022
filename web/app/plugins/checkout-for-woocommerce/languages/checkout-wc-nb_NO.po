@@ -1,0 +1,1344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:44-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Det oppsto en feil ved pålogging. Kontroller påloggingsinformasjonen og prøv "
+"på nytt."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "E-postadressen inneholder ugyldig domenenavn."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Angi en gyldig %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Fullt navn"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Husnummer"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Gatenavn"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Legg til adresselinje 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Legg til selskap"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Fakturaadresse"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Logget inn med PayPal. Vennligst fullfør din ordre nedenfor."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Bruk"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Ha en promo-kode? Klikk her."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Rabattkode"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Skriv Inn Kampanjekode"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Gratulerer! Du får gratis standard frakt."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Du er %s borte fra gratis frakt!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Bruk denne adressen"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Adressebekreftelse"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Leveringsadressen du oppga samsvarer ikke med den foreslåtte adressen fra "
+"bekreftelsestjenesten vår. Bekreft adressen din."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Du kom inn"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Vi foreslår"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Skriv inn et gyldig telefonnummer."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Vennligst skriv inn for- og etternavn."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Leveringsadresse"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Vennligst tast inn et nytt antall:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"3-sifret sikkerhetskode som vanligvis finnes på baksiden av kortet ditt. "
+"American Express-kort har en firesifret kode som ligger foran."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Er du sikker på at du vil fjerne denne varen fra handlekurven?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Vennligst skriv inn et gyldig postnummer."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Ingen forsendelsesmetoder tilgjengelig"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Fullfør ordre"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Betaling"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Alle transaksjoner er sikre og krypterte."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Din bestilling er gratis. Ingen betaling kreves."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Samme som leveringsadresse"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Bruk en annen fakturaadresse"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Tilbake til handlekurven"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Fortsett å sende"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Fortsett til betaling"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Kontroller bestilling"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Gå tilbake til informasjon"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Gå tilbake til frakt"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Gå tilbake til betaling"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Eller"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Redusere"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Økende"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Vis ordresammendrag"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Skjul ordresammendrag"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Ekspress-utsjekking"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Informasjon"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Bestill gjennomgang"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Har du en brukerkonto fra før?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Logg inn for en raskere handleopplevelse."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Opprett %s-konto."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Hvis du ikke har en konto vil vi lage en til deg."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Velkommen tilbake,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Logg ut."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Velkommen tilbake"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Det ser ut til at du allerede har en konto. Vennligst skriv inn "
+"påloggingsinformasjonen din nedenfor."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Hvis du har handlet hos oss før, vennligst skriv inn påloggingsinformasjonen "
+"din nedenfor."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Eller fortsett som gjest"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Fakturerings- og leveringsadresse"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Send til"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Kontakt"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Endre"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Metode"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Leveringsmetode"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Velg adressen som samsvarer med kortet eller betalingsmåten."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Rabattkode"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Bestilling %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Takk %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Ordrestatus"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Ordre oppdateringer"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Du vil motta leverings- og leveringsoppdateringer via e-post."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Kontaktinformasjon"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Frakt"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Logg inn"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Anmeldelse"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Vognen din er tom"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Din handlekurv"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Vakre, konverteringsoptimaliserte kassemaler for WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Velg et land"
+
+#~ msgid "Password"
+#~ msgstr "Passord"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr ""
+#~ "Innlogging er valgfritt. Du kan fortsette bestillingen din nedenfor."
+
+#~ msgid "Address Required"
+#~ msgstr "Adresse påkrevd"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : PHP 7.0 eller nyere er nødvendig for å bruke "
+#~ "CheckoutWC. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Nyere versjoner av PHP er både raskere og sikrere, så oppdatering vil ha "
+#~ "en positiv innvirkning på nettstedets ytelse."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "For å forhindre dødelige feil har vi lastet %s inn i <strong> %s</"
+#~ "strong> , noe som deaktiverer alle funksjoner og funksjonalitet. I de "
+#~ "fleste tilfeller tar oppgradering bare noen få minutter. Kontakt "
+#~ "hostingleverandøren din for mer informasjon."
+
+#~ msgid "safe mode"
+#~ msgstr "sikkerhetsmodus"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Aktiver Beaver Themer-støtte."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "La Beaver Themer erstatte topptekst og bunntekst."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Aktiver Elementor Pro-støtte."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "La Elementor Pro erstatte topptekst og bunntekst."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Felteditor for kassa"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Aktiver overstyring av adressefeltet til Checkout Field Editor."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Tillat WooCommerce Checkout Field Editor å endre fakturerings- og "
+#~ "leveringsadressefelt."
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Premium Features"
+#~ msgstr "Premium Funksjoner"
+
+#~ msgid "Template"
+#~ msgstr "Mal"
+
+#~ msgid "Design"
+#~ msgstr "Utforming"
+
+#~ msgid "Integrations"
+#~ msgstr "Integrasjon"
+
+#~ msgid "Addons"
+#~ msgstr "Addons til Bookly"
+
+#~ msgid "License"
+#~ msgstr "Lisens"
+
+#~ msgid "Tools"
+#~ msgstr "Verktøy"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Anbefalte utvidelser"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerce gir vakre, konverteringsoptimaliserte kassemaler "
+#~ "for WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Denne innstillingen overstyres av WooCommerce Checkout Field Editor."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "På / Av"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Bruk Checkout for WooCommerce Mal"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Aktiver eller deaktiver Checkout for WooCommerce-tema. (MERKNAD: Tema er "
+#~ "alltid aktivert for administratorbrukere.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Innloggingsstil"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Forbedret (anbefalt)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce standard"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Forbedret: Vis og skjul automatisk påloggingsfelt avhengig av om den "
+#~ "angitte e-postadressen samsvarer med en konto. (Anbefales)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce Standard: Vis en påloggingspåminnelse i et banner over "
+#~ "kasseskjemaet."
+
+#~ msgid "Registration Style"
+#~ msgstr "Registreringsstil"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Forbedret: Generer automatisk et brukernavn og passord og e-post det til "
+#~ "kunden ved å bruke den opprinnelige WooCommerce-funksjonaliteten. "
+#~ "(Anbefales)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce standard: Et passord felt er gitt for kunden å velge sitt "
+#~ "eget passord. Ikke anbefalt."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Feltetikettstil"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Flytende (anbefalt)"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Flytende: Vis og skjul automatisk etiketter basert på om feltet har en "
+#~ "verdi. (Anbefales)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Normal: Etiketter vises til enhver tid over hvert felt."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Handlekurv Varemerke"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Tekst (anbefalt)"
+
+#~ msgid "Link"
+#~ msgstr "Lenke"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr "Tekst: Ikke koble varer til en enkelt produktside. (Anbefales)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Link: Koble hver enkelt vogn til produktsiden."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Datavisning av handlevogn"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Kort (anbefalt)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Kort viser bare variasjonsverdier. For eksempel vises størrelse: XL, "
+#~ "Farge: rød som XL / rød. (Anbefales)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Når du bruker WooCommerce Standard, vises hver variant på en egen linje "
+#~ "ved bruk av dette formatet: Etikett: Verdi"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Hopp over frakttrinn"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Hopp over frakttrinn"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Aktiver for å skjule forsendelsesmetodetrinnet. Nyttig hvis du bare har "
+#~ "ett fraktalternativ for alle bestillinger."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Aktiver feltet Bestillingsnotater"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Aktiver eller deaktiver bestillingsnotatfeltet. Deaktivert som standard."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Mobil kupongfelt"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Vis kupongfelt over betalingsalternativer på mobil."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Vis kupongfelt over betalingsportene på mobile enheter. Hjelper kunder "
+#~ "med å finne kupongfeltet uten å utvide handlegesammendraget."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Mobil kredittkortlogoer"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Aktiver kredittkortlogoer på mobilen"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Vis kredittkortlogoer på mobil. Merk: Mange gateway-logoer kan ikke "
+#~ "gjengis riktig på mobilen. Det anbefales at du tester før du aktiverer "
+#~ "det. Standard: Av"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Handlekurv Sammendrag Mobil Etikett"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Eksempel: Vis ordreoppsummering og kuponger"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Hvis denne er tom, vil denne standarden bli brukt: "
+
+#~ msgid "Header Scripts"
+#~ msgstr "Topp skript"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Denne koden blir skrevet ut rett før den avsluttende <code>&lt;/head&gt;</"
+#~ "code> -koden i dokumentkilden."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Bunn skript"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Denne koden blir skrevet ut rett før den avsluttende <code>&lt;/body&gt;</"
+#~ "code> -koden i dokumentkilden."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Aktiver bruksstatistikk"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "Tillater Checkout for WooCommerce å spore plugin-bruk?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Stat Collection Data Viewer"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Eksperimentelle integrasjoner"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Eksperimentelle integrasjoner støttes ikke og gjennomgår ikke de samme "
+#~ "testprosessene som våre anbefalte konfigurasjoner."
+
+#~ msgid "Template Loader"
+#~ msgstr "Mallaster"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Distraksjonsfri portal (anbefalt)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress Tema"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Distraksjonsfri portal: Vis utsjekkingWC-maler i en distraksjonsfri "
+#~ "portal som ikke laster inn det aktive WordPress-temaet eller stilene. "
+#~ "(Anbefales)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "WordPress Theme: Last inn CheckoutWC-maler i det aktive WordPress "
+#~ "temainnholdsområdet."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Eksperimentell - Konfigurasjon som ikke støttes"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Handlekurvredigering"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Aktiver vognredigering."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Aktiver eller deaktiver vognredigeringsfunksjonen. Tillater kunden å "
+#~ "fjerne eller justere mengde vognobjekter."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Handlekurv Redigering Tøm kurv omdirigering"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL for å omdirigere til når kunden tømmer handlekurven fra kassen siden."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "Hvis du er tom, vil kunden bli omdirigert til handlekurven."
+
+#~ msgid "Order Pay"
+#~ msgstr "Bestill lønn"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Aktiver støtte for ordrebetalingsside."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Bruk utsjekkingsmal for ordrebetalingsside."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "One Page Checkout"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Aktiver en-kassa."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Vis alle kassefelt på en fane. Nyttig for digitale butikker eller "
+#~ "butikker som tvinger fakturerings- og leveringsadresse til å være den "
+#~ "samme."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Takkeside"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Aktiver støtte for takkesiden."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Aktiver takkeside / ordre mottatt mal. Denne malen brukes også når du ser "
+#~ "på bestillinger i Min konto."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Ordrestatuser"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Statusene som skal vises på takkesiden."
+
+#~ msgid "Map Embed"
+#~ msgstr "Kart innebygd"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Aktiver kartinnlegging."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Aktiver eller deaktiver kartinnlegning på takkesiden. Krever Google API-"
+#~ "nøkkel."
+
+#~ msgid "My Account"
+#~ msgstr "Min konto"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Bruk utsjekkingsmal for ordrebetalingsside."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Når du krysser av for det, vil du se bestillinger i Min konto ved å bruke "
+#~ "takkensidemalen."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Adresse Autofullføring"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Aktiver adressen autofullføring."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Aktiver eller deaktiver automatisk autofullføringsfunksjon for adresse. "
+#~ "Krever Google API-nøkkel."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API-nøkkel"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google API-nøkkel. Tilgjengelig i <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Brukermatching"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Aktivert (Annbefalt)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Aktivert: Matcher automatisk bestillinger til brukerkontoer ved nytt "
+#~ "kjøp, samt ved registrering av en ny bruker. (Anbefales)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce Standard: Vis en påloggingspåminnelse i et banner over "
+#~ "kasseskjemaet."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP-utdrag"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Legg til PHP-utdrag for å endre kassen siden her. Hvis du har mange "
+#~ "tekstutdrag, vil du kanskje vurdere å bruke <a target=\"_blank\" href=\"%s"
+#~ "\">kodesnutter</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Lisensoppgradering påkrevd"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "En vekst- eller utviklerlisens er nødvendig for å aktivere disse "
+#~ "funksjonene."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Du kan oppgradere lisensen din i <a target=\"_blank\" href=\"%1$s\">Min "
+#~ "konto</a> . For hjelp med å oppgradere lisensen din, <a target=\"_blank\" "
+#~ "href=\"%2$s\">klikk her.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Innstilling Overridden"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Denne innstillingen er for øyeblikket tilsidesatt. Fjern den tilpassede "
+#~ "koden for å aktivere den."
+
+#~ msgid "Templates"
+#~ msgstr "Maler"
+
+#~ msgid "Active: "
+#~ msgstr "Aktiv: "
+
+#~ msgid "Activate"
+#~ msgstr "Aktiver"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globale innstillinger"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Disse innstillingene gjelder for alle temaer."
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload image"
+#~ msgstr "Last opp bilde"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Klar logo"
+
+#~ msgid "Footer Text"
+#~ msgstr "Bunntekst"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Hvis det blir tomt, vises en standard copyright-varsel. Sett til et "
+#~ "enkelt rom for å overstyre denne oppførselen."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Temaspesifikke innstillinger"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Disse innstillingene gjelder for det valgte temaet. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Skrifttyper"
+
+#~ msgid "Body Font"
+#~ msgstr "Innholdstekst skrifttype"
+
+#~ msgid "System Font Stack"
+#~ msgstr "System Font Stack"
+
+#~ msgid "Heading Font"
+#~ msgstr "Overskrifter skrifttype"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "Som standard bruker CheckoutWC en System Font Stack, som gir den raskeste "
+#~ "ytelsen. Du kan velge å bruke en Google Font her."
+
+#~ msgid "Color Settings"
+#~ msgstr "Fargeinnstillinger"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Egendefinert CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Legg til tilpassede CSS-regler for å kontrollere utseendet til kassen."
+
+#~ msgid "Export Settings"
+#~ msgstr "Eksporter Innstillinger"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Last ned en sikkerhetskopifil med innstillingene dine."
+
+#~ msgid "Import Settings"
+#~ msgstr "Import-innstillinger"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Last opp fil og importer innstillinger"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Før du kontakter support"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Du kan finne svaret på de fleste spørsmål i <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">kunnskapsbasen</a> vår."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Her er noen populære guider:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Trenger du fortsatt hjelp?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Hvis du fortsatt trenger hjelp etter å ha søkt i kunnskapsbasen vår, "
+#~ "hjelper vi deg gjerne."
+
+#~ msgid "Contact Support"
+#~ msgstr "Kontakt brukerstøtte"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerce økosystemet er fullt av fantastiske plugins. Her er noen som "
+#~ "fungerer veldig bra med CheckoutWC som vi helhjertet anbefaler til våre "
+#~ "kunder. (Noen av disse koblingene kan omfatte tilknyttet sporing. Dette "
+#~ "påvirker ikke vår beslutning om å inkludere et plugin.)"
+
+#~ msgid "More Info"
+#~ msgstr "Mer info"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "<strong> %s</strong> : Advarsel om inkompatible plugins oppdaget!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "Deaktiver disse programtilleggene for å unngå problemer med kassen!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Lisensen din er gyldig og aktivert for dette "
+#~ "nettstedet, men malen er deaktivert for normale brukere. For å fikse "
+#~ "dette, gå til %s> %s> %s og sjekk \" %s\"."
+
+#~ msgid "Settings"
+#~ msgstr "Innstillinger"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Det ser ut til at lisensnøkkelen din er utløpt. "
+#~ "Kontroller at lisensnøkkelen din er gyldig, eller <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">forny "
+#~ "lisensen din nå for</a> å gjenopprette full funksjonalitet."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Lisensnøkkelen din mangler eller er ugyldig. "
+#~ "Kontroller at lisensnøkkelen din er gyldig, eller <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/\">kjøp en lisens for</a> å "
+#~ "gjenopprette full funksjonalitet."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Takk for at du installerte Checkout for WooCommerce! For å komme i gang, "
+#~ "klikk på <strong>Lisens</strong> nedenfor og aktiver lisensnøkkelen!"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Kan ikke importere innstillinger. Valgte du en JSON-fil du "
+#~ "vil laste opp?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: Innstillinger som ble importert, vellykket."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Disse innstillingene gjelder bare for den aktuelle malen. Hvis du bytter "
+#~ "maler i tilpasseren, blir disse innstillingene utilgjengelige, men "
+#~ "lagring vil publisere eventuelle endringer her før du bytter mal!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Aktiveringen mislyktes: Vennligst aktiver WooCommerce for å bruke "
+#~ "Checkout for WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Bakgrunnsfarge for Body"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Tekstfarge for brødtekst"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Header bakgrunnsfarge"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Topptekstfarge"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Bakgrunnsfarge for footer"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Bunntekst farge"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Sammendrag bakgrunnsfarge"
+
+#~ msgid "Accent Color"
+#~ msgstr "Aksentfarge"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Bakgrunnsfarge på primær knapp"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Tekstfarge på primær knapp"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Primær knapp Bakgrunnens svevefarge"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Hovedfarge på knapptekst"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Sekundær knapp bakgrunnsfarge"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Tekstfarge på sekundær knapp"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Sekundær knapp Bakgrunn for svevefarge"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Sekundær knappeforskyverfarge"
+
+#~ msgid "Link Color"
+#~ msgstr "Lenkefarge"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Handlevogn Antall Bakgrunnsfarge"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Handlevogn Antall Tekstfarge"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "En ny versjon av %1$s er tilgjengelig. %2$s Vis versjon %3$s detaljer "
+#~ "%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "En ny versjon av %1$s er tilgjengelig. %2$s Vis versjon %3$s detaljer "
+#~ "%4$s eller %5$s oppdater nå %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Du har ikke tillatelse til å installere oppdateringer for tillegg"
+
+#~ msgid "Error"
+#~ msgstr "Feil"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Tillater Checkout for WooCommerce å spore plugin-bruk? Bidra til å gjøre "
+#~ "Checkout for WooCommerce bedre."
+
+#~ msgid "Allow"
+#~ msgstr "Tillat"
+
+#~ msgid "Do not allow"
+#~ msgstr "Ikke tillat"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Ikke beregnet"
+
+#~ msgid "Not Available"
+#~ msgstr "Ikke tilgjengelig"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Du betaler for en bestilling. Fortsett med betaling bare hvis du "
+#~ "gjenkjenner denne bestillingen."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Ordren din kan ikke betales. Ta kontakt med oss hvis du trenger hjelp."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Ordren har status &ldquo;%s&rdquo; &mdash; den kan ikke betales for. Ta "
+#~ "kontakt hvis du trenger hjelp"
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Feil prosessering i bestillingen. Vær så snill, prøv på nytt."
+
+#~ msgid "Edit"
+#~ msgstr "Rediger"
+
+#~ msgid "Remove"
+#~ msgstr "Fjern"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Glemt passordet ditt?"
+
+#~ msgid "Customer information"
+#~ msgstr "Kundeinformasjon"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "Velg en fraktmedote:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Kassen for WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "Utmerket støtte er i vårt DNA."
+
+#~ msgid "First Name"
+#~ msgstr "Fornavn"
+
+#~ msgid "Last Name"
+#~ msgstr "Etternavn"
+
+#~ msgid "Email"
+#~ msgstr "E-post"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using a legacy child theme which will be disabled in a future "
+#~ "version. Changing theme settings is not possible for legacy themes."
+#~ msgstr ""
+#~ "Du bruker et gammelt underordnet tema som vil bli deaktivert i en "
+#~ "fremtidig versjon. Det er ikke mulig å endre Temainnstillinger for eldre "
+#~ "temaer."
+
+#, fuzzy
+#~ msgid ""
+#~ "It looks like you are using a legacy checkout theme, located in %s. "
+#~ "Legacy themes are deprecated and you should upgrade to the new theme "
+#~ "structure as soon as possible to prevent problems with future release. "
+#~ "For more information, <a target=\"_blank\" href=\"https://www.checkoutwc."
+#~ "com/docs/developer-api/template-files/upgrading-legacy-custom-templates/"
+#~ "\">read our migration guide.</a>"
+#~ msgstr ""
+#~ "Det ser ut som du bruker en arv Checkout tema, som ligger i %s. eldre "
+#~ "temaer er avskrevet, og du bør oppgradere til den nye tema strukturen så "
+#~ "snart som mulig for å unngå problemer med fremtidig utgivelse. Hvis du "
+#~ "vil ha mer informasjon, kan du < a target = \"_ blank\" href = \"https://"
+#~ "www.checkoutwc.com/docs/developer-api/template-files/upgrading-legacy-"
+#~ "custom-templates/\" > lese vår Migration guide. </a>"
+
+#~ msgid "Subtotal"
+#~ msgstr "Delsum"
+
+#~ msgid "Taxes"
+#~ msgstr "MVA"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#, fuzzy
+#~ msgid "Show Phone Fields"
+#~ msgstr "Vis telefon felter"
+
+#, fuzzy
+#~ msgid "Enable billing and shipping phone fields"
+#~ msgstr "Aktiver fakturering og forsendelse av telefon felter"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable or disable billing and shipping phone fields as required fields. "
+#~ "(Default: Disabled)"
+#~ msgstr ""
+#~ "Aktiver eller deaktiver telefon feltene for fakturering og forsendelse "
+#~ "som obligatoriske felt. (Standard: deaktivert)"

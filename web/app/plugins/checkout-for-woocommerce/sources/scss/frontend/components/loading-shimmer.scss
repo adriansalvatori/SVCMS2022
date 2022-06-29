@@ -1,0 +1,116 @@
+@mixin cfw-shimmer-content( $top_bottom_margin: 0, $top: 0 ) {
+    position: relative;
+
+    &:after {
+        content: " ";
+        position: absolute;
+        top: #{$top};
+        margin: #{$top_bottom_margin} 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: var(--cfw-loading-shimmer-gradient);
+        background-size: 1000px 100%;
+        border-radius: 5px;
+        animation: shimmer 2s infinite linear;
+        display: var(--cfw-loading-shimmer-display-mode);
+        z-index: 10000;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.cfw-review-pane.cfw-blocked {
+    // Review pane
+    .inner {
+        @include cfw-shimmer-content( 0.75em );
+    }
+
+    .cfw-review-pane-link a {
+        @include cfw-shimmer-content();
+    }
+
+    .cfw-review-pane-content > * {
+        @include cfw-shimmer-content();
+    }
+}
+
+#cfw-cart-summary.cfw-blocked {
+    .cfw-cart-item-quantity-bubble {
+        display: var(--cfw-loading-shimmer-cart-item-quantity-display-mode);
+    }
+
+    .cfw-cart-item-image-wrap,
+    .cfw-edit-item-quantity-control-wrap,
+    .cfw-cart-item-subtotal span,
+    .cfw-cart-item-data,
+    .cfw-items-summary-item-discount,
+    .cfw-promo-row > div > * {
+        @include cfw-shimmer-content();
+    }
+
+    .cfw-cart-item-title {
+        @include cfw-shimmer-content( -2px );
+    }
+
+    #cfw-totals-list {
+        tr {
+            @include cfw-shimmer-content( 0.75em );
+        }
+
+        tr.order-total {
+            border-color: var(--cfw-loading-shimmer-primary-color);
+        }
+    }
+}
+
+#cfw-shipping-methods.cfw-blocked {
+    .cfw-shipping-method-inner {
+        @include cfw-shimmer-content();
+    }
+}
+
+#cfw-billing-methods.cfw-blocked {
+    .payment_method_icons {
+        display: none;
+    }
+
+    .cfw-radio-reveal-title-wrap .cfw-radio-reveal-label div, .cfw-radio-reveal-content > * {
+        @include cfw-shimmer-content( -2px );
+    }
+}
+
+#cfw-place-order.cfw-blocked button {
+    border: none;
+    @include cfw-shimmer-content();
+}
+
+#cfw-payment-request-buttons.cfw-blocked {
+    > div:not(.wc-stripe-banner-checkout),
+    button,
+    > #checkout_paypal_message,
+    > #wc-stripe-payment-request-wrapper,
+    ul.wc_stripe_checkout_banner_gateways li.wc-stripe-checkout-banner-gateway {
+        @include cfw-shimmer-content();
+    }
+}
+
+#cfw-mobile-total.cfw-blocked {
+    @include cfw-shimmer-content();
+}
+
+.cfw-order-bumps.cfw-blocked {
+    .cfw-order-bump {
+        label, .row > div {
+            @include cfw-shimmer-content();
+        }
+
+    }
+}

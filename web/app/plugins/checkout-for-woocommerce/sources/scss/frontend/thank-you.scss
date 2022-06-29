@@ -1,0 +1,278 @@
+// Resets
+@import "~normalize.css/normalize.css";
+@import "components/template-loader-resets";
+
+// Grid
+@import "grid";
+
+// Variables
+@import "custom-properties";
+
+// Mixins
+@import "mixins";
+
+// Utility Classes
+@import "utility-classes";
+
+// Components
+@import "components/document";
+@import "components/order-review/style";
+@import "components/header";
+@import "components/footer";
+@import "components/breadcrumbs";
+@import "components/accordion";
+@import "components/alerts";
+@import "components/field-validation";
+@import "components/form-fields";
+@import "components/buttons";
+@import "components/modules";
+@import "components/tabs";
+@import "components/tooltip-labels";
+@import "components/cart-summary/trust-badges";
+@import "components/modals";
+@import "components/cart-summary/style";
+@import "components/cart-summary/mobile-review";
+@import "components/cart-summary/cart";
+@import "components/cart-summary/totals";
+
+// Compatibility Classes
+@import "compatibility/elementor-pro";
+@import "compatibility/woocommerce";
+@import "compatibility/beaver-themer";
+@import "compatibility/themehigh-checkout-field-editor";
+@import "compatibility/woocommerce-product-bundles";
+
+// 3rd Party
+@import "~intl-tel-input/build/css/intlTelInput";
+
+// TODO: Move
+#arrow, .lost_password a {
+    color: var(--cfw-body-link-color) !important;
+    fill: var(--cfw-body-link-color) !important;
+}
+
+// Thank you page specific styles
+#cfw.context-thank-you {
+    .title {
+        .cfw-checkmark {
+            width: 48px;
+            height: 48px;
+            stroke: #c3c3c3;
+            float: left;
+            margin-right: 0.5em;
+        }
+
+        h4, h5 {
+            margin-top: 0;
+            margin-bottom: 0.5em;
+        }
+
+        margin-bottom: 2em;
+    }
+
+    section {
+        margin-bottom: 1em;
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        padding: 1em;
+
+        h3 {
+            margin-top: 0;
+        }
+
+        h6 {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            font-size: 16px;
+            font-weight: 400;
+            color: #333;
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        &.cfw-order-status {
+            padding: 0;
+        }
+    }
+
+    .cfw-customer-information {
+        .row {
+            margin-bottom: 1.5em;
+
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+    }
+
+    #map {
+        height: 200px;
+    }
+
+    .status-row {
+        padding: 10px;
+    }
+
+    ul.status-steps {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+
+        li {
+            position: relative;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            max-width: 25%;
+            padding-top: 1em;
+
+            .title {
+                font-size: 14px;
+                color: #737373;
+            }
+
+            &:before {
+                background: #e6e6e6;
+                width: 2000px;
+            }
+
+            &.status-step-selected {
+                color: #c3c3c3;
+
+                i {
+                    color: #c3c3c3;
+                }
+            }
+
+            &.status-step-selected:before {
+                background: #c3c3c3;
+                z-index: 1;
+            }
+
+            &:before, &:after {
+                content: "";
+                display: block;
+                height: 2px;
+                position: absolute;
+                top: 8.5px;
+                right: 50%;
+            }
+
+            &:first-child:after {
+                background: var(--cfw-body-background-color);
+                left: 0;
+                z-index: 2;
+            }
+
+            .date {
+                padding-top: 0.25em;
+                display: block;
+                font-size: 0.75em;
+                color: #666;
+            }
+        }
+
+        i {
+            color: #b3b3b3;
+            background: var(--cfw-body-background-color);
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+            font-size: 1em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    #info_window_content {
+        text-align: center;
+        line-height: 1.5em;
+
+        .emphasis {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    a.tracking-number {
+        text-decoration: none;
+        color: var(--cfw-body-link-color);
+    }
+
+    .woocommerce table.shop_table td {
+        border: none;
+    }
+
+    .order-again {
+        text-align: right;
+    }
+
+    /**
+     * WooCommerce Core Styles
+     */
+    ul.order_details {
+        margin: 0 0 3em;
+        list-style:none
+    }
+
+    ul.order_details::after, .woocommerce ul.order_details::before {
+        content: ' ';
+        display:table
+    }
+
+    ul.order_details::after {
+        clear:both
+    }
+
+    ul.order_details li {
+        float: left;
+        margin-right: 2em;
+        text-transform: uppercase;
+        font-size: .715em;
+        line-height: 1;
+        border-right: 1px dashed #d3ced2;
+        padding-right: 2em;
+        margin-left: 0;
+        padding-left: 0;
+        list-style-type:none;
+        margin-top: 0.5em;
+    }
+
+    ul.order_details li strong {
+        display: block;
+        font-size: 1.4em;
+        text-transform: none;
+        line-height:1.5
+    }
+
+    ul.order_details li:last-of-type {
+        border:none
+    }
+    /**
+     * End WooCommerce Core Styles
+     */
+
+    // BACS
+    .wc-bacs-bank-details-heading {
+        font-size: 1.75em;
+    }
+
+    #order_review > p {
+        margin: 1em 0;
+    }
+
+    .cfw-padded {
+        padding: 1em;
+    }
+}
+

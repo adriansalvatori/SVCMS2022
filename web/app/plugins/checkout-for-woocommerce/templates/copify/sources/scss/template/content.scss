@@ -1,0 +1,84 @@
+#cfw {
+  margin-top: 2em;
+}
+
+#cfw-logo-container, #cfw-logo-container-mobile {
+  .cfw-logo {
+    padding-top: 0;
+
+    a {
+      margin-top: 0;
+    }
+  }
+}
+
+#cfw-cart-summary > *:not(#cfw-mobile-cart-header) {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-mobile-cart-header {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-cart-summary-content {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-cart-summary {
+  border-left: 0;
+  padding: 0;
+
+  &:before {
+    content: " ";
+    background: var(--cfw-cart-summary-background-color);
+    position: fixed;
+    height: calc(100vh + 60px);
+    width: 100%;
+    top: 0;
+    border-left: 1px solid #eee;
+    z-index: 1;
+  }
+}
+
+#cfw-logo-container-mobile {
+  display: none;
+}
+
+@include media-breakpoint-down(lg) {
+  #cfw {
+    margin-top: 1em;
+  }
+  
+  #cfw-logo-container {
+    display: none;
+  }
+
+  #cfw-logo-container-mobile {
+    display: block;
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+
+  #cfw-cart-summary {
+    &:before {
+      content: none;
+    }
+  }
+}
+
+// Stripe for WooCommerce (Payment Plugins)
+form.woocommerce-checkout > .woocommerce-NoticeGroup {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+    padding-right: 20px;
+
+    @include media-breakpoint-down(lg) {
+        width: 100%;
+        max-width: 100%;
+        flex-shrink: 0;
+        padding: 0 20px;
+    }
+}

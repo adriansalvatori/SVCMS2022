@@ -1,0 +1,39 @@
+@import 'totals'; // checkout totals
+
+#xt_woofc .checkout .woocommerce-checkout-review-order {
+	
+	padding-top: 10px;
+	margin-left: -15px;
+	width: calc(100% + 30px)!important;
+
+	table{
+
+		tr td,
+		tr th {
+
+			&:first-child,
+			&:first-child{
+				text-align:left;
+			}
+
+			&:last-child,
+			&:last-child{
+				text-align:right;
+			}
+		}
+	}
+
+	> *:not(.shop_table) {
+		border-radius: 0;
+		padding: 15px;
+		background: inherit;
+		border-top: var(--xt-woofc-border);
+		bottom: -1px;
+		position: relative!important;
+	}
+
+	#payment ul.payment_methods{
+		padding: 0;
+		border-bottom: none;
+	}
+}

@@ -1,0 +1,69 @@
+/*
+ *  Usage:
+ *
+      <div class="xt_woofc-spinner-folding-cube">
+        <div class="xt_woofc-spinner-cube1 xt_woofc-spinner-cube"></div>
+        <div class="xt_woofc-spinner-cube2 xt_woofc-spinner-cube"></div>
+        <div class="xt_woofc-spinner-cube4 xt_woofc-spinner-cube"></div>
+        <div class="xt_woofc-spinner-cube3 xt_woofc-spinner-cube"></div>
+      </div>
+ *
+ */
+
+.xt_woofc-spinner-folding-cube {
+  $cubeCount: 4;
+  $animationDuration: 2.4s;
+  $delayRange: $animationDuration/2;
+
+  margin: var(--xt-woofc-spinner-margin);
+  width: var(--xt-woofc-spinner-size);
+  height: var(--xt-woofc-spinner-size);
+  position: relative;
+  transform: rotateZ(45deg);
+
+  .xt_woofc-spinner-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transform: scale(1.1);
+  }
+
+  .xt_woofc-spinner-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--xt-woofc-spinner-color);
+    animation: xt_woofc-spinner-foldCubeAngle $animationDuration infinite linear both;
+    transform-origin: 100% 100%;
+  }
+
+  // Rotation / angle
+  @for $i from 2 through $cubeCount {
+    .xt_woofc-spinner-cube#{$i} {
+      transform: scale(1.1) rotateZ(90deg * ($i - 1));
+    }
+  }
+
+  @for $i from 2 through $cubeCount {
+    .xt_woofc-spinner-cube#{$i}:before {
+      animation-delay: $delayRange / $cubeCount * ($i - 1);
+    }
+  }
+}
+
+@keyframes xt_woofc-spinner-foldCubeAngle {
+  0%, 10% {
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  } 25%, 75% {
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  } 90%, 100% {
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}

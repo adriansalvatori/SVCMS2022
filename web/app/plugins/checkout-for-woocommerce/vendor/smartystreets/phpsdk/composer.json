@@ -1,0 +1,32 @@
+{
+    "name": "smartystreets/phpsdk",
+    "type": "library",
+    "description": "The official PHP client library from SmartyStreets.",
+    "homepage": "https://github.com/smartystreets/smartystreets-php-sdk",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "SmartyStreets SDK Team",
+            "email": "support@smartystreets.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "psr/log": "^1.0.1"
+    },
+    "suggest": {
+        "psr/log": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartyStreets\\PhpSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+        "SmartyStreets\\PhpSdk\\Tests\\": "tests/" 
+    	}
+    }
+}

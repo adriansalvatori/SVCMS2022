@@ -1,0 +1,16 @@
+#cfw-payment-request-buttons {
+    #wcpay-payment-request-wrapper {
+        padding-top: 0 !important;
+        clear: none !important;
+        order: 2;
+        width: 140px;
+    }
+
+    #wcpay-payment-request-button {
+        height: 35px;
+    }
+}
+
+#wcpay-payment-request-button-separator {
+    display: none;
+}

@@ -1,0 +1,10 @@
+.guaven_woos_suggestion_list,.guaven_woos_suggestion_unlisted li {
+    display: inline-block;
+    overflow: auto;
+    min-height: 85px;
+    margin-bottom: 3px;
+    width: 50%;
+}
+
+.guaven_woos_img {width:75px;position:absolute}
+.guaven_woos_titlediv {padding-left:5px;margin-left:80px;font-size:12px}

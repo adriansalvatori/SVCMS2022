@@ -1,0 +1,33 @@
+body.woocommerce-checkout,
+body.woocommerce-cart{
+	.xt_woofc {
+		display: none;
+	}
+}
+
+.xt_woofc-show-on-tablet-only,
+.xt_woofc-show-on-tablet-desktop,
+.xt_woofc-show-on-desktop-only{
+	display:none;
+}
+
+@include MQ_MIN(M) {
+	.xt_woofc-show-on-mobile-only{
+		display:none;
+	}
+	.xt_woofc-show-on-tablet-only,
+	.xt_woofc-show-on-tablet-mobile,
+	.xt_woofc-show-on-tablet-desktop{
+		display:block;
+	}
+}
+
+@include MQ_MIN(L) {
+	.xt_woofc-show-on-tablet-only,
+	.xt_woofc-show-on-tablet-mobile{
+		display:none;
+	}
+	.xt_woofc-show-on-desktop-only{
+		display:block;
+	}
+}

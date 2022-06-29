@@ -1,0 +1,54 @@
+.xt_woofc-wrapper {
+	position: absolute;
+	z-index: 2;
+	border-radius: var(--xt-woofc-radius);
+	pointer-events: auto;
+	will-change: transform, width, height, box-shadow, padding-bottom;
+	box-shadow: 0 4px 30px rgba(#000, .17);
+
+	.xt_woofc-cart-close.xt_woofc-empty:not(.xt_woofc-force-visible) &,
+	.xt_woofc-cart-closed.xt_woofc-empty:not(.xt_woofc-force-visible) &{
+		opacity:0!important;
+	}
+
+	.xtfw-no-touchevents &:hover,
+	.xtfw-touchevents &:focus,
+	.xt_woofc-cart-open & {
+
+		box-shadow: 0 6px 30px rgba(#000, .3);
+	}
+
+	.xt_woofc-cart-open:not(.xt_woofc-cart-close) & {
+		background-color: var(--xt-woofc-bg-color);
+		overflow: hidden;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-bottom-right &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-bottom-right &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-bottom-right & {
+		bottom: 0;
+		right: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-bottom-left &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-bottom-left &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-bottom-left & {
+		bottom: 0;
+		left: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-top-right &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-top-right &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-top-right & {
+		top: 0;
+		right: 0;
+	}
+
+	.xt_woofc-is-desktop .xt_woofc-pos-top-left &,
+	.xt_woofc-is-tablet .xt_woofc-tablet-pos-top-left &,
+	.xt_woofc-is-mobile .xt_woofc-mobile-pos-top-left & {
+		top: 0;
+		left: 0;
+	}
+
+}

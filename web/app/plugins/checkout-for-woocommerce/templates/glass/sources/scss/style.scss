@@ -1,0 +1,38 @@
+/*!
+  Template Name:   	Glass
+  Author:           Clifton Griffin
+  Author URI:       https://objectiv.co/
+  Description:  	A sleek and smooth checkout template.
+  Version:      	1.0.0
+  Supports:         header-background, footer-background, order-pay, order-received, summary-background, accent-color, breadcrumb-colors
+ */
+
+$grid-gutter-width: 10px;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+) !default;
+
+@import "~bootstrap/scss/mixins/breakpoints";
+
+@import "components/alerts";
+@import "components/cart-summary";
+@import "components/breadcrumbs";
+@import "components/buttons";
+@import "components/header-footer";
+@import "components/shipping-method-list";
+@import "components/accordions";
+@import "components/cart-totals";
+@import "components/radio-buttons";
+@import "components/checkboxes";
+@import "components/order-bumps";
+
+:root {
+    --cfw-active-theme-colors-accent-color: #dee6fe;
+}

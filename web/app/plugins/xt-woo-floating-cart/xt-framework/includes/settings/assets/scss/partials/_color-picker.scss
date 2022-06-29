@@ -1,0 +1,20 @@
+.xtfw-settings-form {
+	.wp-picker-container {
+		.wp-color-picker {
+			width: 100%!important;
+		}
+		.wp-picker-open+.wp-picker-input-wrap{
+			display: flex;
+		}
+
+		.wp-picker-input-wrap label {
+			flex: 1;
+		}
+
+		@media screen and (max-width: 782px) {
+			span.color-alpha {
+				width: 40px !important;
+			}
+		}
+	}
+}

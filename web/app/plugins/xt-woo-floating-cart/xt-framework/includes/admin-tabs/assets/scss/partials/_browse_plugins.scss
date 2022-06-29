@@ -1,0 +1,18 @@
+.xtfw-admin-tabs-page.xt-plugins_page_xt-plugins-plugins {
+	.xtfw-plugins-tab .no-plugin-results {
+		padding: 50px;
+	}
+	.plugin-card {
+		h3{
+			margin: 0 12px 12px 0;
+		}
+		.desc {
+			p {
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+			}
+		}
+	}
+}

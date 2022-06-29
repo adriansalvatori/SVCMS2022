@@ -1,0 +1,56 @@
+.customize-control-xticons {
+  label {
+    position: relative;
+    display: inline-block;
+	font-size:30px;
+	width:23%;
+	min-height:30px;
+	padding:8px 0;
+	margin: 5px 0;
+	text-align:center;
+	box-sizing:border-box;
+	display:inline-block;
+	border:2px solid transparent;  
+	
+	&:hover{
+		border:2px solid #ddd;
+	}  
+  }
+  .icons-wrapper {
+    max-height: 300px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    
+    h4 {
+      font-weight: 300;
+      margin: 0.7em 0;
+    }
+    .xticons {
+      padding: 3px;
+      font-size: 25px;
+      width: 25px;
+      height: 25px;
+      border: 1px solid transparent;
+    }
+    input {
+      display: none;
+      &:checked {
+        + label {
+          .xticons {
+            border: 1px solid #3498DB;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  .xticons-select {
+    	display: none!important;
+
+		&:checked + label{
+    		border:2px solid #ddd;
+		}		
+   }
+}
+
+

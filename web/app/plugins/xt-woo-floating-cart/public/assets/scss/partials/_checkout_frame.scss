@@ -1,0 +1,138 @@
+
+.xt_woofc-checkout-frame {
+  z-index: 10;
+  border: 0;
+  flex: 1 1 auto;
+  height: 600px;
+  max-width: none!important;
+  overflow: hidden;
+  transition: opacity .3s, height .3s;
+  width: 100%;
+  opacity: 0;
+}
+
+.xt_woofc-checkout-loading {
+  .xt_woofc-header-right *:not(.xt_woofc-header-close){
+    opacity:0!important;
+    transition: opacity 0.3s!important;
+  }
+}
+
+.xt_woofc-checkout-loading,
+.xt_woofc-checkout-active,
+.xt_woofc-checkout-complete{
+
+  .xt_woofc-wrapper{
+    border-bottom-left-radius: var(--xt-woofc-radius);
+    border-bottom-right-radius: var(--xt-woofc-radius);
+    overflow:hidden;
+  }
+
+  .xt_woofc-list-wrap,
+  .xt_woofc-body-header > *:not(.xt_woofc-coupon-form),
+  .xt_woofc-body-footer{
+    display:none!important;
+  }
+}
+
+.xt_woofc-checkout-active,
+.xt_woofc-checkout-complete{
+
+  /* On order complete, cart is empty, keep xt_woofc-body-footer visible to avoid hiding the checkout frame */
+  .xt_woofc-empty .xt_woofc-body-footer {
+    opacity: 1!important;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10%;
+  }
+
+  .xt_woofc-body{
+    display: flex;
+    flex-direction: column;
+
+    .xt_woofc-body-header{
+      border-bottom:0;
+
+      >* {
+        border-bottom: 0;
+      }
+    }
+
+    .xt_woofc-body-footer{
+      border-top:0;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .xt_woofc-checkout-frame {
+    opacity: 1;
+  }
+}
+
+#xt_woofc-checkout-thankyou {
+  box-sizing: border-box;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .xt_woofc-is-mobile &{
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--xt-woofc-checkout-completed-title, var(--xt-woofc-primary-color));
+
+    .xt_woofc-is-mobile &{
+      font-size: 16px;
+    }
+
+    strong{
+      color: var(--xt-woofc-checkout-completed-title, var(--xt-woofc-accent-color));
+      display:block;
+      font-size: 25px;
+    }
+  }
+
+  p{
+    margin: 0 0 20px;
+    font-style: italic;
+  }
+
+  .button{
+    margin-top:15px;
+  }
+
+  .xt_woofc-spinner-wrap {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%) scale(0.7);
+    transform-origin: center center;
+    background: none;
+    width: initial;
+    height: initial;
+
+    .xt_woofc-spinner-inner{
+      top: 0;
+      left: 0;
+      transform: initial;
+      position: relative;
+    }
+  }
+}

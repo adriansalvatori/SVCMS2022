@@ -1,0 +1,212 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@import "@sass/global/_mixins.scss";
+@import "@sass/global/_loading.scss";
+
+html {
+  font-size: 13px;
+}
+@import "./global/tooltip.scss";
+@import "./global/transitions";
+
+.ph-scrollbar {
+  scrollbar-color: #e1e2e6 #f5f5f5; /* thumb and track color */
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    @apply ph-bg-gray-200;
+    @apply ph-rounded-full;
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    @apply ph-bg-gray-400;
+    @apply ph-rounded-full;
+    box-shadow: 0 4px 0 #fff, 0 -4px 0 #fff;
+  }
+  &::-webkit-scrollbar-track {
+    @apply ph-bg-gray-200;
+    @apply ph-rounded-full;
+  }
+
+  &-min {
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 5px;
+      height: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      @apply ph-bg-gray-200;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+
+  &-min-darker {
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 5px;
+      height: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      @apply ph-bg-gray-400;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+}
+
+.ph-rotate-0 {
+  transform: rotate(0deg);
+}
+.ph-rotate-45 {
+  transform: rotate(45deg);
+}
+.ph-rotate-90 {
+  transform: rotate(90deg);
+}
+.ph-rotate-180 {
+  transform: rotate(180deg);
+}
+.ph-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.ph-util-comment-icon {
+  position: relative;
+  @apply ph-bg-gray-500;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    right: 6px;
+    @apply ph-border-gray-500;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 0;
+    border-right-style: solid;
+    border-bottom: 5px solid transparent;
+    border-top: 0 solid transparent;
+    display: block;
+    width: 0;
+  }
+  &.ph-bg-primary {
+    @apply ph-bg-primary;
+
+    &:after {
+      @apply ph-border-primary;
+      border-bottom: 5px solid transparent;
+      border-top: 0 solid transparent;
+      border-right: 0 solid transparent;
+    }
+  }
+
+  &.ph-bg-white {
+    @apply ph-bg-white;
+
+    &:after {
+      @apply ph-border-white;
+      border-bottom: 5px solid transparent;
+      border-top: 0 solid transparent;
+      border-right: 0 solid transparent;
+    }
+  }
+
+  &.ph-bg-gray-600 {
+    @apply ph-bg-gray-600;
+
+    &:after {
+      @apply ph-border-gray-600;
+      border-bottom: 5px solid transparent;
+      border-top: 0 solid transparent;
+      border-right: 0 solid transparent;
+    }
+  }
+
+  &.ph-bg-green-500 {
+    @apply ph-bg-green-500;
+
+    &:after {
+      @apply ph-border-green-500;
+      border-bottom: 5px solid transparent;
+      border-top: 0 solid transparent;
+      border-right: 0 solid transparent;
+    }
+  }
+}
+
+.ph-util-overflow {
+  &-left {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 9;
+      background-image: linear-gradient(
+        to right,
+        white,
+        rgba(255, 255, 255, 0) 35%
+      );
+    }
+  }
+}
+
+.ph-util-has-more > {
+  :first-child {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 9;
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 100),
+        rgba(255, 255, 255, 0)
+      );
+    }
+  }
+}
+
+// editor
+.editor-content {
+  @include editor-styles;
+
+  &.is-mobile {
+    font-size: 16px;
+    // p,
+    // ol,
+    // ul,
+    // pre,
+    // blockquote {
+    //   font-size: 16px;
+    // }
+  }
+
+  .ProseMirror {
+    white-space: pre-wrap;
+    outline: none !important;
+    &:hover,
+    &:active {
+      outline: none !important;
+    }
+  }
+
+  p.is-empty:first-child:before {
+    content: attr(data-empty-text);
+    @apply ph-text-gray-500 ph-h-0 pointer-events-none ph-float-left;
+  }
+}

@@ -1,0 +1,8 @@
+html[uip-admin-theme="true"] {
+  .seopress-styles #seopress-header {
+    top: var(--uip-toolbar-height);
+  }
+  #seopress_cpt input[type="checkbox"]:checked::before {
+    display: block;
+  }
+}

@@ -1,0 +1,135 @@
+.xtfw-settings-form {
+
+	.forminp-range {
+		display: flex;
+
+		input[type=range] {
+			margin: 5px 0;
+			background-color: transparent;
+			-webkit-appearance: none;
+			flex: 1;
+
+			&,
+			+ output {
+				top:3px;
+				position:relative;
+			}
+
+			+ output{
+				padding: 0 0 0 6px;
+				opacity: 0.7;
+				font-size: 12px;
+			}
+
+			&:focus {
+				outline: none;
+			}
+
+			&::-webkit-slider-runnable-track {
+				background: $range-track-color;
+				border: 0px solid rgba(221, 221, 221, 0);
+				border: 0;
+				border-radius: 5px;
+				width: 100%;
+				height: 8px;
+				cursor: pointer;
+			}
+
+			&::-webkit-slider-thumb {
+				margin-top: -5px;
+				width: 18px;
+				height: 18px;
+				background: $range-thumb-color;
+				border: 0;
+				border-radius: 50px;
+				cursor: pointer;
+				-webkit-appearance: none;
+			}
+
+			&:focus::-webkit-slider-runnable-track {
+				background: #eaeaea;
+			}
+
+			&::-moz-range-track {
+				background: $range-track-color;
+				border: 0px solid rgba(221, 221, 221, 0);
+				border: 0;
+				border-radius: 5px;
+				width: 100%;
+				height: 8px;
+				cursor: pointer;
+			}
+
+			&::-moz-range-thumb {
+				width: 18px;
+				height: 18px;
+				background: $range-thumb-color;
+				border: 0;
+				border-radius: 50px;
+				cursor: pointer;
+			}
+
+			&::-ms-track {
+				background: transparent;
+				border-color: transparent;
+				border-width: 5px 0;
+				color: transparent;
+				width: 100%;
+				height: 8px;
+				cursor: pointer;
+			}
+
+			&::-ms-fill-lower {
+				background: #d0d0d0;
+				border: 0px solid rgba(221, 221, 221, 0);
+				border: 0;
+				border-radius: 10px;
+			}
+
+			&::-ms-fill-upper {
+				background: $range-track-color;
+				border: 0px solid rgba(221, 221, 221, 0);
+				border: 0;
+				border-radius: 10px;
+			}
+
+			&::-ms-thumb {
+				width: 18px;
+				height: 18px;
+				background: $range-thumb-color;
+				border: 0;
+				border-radius: 50px;
+				cursor: pointer;
+				margin-top: 0px;
+
+				/*Needed to keep the Edge thumb centred*/
+			}
+
+			&:focus {
+				&::-ms-fill-lower {
+					background: $range-track-color;
+				}
+
+				&::-ms-fill-upper {
+					background: $range-track-color;
+				}
+			}
+		}
+
+		/*
+		TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+		how to remove the vertical space around the range input in IE
+		*/
+		@supports (-ms-ime-align: auto) {
+			/* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+
+			input[type=range].slider {
+				margin: 0;
+
+				/*Edge starts the margin from the thumb, not the track as other browsers do*/
+			}
+		}
+
+	}
+
+}

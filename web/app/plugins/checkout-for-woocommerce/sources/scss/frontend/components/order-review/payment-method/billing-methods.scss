@@ -1,0 +1,122 @@
+#cfw-billing-methods {
+    .payment_method_title {
+        display: flex;
+        align-items: center;
+
+        > img:first-child {
+            margin-left: auto;
+        }
+    }
+
+    #stripe-card-element, #stripe-exp-element, #stripe-cvc-element {
+        padding: .94em .8em !important;
+    }
+
+    .wc-credit-card-form-card-number, .wc-credit-card-form-card-expiry, .wc-credit-card-form-card-cvc, .js-sv-wc-payment-gateway-credit-card-form-input {
+        &:not(iframe) {
+            padding: 0.82em !important;
+        }
+    }
+
+    .cfw-label-is-floated {
+        .wc-credit-card-form-card-number, .wc-credit-card-form-card-expiry, .wc-credit-card-form-card-cvc, .js-sv-wc-payment-gateway-credit-card-form-input {
+            padding: 1.35em 0.8em 0.28em 0.8em !important;
+        }
+    }
+
+    #stripe-card-element, #stripe-exp-element, #stripe-cvc-element, .wc-credit-card-form-card-number, .wc-credit-card-form-card-expiry, .wc-credit-card-form-card-cvc, .js-sv-wc-payment-gateway-credit-card-form-input {
+        background: #fff;
+        transition: all .2s ease !important;
+        color: #333333 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        font-size: 16px !important;
+        line-height: normal !important;
+        border-radius: 5px;
+        border: 1px solid #d9d9d9 !important;
+        box-shadow: none;
+    }
+
+    .woocommerce-notice {
+        padding: 20px;
+    }
+
+
+    .payment_method_icons {
+        display: flex;
+        align-items: center;
+        max-height: 18px;
+        justify-content: flex-end;
+
+        img {
+            min-width: 40px;
+            max-height: 32px;
+            margin-right: 0.25em !important; // standardize spacing between gateways
+
+            &:last-child {
+                margin-right: 0 !important;
+            }
+        }
+
+        a {
+            display: none;
+        }
+
+        @include media-breakpoint-down(lg) {
+            display: none !important;
+        }
+    }
+
+    .wc_payment_methods {
+        fieldset {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .wc_payment_method .payment_box {
+            & > * {
+                margin-bottom: 15px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    #stripe-payment-data {
+        & > * {
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        ul {
+            padding: 0;
+            margin-left: 0;
+            margin-right: 0;
+            list-style-type: none;
+
+            li {
+                margin-bottom: 8px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    ul.wc-saved-payment-methods {
+        list-style: none;
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+}

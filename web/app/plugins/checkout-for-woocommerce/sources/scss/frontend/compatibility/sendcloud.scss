@@ -1,0 +1,14 @@
+#sendcloudshipping_service_point_select {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#sendcloudshipping_service_point_select, #sendcloudshipping_service_point_selected_label {
+    @media (max-width: 375px) {
+        margin-left: 0;
+    }
+}
+
+#sendcloudshipping_service_point_selected_label {
+    font-size: 0.875em;
+}

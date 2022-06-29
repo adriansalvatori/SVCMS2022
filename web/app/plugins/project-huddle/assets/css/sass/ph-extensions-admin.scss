@@ -1,0 +1,15 @@
+.ph-extension {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 11px 14px 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 280px;
+  padding: 35px;
+  min-height: 260px;
+  position: relative;
+
+  .ph-extension-title {
+    margin-top: 0;
+  }
+}

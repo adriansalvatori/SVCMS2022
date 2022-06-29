@@ -1,0 +1,30 @@
+.xtfw-admin-menu-divider{
+  display:block;
+  margin: 1px 0 0;
+  padding:0;
+  height:1px;
+  line-height:1px;
+  background:#4a4e51;
+}
+
+.toplevel_page_xt-plugins {
+
+  &.wp-menu-open {
+    li {
+
+      a[href*="admin.php?page=xt-woo-variations-as-singles"] {
+        letter-spacing: -0.9px;
+      }
+
+      a {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  &:not(.wp-menu-open) {
+    ul.wp-submenu.wp-submenu-wrap {
+      min-width: 190px !important;
+    }
+  }
+}

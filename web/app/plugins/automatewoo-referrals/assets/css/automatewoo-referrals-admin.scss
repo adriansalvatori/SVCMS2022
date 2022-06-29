@@ -1,0 +1,118 @@
+$green: #73a724;
+$red: #a00;
+$orange: #ffba00;
+
+@mixin ir() {
+	display: block;
+	text-indent: -9999px;
+	position: relative;
+	height: 1em;
+	width: 1em;
+}
+
+@mixin icon( $glyph: "\e001" ) {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: $glyph;
+}
+
+.automatewoo-referral-status {
+	@include ir;
+	background: none;
+	font-size: 1.4em;
+	margin: 0 auto;
+
+	&:after {
+		@include icon;
+	}
+
+
+	&.status-pending:after {
+		content: "\e012";
+		color: $orange;
+	}
+
+	&.status-approved:after {
+		content: "\e015";
+		color: $green;
+	}
+
+	&.status-rejected:after {
+		content: "\e013";
+		color: $red;
+	}
+
+	&.status-potential-fraud:after {
+		content: "\e016";
+		color: $red;
+	}
+
+}
+
+
+.automatewoo-list-table {
+
+	&--referrals {
+		.column-status {
+			width: 50px;
+		}
+
+		.column-actions {
+			width: 100px;
+		}
+	}
+
+	&--advocates {
+		.column-invites_sent,
+		.column-referral_count,
+		.column-referral_revenue,
+		.column-credit_current,
+		.column-credit_total {
+			width: 14%;
+		}
+	}
+
+	&--referral-codes {
+		td.column-referral_code {
+			font-size: 14px;
+			font-family: Consolas, Monaco, monospace;
+		}
+	}
+
+}
+
+.automatewoo-referral-page {
+	.aw-referral-info-boxes {
+		margin: 11px 0 20px;
+	}
+
+	.automatewoo-field--type-price {
+		width: 160px;
+	}
+}
+
+.woocommerce .automatewoo-page--referrals .subsubsub {
+	margin: 8px 0 0;
+}
+
+
+.automatewoo-edit-referral-table {
+	.automatewoo-field--type-price {
+		width: 170px;
+	}
+}
+
+

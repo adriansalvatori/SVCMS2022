@@ -1,0 +1,19 @@
+$input-color: #242424;
+$input-bg-color: #ffffff;
+$input-border-color: #e0e0e0;
+$input-primary-color: #1b95e0;
+$input-radius: 3px;
+
+$switch-width: 55px;
+$switch-height: 25px;
+$switch-inactive-color: #e0e0e0;
+$switch-hover-color: #d9d9d9;
+$switch-active-color: $input-primary-color;
+
+$radio-button-inactive-color: #e0e0e0;
+$radio-button-hover-color: #d9d9d9;
+$radio-button-color: $input-color;
+$radio-button-active-color: $input-primary-color;
+
+$range-track-color: #e0e0e0;
+$range-thumb-color: $input-primary-color;

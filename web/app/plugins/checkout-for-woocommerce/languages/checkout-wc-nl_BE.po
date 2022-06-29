@@ -1,0 +1,1543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:45-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Er was een fout bij het inloggen. Controleer uw gegevens en probeer het "
+"opnieuw."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "E-mailadres bevat ongeldige domeinnaam."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Voer een geldige %s in."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Huisnummer"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Straatnaam"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Adresregel 2 toevoegen"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Bedrijf toevoegen"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Factuuradres"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "InGelogd met PayPal. Ga verder met uw bestelling hieronder."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Heb je een promo code? Klik hier."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Kortingscode"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Voer de promotiecode in"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Gefeliciteerd Je krijgt gratis standaard verzending."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "U bent %s verwijderd van gratis verzending!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Gebruik dit adres"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Verificatie adres"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Het door u opgegeven verzendadres komt niet overeen met het door onze "
+"verificatieservice voorgestelde adres. Gelieve uw adres te verifiëren."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Je bent binnengekomen"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Wij stellen voor"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Voer een juist telefoonnummer in."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Vul uw voor- en achternaam in."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Verzendadres"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Gelieve een nieuwe hoeveelheid in te voeren:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"De 3-cijferige veiligheidscode staat meestal op de achterkant van uw kaart. "
+"American Express kaarten hebben een 4-cijferige code op de voorkant."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Weet u zeker dat u dit artikel uit uw winkelwagen wilt verwijderen?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Voer een geldige postcode / ZIP in."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Geen verzendmethoden beschikbaar"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Bestelling Afronden"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Betaling"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Alle transacties zijn veilig en gecodeerd."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Uw bestelling is gratis. Geen betaling is vereist."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Hetzelfde als verzendadres"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Gebruik een ander factuuradres"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Terug naar bestel overzicht"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Doorgaan met de verzending"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Verder naar betalen"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Bestelling controleren"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Terug naar informatie"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Terug naar verzending"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Terug naar de betaling"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Of"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Verlaging"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Bodverhoging"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Orderoverzicht weergeven"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Samenvatting van de verbergingsvolgorde"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Snelle kassa"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Informatie"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Order beoordeling"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Heb je al een account?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Log in voor een snellere ervaring."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Maak een %s winkel account aan."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Als u geen account hebt, maken we er een voor u."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Welkom terug, %1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Afmelden."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Welkom terug"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Het lijkt erop dat u al een account heeft. Voer hieronder uw inloggegevens "
+"in."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Als u al eerder bij ons heeft gewinkeld, vul dan hieronder uw inloggegevens "
+"in."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Of ga verder als gast"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Facturerings- en afleveradres"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Leveradres"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Contact"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Wijzigen"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Methode"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Verzendmethode"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Selecteer het adres dat overeenkomt met uw kaart of betaalmethode."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Kortingscode"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Bestelling %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Dank je wel %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Status van bestelling"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Bestelling updates"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "U krijgt per e-mail updates over verzending en levering."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Contactinformatie"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Verzendkosten"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Inloggen"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Beoordeling"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Uw mandje is leeg"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Uw winkelwagen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://ww.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Mooie, conversie geoptimaliseerde kassasjablonen voor WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Selecteer een land"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "Login is optioneel. U kunt hieronder verder gaan met uw bestelling."
+
+#~ msgid "Address Required"
+#~ msgstr "Vereist adres"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 of hoger is vereist om CheckoutWC te "
+#~ "gebruiken.</h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Nieuwere versies van PHP zijn zowel sneller als veiliger, dus het updaten "
+#~ "zal een positief effect hebben op de prestaties van uw site."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Om fatale fouten te voorkomen, hebben we %s in <strong>%s</strong> "
+#~ "geladen, waardoor alle functies en functionaliteit worden uitgeschakeld. "
+#~ "In de meeste gevallen duurt het upgraden slechts enkele minuten. Neem "
+#~ "contact op met uw hostingprovider voor meer informatie."
+
+#~ msgid "safe mode"
+#~ msgstr "veilige modus"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Schakel de ondersteuning van de Beverentemmer in."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Laat Bever Themer de kop- en voettekst vervangen."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Schakel Elementor Pro-ondersteuning in."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Laat Elementor Pro de kop- en voettekst vervangen."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Afrekenen veld editor"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Activeer Checkout Field Editor adresveld overschrijft."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Laat WooCommerce Checkout Field Editor toe om de facturerings- en "
+#~ "verzendingsadresvelden te wijzigen."
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "Premium Features"
+#~ msgstr "Premium Eigenschappen"
+
+#~ msgid "Template"
+#~ msgstr "Sjabloon"
+
+#~ msgid "Design"
+#~ msgstr "Ontwerp"
+
+#~ msgid "Integrations"
+#~ msgstr "Integraties"
+
+#~ msgid "Addons"
+#~ msgstr "Addons"
+
+#~ msgid "License"
+#~ msgstr "Licentie"
+
+#~ msgid "Tools"
+#~ msgstr "Gereedschappen"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Aanbevolen plugins"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Afrekenen voor WooCommerce biedt prachtige, conversie-geoptimaliseerde "
+#~ "afrekensjablonen voor WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Deze instelling wordt overschreven door WooCommerce Checkout Field Editor."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Inschakelen / Uitschakelen"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Gebruik Afrekenen voor WooCommerce-sjabloon"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Schakel Checkout for WooCommerce-thema in of uit. (OPMERKING: Thema is "
+#~ "altijd ingeschakeld voor gebruikers van admin.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Login Stijl"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Verbeterd (Aanbevolen)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce Standaard"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Verbeterd: Automatisch tonen en verbergen van aanmeldingsvelden, "
+#~ "afhankelijk van het feit of het ingevoerde e-mailadres overeenkomt met "
+#~ "een account. (Aanbevolen)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce Standaard: Toon een login-herinnering in een banner boven het "
+#~ "afrekenformulier."
+
+#~ msgid "Registration Style"
+#~ msgstr "Registratie Stijl"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Verbeterd: Genereer automatisch een gebruikersnaam en wachtwoord en e-"
+#~ "mail het naar de klant met behulp van de native WooCommerce "
+#~ "functionaliteit. (Aanbevolen)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce Standaard: Er is een wachtwoordveld voorzien zodat de klant "
+#~ "zijn eigen wachtwoord kan kiezen. Niet aanbevolen."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Veldlabel stijl"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Drijvend (Aanbevolen)"
+
+#~ msgid "Normal"
+#~ msgstr "Normaal"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Drijvend: Automatisch tonen en verbergen van labels op basis van het feit "
+#~ "of het veld een waarde heeft. (Aanbevolen)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Normaal: Er verschijnen te allen tijde etiketten boven elk veld."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Artikellabel in de winkelwagen"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Tekst (Aanbevolen)"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Tekst: Koppel geen artikelen in het winkelwagentje aan één productpagina. "
+#~ "(Aanbevolen)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr ""
+#~ "Link: Koppel elk artikel in het winkelwagentje aan de productpagina."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "De Gegevensvertoning van het karretje"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Kort (Aanbevolen)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Korte weergave van alleen variatiewaarden. Bijvoorbeeld, Grootte: XL, "
+#~ "Kleur: Rood wordt weergegeven als XL / Rood. (Aanbevolen)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Bij gebruik van WooCommerce Default wordt elke variatie op een aparte "
+#~ "regel met dit formaat weergegeven: Label: Waarde"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Verzendstap overslaan"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Verzendstap overslaan"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "De verzendmethode stap kunnen verbergen. Handig als u maar één "
+#~ "verzendingsoptie heeft voor alle bestellingen."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Veld met bestelbonnen inschakelen"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Schakel het veld met de bestelbonnen in of uit. Standaard uitgeschakeld."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Mobiel couponveld"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr ""
+#~ "Toon het couponveld boven de betalingsmogelijkheden op de mobiele "
+#~ "telefoon."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Toon het couponveld boven de betalingsgateways op mobiele apparaten. "
+#~ "Helpt klanten het couponveld te vinden zonder de samenvatting van de "
+#~ "winkelwagen uit te breiden."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Mobiele creditcard logo's"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Creditcardlogo's op mobiele telefoons inschakelen"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Toon de creditcardlogo's op mobiel. Opmerking: Veel gateway-logo's kunnen "
+#~ "niet goed worden weergegeven op mobiele telefoons. Het is aan te raden om "
+#~ "te testen voordat u deze inschakelt. Standaard: Uit"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Samenvatting van het winkelwagentje Mobile Label"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Voorbeeld: Toon besteloverzicht en kortingsbonnen"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr ""
+#~ "Als u deze optie leeg laat, wordt deze standaardinstelling gebruikt: "
+
+#~ msgid "Header Scripts"
+#~ msgstr "Header-scripts"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Deze code zal output onmiddellijk vóór de afsluitende <code>&lt;/head&gt;"
+#~ "</code>-code in het brondocument."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Voettekst Scripts"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Deze code zal output onmiddellijk vóór de afsluitende <code>&lt;/body&gt;"
+#~ "</code>-code in het brondocument."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Toestaan ingeschakeld voor gebruik Volgen"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr ""
+#~ "Laat het afrekenen voor WooCommerce toe om het gebruik van de plugin te "
+#~ "volgen?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Statische verzameling Gegevensviewer"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Experimentele Integraties"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Experimentele integraties worden niet ondersteund en doorlopen niet "
+#~ "dezelfde testprocessen als onze aanbevolen configuraties."
+
+#~ msgid "Template Loader"
+#~ msgstr "Sjabloonlader"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Afleidingsvrij portaal (Aanbevolen)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress Thema"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Afleidingsvrije poort: Toon CheckoutWC-sjablonen in een afleidingsvrij "
+#~ "portaal dat het actieve WordPress-thema of de actieve WordPress-stijlen "
+#~ "niet laadt. (Aanbevolen)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "WordPress Thema: Laad CheckoutWC-sjablonen binnen het actieve WordPress-"
+#~ "thema-inhoudsgebied."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Experimentele - Niet-ondersteunde configuratie"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Winkelwagen bewerken"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Laat het bewerken van winkelwagentjes toe."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Aan- of uitschakelen van de functie voor het bewerken van "
+#~ "winkelwagentjes. Hiermee kan de klant het aantal artikelen uit de "
+#~ "winkelwagen verwijderen of aanpassen."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Winkelwagen Bewerken Leegte Winkelwagen Omleiden"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL om door te verwijzen naar wanneer de klant de winkelwagen van de "
+#~ "kassa-pagina leegmaakt."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr ""
+#~ "Indien leeg gelaten, wordt de klant doorgestuurd naar de "
+#~ "winkelwagenpagina."
+
+#~ msgid "Order Pay"
+#~ msgstr "Bestellen Betalen"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Activeer de ondersteuning voor de bestelbetaalpagina."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Gebruik het afrekensjabloon voor de betaalpagina van de bestelling."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Een pagina afrekenen"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Schakel een pagina afrekenen in."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Toon alle afrekenvelden op één tabblad. Handig voor digitale winkels of "
+#~ "winkels die het factuuradres en het verzendadres dwingen hetzelfde te "
+#~ "zijn."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Bedanktpagina"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Ondersteuning voor bedankpagina inschakelen."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Activeer bedankpagina / bestel ontvangen sjabloon. Dit sjabloon wordt ook "
+#~ "gebruikt bij het bekijken van bestellingen in Mijn Account."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Bestelstatussen"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "De statussen die op de bedankpagina te zien zijn."
+
+#~ msgid "Map Embed"
+#~ msgstr "Kaart Embed"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Schakel de insluiting van de kaart in."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Insluiten of uitschakelen van de kaart inbedden op de bedankpagina. "
+#~ "Vereist Google API-sleutel."
+
+#~ msgid "My Account"
+#~ msgstr "Mijn Account"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Gebruik het afrekensjabloon voor de betaalpagina van de bestelling."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Indien aangevinkt, zal het bekijken van bestellingen in Mijn Account de "
+#~ "bedankpaginasjabloon gebruiken."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Adres Autocomplete"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Schakel het adres autocompleet in."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Automatische aanvulling van het adres in- of uitschakelen van de functie "
+#~ "voor het automatisch aanvullen van het adres. Vereist Google API-sleutel."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API sleutel"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google API Key. Beschikbaar in de <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+
+#~ msgid "User Matching"
+#~ msgstr "Gebruikers Matchen"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Ingeschakeld (aanbevolen)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Ingeschakeld: Koppelt automatisch gastbestellingen aan gebruikersaccounts "
+#~ "bij een nieuwe aankoop en bij de registratie van een nieuwe gebruiker. "
+#~ "(Aanbevolen)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce Standaard: Bestellingen van gasten worden niet gelinkt aan "
+#~ "overeenkomstige accounts."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP-fragmenten"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Voeg hier PHP-fragmenten toe om uw afrekenpagina aan te passen. Als u "
+#~ "veel fragmenten heeft, kunt u overwegen om <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a> te gebruiken."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Licentie-upgrade vereist"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Een Groei- of Ontwikkelaarslicentie is vereist om deze functies mogelijk "
+#~ "te maken."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "U kunt uw licentie upgraden in <a target=\"_blank\" href=\"%1$s\">Mijn "
+#~ "Account</a>. Voor hulp bij het upgraden van uw licentie, <a target="
+#~ "\"_blank\" href=\"%2$s\">klik hier.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Het instellen van Override"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Deze instelling wordt momenteel programmatisch overruled. Om het in te "
+#~ "schakelen verwijdert u uw aangepaste code."
+
+#~ msgid "Templates"
+#~ msgstr "Templates"
+
+#~ msgid "Active: "
+#~ msgstr "Actieve: "
+
+#~ msgid "Activate"
+#~ msgstr "Activeren"
+
+#~ msgid "Global Settings"
+#~ msgstr "Algemene Instellingen"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Deze instellingen zijn van toepassing op alle Thema's."
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload image"
+#~ msgstr "Upload afbeelding"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Logo Verwijderen"
+
+#~ msgid "Footer Text"
+#~ msgstr "Footertekst"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Als het argument leeg is, wordt een standaard copyrightinformatie "
+#~ "getoond. Ingesteld op een enkele spatie om deze instelling wijzigen."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Thema specifieke instellingen"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr ""
+#~ "Deze instellingen zijn van toepassing op het door u geselecteerde thema. "
+#~ "(%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Lettertypen"
+
+#~ msgid "Body Font"
+#~ msgstr "Body Lettertype"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Systeemfontstapel"
+
+#~ msgid "Heading Font"
+#~ msgstr "Heading Lettertype"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "Standaard gebruikt CheckoutWC een System Font Stack, wat de snelste "
+#~ "prestaties oplevert. U kunt ervoor kiezen om hier een Google Font te "
+#~ "gebruiken."
+
+#~ msgid "Color Settings"
+#~ msgstr "Kleur instellingen"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Aangepast CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Voeg aangepaste CSS-regels toe om de uitstraling van het "
+#~ "afrekeningsjabloon volledig te controleren."
+
+#~ msgid "Export Settings"
+#~ msgstr "Exporteer Instellingen"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Download een back-upbestand van uw instellingen."
+
+#~ msgid "Import Settings"
+#~ msgstr "Importeer Instellingen"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Bestands- en importinstellingen uploaden"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Voordat u contact opneemt met de klantenservice"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Het antwoord op de meeste vragen vindt u in onze <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">kennisbank</a>."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Hier zijn enkele populaire gidsen:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Heb je nog steeds hulp nodig?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Als u na het doorzoeken van onze kennisbank nog steeds hulp nodig heeft, "
+#~ "helpen we u graag."
+
+#~ msgid "Contact Support"
+#~ msgstr "Contact opnemen met ondersteuning"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "Het WooCommerce ecosysteem zit vol met fantastische plugins. Hier zijn er "
+#~ "een paar die heel goed werken met CheckoutWC die we van harte aanbevelen "
+#~ "aan onze klanten. (Een paar van deze links kunnen ook affiliate tracking "
+#~ "bevatten. Dit heeft geen invloed op onze beslissing om een plugin op te "
+#~ "nemen.)"
+
+#~ msgid "More Info"
+#~ msgstr "Meer informatie"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong>%s</strong>: Waarschuwing incompatibele plugins gedetecteerd!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "Deactiveer deze plugins om problemen met uw kassa te voorkomen!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong>%s</strong>: Uw licentie is geldig en geactiveerd voor deze site, "
+#~ "maar uw sjabloon is uitgeschakeld voor normale gebruikers. Om dit te "
+#~ "verhelpen, ga naar %s &gt; %s &gt; %s en controleer \"%s\"."
+
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong>%s</strong>: Uw licentiesleutel lijkt te zijn verlopen. "
+#~ "Controleer of uw licentiesleutel geldig is of <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">verleng uw "
+#~ "licentie nu</a> om de volledige functionaliteit te herstellen."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong>%s</strong>: Uw licentiesleutel ontbreekt of is ongeldig. "
+#~ "Controleer of uw licentiesleutel geldig is of <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">koop een licentie</a> om de volledige "
+#~ "functionaliteit te herstellen."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Bedankt voor het installeren van Checkout voor WooCommerce! Klik om te "
+#~ "beginnen op <strong>Licentie</strong> hieronder en activeer uw "
+#~ "licentiesleutel!"
+
+#~ msgid "Phone"
+#~ msgstr "Telefoon"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Kan geen instellingen importeren. Heeft u een JSON-bestand "
+#~ "geselecteerd om te uploaden?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: Succesvol geïmporteerde instellingen."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Deze instellingen zijn alleen van toepassing op de huidige actieve "
+#~ "sjabloon. Als u overschakelt op sjablonen in de Customizer, zullen deze "
+#~ "instellingen niet meer beschikbaar zijn, maar zal het opslaan van "
+#~ "eventuele wijzigingen hier voorafgaand aan het overschakelen templates!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Activatie mislukt: Activeer WooCommerce alstublieft om gebruik te maken "
+#~ "van Checkout for WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Body Achtergrond Kleur"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Body Tekstkleur"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Kop Achtergrond Kleur"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Tekstkleur Header"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Voettekst Achtergrond Kleur"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Kleur tekst footer"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "AchtergrondKleur SamenVatting"
+
+#~ msgid "Accent Color"
+#~ msgstr "Accentkleur"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Primaire knop Achtergrondkleur"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Primaire knop tekst kleur"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Primaire knop Achtergrond Hover Kleur"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Primaire knop Tekst Hover Kleur"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Achtergrondkleur secundaire knop"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Tekstknop van de secundaire toets"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Secundaire knop Achtergrond Hover Kleur"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Secundaire knop Tekst Hover Color"
+
+#~ msgid "Link Color"
+#~ msgstr "Link kleur"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "De Kleur van de de Hoeveelheid van het karretjesachtergrond"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "De Kleur van de de hoeveelheid van het karretjestype Tekst"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s "
+#~ "details%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s "
+#~ "details%4$s of %5$supdate nu%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "U heeft geen toestemming om de plugin updates te installeren"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Laat het afrekenen voor WooCommerce toe om het gebruik van de plugin te "
+#~ "volgen? Help om het afrekenen voor WooCommerce beter te maken."
+
+#~ msgid "Allow"
+#~ msgstr "Toestaan"
+
+#~ msgid "Do not allow"
+#~ msgstr "Niet Toestaan"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Niet berekend"
+
+#~ msgid "Not Available"
+#~ msgstr "Niet beschikbaar"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "U betaalt voor een gastorder. Ga alleen verder met de betaling als u deze "
+#~ "bestelling herkent."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Deze bestelling kan niet betaald worden. Neem contact met ons op als u "
+#~ "hulp nodig heeft."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "De status van deze bestelling is “%s”; er kan niet voor betaald worden. "
+#~ "Neem contact met ons op als u hulp nodig heeft."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr ""
+#~ "Er is iets misgegaan bij het verwerken van uw bestelling. Probeer het nog "
+#~ "eens."
+
+#~ msgid "Edit"
+#~ msgstr "Bewerken"
+
+#~ msgid "Remove"
+#~ msgstr "Verwijderen"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Wachtwoord vergeten?"
+
+#~ msgid "Customer information"
+#~ msgstr "Klantinformatie"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "Selecteer de verzendmethode:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout voor WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "Uitstekende ondersteuning is in ons DNA."
+
+#~ msgid "First Name"
+#~ msgstr "Voornaam"
+
+#~ msgid "Last Name"
+#~ msgstr "Achternaam"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid ""
+#~ "You are using a legacy child theme which will be disabled in a future "
+#~ "version. Changing theme settings is not possible for legacy themes."
+#~ msgstr ""
+#~ "U gebruikt een erfenis kind thema dat zal worden uitgeschakeld in een "
+#~ "toekomstige versie. Het wijzigen van thema-instellingen is niet mogelijk "
+#~ "voor oudere Thema's."
+
+#~ msgid ""
+#~ "It looks like you are using a legacy checkout theme, located in %s. "
+#~ "Legacy themes are deprecated and you should upgrade to the new theme "
+#~ "structure as soon as possible to prevent problems with future release. "
+#~ "For more information, <a target=\"_blank\" href=\"https://www.checkoutwc."
+#~ "com/docs/developer-api/template-files/upgrading-legacy-custom-templates/"
+#~ "\">read our migration guide.</a>"
+#~ msgstr ""
+#~ "Het lijkt erop dat u gebruik maakt van een legacy Checkout-thema, gelegen "
+#~ "in %s. legacy Thema's zijn afgeschaft en je moet upgraden naar de nieuwe "
+#~ "thema-structuur zo spoedig mogelijk om problemen met de toekomstige "
+#~ "release te voorkomen. Voor meer informatie, <a target = \"_blank\" href="
+#~ "\"https://www.checkoutwc.com/docs/developer-api/template-files/upgrading-"
+#~ "legacy-custom-templates/\">Lees onze Migratiegids.</a>"
+
+#~ msgid "Subtotal"
+#~ msgstr "Subtotaal"
+
+#~ msgid "Taxes"
+#~ msgstr "Belastingen"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"
+
+#~ msgid "Show Phone Fields"
+#~ msgstr "Telefoon velden WeerGeven"
+
+#~ msgid "Enable billing and shipping phone fields"
+#~ msgstr "Velden voor facturering en verzend telefoon inschakelen"
+
+#~ msgid ""
+#~ "Enable or disable billing and shipping phone fields as required fields. "
+#~ "(Default: Disabled)"
+#~ msgstr ""
+#~ "In-of uitschakelen facturering en verzendkosten telefoon velden als "
+#~ "verplichte velden. (Standaard: uitgeschakeld)"
+
+#~ msgid "Last name"
+#~ msgstr "Achternaam"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Apt, suite, etc."
+#~ msgstr "Apt, suite, etc."
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "Postcode"
+
+#~ msgid "State / County"
+#~ msgstr "Provincie"
+
+#~ msgid "Town / City"
+#~ msgstr "Plaats"
+
+#~ msgid "Update country"
+#~ msgstr "Land bijwerken"
+
+#~ msgid "Select a state&hellip;"
+#~ msgstr "Selecteer een provincie&hellip;"
+
+#~ msgid "Choose an option"
+#~ msgstr "Kies een optie"
+
+#~ msgctxt "shipping packages"
+#~ msgid "Shipping"
+#~ msgid_plural "Shipping %d"
+#~ msgstr[0] "Verzendkosten"
+#~ msgstr[1] "Verzendkosten %d"
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please double check your "
+#~ "address, or contact us if you need any help."
+#~ msgstr ""
+#~ "Er zijn geen verzendmethoden beschikbaar. Controleer uw adres nogmaals of "
+#~ "neem contact met ons op voor hulp."
+
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your "
+#~ "location. Please contact us if you require assistance or wish to make "
+#~ "alternate arrangements."
+#~ msgstr ""
+#~ "Excuses, het lijkt erop dat er voor uw locatie geen betaalmethoden "
+#~ "beschikbaar zijn. Neem contact met ons op als u hulp nodig hebt of op "
+#~ "zoek bent naar alternatieve mogelijkheden."
+
+#~ msgid "Checkout is not available whilst your cart is empty."
+#~ msgstr "Afrekenen is niet beschikbaar als uw winkelmand leeg is."
+
+#~ msgid "Select an option&hellip;"
+#~ msgstr "Selecteer een optie&hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "Geen matches gevonden"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading failed"
+#~ msgstr "Laden mislukt"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "Voer %qty% of meer tekens in"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "Verwijder 1 teken"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "Verwijder %qty% tekens"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select 1 item"
+#~ msgstr "U mag slechts 1 artikel selecteren"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select %qty% items"
+#~ msgstr "Je kan slechts %qty% items selecteren"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "Meer resultaten aan het laden&hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Searching&hellip;"
+#~ msgstr "Bezig met zoeken&hellip;"
+
+#~ msgid "Cart"
+#~ msgstr "Winkelwagen"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "De nieuwe versie van %1$s is beschikbaar. <a target=“_blank” "
+#~ "class=“thickbox” href=“%2$s”>bekijk versie %3$s details</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van %1$s beschikbaar. <a target=“_blank” "
+#~ "class=“thickbox” href=“%2$s”>bekijk versie %3$s details</a> of <a "
+#~ "href=“%4$s”>update nu</a>."
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please ensure that your address "
+#~ "has been entered correctly, or contact us if you need any help."
+#~ msgstr ""
+#~ "Er zijn geen verzendmethoden beschikbaar. Zorg dat het juiste adres is "
+#~ "ingevoerd of neem contact met ons op als u hulp nodig heeft."
+
+#~ msgctxt "checkout-wc"
+#~ msgid "Apt, suite, etc. (optional)"
+#~ msgstr "Apt, suite, etc. (optioneel)"
+
+#~ msgid ""
+#~ "If you do not have an account, the information provided here will be used "
+#~ "to create an account on checkout."
+#~ msgstr ""
+#~ "Anders wordt de hier verstrekte informatie gebruikt een account aanmaken "
+#~ "op afrekenen."
+
+#~ msgid ""
+#~ "We can't wait to help you with Checkout for WooCommerce! Please fill out "
+#~ "the following form and one of our support staff will respond within 12-24 "
+#~ "hours. (average)"
+#~ msgstr ""
+#~ "We kunnen niet wachten om u te helpen met Checkout for WooCommerce! Vul "
+#~ "het onderstaande formulier in en een van onze ondersteuningsmedewerkers "
+#~ "reageert binnen 12-24 uur. (gemiddelde)"
+
+#~ msgid "Many issues are addressed in our documentation:"
+#~ msgstr "Veel problemen komen aan bod in onze documentatie:"
+
+#~ msgid "View Documentation"
+#~ msgstr "Bekijk documentatie"
+
+#~ msgid ""
+#~ "If you need help for something not covered in our documentation, please "
+#~ "click this button to file a support request:"
+#~ msgstr ""
+#~ "Als u hulp nodig heeft voor iets dat niet in onze documentatie staat, "
+#~ "klikt u op deze knop om een ​​ondersteuningsverzoek in te dienen:"
+
+#~ msgid "Support Request"
+#~ msgstr "Support Aanvraag"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce requires WooCommerce Stripe Payment Gateway 3.2."
+#~ "x. You currently have version "
+#~ msgstr ""
+#~ "Afrekenen voor WooCommerce vereist WooCommerce Stripe Payment Gateway 3.2."
+#~ "x. Je hebt momenteel versie "
+
+#~ msgid "Create a %s shopping account."
+#~ msgstr "Maak een %s winkel account aan."
+
+#~ msgid ""
+#~ "Shipping costs will be calculated once you have provided your address."
+#~ msgstr "De verzendkosten worden berekend zodra u uw adres heeft ingevoerd."
+
+#~ msgid "Apartment, suite, unit etc."
+#~ msgstr "Appartement, suite, eenheid enz."
+
+#~ msgid "Header Shadow Color"
+#~ msgstr "Kopschaduw Kleur"
+
+#~ msgid "Brandon Tassone"
+#~ msgstr "Brandon Tassone"

@@ -1,0 +1,117 @@
+{
+    "packages": [
+        {
+            "name": "smartystreets/phpsdk",
+            "version": "4.16.10",
+            "version_normalized": "4.16.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smartystreets/smartystreets-php-sdk.git",
+                "reference": "39ca2ee8eafad20b194e1f4587b96389e10ca2d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smartystreets/smartystreets-php-sdk/zipball/39ca2ee8eafad20b194e1f4587b96389e10ca2d1",
+                "reference": "39ca2ee8eafad20b194e1f4587b96389e10ca2d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "psr/log": "^1.0.1"
+            },
+            "suggest": {
+                "psr/log": "^1.0.1"
+            },
+            "time": "2022-03-23T18:32:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SmartyStreets\\PhpSdk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "SmartyStreets SDK Team",
+                    "email": "support@smartystreets.com"
+                }
+            ],
+            "description": "The official PHP client library from SmartyStreets.",
+            "homepage": "https://github.com/smartystreets/smartystreets-php-sdk",
+            "support": {
+                "issues": "https://github.com/smartystreets/smartystreets-php-sdk/issues",
+                "source": "https://github.com/smartystreets/smartystreets-php-sdk/tree/4.16.10"
+            },
+            "install-path": "../smartystreets/phpsdk"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.4.47",
+            "version_normalized": "3.4.47.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "b6b6ad3db3edb1b4b1c1896b1975fb684994de6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/b6b6ad3db3edb1b4b1c1896b1975fb684994de6e",
+                "reference": "b6b6ad3db3edb1b4b1c1896b1975fb684994de6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8"
+            },
+            "time": "2020-11-16T17:02:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/finder"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

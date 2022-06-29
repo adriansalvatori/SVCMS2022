@@ -1,0 +1,38 @@
+main.checkoutwc {
+    .iti {
+        width: 100%;
+    }
+
+    .iti__flag {
+        background-image: url("../../images/flags.png");
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .iti__flag {
+            background-image: url("../../images/flags@2x.png");
+        }
+    }
+
+    .iti__selected-flag {
+        max-height: 44px; // prevent parsley error from causing flag to offset
+    }
+
+    .iti--allow-dropdown {
+        input {
+            padding-right: 6px !important;
+            padding-left: 50.82px !important;
+        }
+    }
+
+    .intl-tel-input-label {
+        padding-left: 53.92px !important;
+    }
+
+    .iti__country-list {
+        z-index: 100000;
+    }
+
+    .iti__selected-flag:focus {
+        outline: none;
+    }
+}

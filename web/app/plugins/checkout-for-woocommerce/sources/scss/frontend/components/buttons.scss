@@ -1,0 +1,129 @@
+@mixin cfw-primary-button() {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    background: var(--cfw-buttons-primary-background-color);
+    color: var(--cfw-buttons-primary-text-color);
+    border-radius: 5px;
+    border: 1px solid var(--cfw-buttons-primary-background-color);
+    font-size: 1em;
+    box-sizing: border-box;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: 19px 15px;
+
+    &:hover {
+        background: var(--cfw-buttons-primary-hover-background-color);
+        color: var(--cfw-buttons-primary-hover-text-color);
+        border-color: var(--cfw-buttons-primary-hover-background-color);
+    }
+
+    &:focus {
+        outline-style: none;
+    }
+}
+
+@mixin cfw-secondary-button() {
+    border: 1px solid var(--cfw-buttons-secondary-background-color);
+    box-shadow: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.82rem;
+    font-size: 1em;
+    background: var(--cfw-buttons-secondary-background-color);
+    color: var(--cfw-buttons-secondary-text-color);
+    text-align: center;
+    transition: all .1s ease-in-out;
+    display: inline-block;
+    width: 100%;
+
+    &:hover {
+        background: var(--cfw-buttons-secondary-hover-background-color);
+        color: var(--cfw-buttons-secondary-hover-text-color);
+        border-color: var(--cfw-buttons-secondary-hover-background-color);
+    }
+
+    &:focus {
+        outline-style: none;
+    }
+}
+
+// Target .checkoutwc so that our modaal wrapper (SmartyStreets) and main container both are ancestors
+.checkoutwc {
+    .cfw-prev-tab {
+        transition: all .2s ease;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+    @include media-breakpoint-down(lg) {
+        .previous-button {
+            text-align: center;
+        }
+    }
+
+    .cfw-secondary-btn, a.button, .woocommerce-button, input[type="button"] {
+        &:not(.cfw-primary-btn):not(.cfw-quantity-stepper-btn-minus):not(.cfw-quantity-stepper-btn-plus) {
+            @include cfw-secondary-button();
+        }
+    }
+
+    .cfw-primary-btn, #info_payment button {
+        @include cfw-primary-button();
+    }
+
+    a.button, .woocommerce-button {
+        width: 100%;
+    }
+
+    a.button {
+        width: auto;
+        text-decoration: none;
+    }
+}
+
+main.cfw-one-page-checkout {
+    .cfw-return-to-shipping-btn {
+        display: none;
+    }
+}
+
+.cfw-button-text {
+    pointer-events: none;
+}
+
+.cfw-button-loading {
+    position: relative;
+
+    .cfw-button-text {
+        visibility: hidden;
+    }
+}
+
+.cfw-button-loading::after {
+    content: "";
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid transparent;
+    border-top-color: currentColor;
+    border-radius: 50%;
+    animation: cfw-button-loading-spinner 1s ease infinite;
+}
+
+@keyframes cfw-button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}

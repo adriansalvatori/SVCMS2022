@@ -1,0 +1,117 @@
+.xt_woofc-checkout {
+	display: block;
+	height: var(--xt-woofc-checkout-btn-height);
+	line-height: var(--xt-woofc-checkout-btn-height);
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	transition: all .5s;
+	transform: translateX(0);
+	overflow: hidden;
+	opacity: 0;
+	word-wrap: initial;
+
+	.xt_woofc-hide-trigger & {
+		margin: 0 !important;
+	}
+
+	.xt_woofc-dash,
+	.amount {
+		transition: width 0.2s, opacity 0.2s;
+		display: inline-block;
+		line-height: 1;
+	}
+
+	&.xt_woofc-processing {
+		.xt_woofc-dash,
+		.amount {
+			width: 0;
+			overflow: hidden;
+			opacity: 0;
+		}
+	}
+
+	.xt_woofc-cart-opened & {
+		transition: all .3s 0s, opacity 0.3s 0.15s;
+	}
+
+	.xt_woofc-cart-open & {
+		opacity: 1;
+		transition: color 0.2s, opacity 0.3s, visibility 0.3s, transform 0.5s ease, border-radius .5s;
+		background: var(--xt-woofc-checkout-btn-bg-color);
+
+		em {
+			transform: translateX(0);
+			transition: transform .2s .1s, padding .2s 0s;
+
+			.xt_woofc-checkout-arrow * {
+				stroke: var(--xt-woofc-checkout-btn-color);
+			}
+		}
+
+		.xtfw-no-touchevents &:not(.xt_woofc-processing):hover,
+		.xtfw-touchevents &:not(.xt_woofc-processing):focus {
+
+			background: var(--xt-woofc-checkout-btn-bg-hover-color);
+
+			em {
+
+				color: var(--xt-woofc-checkout-btn-hover-color);
+				padding-right: 30px;
+
+				span{
+					color: var(--xt-woofc-checkout-btn-hover-color);
+				}
+
+				.xt_woofc-checkout-arrow {
+					opacity: 1;
+
+					* {
+						stroke: var(--xt-woofc-checkout-btn-hover-color);
+					}
+				}
+			}
+		}
+
+		@include MQ_MAX(XS) {
+
+			.amount,
+			.xt_woofc-dash {
+				display: none;
+			}
+		}
+
+	}
+
+	.xtfw-no-touchevents &:hover,
+	.xtfw-touchevents &:focus {
+		background: var(--xt-woofc-checkout-btn-bg-hover-color);
+	}
+
+	em {
+		position: relative;
+		display: inline-block;
+		transform: translateX(40px);
+		transition: transform 0s .2s;
+		color: var(--xt-woofc-checkout-btn-color);
+
+		span{
+			color: var(--xt-woofc-checkout-btn-color);
+		}
+
+		.xt_woofc-checkout-arrow {
+			position: absolute;
+			@include center(y);
+			right: 0;
+			height: 24px;
+			width: 24px;
+			opacity: 0;
+			transition: opacity .2s;
+		}
+	}
+
+	@include MQ_MIN(M) {
+		font-size: 24px;
+	}
+}

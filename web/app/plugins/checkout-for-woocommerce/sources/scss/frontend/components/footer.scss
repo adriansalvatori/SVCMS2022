@@ -1,0 +1,28 @@
+#cfw-footer {
+    text-align: center;
+    background: var(--cfw-footer-background-color);
+    color: var(--cfw-footer-text-color, #999);
+    font-size: 0.825em;
+    margin-top: var(--cfw-footer-top-margin);
+}
+
+#cfw-footer .cfw-footer-inner {
+    padding: 40px 20px;
+
+    ul.menu {
+        list-style: none;
+        margin: 0.5em 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 0.5em;
+        }
+    }
+}
+
+#wp_footer {
+    & > *:not(.pakkelabels-modal):not(.shipmondo-modal):not(#fb-root) {
+        display: none;
+    }
+}

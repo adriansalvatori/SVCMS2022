@@ -1,0 +1,16 @@
+<wpml-config>
+    <admin-texts>
+        <key name="aw_referrals_widget_heading"/>
+        <key name="aw_referrals_widget_text"/>
+        <key name="aw_referrals_social_share_text"/>
+        <key name="aw_referrals_social_share_text_twitter"/>
+        <key name="aw_referrals_social_share_url"/>
+        <key name="aw_referrals_share_email_subject"/>
+        <key name="aw_referrals_share_email_heading"/>
+        <key name="aw_referrals_share_email_body"/>
+        <key name="aw_referrals_offer_amount"/>
+        <key name="aw_referrals_offer_min_purchase"/>
+        <key name="aw_referrals_reward_amount"/>
+        <key name="aw_referrals_reward_min_purchase"/>
+    </admin-texts>
+</wpml-config>

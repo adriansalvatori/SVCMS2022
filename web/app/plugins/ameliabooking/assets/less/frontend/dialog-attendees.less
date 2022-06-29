@@ -1,0 +1,298 @@
+.amelia-app-booking {
+  #am-cabinet {
+    .am-dialog-attendees-wrapper {
+
+      // Element Dialog
+      .el-dialog {
+        overflow: hidden;
+        min-height: 400px;
+
+        .el-dialog__header {
+          padding: @padding-big;
+        }
+
+        .el-dialog__body {
+          padding: 0;
+        }
+      }
+
+      // Dialog
+      .am-dialog-attendees-inner {
+
+        // Loader
+        .am-dialog-loader {
+          background-color: @color-bgr;
+        }
+
+        // Scrollable
+        .am-dialog-scrollable {
+          padding: 0 @padding-big 70px;
+          margin-bottom: 70px;
+
+          // Tabs Content
+          .el-tabs__content {
+            padding-top: @padding-medium;
+          }
+
+          // Add Attendee Button
+          .el-button {
+            margin: 0;
+          }
+
+          // Empty State
+          .am-empty-state {
+            text-align: center;
+            padding: @padding-big*4 @padding-medium;
+
+            h2 {
+              margin-top: 16px;
+              font-size: 16px;
+              font-weight: normal;
+            }
+          }
+
+          // Search
+          .am-search {
+            margin: @margin-medium 0;
+
+            .el-input {
+              &:before {
+                content: "\e778";
+                font-family: element-icons !important;
+                -webkit-font-smoothing: antialiased;
+                vertical-align: baseline;
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 11px;
+                margin-top: -7px;
+                color: @color-text-second;
+                line-height: 1;
+              }
+
+              input {
+                background-color: @color-light-gray;
+                padding-left: @padding-medium*2;
+              }
+            }
+
+            .button-export {
+              padding: 10px 20px;
+              width: 100%;
+            }
+          }
+
+          // Attendees
+          .am-attendees {
+            .am-attendee {
+              border-bottom: 1px solid @color-divider-gray;
+              padding: 0;
+
+              .am-attendee-data {
+                padding: 0 8px;
+
+                .el-popper {
+                  min-width: unset !important;
+
+                  .el-select-dropdown__item {
+                    padding: 20px;
+                  }
+                }
+              }
+
+              &:first-child {
+                border-top: 1px solid @color-divider-gray;
+              }
+
+              &.is-active, &:hover {
+                background: rgba(0, 0, 0, 0.05);
+              }
+
+              .el-checkbox {
+                margin-left: @margin-small;
+              }
+
+              .el-collapse-item__header {
+                position: relative;
+              }
+
+              .el-row {
+                display: flex;
+                align-items: center;
+                @media @less-then-small {
+                  display: block;
+                }
+              }
+
+              .el-collapse-item__arrow {
+                position: absolute;
+                z-index: 1;
+                right: 0;
+                cursor: pointer;
+                pointer-events: all;
+                padding: 8px;
+                line-height: 1;
+                margin: 0;
+
+              }
+
+              .am-attendee-name {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: @margin-small;
+                padding: @padding-medium 0;
+
+                h3 {
+                  margin: 0;
+                  font-size: 16px;
+                  color: @color-text-prime;
+                  display: flex;
+                  align-items: center;
+
+                  .am-attendees-plus {
+                    margin-left: 8px;
+                  }
+                }
+
+                span {
+                  color: @color-url;
+                  font-weight: normal;
+                }
+
+                .am-attendee-phone, .am-attendee-email {
+                  display: block;
+                  width: 100%;
+                }
+
+                .am-attendees-plus {
+                  font-size: @mini-fs;
+                  padding: 1px 6px;
+                  display: inline-block;
+                  vertical-align: top;
+                  background: fade(@color-blue, 20%);
+                  color: @color-blue;
+                  border-radius: 4px;
+                  margin: 0 @margin-small/2;
+                }
+              }
+
+              .am-appointment-status {
+                position: relative;
+
+                @media @less-then-medium {
+                  margin-bottom: 16px;
+                }
+
+                .el-select {
+                  i {
+                    display: none;
+                  }
+
+                  input {
+                    width: 0;
+                    padding: 0 @padding-medium + 2px;
+                    color: #ffffff;
+                  }
+                }
+              }
+
+              .am-attendee-collapse {
+                padding: @padding-medium @padding-small @padding-medium @padding-medium*2;
+                border-top: 1px solid @color-divider-gray;
+
+                span {
+                  margin: 0;
+                  font-size: @small-fs;
+                  color: @color-text-second;
+                }
+
+                p {
+                  margin: 0;
+                  line-height: 24px;
+                  font-size: @small-fs;
+                  font-weight: 500;
+                  color: @color-text-prime;
+                }
+
+                .el-button {
+                  margin-top: @margin-medium;
+                }
+              }
+            }
+          }
+        }
+
+        // Footer
+        .am-dialog-footer {
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          height: 70px;
+          border-top: 2px solid #E4E7ED;
+          display: flex;
+          align-items: center;
+          padding: 0 24px;
+
+          .am-dialog-footer-actions {
+            width: 100%;
+
+            .el-row {
+              width: 100%;
+
+              .align-left {
+                text-align: left;
+              }
+
+              .align-right {
+                text-align: right;
+              }
+
+              button {
+                margin: 0;
+
+                &:last-of-type {
+                  margin-left: 8px;
+                }
+              }
+            }
+          }
+        }
+
+
+        // Labels
+        label, p {
+          font-size: 14px;
+        }
+
+        // Spinner
+        .el-form-item {
+          .is-spinner {
+            width: 22px;
+            height: 22px;
+            display: none;
+            position: absolute;
+            right: 35px;
+            top: 8px;
+            stroke: @color-text-second;
+
+            &.is-spinner-right {
+              right: 12px;
+            }
+          }
+
+          &.active {
+            .is-spinner {
+              display: block;
+            }
+          }
+        }
+
+        // Number Input
+        .el-input-number {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

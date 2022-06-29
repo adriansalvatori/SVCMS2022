@@ -1,0 +1,28 @@
+/* Settings Page */
+.ph-project_page_project_huddle_settings,
+.toplevel_page_project_huddle_settings {
+  .wp-picker-container {
+    display: block;
+  }
+  span.description {
+    color: #999;
+  }
+  .form-table tr > th > strong {
+    font-size: 18px;
+    color: #a3a3a3;
+  }
+
+  label.radio {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"] {
+    width: 100%;
+    max-width: 380px;
+    display: block;
+  }
+  strong.divider {
+    font-weight: 300;
+    font-size: 20px;
+  }
+}

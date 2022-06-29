@@ -1,0 +1,11 @@
+.pickup-location-field {
+  margin-top: 0.5em;
+
+  em, span, p {
+    margin-bottom: 0.5em;
+  }
+}
+
+.ui-datepicker.pickup-location-appointment-datepicker {
+    z-index: 1000 !important;
+}

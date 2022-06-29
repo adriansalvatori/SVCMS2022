@@ -1,0 +1,84 @@
+<?php
+
+namespace Uncanny_Automator_Pro;
+
+/**
+ * Class WPUM_USERREJECTED
+ * @package Uncanny_Automator_Pro
+ */
+class WPUM_USERREJECTED {
+	/**
+	 * Integration code
+	 * @var string
+	 */
+	public static $integration = 'WPUSERMANAGER';
+
+	/**
+	 * @var string
+	 */
+	private $trigger_code;
+	/**
+	 * @var string
+	 */
+	private $trigger_meta;
+
+	/**
+	 * Set up Automator trigger constructor.
+	 */
+	public function __construct() {
+		$this->trigger_code = 'WPUMUSERREJECTED';
+		$this->trigger_meta = 'WPUMUVREJECTED';
+		if ( class_exists( 'WPUM_User_Verification' ) ) {
+			$this->define_trigger();
+		}
+	}
+
+	/**
+	 * Define and register the trigger by pushing it into the Automator object
+	 */
+	public function define_trigger() {
+
+		global $uncanny_automator;
+		$trigger = array(
+			'author'              => $uncanny_automator->get_author_name( $this->trigger_code ),
+			'support_link'        => $uncanny_automator->get_author_support_link( $this->trigger_code, 'integration/wp-user-manager/' ),
+			'integration'         => self::$integration,
+			'code'                => $this->trigger_code,
+			'is_pro'              => true,
+			/* translators: Logged-in trigger - WP User Manager */
+			'sentence'            => __( 'A user is rejected', 'uncanny-automator-pro' ),
+			/* translators: Logged-in trigger - WP User Manager */
+			'select_option_name'  => __( 'A user is rejected', 'uncanny-automator-pro' ),
+			'action'              => 'wpumuv_before_user_rejection',
+			'priority'            => 99,
+			'accepted_args'       => 1,
+			'validation_function' => array( $this, 'wpum_user_rejected' ),
+			'options'             => [],
+		);
+
+		$uncanny_automator->register->trigger( $trigger );
+	}
+
+	/**
+	 * @param $user_id
+	 */
+	public function wpum_user_rejected( $user_id ) {
+		global $uncanny_automator;
+
+		if ( 0 === absint( $user_id ) ) {
+			// Its a logged in recipe and
+			// user ID is 0. Skip process
+			return;
+		}
+
+		$pass_args = [
+			'code'           => $this->trigger_code,
+			'meta'           => $this->trigger_meta,
+			'user_id'        => $user_id,
+			'ignore_post_id' => true,
+		];
+
+		$uncanny_automator->maybe_add_trigger_entry( $pass_args );
+	}
+
+}

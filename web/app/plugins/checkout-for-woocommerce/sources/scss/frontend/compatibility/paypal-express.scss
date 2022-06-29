@@ -1,0 +1,63 @@
+.wcppec-checkout-buttons {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+#cfw-payment-request-buttons {
+  #checkout_paypal_message {
+    order: 1;
+    margin-right: 4px !important;
+    display: inline-block;
+    max-width: 140px;
+    overflow: hidden;
+    border-radius: 4px;
+
+    #paypal_box_button {
+      max-width: 140px;
+        div.paypal-buttons.paypal-buttons-context-iframe {
+            width: auto;
+        }
+
+        iframe {
+            max-width: 140px;
+        }
+
+      .woocommerce_paypal_ec_checkout_message {
+        display: none;
+      }
+    }
+  }
+
+  #checkout_paypal_message {
+    background: none;
+    padding: 0;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+
+    .clear { display: none !important; }
+  }
+}
+
+.paypal-cancel-wrapper {
+  text-align: right;
+  margin-top: 1em;
+
+  .button.alt.angelleye_cancel {
+    float: none !important;
+    clear: both;
+  }
+}
+
+@media(max-width: 500px) {
+  #cfw-payment-request-buttons {
+    #checkout_paypal_message {
+      #paypal_box_button {
+        .angelleye_smart_button_checkout_top {
+          width: 250px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+/* Inputs */
+input[type="text"], input[type="text"]:focus, input[type="text"]:active,
+input[type="email"], input[type="email"]:focus, input[type="email"]:active,
+input[type="password"], input[type="password"]:focus, input[type="password"]:active,
+textarea, textarea:focus, textarea:active {
+	&:not(.medium-editor-toolbar-input) {
+		outline: none !important;
+		font-family: $body-font-family;
+		font-size: 1em;
+		width: 100%;
+		background: #f3f3f3;
+		color: #777;
+		border: none;
+		display: block;
+		padding: 15px;
+		margin-bottom: 10px;
+	}
+}
+
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+/* Honeypot */
+input[type="text"]#ph-website {
+	display: none;
+}
+
+/* Labels */
+label {
+	font-family: $nav-font-family;
+	font-size: 10px;
+	text-transform: $button-text-transform;
+	letter-spacing: $button-letter-spacing;
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* Text Areas */
+textarea, textarea:focus, textarea:active {
+	line-height: $body-line-height;
+	resize: none;
+	overflow: auto;
+	max-height: 300px;
+}

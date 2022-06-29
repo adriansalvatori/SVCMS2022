@@ -1,0 +1,7 @@
+#ppcp-credit-card-gateway-card-number, #ppcp-credit-card-gateway-card-expiry, #ppcp-credit-card-gateway-card-cvc {
+    height: 46.21875px !important;
+}
+
+#ppcp-hosted-fields button.button {
+    @include cfw-primary-button();
+}

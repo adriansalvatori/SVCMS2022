@@ -1,0 +1,47 @@
+/**
+ * Liker
+ * Liker helps you rate and like articles on a website and keep track of results.
+ * Exclusively on https://1.envato.market/liker
+ *
+ * @encoding        UTF-8
+ * @version         2.2.3
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Nemirovskiy Vitaliy (nemirovskiyvitaliy@gmail.com), Dmitry Merkulov (dmitry@merkulov.design)
+ * @support         help@merkulov.design
+ **/
+
+@import "includes/tab-activation"
+@import "includes/tab-assignments"
+@import "includes/tab-uninstall"
+
+.mdc-drawer__content > .mdc-list
+  margin-bottom: 40px
+
+.mdc-filed-divider
+  margin-left: -210px
+  margin-top: 0
+  margin-bottom: 0
+
+.mdc-social
+  display: flex
+  align-items: baseline
+  position: absolute
+  bottom: 16px
+  min-width: 240px
+  justify-content: space-between
+
+  .mdc-list-item
+    width: fit-content
+
+    svg
+      max-width: 16px
+      margin: 0 3px
+
+      path
+        fill: rgba(10,33,56,.6)
+
+@media screen and (max-width: 620px)
+
+  .mdc-social
+    display: none

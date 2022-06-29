@@ -1,0 +1,12 @@
+// Fetchify address autocomplete UI
+body.admin-bar.glass #cc_c2a {
+    margin-top: -32px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: -46px;
+    }
+}
+
+#cc_c2a {
+    display: none;
+}

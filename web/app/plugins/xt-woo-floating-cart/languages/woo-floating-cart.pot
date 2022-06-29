@@ -1,0 +1,1796 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: XT Floating Cart for WooCommerce\n"
+"POT-Creation-Date: 2021-11-10 17:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xt-woo-floating-cart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: deploy\n"
+"X-Poedit-SearchPathExcluded-2: xt-framework\n"
+
+#: admin/class-admin.php:70 admin/customizer/fields/product.php:9
+msgid "General"
+msgstr ""
+
+#: admin/class-admin.php:76
+msgid "Cart Settings"
+msgstr ""
+
+#: admin/class-admin.php:82
+msgid "Trigger Settings"
+msgstr ""
+
+#: admin/class-admin.php:88
+msgid "Cart Header"
+msgstr ""
+
+#: admin/class-admin.php:94
+msgid "Cart Body"
+msgstr ""
+
+#: admin/class-admin.php:100
+msgid "Cart Product"
+msgstr ""
+
+#: admin/class-admin.php:106
+msgid "Cart Footer"
+msgstr ""
+
+#: admin/class-admin.php:112
+msgid "Cart Coupons"
+msgstr ""
+
+#: admin/class-admin.php:118
+msgid "Suggested Products"
+msgstr ""
+
+#: admin/class-admin.php:124
+msgid "Cart Menu Item"
+msgstr ""
+
+#: admin/class-admin.php:130
+msgid "Cart Trigger Shortcode"
+msgstr ""
+
+#: admin/class-admin.php:136
+msgid "Visibility"
+msgstr ""
+
+#: admin/class-admin.php:142
+msgid "Typography"
+msgstr ""
+
+#: admin/class-admin.php:148
+msgid "Cart Extras"
+msgstr ""
+
+#: admin/class-admin.php:154 admin/customizer/fields/api.php:7
+msgid "JS API"
+msgstr ""
+
+#: admin/customizer/fields/api.php:8
+msgid ""
+"These JS functions can be used to programmatically control the cart. They "
+"can be tested within your browser console."
+msgstr ""
+
+#: admin/customizer/fields/api.php:16 admin/customizer/fields/menu-item.php:978
+#: admin/customizer/fields/shortcode.php:937
+msgid "Toggle Cart"
+msgstr ""
+
+#: admin/customizer/fields/api.php:25
+msgid "Open Cart"
+msgstr ""
+
+#: admin/customizer/fields/api.php:34 public/templates/parts/cart/header.php:46
+msgid "Close Cart"
+msgstr ""
+
+#: admin/customizer/fields/api.php:43
+msgid "Refresh Cart"
+msgstr ""
+
+#: admin/customizer/fields/api.php:52
+msgid "Is Cart Open ?"
+msgstr ""
+
+#: admin/customizer/fields/api.php:61
+msgid "Is Cart Empty ?"
+msgstr ""
+
+#: admin/customizer/fields/body.php:7
+msgid "Cart Body Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/body.php:23
+msgid "Cart Body Text Color"
+msgstr ""
+
+#: admin/customizer/fields/body.php:39
+msgid "Cart Body Link Color"
+msgstr ""
+
+#: admin/customizer/fields/body.php:55
+msgid "Cart Body Link Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/body.php:71
+msgid "Cart Body Border Color"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:7
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:8
+msgid ""
+"Set the Overlay Color on top of the page content, behind the cart. This "
+"helps focusing on the cart."
+msgstr ""
+
+#: admin/customizer/fields/cart.php:27 admin/customizer/fields/cart.php:61
+#: admin/customizer/fields/cart.php:95
+msgid "Trigger / Cart Position"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:34 admin/customizer/fields/cart.php:68
+#: admin/customizer/fields/cart.php:102 admin/customizer/fields/trigger.php:98
+#: admin/customizer/fields/trigger.php:133
+#: admin/customizer/fields/trigger.php:168
+msgid "Top Left"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:35 admin/customizer/fields/cart.php:69
+#: admin/customizer/fields/cart.php:103 admin/customizer/fields/trigger.php:99
+#: admin/customizer/fields/trigger.php:134
+#: admin/customizer/fields/trigger.php:169
+msgid "Top Right"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:36 admin/customizer/fields/cart.php:70
+#: admin/customizer/fields/cart.php:104 admin/customizer/fields/trigger.php:100
+#: admin/customizer/fields/trigger.php:135
+#: admin/customizer/fields/trigger.php:170
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:37 admin/customizer/fields/cart.php:71
+#: admin/customizer/fields/cart.php:105 admin/customizer/fields/trigger.php:101
+#: admin/customizer/fields/trigger.php:136
+#: admin/customizer/fields/trigger.php:171
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:129 admin/customizer/fields/cart.php:153
+#: admin/customizer/fields/cart.php:177
+msgid "Trigger / Cart X Offset"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:201 admin/customizer/fields/cart.php:225
+#: admin/customizer/fields/cart.php:249
+msgid "Trigger / Cart Y Offset"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:275
+msgid "Modal Mode"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:276
+msgid "When enabled, the cart will open as a modal in the middle of the screen"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:280 admin/customizer/fields/cart.php:326
+#: admin/customizer/fields/product.php:586
+msgid "Disabled"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:281 admin/customizer/fields/cart.php:327
+#: admin/customizer/fields/product.php:587
+msgid "Enabled"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:289
+msgid "Animation Type"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:293
+msgid "Morph"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:294
+msgid "Slide"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:322
+msgid "Cart Auto Height"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:336
+msgid "Cart Dimensions Unit"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:340
+msgid "Pixels"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:341
+msgid "Percent"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:357 admin/customizer/fields/cart.php:491
+#: admin/customizer/fields/cart.php:625
+msgid "Cart Width (px)"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:388 admin/customizer/fields/cart.php:522
+#: admin/customizer/fields/cart.php:656
+msgid "Cart Height (px)"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:424 admin/customizer/fields/cart.php:558
+#: admin/customizer/fields/cart.php:692
+msgid "Cart Width (%)"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:455 admin/customizer/fields/cart.php:589
+#: admin/customizer/fields/cart.php:723
+msgid "Cart Height (%)"
+msgstr ""
+
+#: admin/customizer/fields/cart.php:759 admin/customizer/fields/cart.php:783
+#: admin/customizer/fields/cart.php:807
+msgid "Cart Border Radius"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:7
+msgid "Enable Coupon Form"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:10
+#: admin/customizer/fields/coupons.php:23 admin/customizer/fields/extras.php:66
+#: admin/customizer/fields/extras.php:124
+#: admin/customizer/fields/general.php:11
+#: admin/customizer/fields/general.php:26
+#: admin/customizer/fields/general.php:124
+#: admin/customizer/fields/general.php:146
+#: admin/customizer/fields/menu-item.php:10
+#: admin/customizer/fields/menu-item.php:85
+#: admin/customizer/fields/menu-item.php:107
+#: admin/customizer/fields/menu-item.php:370
+#: admin/customizer/fields/product.php:91
+#: admin/customizer/fields/product.php:122
+#: admin/customizer/fields/product.php:144
+#: admin/customizer/fields/product.php:383
+#: admin/customizer/fields/product.php:525
+#: admin/customizer/fields/product.php:808
+#: admin/customizer/fields/shortcode.php:10
+#: admin/customizer/fields/shortcode.php:40
+#: admin/customizer/fields/shortcode.php:70
+#: admin/customizer/fields/shortcode.php:100
+#: admin/customizer/fields/shortcode.php:331 admin/customizer/fields/sp.php:252
+#: admin/customizer/fields/trigger.php:34
+#: admin/customizer/fields/visibility.php:92 public/class-public.php:534
+msgid "No"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:11
+#: admin/customizer/fields/coupons.php:24 admin/customizer/fields/extras.php:67
+#: admin/customizer/fields/extras.php:125
+#: admin/customizer/fields/general.php:12
+#: admin/customizer/fields/general.php:27
+#: admin/customizer/fields/general.php:125
+#: admin/customizer/fields/general.php:147
+#: admin/customizer/fields/menu-item.php:11
+#: admin/customizer/fields/menu-item.php:86
+#: admin/customizer/fields/menu-item.php:108
+#: admin/customizer/fields/menu-item.php:371
+#: admin/customizer/fields/product.php:92
+#: admin/customizer/fields/product.php:123
+#: admin/customizer/fields/product.php:145
+#: admin/customizer/fields/product.php:382
+#: admin/customizer/fields/product.php:526
+#: admin/customizer/fields/product.php:809
+#: admin/customizer/fields/shortcode.php:11
+#: admin/customizer/fields/shortcode.php:41
+#: admin/customizer/fields/shortcode.php:71
+#: admin/customizer/fields/shortcode.php:101
+#: admin/customizer/fields/shortcode.php:332 admin/customizer/fields/sp.php:253
+#: admin/customizer/fields/trigger.php:35
+#: admin/customizer/fields/visibility.php:93 public/class-public.php:534
+msgid "Yes"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:20
+msgid "Enable Coupon List"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:40
+msgid "Coupon List Display"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:43
+msgid "Show All"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:44
+msgid "Show available only"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:45
+msgid "Show custom selection"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:75
+msgid "Coupon List Selection"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:110
+msgid "Coupon List Total"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:143
+msgid "Coupon Button Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/coupons.php:166
+#: admin/customizer/fields/coupons.php:189
+msgid "Coupon Button Text Color"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:7
+msgid "Checkout Form"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:14
+msgid "Enable Checkout Form"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:15
+#, php-format
+msgid ""
+"This option will load the checkout form below the cart list and will "
+"transform the %1$sCheckout%2$s button into a %1$sPlace Order%2$s button. If "
+"checkout registration is disabled and not logged in, this option will be "
+"disabled."
+msgstr ""
+
+#: admin/customizer/fields/extras.php:18 admin/customizer/fields/extras.php:177
+#: admin/customizer/fields/header.php:21 admin/customizer/fields/header.php:90
+#: admin/customizer/fields/header.php:182
+#: admin/customizer/fields/header.php:368 admin/customizer/fields/sp.php:10
+#: admin/customizer/fields/sp.php:22
+msgid "Enable"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:19 admin/customizer/fields/extras.php:176
+#: admin/customizer/fields/header.php:22 admin/customizer/fields/header.php:91
+#: admin/customizer/fields/header.php:183
+#: admin/customizer/fields/header.php:369 admin/customizer/fields/sp.php:11
+#: admin/customizer/fields/sp.php:23
+msgid "Disable"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:27
+msgid "Checkout Form Overall Font Size"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:56
+msgid "Cart Totals"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:63
+msgid "Enable Totals"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:91
+msgid "Cart Totals Font Size"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:120
+msgid "Enable Total Savings"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:121
+msgid ""
+"This option requires the \"Enable Totals\" or \"Enable Checkout Form\" "
+"options to be enabled."
+msgstr ""
+
+#: admin/customizer/fields/extras.php:142
+msgid "Total Savings Text Color"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:165
+msgid "Express Payment buttons"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:172
+msgid "Paypal Express Checkout"
+msgstr ""
+
+#: admin/customizer/fields/extras.php:173
+msgid "Install and configure paypal plugin."
+msgstr ""
+
+#: admin/customizer/fields/extras.php:173
+msgid "Make sure to enable the Mini Cart button."
+msgstr ""
+
+#: admin/customizer/fields/extras.php:192
+msgid ""
+"This option is disabled while the \"Checkout Form\" option above is enabled"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:6
+msgid "Cart Checkout Button Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:24
+msgid "Cart Checkout Button Bg Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:42
+msgid "Cart Checkout Button Text Color"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:57
+msgid "Cart Checkout Button Text Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:75 admin/customizer/fields/footer.php:106
+#: admin/customizer/fields/footer.php:137
+msgid "Checkout Button Height Size"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:167
+msgid "Cart Checkout Action"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:170
+msgid "Go to Checkout Page"
+msgstr ""
+
+#: admin/customizer/fields/footer.php:171
+msgid "Go to Cart Page"
+msgstr ""
+
+#: admin/customizer/fields/general.php:7
+msgid "Force Ajax Initialization"
+msgstr ""
+
+#: admin/customizer/fields/general.php:8
+msgid "Enable only if encountering caching issues / conflicts with your theme"
+msgstr ""
+
+#: admin/customizer/fields/general.php:22
+msgid "Lock page scroll when active"
+msgstr ""
+
+#: admin/customizer/fields/general.php:23
+msgid "When the floating cart is open, lock main site body scroll"
+msgstr ""
+
+#: admin/customizer/fields/general.php:36
+msgid "Cart Loading Spinner"
+msgstr ""
+
+#: admin/customizer/fields/general.php:43
+msgid "No Spinner"
+msgstr ""
+
+#: admin/customizer/fields/general.php:44
+msgid "Rotating Plane"
+msgstr ""
+
+#: admin/customizer/fields/general.php:45
+msgid "Double Bounce"
+msgstr ""
+
+#: admin/customizer/fields/general.php:46
+msgid "Wave"
+msgstr ""
+
+#: admin/customizer/fields/general.php:47
+msgid "Wandering Cubes"
+msgstr ""
+
+#: admin/customizer/fields/general.php:48
+msgid "Pulse"
+msgstr ""
+
+#: admin/customizer/fields/general.php:49
+msgid "Chasing Dots"
+msgstr ""
+
+#: admin/customizer/fields/general.php:50
+msgid "Three Bounce"
+msgstr ""
+
+#: admin/customizer/fields/general.php:51
+msgid "Circle"
+msgstr ""
+
+#: admin/customizer/fields/general.php:52
+msgid "Cube Grid"
+msgstr ""
+
+#: admin/customizer/fields/general.php:53
+msgid "Fading Circle"
+msgstr ""
+
+#: admin/customizer/fields/general.php:54
+msgid "Folding Cube"
+msgstr ""
+
+#: admin/customizer/fields/general.php:55
+msgid "Boring Loading Text"
+msgstr ""
+
+#: admin/customizer/fields/general.php:64
+msgid "Cart Loading Spinner Color"
+msgstr ""
+
+#: admin/customizer/fields/general.php:80
+msgid "Cart Loading Overlay Color"
+msgstr ""
+
+#: admin/customizer/fields/general.php:96
+msgid "Cart Loading Spinner Extra Delay"
+msgstr ""
+
+#: admin/customizer/fields/general.php:121
+msgid "Open cart after adding products"
+msgstr ""
+
+#: admin/customizer/fields/general.php:142
+msgid "Enable Fly To Cart animation"
+msgstr ""
+
+#: admin/customizer/fields/general.php:143
+msgid "Cart Trigger needs to be enabled for this to work"
+msgstr ""
+
+#: admin/customizer/fields/general.php:156
+msgid "Fly To Cart animation Duration"
+msgstr ""
+
+#: admin/customizer/fields/general.php:186
+msgid "Shake cart after adding products"
+msgstr ""
+
+#: admin/customizer/fields/general.php:193
+msgid "Horizontal Shake"
+msgstr ""
+
+#: admin/customizer/fields/general.php:194
+msgid "Vertical Shake"
+msgstr ""
+
+#: admin/customizer/fields/general.php:195
+msgid "No Shake"
+msgstr ""
+
+#: admin/customizer/fields/header.php:10
+msgid "Header Close Button"
+msgstr ""
+
+#: admin/customizer/fields/header.php:17
+msgid "Enable cart close icon in the header"
+msgstr ""
+
+#: admin/customizer/fields/header.php:18
+msgid ""
+"This is useful when the cart animation is set to \"Slide\". The \"Morph\" "
+"Animation already has a close button in the footer"
+msgstr ""
+
+#: admin/customizer/fields/header.php:30
+msgid "Cart Header Close Icon"
+msgstr ""
+
+#: admin/customizer/fields/header.php:54
+msgid "Cart Header Close Icon Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:79
+msgid "Header Clear All Button"
+msgstr ""
+
+#: admin/customizer/fields/header.php:86
+msgid "Enable clear cart icon in the header"
+msgstr ""
+
+#: admin/customizer/fields/header.php:87
+msgid ""
+"This could be useful to let customers clear all items in the cart in 1 click."
+msgstr ""
+
+#: admin/customizer/fields/header.php:99
+msgid "Cart Header Clear Icon"
+msgstr ""
+
+#: admin/customizer/fields/header.php:123
+msgid "Cart Header Clear Icon Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:146
+msgid "Cart Header Clear Icon Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:171
+msgid "Shipping Bar"
+msgstr ""
+
+#: admin/customizer/fields/header.php:178
+msgid "Shipping Bar Enabled"
+msgstr ""
+
+#: admin/customizer/fields/header.php:191
+msgid "Free Shipping Text"
+msgstr ""
+
+#: admin/customizer/fields/header.php:209 public/class-public.php:659
+msgid "Congrats! You get free shipping."
+msgstr ""
+
+#: admin/customizer/fields/header.php:215
+msgid "Amount Left for Free Shipping Text"
+msgstr ""
+
+#: admin/customizer/fields/header.php:216
+#, php-format
+msgid ""
+"Make sure sure to keep the \"%s\" variable within the text. It will be "
+"replaced by the remaining amount."
+msgstr ""
+
+#: admin/customizer/fields/header.php:234 public/class-public.php:661
+#, php-format
+msgid "You're %s away from free shipping."
+msgstr ""
+
+#: admin/customizer/fields/header.php:240
+msgid "Shipping Bar Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:263
+msgid "Shipping Bar Text Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:286
+msgid "Shipping Bar Progress Inactive Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:309
+msgid "Shipping Bar Progress Active Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:332
+msgid "Shipping Bar Progress Completed Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:358
+msgid "Header Message"
+msgstr ""
+
+#: admin/customizer/fields/header.php:365
+msgid "Cart Header Message Enabled"
+msgstr ""
+
+#: admin/customizer/fields/header.php:377
+msgid "Cart Header Message"
+msgstr ""
+
+#: admin/customizer/fields/header.php:401
+msgid "Cart Header Message Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:424
+msgid "Cart Header Message Text Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:449
+msgid "Header Colors"
+msgstr ""
+
+#: admin/customizer/fields/header.php:456
+msgid "Cart Header Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:472
+msgid "Cart Header Bottom Border Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:488
+msgid "Cart Header Title Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:504
+msgid "Cart Header Text Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:520
+msgid "Cart Header Link Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:535
+msgid "Cart Header Link Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/header.php:551
+msgid "Cart Header Error Message Color"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:7
+msgid "Enable Cart Menu Item"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:20
+#: admin/customizer/fields/menu-item.php:40
+#: admin/customizer/fields/menu-item.php:60
+msgid "Select Menu(s)"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:21
+#: admin/customizer/fields/menu-item.php:41
+#: admin/customizer/fields/menu-item.php:61
+msgid "Select the menu(s) in which you want to display the Menu Cart"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:82
+msgid "Hide default theme menu item"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:103
+msgid "Always Visible"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:104
+msgid "Always display cart menu item, even if it's empty"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:133 admin/customizer/fields/sp.php:110
+msgid "Position"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:134
+msgid "Select the position that looks best with your menu."
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:137
+msgid "First Menu Item"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:138
+msgid "Last Menu Item"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:157
+#: admin/customizer/fields/menu-item.php:191
+#: admin/customizer/fields/menu-item.php:225
+msgid "Alignment"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:158
+#: admin/customizer/fields/menu-item.php:192
+#: admin/customizer/fields/menu-item.php:226
+msgid ""
+"Select the alignment that looks best with your menu. This might have no "
+"effect at all."
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:161
+#: admin/customizer/fields/menu-item.php:195
+#: admin/customizer/fields/menu-item.php:229
+msgid "Inherit"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:162
+#: admin/customizer/fields/menu-item.php:196
+#: admin/customizer/fields/menu-item.php:230
+msgid "Left"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:163
+#: admin/customizer/fields/menu-item.php:197
+#: admin/customizer/fields/menu-item.php:231
+msgid "Right"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:259
+#: admin/customizer/fields/menu-item.php:295
+#: admin/customizer/fields/menu-item.php:331
+#: admin/customizer/fields/shortcode.php:220
+#: admin/customizer/fields/shortcode.php:256
+#: admin/customizer/fields/shortcode.php:292
+msgid "Display Mode"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:260
+#: admin/customizer/fields/menu-item.php:296
+#: admin/customizer/fields/menu-item.php:332
+msgid "What would you like to display in the menu?"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:263
+#: admin/customizer/fields/menu-item.php:299
+#: admin/customizer/fields/menu-item.php:335
+#: admin/customizer/fields/shortcode.php:224
+#: admin/customizer/fields/shortcode.php:260
+#: admin/customizer/fields/shortcode.php:296
+msgid "Icon Only"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:264
+#: admin/customizer/fields/menu-item.php:300
+#: admin/customizer/fields/menu-item.php:336
+#: admin/customizer/fields/shortcode.php:225
+#: admin/customizer/fields/shortcode.php:261
+#: admin/customizer/fields/shortcode.php:297
+msgid "Counter"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:265
+#: admin/customizer/fields/menu-item.php:301
+#: admin/customizer/fields/menu-item.php:337
+#: admin/customizer/fields/product.php:433
+#: admin/customizer/fields/shortcode.php:226
+#: admin/customizer/fields/shortcode.php:262
+#: admin/customizer/fields/shortcode.php:298
+msgid "Price"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:266
+#: admin/customizer/fields/menu-item.php:302
+#: admin/customizer/fields/menu-item.php:338
+#: admin/customizer/fields/shortcode.php:227
+#: admin/customizer/fields/shortcode.php:263
+#: admin/customizer/fields/shortcode.php:299
+msgid "Both"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:367
+#: admin/customizer/fields/shortcode.php:328
+msgid "If cart is empty, show icon only."
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:408
+#: admin/customizer/fields/menu-item.php:447
+#: admin/customizer/fields/menu-item.php:486
+#: admin/customizer/fields/shortcode.php:369
+#: admin/customizer/fields/shortcode.php:407
+#: admin/customizer/fields/shortcode.php:445
+msgid "Counter Type"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:409
+#: admin/customizer/fields/menu-item.php:448
+#: admin/customizer/fields/menu-item.php:487
+#: admin/customizer/fields/shortcode.php:370
+#: admin/customizer/fields/shortcode.php:408
+#: admin/customizer/fields/shortcode.php:446
+msgid "What would you like to display the counter?"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:412
+#: admin/customizer/fields/menu-item.php:451
+#: admin/customizer/fields/menu-item.php:490
+#: admin/customizer/fields/shortcode.php:373
+#: admin/customizer/fields/shortcode.php:411
+#: admin/customizer/fields/shortcode.php:449
+msgid "Text"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:413
+#: admin/customizer/fields/menu-item.php:452
+#: admin/customizer/fields/menu-item.php:491
+#: admin/customizer/fields/shortcode.php:374
+#: admin/customizer/fields/shortcode.php:412
+#: admin/customizer/fields/shortcode.php:450
+msgid "Badge"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:525
+#: admin/customizer/fields/menu-item.php:567
+#: admin/customizer/fields/menu-item.php:609
+#: admin/customizer/fields/shortcode.php:483
+#: admin/customizer/fields/shortcode.php:525
+#: admin/customizer/fields/shortcode.php:567
+msgid "Counter Badge Position"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:528
+#: admin/customizer/fields/menu-item.php:570
+#: admin/customizer/fields/menu-item.php:612
+#: admin/customizer/fields/shortcode.php:486
+#: admin/customizer/fields/shortcode.php:528
+#: admin/customizer/fields/shortcode.php:570
+msgid "Above"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:529
+#: admin/customizer/fields/menu-item.php:571
+#: admin/customizer/fields/menu-item.php:613
+#: admin/customizer/fields/product.php:498
+#: admin/customizer/fields/shortcode.php:487
+#: admin/customizer/fields/shortcode.php:529
+#: admin/customizer/fields/shortcode.php:571
+msgid "Inline"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:651
+#: admin/customizer/fields/menu-item.php:691
+#: admin/customizer/fields/menu-item.php:731
+#: admin/customizer/fields/shortcode.php:610
+#: admin/customizer/fields/shortcode.php:650
+#: admin/customizer/fields/shortcode.php:690
+msgid "Counter Badge Size"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:771
+#: admin/customizer/fields/menu-item.php:805
+#: admin/customizer/fields/menu-item.php:839
+#: admin/customizer/fields/shortcode.php:730
+#: admin/customizer/fields/shortcode.php:764
+#: admin/customizer/fields/shortcode.php:798
+msgid "Counter Badge Color"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:873
+#: admin/customizer/fields/menu-item.php:907
+#: admin/customizer/fields/menu-item.php:941
+#: admin/customizer/fields/shortcode.php:832
+#: admin/customizer/fields/shortcode.php:866
+#: admin/customizer/fields/shortcode.php:900
+msgid "Counter Badge Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:975
+#: admin/customizer/fields/shortcode.php:934
+msgid "Click Action"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:979
+#: admin/customizer/fields/shortcode.php:938
+msgid "Go To Cart"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:980
+#: admin/customizer/fields/shortcode.php:939
+msgid "Go To Checkout"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:1016
+#: admin/customizer/fields/shortcode.php:1004
+msgid "Select Icon"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:1040
+#: admin/customizer/fields/shortcode.php:975
+msgid "Icon Size"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:1069
+#: admin/customizer/fields/shortcode.php:1028
+msgid "Icon Color"
+msgstr ""
+
+#: admin/customizer/fields/menu-item.php:1092
+#: admin/customizer/fields/shortcode.php:1051
+msgid "Text Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:16
+msgid "Show Product Sku"
+msgstr ""
+
+#: admin/customizer/fields/product.php:34
+msgid "Show Product Attributes"
+msgstr ""
+
+#: admin/customizer/fields/product.php:52
+msgid "Show Bundled Products Items"
+msgstr ""
+
+#: admin/customizer/fields/product.php:70
+msgid "Show Composite Products Items"
+msgstr ""
+
+#: admin/customizer/fields/product.php:88
+msgid "Link Product to Single Page"
+msgstr ""
+
+#: admin/customizer/fields/product.php:112
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/customizer/fields/product.php:119
+msgid "Hide Product Thumbnail"
+msgstr ""
+
+#: admin/customizer/fields/product.php:140
+msgid "Force Squared Thumbnail"
+msgstr ""
+
+#: admin/customizer/fields/product.php:141
+msgid ""
+"If enabled, the thumbnail container will be cropped to make the thumbnail "
+"squared"
+msgstr ""
+
+#: admin/customizer/fields/product.php:170
+#: admin/customizer/fields/product.php:200
+#: admin/customizer/fields/product.php:230
+msgid "Product Thumbnail Width"
+msgstr ""
+
+#: admin/customizer/fields/product.php:260
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: admin/customizer/fields/product.php:289
+msgid "Product Thumbnail Padding"
+msgstr ""
+
+#: admin/customizer/fields/product.php:318
+msgid "Thumbnail Border Width"
+msgstr ""
+
+#: admin/customizer/fields/product.php:347
+msgid "Thumbnail Border Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:371 admin/customizer/fields/sp.php:139
+msgid "Title"
+msgstr ""
+
+#: admin/customizer/fields/product.php:378
+msgid "Cart Product Title Truncate"
+msgstr ""
+
+#: admin/customizer/fields/product.php:379
+msgid ""
+"Truncate will keep the title on 1 line. If the title overflows, an ellipsis "
+"(...) will be shown"
+msgstr ""
+
+#: admin/customizer/fields/product.php:399
+msgid "Cart Product Title Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:415
+msgid "Cart Product Title Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:440
+msgid "Cart Product Price Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:456
+msgid "Cart Product Price Display"
+msgstr ""
+
+#: admin/customizer/fields/product.php:459
+#: public/templates/parts/cart/totals.php:36
+#: public/templates/parts/cart/totals.php:37
+msgid "Subtotal"
+msgstr ""
+
+#: admin/customizer/fields/product.php:460
+msgid "Item Price"
+msgstr ""
+
+#: admin/customizer/fields/product.php:480
+msgid "Attributes"
+msgstr ""
+
+#: admin/customizer/fields/product.php:494
+msgid "Product Attributes Display Type"
+msgstr ""
+
+#: admin/customizer/fields/product.php:497
+msgid "List"
+msgstr ""
+
+#: admin/customizer/fields/product.php:522
+msgid "Hide attribute labels, show values only"
+msgstr ""
+
+#: admin/customizer/fields/product.php:551
+msgid "Cart Product Attributes Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:576
+#: admin/customizer/fields/product.php:607
+msgid "Quantity Input"
+msgstr ""
+
+#: admin/customizer/fields/product.php:583
+msgid "Cart Product Qty Input Enabled"
+msgstr ""
+
+#: admin/customizer/fields/product.php:604
+msgid "Cart Product Qty Template"
+msgstr ""
+
+#: admin/customizer/fields/product.php:608
+msgid "Minus Icon"
+msgstr ""
+
+#: admin/customizer/fields/product.php:609
+msgid "Plus Icon"
+msgstr ""
+
+#: admin/customizer/fields/product.php:638
+msgid "Cart Product Qty Plus Minus Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:660
+msgid "Cart Product Qty Plus Minus Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:683
+msgid "Cart Product Qty Input Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:706
+msgid "Cart Product Qty Plus Minus Size"
+msgstr ""
+
+#: admin/customizer/fields/product.php:736
+msgid "Cart Product Qty Input Size"
+msgstr ""
+
+#: admin/customizer/fields/product.php:766
+msgid "Cart Product Qty Input Radius"
+msgstr ""
+
+#: admin/customizer/fields/product.php:798
+msgid "Remove Link"
+msgstr ""
+
+#: admin/customizer/fields/product.php:805
+msgid "Cart Product Remove Icon Enabled"
+msgstr ""
+
+#: admin/customizer/fields/product.php:839
+msgid "Cart Product Remove Icon"
+msgstr ""
+
+#: admin/customizer/fields/product.php:863
+msgid "Cart Product Remove Color"
+msgstr ""
+
+#: admin/customizer/fields/product.php:879
+msgid "Cart Product Remove Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:7
+msgid "Enable Cart Trigger Shortcode"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:21
+msgid "The Shortcode"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:22
+#, php-format
+msgid ""
+"You can place this shortcode anywhere within wordpress editor or directly "
+"within your child theme templates using the %s function"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:37
+#: admin/customizer/fields/shortcode.php:67
+msgid "Hide on this device screen"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:97
+msgid "Hide on mobile"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:127
+#: admin/customizer/fields/shortcode.php:158
+#: admin/customizer/fields/shortcode.php:189
+msgid "Overall Size"
+msgstr ""
+
+#: admin/customizer/fields/shortcode.php:221
+#: admin/customizer/fields/shortcode.php:257
+#: admin/customizer/fields/shortcode.php:293
+msgid "What would you like to display in the trigger?"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:7
+msgid "Enable Suggested Products"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:19
+msgid "Enable on Mobile"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:47
+msgid "Query Type"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:53
+msgid "Cross-Sells"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:54
+msgid "Up-Sells"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:55
+msgid "Related"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:56 admin/customizer/fields/sp.php:80
+msgid "Selection"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:81
+msgid "Enter product ids separated by a comma"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:113
+msgid "Below Cart List"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:114
+msgid "Above Cart Totals"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:115
+msgid "Below Cart Totals"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:141
+msgid "Products you might like"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:163
+msgid "Title Color"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:186
+msgid "Count"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:215
+msgid "Display Type"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:221
+msgid "Slider"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:222
+msgid "Rows"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:246
+msgid "Hide Add To Cart Button"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:277
+msgid "Arrows Icon"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:306
+msgid "Arrows Size"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:341
+msgid "Arrows Color"
+msgstr ""
+
+#: admin/customizer/fields/sp.php:369
+msgid "Arrows Hover Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:9
+msgid "Trigger Extra Selectors"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:10
+msgid ""
+"You can add multiple css selectors. These elements will then act as a cart "
+"trigger. This is useful if you would like to use your existing theme cart "
+"menu icon or any other element to open the cart."
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:14
+#: admin/customizer/fields/trigger.php:20
+msgid "CSS Selector"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:30
+msgid "Cart Trigger Hidden"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:31
+msgid ""
+"Hide main trigger if you only wish to trigger the cart using the API, "
+"shortcode, menu cart item or from custom selectors."
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:44
+msgid "Cart Trigger Event Type"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:47
+msgid "Click Only"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:48
+msgid "Mouse Over Or Click"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:64
+msgid "Mouse Over delay before trigger"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:91
+#: admin/customizer/fields/trigger.php:126
+#: admin/customizer/fields/trigger.php:161
+msgid "Product Counter Position"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:198
+#: admin/customizer/fields/trigger.php:229
+#: admin/customizer/fields/trigger.php:260
+msgid "Trigger Size"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:291
+#: admin/customizer/fields/trigger.php:322
+#: admin/customizer/fields/trigger.php:353
+msgid "Product Counter Size"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:383
+#: admin/customizer/fields/trigger.php:414
+#: admin/customizer/fields/trigger.php:445
+msgid "Trigger Border Radius"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:476
+msgid "Cart Trigger Icon Type"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:479
+msgid "Image / SVG"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:480
+msgid "Font Icon"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:503
+msgid "Cart Trigger Icon"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:533
+msgid "Cart Trigger Icon Image"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:561
+msgid "Close Cart Trigger Icon"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:595
+msgid "Close Cart Trigger Icon Image"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:628
+msgid "Cart Trigger Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:651
+msgid "Cart Trigger Icon Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:679
+msgid "Close Cart Trigger Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:707
+msgid "Close Cart Trigger Icon Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:740
+msgid "Product Counter Bg Color"
+msgstr ""
+
+#: admin/customizer/fields/trigger.php:763
+msgid "Product Counter Text Color"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:11
+msgid "Product Counter Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:30
+msgid "Header Title Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:52
+msgid "Header Info Notice Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:77
+msgid "Header Error Notice Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:99
+msgid "Header Message Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:122
+msgid "No Products Message Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:145
+msgid "Product Title / Price Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:178
+msgid "Product Attributes Label Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:204
+msgid "Product Attributes Values Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:230
+msgid "Product Remove Link Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:260
+msgid "Product Quantity Input Typography"
+msgstr ""
+
+#: admin/customizer/fields/typography.php:288
+msgid "Footer Checkout Button Typography"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:6
+#: admin/customizer/fields/visibility.php:29
+#: admin/customizer/fields/visibility.php:52
+msgid "Cart Z-Index"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:7
+#: admin/customizer/fields/visibility.php:30
+#: admin/customizer/fields/visibility.php:53
+msgid ""
+"Set the stack order for the cart. An element with greater stack order is "
+"always in front of an element with a lower stack order. Use this option to "
+"adjust the cart order if for some reason it is not visible on your theme or "
+"maybe being overlapped by other elements"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:77
+msgid "Hide cart on these pages"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:78
+msgid ""
+"Note: The cart is automatically disabled on WooCommerce native cart & "
+"checkout pages"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:89
+msgid "Keep visible on empty"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:102
+msgid "Device Visibility"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:105
+msgid "Show on mobile only"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:106
+msgid "Show on tablet and mobile"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:107
+msgid "Show on tablet and desktop"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:108
+msgid "Show on desktop only"
+msgstr ""
+
+#: admin/customizer/fields/visibility.php:109
+msgid "Show on all"
+msgstr ""
+
+#: public/class-ajax.php:333
+#, php-format
+msgid "Item Removed. %s"
+msgstr ""
+
+#: public/class-ajax.php:334 public/class-ajax.php:372
+msgid "Undo"
+msgstr ""
+
+#: public/class-ajax.php:354
+msgid "Item restored successfully!"
+msgstr ""
+
+#: public/class-ajax.php:371
+#, php-format
+msgid "Cart Cleared! %s"
+msgstr ""
+
+#: public/class-ajax.php:397
+msgid "Cart restored successfully!"
+msgstr ""
+
+#: public/class-ajax.php:416
+msgid "Coupon applied successfully!"
+msgstr ""
+
+#: public/class-ajax.php:425
+msgid "Coupon is invalid!"
+msgstr ""
+
+#: public/class-ajax.php:428
+msgid "Coupon already applied!"
+msgstr ""
+
+#: public/class-ajax.php:433
+msgid "Please enter a coupon!"
+msgstr ""
+
+#: public/class-ajax.php:451
+msgid "Failed removing coupon!"
+msgstr ""
+
+#: public/class-ajax.php:454
+msgid "Coupon has been removed!"
+msgstr ""
+
+#: public/class-ajax.php:479
+msgid "Shipping info updated"
+msgstr ""
+
+#: public/class-ajax.php:613
+msgid "Item added to cart."
+msgstr ""
+
+#: public/class-menu.php:247 public/class-shortcode.php:127
+msgid "View your shopping cart"
+msgstr ""
+
+#: public/class-menu.php:248 public/class-shortcode.php:128
+#, php-format
+msgid "%s%d%s %sitem%s"
+msgid_plural "%s%d%s %sitems%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-menu.php:285 public/class-public.php:533
+#: public/class-shortcode.php:151 public/functions-global.php:494
+#: public/templates/parts/cart/header.php:28
+msgid "Cart"
+msgstr ""
+
+#: public/class-public.php:345 public/class-public.php:346
+msgid "Total savings"
+msgstr ""
+
+#: public/class-public.php:528
+msgid "Please wait"
+msgstr ""
+
+#: public/class-public.php:529
+msgid "Loading"
+msgstr ""
+
+#: public/class-public.php:530
+msgid "Min quantity required"
+msgstr ""
+
+#: public/class-public.php:531
+msgid "Stock limit reached"
+msgstr ""
+
+#: public/class-public.php:532
+msgid "Coupons"
+msgstr ""
+
+#: public/class-public.php:534
+#, php-format
+msgid "Want to clear the cart? %s"
+msgstr ""
+
+#: public/class-public.php:557
+msgid "OR"
+msgstr ""
+
+#: public/class-public.php:822
+msgid "Products you may like"
+msgstr ""
+
+#: public/functions-global.php:414
+msgid "Loading..."
+msgstr ""
+
+#: public/functions-global.php:477
+msgid "Place order"
+msgstr ""
+
+#: public/functions-global.php:481 public/functions-global.php:490
+msgid "Checkout"
+msgstr ""
+
+#: public/functions-global.php:508
+msgid "Please Wait..."
+msgstr ""
+
+#: public/functions-global.php:512
+msgid "Placing Order..."
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:37
+msgid "Applied Coupons"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:43
+msgid "Saved"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:44
+msgid "[Remove]"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:60
+msgid "Available Coupons"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:60
+msgid "Unavailable Coupons"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:73
+#, php-format
+msgid "Get %s off"
+msgstr ""
+
+#: public/templates/parts/cart/coupon-list.php:78
+msgid "Apply Coupon"
+msgstr ""
+
+#: public/templates/parts/cart/coupon.php:26
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: public/templates/parts/cart/coupon.php:30
+msgid "Coupon code"
+msgstr ""
+
+#: public/templates/parts/cart/coupon.php:33
+msgid "Apply coupon"
+msgstr ""
+
+#: public/templates/parts/cart/header.php:37
+msgid "Have a coupon ?"
+msgstr ""
+
+#: public/templates/parts/cart/header.php:42
+msgid "Clear Cart"
+msgstr ""
+
+#: public/templates/parts/cart/list/empty.php:25
+msgid "No products in the cart."
+msgstr ""
+
+#: public/templates/parts/cart/list/product.php:148
+msgid "Available on backorder"
+msgstr ""
+
+#: public/templates/parts/cart/list/product/actions.php:32
+msgid "Remove"
+msgstr ""
+
+#: public/templates/parts/cart/list/product/attributes.php:63
+msgid "SKU: "
+msgstr ""
+
+#: public/templates/parts/cart/list/product/quantity-input.php:42
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: public/templates/parts/cart/list/product/quantity-input.php:42
+msgid "Quantity"
+msgstr ""
+
+#: public/templates/parts/cart/list/product/quantity-input.php:55
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: public/templates/parts/cart/shipping.php:79
+msgid "Change address"
+msgstr ""
+
+#: public/templates/parts/cart/shipping.php:81
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: public/templates/parts/cart/shipping.php:85
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: public/templates/parts/cart/shipping.php:88
+#, php-format
+msgid "No shipping options were found for %s"
+msgstr ""
+
+#: public/templates/parts/cart/shipping.php:89
+msgid "Enter a different address"
+msgstr ""
+
+#: public/templates/parts/cart/totals.php:58
+#: public/templates/parts/cart/totals.php:59
+msgid "Shipping"
+msgstr ""
+
+#: public/templates/parts/cart/totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: public/templates/parts/cart/totals.php:95
+#: public/templates/parts/cart/totals.php:96
+msgid "Total"
+msgstr ""
+
+#: public/templates/parts/checkout/shipping-fields.php:33
+msgid "Ship to a different address?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Floating Cart for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xplodedthemes.com/products/woo-floating-cart/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An Interactive Side Cart / Floating Cart for WooCommerce that slides in when "
+"the user decides to buy an item. Fully customizable right from WordPress "
+"Customizer with Live Preview. Products, quantities and prices are updated "
+"instantly via Ajax."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XplodedThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xplodedthemes.com"
+msgstr ""

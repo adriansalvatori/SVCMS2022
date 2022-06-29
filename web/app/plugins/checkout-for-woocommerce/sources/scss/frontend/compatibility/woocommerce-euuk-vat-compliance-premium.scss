@@ -1,0 +1,26 @@
+#vat_self_certify_field {
+    display: block;
+    @include clearfix();
+
+    & > label {
+        display: block;
+        float: none !important;
+        margin-left: 0 !important;
+        margin-bottom: 1em;
+    }
+    & > .woocommerce-input-wrapper {
+        display: block;
+    }
+}
+
+#woocommerce_eu_vat_compliance_vat_number {
+    & > p {
+        margin-bottom: 0.8em;
+    }
+}
+
+#woocommerce_eu_vat_compliance_self_certify {
+    .form-row label {
+        margin-top: 0;
+    }
+}

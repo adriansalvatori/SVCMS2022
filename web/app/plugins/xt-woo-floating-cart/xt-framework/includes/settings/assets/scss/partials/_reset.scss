@@ -1,0 +1,102 @@
+
+.xtfw-settings-reset {
+	color: #999ea2;
+	text-decoration: none;
+	margin-left: 5px;
+	vertical-align: middle;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s, color;
+	cursor: pointer;
+	position: absolute;
+	right: -5px;
+	top: -3px;
+
+	.xtfw-help-tip + & {
+		right: 20px;
+		top: 0px;
+	}
+
+	&:hover{
+		color: $input-primary-color;
+	}
+
+	span{
+		font-size:14px;
+	}
+
+	.form-table tr:hover > th > label > & {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.xtfw-settings-form .xtfw-settings-title {
+	.xtfw-reset-section-settings {
+
+		--xtfw-spinner-size: 15px;
+
+		display:none!important;
+		float:right;
+		margin-right:50px;
+		margin-top:-2px;
+		line-height:10px;
+		font-size:11px;
+		padding:0 10px;
+		min-height:25px;
+		background: #4f575d;
+		border-color: #555;
+		color:#fff;
+		position: relative;
+
+		&:hover,
+		&.processing{
+			--xtfw-spinner-overlay: #b51a1a;
+			background:#b51a1a;
+			border-color: #b51a1a;
+		}
+	}
+
+	&.ui-accordion-header-active {
+		.xtfw-reset-section-settings{
+			display:inline-block!important;
+		}
+	}
+
+	.inline-confirmation-block {
+		position: absolute;
+		z-index: 10;
+		background: #4f575c;
+		color: #fff;
+		padding: 20px;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		margin:0;
+		bottom: 0;
+		left:0;
+		width:100%;
+		transform: translateY(100%);
+		box-sizing:border-box;
+		font-size: 12px;
+		text-align: center;
+
+		.inline-confirmation-message{
+			line-height: 1.6;
+		}
+
+		a{
+			color: #fff;
+		}
+	}
+}
+
+#xtfw-reset-all-settings{
+	background: #4f575d;
+	border-color: #555;
+	color:#fff;
+
+	&:hover {
+		background:#b51a1a;
+		border-color: #b51a1a;
+	}
+}

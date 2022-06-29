@@ -1,0 +1,60 @@
+#cfw {
+    #cfw-cart-summary {
+        border-left: 0;
+        padding: 0;
+        position: relative;
+
+        &:before {
+            content: " ";
+            background: var(--cfw-cart-summary-background-color);
+            position: fixed;
+            height: calc(100vh + 60px);
+            width: 100%;
+            top: 0;
+            border-left: 1px solid #eee;
+            z-index: 1;
+
+            @include media-breakpoint-down(lg) {
+                content: none;
+            }
+        }
+    }
+
+    #cfw-cart-summary > *:not(#cfw-mobile-cart-header) {
+        position: relative;
+        z-index: 2;
+    }
+
+    #cfw-mobile-cart-header {
+        position: relative;
+        z-index: 2;
+    }
+
+    #cfw-cart-summary-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    #cfw-cart {
+        h3 {
+            font-size: 1.25em;
+        }
+
+        margin-bottom: 0;
+    }
+
+    .cfw-glass-cart-wrap, #cfw-coupons {
+        box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.15);
+        background: #fff !important;
+        padding: 1em;
+        margin-bottom: 0;
+    }
+
+    #cfw-coupons .cfw-input-wrap-row {
+        margin-bottom: 0;
+    }
+
+    #cfw-coupons {
+        border-top: 1px solid rgba(189, 175, 161, 0.3);
+    }
+}

@@ -1,0 +1,31 @@
+/* Tracking Tooltip CSS */
+.ph-image-tip {
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 3px 3px 3px 0;
+  margin-left: 12px;
+  margin-top: -50px;
+  top: -999px;
+  left: -999px;
+
+  &:after {
+    content: "";
+    position: absolute !important;
+    bottom: -8px;
+    z-index: 100;
+    border: 0 solid #111;
+    border: 0 solid rgba(0, 0, 0, 0.75);
+    border-bottom: 8px solid transparent;
+    width: 100%;
+    border-left-width: 8px;
+    left: 0;
+  }
+}

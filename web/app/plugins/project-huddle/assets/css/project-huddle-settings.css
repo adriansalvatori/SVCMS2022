@@ -1,0 +1,284 @@
+/* Settings Page */
+.ph-project_page_project_huddle_settings .wp-picker-container,
+.toplevel_page_project_huddle_settings .wp-picker-container {
+  display: block;
+}
+.ph-project_page_project_huddle_settings span.description,
+.toplevel_page_project_huddle_settings span.description {
+  color: #999;
+}
+.ph-project_page_project_huddle_settings .form-table tr > th > strong,
+.toplevel_page_project_huddle_settings .form-table tr > th > strong {
+  font-size: 18px;
+  color: #a3a3a3;
+}
+.ph-project_page_project_huddle_settings label.radio,
+.toplevel_page_project_huddle_settings label.radio {
+  display: block;
+  margin-bottom: 5px;
+}
+.ph-project_page_project_huddle_settings input[type="text"],
+.toplevel_page_project_huddle_settings input[type="text"] {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+}
+.ph-project_page_project_huddle_settings strong.divider,
+.toplevel_page_project_huddle_settings strong.divider {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+span#slack_webhook_default {
+  display: grid;
+}
+span#slack_webhook_default input {
+  width: 29em;
+}
+span#slack_webhook_default input + label {
+  margin-top: 8px;
+  color: #808080;
+  font-style: italic;
+  vertical-align: unset;
+}
+#slack_comment label,
+#slack_image_approvals label,
+#slack_project_approvals label,
+#slack_resolves label,
+#slack_assigns label {
+  vertical-align: unset;
+}
+
+.ph_short_desp {
+  color: #808080;
+  font-style: italic;
+}
+#project_huddle_settings strong.divider {
+  font-size: 1.2em;
+}
+.form-table .ph_short_desp p {
+  font-size: 13px;
+}
+#private_comment_access label {
+  display: block;
+  margin-bottom: 3px;
+}
+#comment_status_access label {
+  display: block;
+  margin-bottom: 3px;
+}
+.comment_text span,
+.project_approval_text span,
+.project_resolve_text span {
+  color: #808080;
+  font-style: italic;
+}
+
+.ph_slack_settings {
+  display: none !important;
+}
+.wrap .notice.ph-setting-admin-notice {
+  margin-top: 12px;
+}
+
+#project_huddle_settings span.description {
+  font-size: 14px;
+}
+
+#project_huddle_settings #website_comments_trash_bin,
+#project_huddle_settings #rerun_setup,
+#project_huddle_settings #comment_locations_trash_bin,
+#project_huddle_settings #images_trash_bin,
+#project_huddle_settings #website_pages_trash_bin .description {
+  line-height: 1.8rem !important;
+  margin-left: 5px;
+}
+
+#project_huddle_settings #uninstall_data_on_delete,
+#project_huddle_settings #script_shielding,
+#project_huddle_settings #use_php_sessions,
+#project_huddle_settings #script_debug,
+#project_huddle_settings #error_reporting input[type=checkbox] {
+  margin: -0.25rem 0.25rem -3px 0;
+}
+/*# sourceMappingURL=project-huddle-settings.css.map */
+
+/* Select2 Customization CSS */
+ .select2-selection--multiple {
+  height: 154px !important;
+  width: 366px !important;
+}
+
+.ph-select-setting-css .select2-selection__choice {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  background-color: #3582c4 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 3px !important;
+}
+
+.ph-select-setting-css .select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice__remove {
+  color: #fff !important;
+}
+
+.ph-select-setting-css .select2-selection__choice__remove {
+  float: right;
+  margin-right: 0;
+  margin-left: 2px;
+}
+.ph-select-setting-css .select2-search--inline .select2-search__field {
+  line-height: 40px;
+  color: #fff;
+  width: 100% !important;
+}
+
+.ph-select-setting-css .select2-container:hover,
+.select2-container:focus,
+.select2-container:active,
+.select2-selection:hover,
+.select2-selection:focus,
+.select2-selection:active {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.ph-select-setting-css .select2-results__options li {
+  display: block;
+}
+
+.ph-select-setting-css .select2-selection__rendered {
+  transform: translateY(2px);
+}
+
+.ph-select-setting-css .select2-selection__arrow {
+  display: none;
+}
+
+.ph-select-setting-css .select2-results__option--highlighted {
+  background-color: #3582c4 !important;
+  color: #fff !important;
+}
+
+.projecthuddle_page_project_huddle_settings .select2-dropdown {
+  border-radius: 0 !important;
+  box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15) !important;
+  border: none !important;
+  margin-top: 4px !important;
+  width: 366px !important;
+}
+.ph-select-setting-css .select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice {
+  margin-top: 1px !important;
+}
+
+.ph-select-setting-css .select2-container--default .select2-selection--multiple {
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.ph-select-setting-css .select2-results__option[aria-selected="true"] {
+  background-color: #eee !important;
+  color: #3c434a !important;
+}
+
+.ph-select-setting-css .select2-selection__placeholder {
+  color: #c4c4c4 !important;
+}
+
+.ph-select-setting-css .select2-container .select2-search--inline .select2-search__field
+{
+  margin: 0 !important;
+  padding: 0;
+}
+
+.ph-select-setting-css .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 7px;
+}
+/* Select2 Customization CSS */
+
+span#active_status {
+  display: flex;
+  align-items: center;
+}
+span#review_status {
+  display: flex;
+  align-items: center;
+}
+span#resolve_status {
+  display: flex;
+  align-items: center;
+}
+span#progress_status {
+  display: flex;
+  align-items: center;
+}
+
+span#active_status button.button.wp-color-result,
+span#resolve_status button.button.wp-color-result,
+span#progress_status button.button.wp-color-result,
+span#review_status button.button.wp-color-result {
+  margin: 0 !important;
+}
+
+input[type="text"]#active_status,
+input[type="text"]#review_status,
+input[type="text"]#resolve_status,
+input[type="text"]#progress_status {
+  margin: 0 15px;
+}
+
+/* Comment status setting page */
+
+.ph-setting-tooltip{
+  position: relative;
+}
+
+.ph-setting-tooltip[tooltip-content]:hover:after {
+  content: attr(tooltip-content);
+  position: absolute;
+  top: 1.5px;
+  left: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  z-index: 100;
+  background-color: #333;
+  color: #ffffff;
+  max-width: 200px;
+  text-decoration: none;
+  text-align: center;
+  width: 600px;
+  font-size: 13px;
+}
+
+
+#project_huddle_settings span.description {
+  font-size: 14px;
+}
+
+#project_huddle_settings .ph_color_picker_td {
+  line-height: 1.8;
+  margin-left: 5px;
+}
+
+#project_huddle_settings #un_silo,
+#project_huddle_settings #review_status_enable,
+#project_huddle_settings #progress_status_enable,
+#project_huddle_settings #control_logo_retina,
+#project_huddle_settings #login_logo_retina {
+  margin: -0.25rem 0.25rem -3px 0;
+}
+
+#project_huddle_settings #progress_status_name label,
+#project_huddle_settings #review_status_name label,
+#project_huddle_settings #resolve_status_name label,
+#project_huddle_settings #active_status_name
+label {
+  vertical-align: unset !important;
+}

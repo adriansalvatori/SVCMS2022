@@ -1,0 +1,126 @@
+@keyframes cfw_error_shake {
+    0% { transform: translate(30px); }
+    20% { transform: translate(-30px); }
+    40% { transform: translate(15px); }
+    60% { transform: translate(-15px); }
+    80% { transform: translate(8px); }
+    100% { transform: translate(0px); }
+}
+
+.cfw-alert-temporary-shake {
+    animation: cfw_error_shake 0.5s 1 linear;
+}
+
+#cfw-alert-placeholder {
+  display: none;
+}
+
+.cfw-alert {
+  padding: 15px;
+  margin-bottom: 1em;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+  .message {
+    line-height: 1.625;
+  }
+
+  ul {
+    margin: 0;
+  }
+}
+
+.cfw-alert-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.cfw-alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.cfw-alert-info {
+  color: #383d41;
+  background-color: #F0F8FF;
+  border-color: #bee5eb;
+}
+
+#cfw-alert-container, #cfw-wc-print-notices {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+// Native Login Form
+.woocommerce-info, .woocommerce-error, .woocommerce-message {
+  padding: 15px;
+  margin-bottom: 1em;
+  border: 1px solid #dfe3e8;
+  border-radius: 5px;
+  line-height: 1.625;
+
+  color: #383d41;
+  background-color: #fafafa;
+
+    .button {
+        float: right;
+        font-size: 100%;
+        margin: 0;
+        line-height: 1;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        overflow: visible;
+        padding: .618em 1em;
+        font-weight: 700;
+        border-radius: 3px;
+        left: auto;
+        color: #515151;
+        background-color: #ebe9eb;
+        border: 0;
+        display: inline-block;
+        background-image: none;
+        box-shadow: none;
+        text-shadow: none;
+
+        &:hover {
+            background-color: #dfdcde;
+            text-decoration: none;
+            background-image: none;
+            color: #515151;
+        }
+
+        &:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+    }
+
+    form:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+.woocommerce-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+ul.woocommerce-error {
+    list-style: none;
+    margin-bottom: 1em;
+    width: 100%;
+
+    li {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+.ph-badge,
+a.ph-badge {
+  padding: 4px 6px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 10px;
+  border-radius: 3px;
+  color: var(--ph-accent-color, #4353ff);
+  background: var(--ph-accent-color-10, #4353ff1a);
+
+  i {
+    font-size: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 1px;
+  }
+}
+
+.ph-warning.ph-badge {
+  color: #885e39;
+  background: rgba(#f2994a, 0.13);
+}
+.ph-muted.ph-badge {
+  background: rgba(191, 191, 191, 0.1);
+  color: #9e9e9e;
+}

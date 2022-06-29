@@ -1,0 +1,36 @@
+/*
+ *  Usage:
+ *
+      <div class="xt_woofc-spinner-double-bounce">
+        <div class="xt_woofc-spinner-child xt_woofc-spinner-double-bounce1"></div>
+        <div class="xt_woofc-spinner-child xt_woofc-spinner-double-bounce2"></div>
+      </div>
+ *
+ */
+
+.xt_woofc-spinner-double-bounce {
+  $animationDuration: 1.2s;
+  width: var(--xt-woofc-spinner-size);
+  height: var(--xt-woofc-spinner-size);
+  position: relative;
+  margin: var(--xt-woofc-spinner-margin);
+
+  .xt_woofc-spinner-child {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--xt-woofc-spinner-color);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: xt_woofc-spinner-doubleBounce $animationDuration ease-in-out 0s infinite both;
+  }
+
+  .xt_woofc-spinner-double-bounce2 { animation-delay: -2s; }
+}
+
+@keyframes xt_woofc-spinner-doubleBounce {
+  0%, 100% { transform: scale(0) }
+  50% { transform: scale(1.0) }
+}

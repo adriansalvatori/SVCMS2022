@@ -1,0 +1,77 @@
+body.checkout-wc {
+    background: var(--cfw-body-background-color) !important;
+}
+
+body.checkout-wc, main.checkoutwc {
+    font-family: var(--cfw-body-font-family);
+    color: var(--cfw-body-text-color);
+    flex-direction: column;
+    width: 100%;
+    text-rendering: optimizelegibility !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.3px;
+    line-height: 1;
+    box-sizing: border-box;
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+
+    p:not(.form-row,.cfw-input-wrap) {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--cfw-body-link-color);
+    }
+
+    label {
+        font-weight: normal;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--cfw-heading-font-family);
+    }
+
+    form h1, h2, h3, h4 {
+        color: #333;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 0.6em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        color: #333;
+        font-weight: 300;
+        margin-bottom: 0.6em;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+body.cfw-preload {
+    .cfw-panel {
+        display: none;
+    }
+    .cfw-panel:first-child {
+        display: block;
+    }
+
+    // Stop animations on page load
+    * {
+        animation-duration: 0s !important;
+    }
+}

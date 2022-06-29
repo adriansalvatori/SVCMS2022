@@ -1,0 +1,160 @@
+// tooltips
+.ph-tooltip-wrap {
+  -webkit-transform: translateZ(0); /* webkit flicker fix */
+  -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
+  position: relative;
+
+  &.right.top {
+    .ph-tooltip {
+      transform: translateY(10px) translateX(calc(-100% + 20px));
+
+      &:after {
+        left: calc(100% - 20px);
+      }
+    }
+    &:hover .ph-tooltip {
+      transform: translateY(0) translateX(calc(-100% + 20px));
+    }
+  }
+}
+
+@mixin tooltip-bottom-inner() {
+  bottom: auto;
+  top: 100%;
+  margin-bottom: 0;
+  margin-top: 15px;
+  transform: translateY(-10px) translateX(-50%);
+
+  &:before {
+    bottom: -20px;
+  }
+  &:not(.has-arrow):after {
+    border-left: solid transparent 5px;
+    border-right: solid transparent 5px;
+    border-top: none;
+    border-bottom: solid #1a202c 5px;
+    bottom: auto;
+    top: -5px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    width: 0;
+  }
+}
+@mixin tooltip-bottom() {
+  .ph-tooltip {
+    @include tooltip-bottom-inner;
+  }
+
+  &:hover .ph-tooltip {
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+.ph-tooltip-wrap .ph-tooltip {
+  background: #1a202c;
+  bottom: 100%;
+  font-weight: normal;
+  font-size: 11px !important;
+  color: #fff !important;
+  line-height: 14px !important;
+  display: block;
+  left: 50%;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 4px 6px;
+  white-space: nowrap;
+  text-align: center;
+  pointer-events: none;
+  position: absolute;
+  width: auto !important;
+  height: auto !important;
+  border-radius: 3px !important;
+  transform: translateY(10px) translateX(-50%);
+  transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+
+  i {
+    padding: 0 3px !important;
+  }
+
+  .ph-subtle {
+    opacity: 0.65;
+  }
+}
+
+.ph-tooltip-wrap.bottom {
+  @include tooltip-bottom;
+
+  &.right {
+    .ph-tooltip {
+      transform: translateY(-10px) translateX(-100%);
+    }
+    &:hover .ph-tooltip {
+      transform: translateY(0) translateX(-100%);
+    }
+  }
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.ph-tooltip-wrap .ph-tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* CSS Triangles - see Trevor's post */
+.ph-tooltip-wrap:not(.has-arrow) .ph-tooltip:after {
+  border-left: solid transparent 5px;
+  border-right: solid transparent 5px;
+  border-top: solid #1a202c 5px;
+  bottom: -5px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+}
+.ph-tooltip-wrap:hover .ph-tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) translateX(-50%);
+}
+
+.ph-tooltip-wrap.has-arrow .ph-tooltip:after {
+  content: none !important;
+}
+
+.ph-tooltip-wrap .ph-tooltip .ph-tooltip-arrow {
+  border-left: solid transparent 5px;
+  border-right: solid transparent 5px;
+  border-top: solid #1a202c 5px;
+  bottom: -5px;
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+}
+
+.ph-tooltip-wrap.bottom .ph-tooltip .ph-tooltip-arrow {
+  border-left: solid transparent 5px;
+  border-right: solid transparent 5px;
+  border-top: none;
+  border-bottom: solid #1a202c 5px;
+  bottom: auto;
+  top: -5px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+}

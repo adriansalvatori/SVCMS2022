@@ -1,0 +1,70 @@
+.xt_atc_override_spinner  {
+
+	a.add_to_cart_button,
+	a.single_add_to_cart_button,
+	button.add_to_cart_button,
+	button.single_add_to_cart_button {
+
+		transition: all 0.3s!important;
+
+		&:before,
+		&:after {
+			display: none !important;
+		}
+
+		&.xt_atc-loading {
+
+			text-align: center !important;
+			opacity: 0.9 !important;
+
+			&:hover {
+				opacity: 0.9 !important;
+			}
+		}
+
+		.xt_atc-button-spinner-wrap{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			transform: scale(0);
+			transform-origin: center center;
+			transition: transform 0.3s;
+		}
+
+		.xt_atc-button-spinner {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: initial!important;
+			height: 100%!important;
+			color: currentColor;
+			position: relative;
+			line-height: initial!important;
+			padding: 0;
+			margin: 0;
+			z-index: 2;
+			overflow: hidden;
+
+			&[class^="xt_icon-checkmark"]:before,
+			&[class*=" xt_icon-checkmark"]:before {
+				animation: none;
+			}
+		}
+
+	}
+}
+
+.added_to_cart {
+	margin-left: 10px;
+
+	.xt_atc_hide_view_cart &{
+		display:none!important;
+	}
+}
+
+.xt_atc-error{
+	box-shadow: 0 0 0 2px rgba(199, 46, 46, 0.45);
+	transition: all 0.3s;
+	border-radius: 3px;
+}

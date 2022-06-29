@@ -1,0 +1,108 @@
+#cfw-before-shipping, #cfw-after-shipping {
+    width: 100%;
+
+    th {
+        text-align: left;
+    }
+
+    th, td {
+        padding: 0.5em;
+    }
+}
+
+.cfw-shipping-package-title {
+    font-weight: 300;
+    color: #333;
+    font-size: 1.1em;
+}
+
+ul.cfw-shipping-methods-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1;
+    overflow: visible;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
+
+    li {
+        list-style-type: none !important;
+        text-indent: 0;
+        clear: both;
+        display: block;
+        margin: 0;
+
+        border-radius: 0;
+        border-bottom: 1px solid #ddd;
+        padding: 12px;
+
+        .cfw-shipping-method-inner {
+            display: flex;
+            align-items: center;
+
+            > * {
+                //@media (min-width: 375px) {
+                //    margin-bottom: 0.5em;
+                //}
+            }
+
+            input.shipping_method {
+                float: none;
+            }
+
+            label {
+                display: inline-flex;
+                cursor: pointer;
+                flex-grow: 1;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    margin-left: 0.5em;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        table {
+            width: 100%;
+            border-top: 1px solid #ddd;
+            margin-top: 0.5em;
+            padding-top: 0.5em;
+        }
+
+        label {
+            display: inline-block;
+            float: none;
+            clear: both;
+        }
+
+        &:first-child {
+            border-radius: 5px 5px 0 0;
+        }
+
+        &:last-child {
+            border: none;
+        }
+    }
+
+    input[type="radio"] {
+        margin: 0 8px 0 0;
+        box-sizing: border-box;
+        padding: 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        color: #999;
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+
+.shipping-message {
+    padding-top: 10px;
+}
+
+// Add spacing between shipping packages
+main.checkoutwc p.woocommerce-shipping-contents {
+    margin-bottom: 1em;
+}

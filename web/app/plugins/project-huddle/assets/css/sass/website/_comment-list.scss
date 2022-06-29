@@ -1,0 +1,131 @@
+@import "@sass/global/_mixins.scss";
+.ph-comment-item {
+  .ph-comment-item {
+    padding: 0 20px 25px 0;
+    word-break: break-word;
+    position: relative;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 1.4em;
+    display: flex;
+
+    &__attachments {
+      margin: 0 -7px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__attachment {
+      margin: 10px 7px 5px;
+    }
+
+    &__text {
+      word-break: break-word;
+      @include editor-styles;
+    }
+
+    &__avatar {
+      flex: 0 0 40px;
+    }
+    &__content {
+      flex: 1 1 auto;
+    }
+    &__controls {
+      flex: 0 0 auto;
+      opacity: 0;
+      transition: opacity 0.35s ease;
+
+      .ph-icon {
+        color: #51595f;
+        display: inline-block;
+        width: 18px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        cursor: pointer;
+        opacity: 0.4;
+        font-size: 14px;
+      }
+    }
+
+    &:hover .ph-comment-item__controls {
+      opacity: 1;
+    }
+
+    &__author {
+      font-weight: bold;
+      font-size: 13px;
+      color: #51595f;
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    &__date {
+      color: #b1b1b1;
+      font-size: 12px;
+      line-height: 20px;
+      display: inline-block;
+    }
+
+    &__text {
+      color: #51595f;
+    }
+  }
+  padding: 0 20px 25px 0;
+  word-break: break-word;
+  position: relative;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 1.4em;
+  display: flex;
+
+  &__content {
+    flex: 1 1 auto;
+  }
+
+  &.is-minimal {
+    padding-bottom: 8px;
+    .ph-comment-item__content {
+      display: flex;
+    }
+
+    + .ph-comment-item:not(.is-minimal) {
+      margin-top: 20px;
+    }
+  }
+
+  &__controls {
+    flex: 0 0 auto;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+
+    .ph-icon {
+      color: #51595f;
+      display: inline-block;
+      width: 18px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      cursor: pointer;
+      opacity: 0.4;
+      font-size: 14px;
+    }
+  }
+
+  &:hover .ph-comment-item__controls {
+    opacity: 1;
+  }
+
+  &__date {
+    color: #b1b1b1;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    flex: 0 1 45px;
+    text-align: right;
+    margin-right: 5px;
+  }
+
+  &__text {
+    color: #9c9c9c;
+  }
+}

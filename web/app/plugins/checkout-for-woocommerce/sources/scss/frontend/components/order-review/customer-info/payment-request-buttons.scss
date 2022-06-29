@@ -1,0 +1,86 @@
+#cfw-payment-request-buttons {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+    min-height: 77px;
+
+    h2 {
+        font-size: 14px;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%) translateZ(0);
+        background: var(--cfw-body-background-color);
+        padding: 0 0.75em;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+
+    & * {
+        clear: none;
+    }
+
+    > div, button, > #checkout_paypal_message, > #wc-stripe-payment-request-wrapper, > #wcpay-payment-request-wrapper {
+        @include cfw-payment-request-button();
+    }
+
+    // Don't add this to the mixin because it needs
+    // to be a direct descendant rule and limited to divs for now
+    > div:empty {
+        display: none;
+    }
+}
+
+.apple-pay-button-checkout-separator {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.apple-pay-button-wrapper {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pay-button-separator {
+    align-items: center;
+    margin-bottom: 1em;
+    position: relative;
+    display: block;
+    padding-top: 1em;
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        height: 1px;
+        background: #e6e6e6;
+        width: 100%;
+    }
+
+    span {
+        background: var(--cfw-body-background-color);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background: var(--cfw-body-background-color);
+        z-index: 3;
+        padding: 0 1em;
+        text-transform: none;
+        white-space: nowrap;
+    }
+}
+
+#payment-info-separator-wrap {
+    margin-bottom: 1em;
+}

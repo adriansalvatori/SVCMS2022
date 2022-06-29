@@ -1,0 +1,1288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:32-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά τη σύνδεση. Ελέγξτε τα διαπιστευτήριά σας και "
+"δοκιμάστε ξανά."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου περιέχει άκυρο όνομα τομέα."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Ονοματεπώνυμο"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Αριθμός Οδού"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Όνομα οδού"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Προσθέστε τη γραμμή διεύθυνσης 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Προσθήκη Επιχείρησης"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Διεύθυνση χρέωσης"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Συνδεθείτε με το PayPal. Συνεχίστε την παραγγελία σας παρακάτω."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Έχετε ένα κωδικό προσφοράς; Κάντε κλικ ΕΔΩ."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Κωδικός προσφοράς"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Πληκτρολογήστε τον κωδικό προσφοράς"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Συγχαρητήρια! Θα έχετε δωρεάν κανονική αποστολή."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Είστε %s μακριά από τη δωρεάν αποστολή!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Χρησιμοποιήστε αυτή τη διεύθυνση"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Επαλήθευση Διεύθυνσης"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Η διεύθυνση αποστολής που δώσατε δεν ταιριάζει με την προτεινόμενη διεύθυνση "
+"από την υπηρεσία επαλήθευσης. Παρακαλούμε επαληθεύστε τη διεύθυνσή σας."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Εισήλθατε"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Προτείνουμε"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο αριθμό τηλεφώνου"
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Παρακαλώ εισάγετε το όνομα και το επώνυμό σας."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Διεύθυνση Αποστολής"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Εισαγάγετε μια νέα ποσότητα:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Ο τριψήφιος κωδικός ασφαλείας βρίσκεται συνήθως στο πίσω μέρος της κάρτας "
+"σας. Οι κάρτες American Express έχουν έναν τετραψήφιο κωδικό που βρίσκεται "
+"στο μπροστινό μέρος."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr ""
+"Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτό το στοιχείο από το καλάθι σας;"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Παρακαλούμε εισάγετε έναν έγκυρο ταχυδρομικό κώδικα."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Δεν υπάρχουν διαθέσιμες μέθοδοι αποστολής"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Ολοκληρωμένη παραγγελία"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Πληρωμή"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Όλες οι συναλλαγές είναι ασφαλείς και κρυπτογραφημένες."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Η παραγγελία σας είναι δωρεάν. Δεν απαιτείται πληρωμή."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Ίδια με τη διεύθυνση αποστολής"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Χρησιμοποιήστε μια διαφορετική διεύθυνση χρέωσης"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Πίσω στο καλάθι"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Συνεχίστε στην αποστολή"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Συνεχίστε στην πληρωμή"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Έλεγχος παραγγελίας"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Επιστροφή στις πληροφορίες"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Επιστροφή στην αποστολή"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Επιστροφή στην πληρωμή"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "ή"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Μείωση"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Αύξηση"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Εμφάνιση σύνοψης παραγγελίας"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Απόκρυψη σύνοψης παραγγελίας"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Express checkout"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Έλεγχος παραγγελίας"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Έχετε ήδη λογαριασμό μαζί μας;"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Συνδεθείτε για μια ταχύτερη εμπειρία checkout."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Δημιουργήστε λογαριασμό αγορών %s."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Εάν δεν έχετε λογαριασμό, θα δημιουργήσουμε ένα για εσάς."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Καλώς ορίσατε ξανά,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Αποσύνδεση."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Καλώς ήρθατε και πάλι"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Φαίνεται ότι έχετε ήδη λογαριασμό. Παρακαλούμε εισάγετε τα στοιχεία σύνδεσής "
+"σας παρακάτω."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Αν έχετε ξαναγοράσει από εμάς, παρακαλούμε εισάγετε τα στοιχεία σύνδεσής σας "
+"παρακάτω."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Ή συνεχίστε ως επισκέπτης"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Διεύθυνση χρέωσης και αποστολής"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Αποστολή προς"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Αλλαγή"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Μέθοδος"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Μέθοδος αποστολής"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+"Επιλέξτε τη διεύθυνση που ταιριάζει με την κάρτα ή τον τρόπο πληρωμής σας."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Κωδικός προσφοράς"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Παραγγελία %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Ευχαριστώ  %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Κατάσταση Παραγγελίας"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Ενημερώσεις παραγγελίας"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr ""
+"Θα λάβετε ενημερώσεις αποστολής και παράδοσης μέσω ηλεκτρονικού ταχυδρομείου."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Στοιχεία επικοινωνίας"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Αποστολή"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Αξιολόγηση"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Το καλάθι σας είναι άδειο"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Το καλάθι σας"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Όμορφα βελτιστοποιημένα πρότυπα πληρωμής για το WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Στόχος"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Επιλέξτε χώρα"
+
+#~ msgid "Password"
+#~ msgstr "Κωδικός"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr ""
+#~ "Η είσοδος είναι προαιρετική. Μπορείτε να συνεχίσετε με την παραγγελία σας "
+#~ "παρακάτω."
+
+#~ msgid "Address Required"
+#~ msgstr "Απαιτείται διεύθυνση"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : Απαιτείται PHP 7.0 ή μεγαλύτερη για τη χρήση "
+#~ "του CheckoutWC. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Οι νεότερες εκδόσεις της PHP είναι τόσο πιο γρήγορες όσο και πιο "
+#~ "ασφαλείς, επομένως η ενημέρωση θα έχει θετική επίδραση στην απόδοση του "
+#~ "ιστότοπού σας."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Για την αποφυγή ανεπανόρθωτων σφαλμάτων, έχουμε φορτώσει το %s στο "
+#~ "<strong> %s</strong> , το οποίο απενεργοποιεί όλες τις λειτουργίες και "
+#~ "λειτουργίες. Στις περισσότερες περιπτώσεις, η αναβάθμιση διαρκεί μόνο "
+#~ "λίγα λεπτά. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για περισσότερες "
+#~ "πληροφορίες."
+
+#~ msgid "safe mode"
+#~ msgstr "λειτουργία ασφαλείας"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Μπόβερ Θέμερ"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Ενεργοποιήστε την υποστήριξη Beaver Themer."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr ""
+#~ "Αφήστε το Beaver Themer να αντικαταστήσει την κεφαλίδα και το υποσέλιδο."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Ενεργοποιήστε την υποστήριξη του Elementor Pro."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr ""
+#~ "Επιτρέψτε στο Elementor Pro να αντικαταστήσει την κεφαλίδα και το "
+#~ "υποσέλιδο."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Επεξεργαστής πεδίων Checkout"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr ""
+#~ "Ενεργοποιείται η αντικατάσταση του πεδίου διεύθυνσης πεδίου διευθύνσεων "
+#~ "επεξεργασίας πεδίου Checkout."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Επιτρέψτε στον επεξεργαστή πεδίων WooCommerce Checkout Field να "
+#~ "τροποποιήσετε τα πεδία διεύθυνσης χρέωσης και αποστολής."
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Premium Features"
+#~ msgstr "Χαρακτηριστικά Premium"
+
+#~ msgid "Template"
+#~ msgstr "Πρότυπο"
+
+#~ msgid "Design"
+#~ msgstr "Σχέδιο"
+
+#~ msgid "Integrations"
+#~ msgstr "Ενσωματώσεις"
+
+#~ msgid "Addons"
+#~ msgstr "Πρόσθετα"
+
+#~ msgid "License"
+#~ msgstr "Άδεια Χρήσης"
+
+#~ msgid "Tools"
+#~ msgstr "Εργαλεία"
+
+#~ msgid "Support"
+#~ msgstr "Υποστήριξη"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Προτεινόμενα πρόσθετα"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Αυτή η ρύθμιση παρακάμπτεται από το WooCommerce Checkout Field Editor."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Χρησιμοποιήστε το στοιχείο Checkout για το πρότυπο WooCommerce"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Ενεργοποίηση ή απενεργοποίηση του Checkout για το θέμα WooCommerce. "
+#~ "(ΣΗΜΕΙΩΣΗ: Το θέμα είναι πάντα ενεργοποιημένο για χρήστες διαχειριστή.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Είσοδος στυλ"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Βελτιωμένη (συνιστάται)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "Προεπιλογή WooCommerce"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Βελτιωμένη: Αυτόματη εμφάνιση και απόκρυψη πεδίων σύνδεσης ανάλογα με το "
+#~ "αν η διεύθυνση email που καταχωρίσατε αντιστοιχεί σε έναν λογαριασμό. "
+#~ "(Συνιστάται)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce Default: Εμφάνιση υπενθύμισης σύνδεσης σε ένα banner πάνω από "
+#~ "τη φόρμα ολοκλήρωσης αγοράς."
+
+#~ msgid "Registration Style"
+#~ msgstr "Στυλ εγγραφής"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Βελτιωμένη: Δημιουργήστε αυτόματα ένα όνομα χρήστη και έναν κωδικό "
+#~ "πρόσβασης και στείλτε το μέσω email στον πελάτη χρησιμοποιώντας την "
+#~ "εγγενή λειτουργικότητα του WooCommerce. (Συνιστάται)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce Default: Παρέχεται ένα πεδίο κωδικού πρόσβασης για τον πελάτη "
+#~ "να επιλέξει τον δικό του κωδικό πρόσβασης. Δεν προτείνεται."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Στυλ ετικέτας πεδίου"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Κυμαινόμενο (συνιστάται)"
+
+#~ msgid "Normal"
+#~ msgstr "Κανονικό"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Κινούμενη: Εμφάνιση και απόκρυψη ετικετών αυτόματα ανάλογα με το αν το "
+#~ "πεδίο έχει τιμή. (Συνιστάται)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr ""
+#~ "Κανονική: Οι ετικέτες εμφανίζονται πάνω από κάθε πεδίο ανά πάσα στιγμή."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Ετικέτα προϊόντος καλαθιού"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Κείμενο (συνιστάται)"
+
+#~ msgid "Link"
+#~ msgstr "Σύνδεσμος"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Κείμενο: Μην συνδέετε αντικείμενα καλαθιού με μία σελίδα προϊόντος. "
+#~ "(Συνιστάται)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr ""
+#~ "Σύνδεσμος: Συνδέστε κάθε στοιχείο καλαθιού με τη σελίδα του προϊόντος."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Εμφάνιση δεδομένων στοιχείου καλαθιού"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Σύντομη (συνιστάται)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Οι σύντομες εμφανίζουν μόνο τιμές παραλλαγής. Για παράδειγμα, Μέγεθος: "
+#~ "XL, Χρώμα: Κόκκινο εμφανίζεται ως XL / Κόκκινο. (Συνιστάται)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Όταν χρησιμοποιείτε το WooCommerce Default, κάθε παραλλαγή εμφανίζεται σε "
+#~ "ξεχωριστή γραμμή χρησιμοποιώντας αυτήν τη μορφή: Ετικέτα: Τιμή "
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Παράλειψη αποστολής"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Παράλειψη βήματος αποστολής"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Ενεργοποίηση απόκρυψης του βήματος μεθόδου αποστολής. Χρήσιμο αν έχετε "
+#~ "μόνο μία επιλογή αποστολής για όλες τις παραγγελίες."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Ενεργοποιήστε το πεδίο Σημειώσεις παραγγελίας"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Ενεργοποίηση ή απενεργοποίηση του πεδίου σημειώσεων παραγγελίας. "
+#~ "Απενεργοποιήθηκε από προεπιλογή."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Πεδίο κουπονιού για κινητά"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr ""
+#~ "Εμφάνιση πεδίου κουπονιού πάνω από τις επιλογές πληρωμής στο κινητό."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Εμφάνιση πεδίου κουπονιού πάνω από τις πύλες πληρωμής σε κινητές "
+#~ "συσκευές. Βοηθά τους πελάτες να βρουν το πεδίο κουπονιού χωρίς να "
+#~ "επεκτείνουν τη σύνοψη του καλαθιού αγορών."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Λογότυπα πιστωτικών καρτών για κινητά"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Ενεργοποίηση λογότυπων πιστωτικής κάρτας σε κινητό"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Εμφάνιση των λογότυπων της πιστωτικής κάρτας στο κινητό. Σημείωση: Πολλά "
+#~ "λογότυπα πύλης δεν μπορούν να αποδοθούν σωστά σε κινητά. Συνιστάται να "
+#~ "δοκιμάσετε πριν ενεργοποιήσετε. Προεπιλογή: Απενεργοποίηση"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Συνοπτική ετικέτα για το καλάθι αγορών"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Παράδειγμα: Εμφάνιση σύνοψης παραγγελιών και κουπονιών"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Εάν παραμείνει κενό, θα χρησιμοποιηθεί αυτή η προεπιλογή "
+
+#~ msgid "Header Scripts"
+#~ msgstr "Δέσμες ενεργειών Κεφαλίδας"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Αυτός ο κώδικας θα εξαχθεί αμέσως πριν από την ετικέτα κλεισίματος "
+#~ "<code>&lt;/head&gt;</code> στην προέλευση του εγγράφου."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Δέσμες ενεργειών Υποσέλιδου"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Αυτός ο κώδικας θα εκδοθεί αμέσως πριν από την ετικέτα κλεισίματος "
+#~ "<code>&lt;/body&gt;</code> στην πηγή εγγράφου."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Ενεργοποίηση παρακολούθησης χρήσης"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr ""
+#~ "Να επιτρέπεται στο Checkout για το WooCommerce να παρακολουθεί τη χρήση "
+#~ "του plugin;"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Πρόγραμμα προβολής δεδομένων συλλογής στατιστικών στοιχείων"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Πειραματικές ενοποιήσεις"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Οι πειραματικές ενσωματώσεις δεν υποστηρίζονται και δεν περνούν τις ίδιες "
+#~ "διαδικασίες δοκιμής με τις προτεινόμενες διαμορφώσεις μας."
+
+#~ msgid "Template Loader"
+#~ msgstr "Φορτωτής προτύπου"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Πύλη χωρίς απόσπαση της προσοχής (συνιστάται)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "Θέμα WordPress"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Πύλη χωρίς απόσπαση προσοχής: Εμφάνιση προτύπων CheckoutWC σε μια πύλη "
+#~ "χωρίς περισπασμούς που δεν φορτώνει το ενεργό θέμα ή στυλ του WordPress. "
+#~ "(Συνιστάται)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "Θέμα WordPress: Φόρτωση προτύπων CheckoutWC στην ενεργή περιοχή "
+#~ "περιεχομένου θέματος WordPress."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Πειραματικό - Μη υποστηριζόμενη διαμόρφωση"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Επεξεργασία καλαθιού"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Ενεργοποίηση επεξεργασίας καλαθιού."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Ενεργοποιήστε ή απενεργοποιήστε τη δυνατότητα επεξεργασίας καλαθιού. "
+#~ "Επιτρέπει στον πελάτη να αφαιρέσει ή να προσαρμόσει την ποσότητα των "
+#~ "αντικειμένων καλαθιού."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Επεξεργασία καλαθιού Ανακατεύθυνση κενής καλαθιού"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "Διεύθυνση URL για ανακατεύθυνση όταν ο πελάτης αδειάζει το καλάθι από τη "
+#~ "σελίδα ελέγχου."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr ""
+#~ "Εάν παραμείνει κενό, ο πελάτης θα ανακατευθυνθεί στη σελίδα του καλαθιού."
+
+#~ msgid "Order Pay"
+#~ msgstr "Παραγγελία πληρωμής"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Ενεργοποιήστε την υποστήριξη για τη σελίδα πληρωμής παραγγελιών."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr ""
+#~ "Χρησιμοποιήστε το πρότυπο πληρωμής για τη σελίδα πληρωμής παραγγελιών."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Ένα Έλεγχος Σελίδας"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Ενεργοποίηση ολοκλήρωσης αγοράς."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Εμφάνιση όλων των πεδίων ολοκλήρωσης αγοράς σε μία καρτέλα. Χρήσιμο για "
+#~ "ψηφιακά καταστήματα ή καταστήματα που αναγκάζουν τη διεύθυνση χρέωσης και "
+#~ "αποστολής να είναι ίδια."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Σας ευχαριστούμε Thank You Page"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Ενεργοποιήστε την υποστήριξη για τη σελίδα ευχαριστιών."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Ενεργοποιήστε τη σελίδα ευχαριστιών / παραγγείλετε το πρότυπο. Αυτό το "
+#~ "πρότυπο χρησιμοποιείται επίσης κατά την προβολή παραγγελιών στο "
+#~ "λογαριασμό μου."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Κατάσταση παραγγελιών"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Οι καταστάσεις που εμφανίζονται στη σελίδα ευχαριστιών."
+
+#~ msgid "Map Embed"
+#~ msgstr "Χάρτης Ενσωμάτωση"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Ενεργοποιήστε την ενσωμάτωση χαρτών."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Ενεργοποιήστε ή απενεργοποιήστε την ενσωμάτωση χαρτών στη σελίδα "
+#~ "ευχαριστιών. Απαιτεί κλειδί API Google."
+
+#~ msgid "My Account"
+#~ msgstr "Ο λογαριασμός μου"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr ""
+#~ "Χρησιμοποιήστε το πρότυπο πληρωμής για τη σελίδα πληρωμής παραγγελιών."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Όταν ελεγχθεί, η προβολή παραγγελιών στον λογαριασμό μου θα "
+#~ "χρησιμοποιήσει το πρότυπο σελίδας ευχαριστιών."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Διεύθυνση (Αυτόματη Συμπλήρωση)"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Ενεργοποίηση της αυτόματης συμπλήρωσης διεύθυνσης."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Ενεργοποιήστε ή απενεργοποιήστε τη δυνατότητα αυτόματης συμπλήρωσης "
+#~ "διευθύνσεων. Απαιτεί κλειδί API Google."
+
+#~ msgid "Google API Key"
+#~ msgstr "Κλειδί API Google"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Κλειδί API Google. Διατίθεται στην <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Κονσόλα πλατφόρμας "
+#~ "Google Cloud</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Αντιστοίχιση χρηστών"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Βελτιωμένη (συνιστάται)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Ενεργοποιημένο: Ταιριάζει αυτόματα τις παραγγελίες επισκεπτών με "
+#~ "λογαριασμούς χρηστών σε νέες αγορές καθώς και κατά την εγγραφή ενός νέου "
+#~ "χρήστη. (Συνιστάται)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce Default: Εμφάνιση υπενθύμισης σύνδεσης σε ένα banner πάνω από "
+#~ "τη φόρμα ολοκλήρωσης αγοράς."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "Αποσπάσματα PHP"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Προσθέστε αποσπάσματα PHP για να τροποποιήσετε τη σελίδα πληρωμής σας "
+#~ "εδώ. Εάν έχετε πολλά αποσπάσματα, μπορείτε να εξετάσετε το ενδεχόμενο να "
+#~ "χρησιμοποιήσετε <a target=\"_blank\" href=\"%s\">αποσπάσματα κώδικα</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Απαιτείται αναβάθμιση άδειας"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Απαιτείται άδεια ανάπτυξης ή ανάπτυξης προγραμματιστών για την "
+#~ "ενεργοποίηση αυτών των λειτουργιών."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Μπορείτε να αναβαθμίσετε την άδεια χρήσης στο <a target=\"_blank\" href="
+#~ "\"%1$s\">λογαριασμό μου</a> . Για βοήθεια σχετικά με την αναβάθμιση της "
+#~ "άδειας χρήσης, <a target=\"_blank\" href=\"%2$s\">κάντε κλικ εδώ.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Παράκαμψη ρύθμισης"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Αυτή η ρύθμιση παρακάμπτεται επί του παρόντος μέσω προγραμματισμού. Για "
+#~ "να το ενεργοποιήσετε αφαιρέστε τον προσαρμοσμένο κωδικό σας."
+
+#~ msgid "Templates"
+#~ msgstr "Πρότυπα"
+
+#~ msgid "Active: "
+#~ msgstr "Ενεργά: "
+
+#~ msgid "Activate"
+#~ msgstr "Ενεργοποίηση"
+
+#~ msgid "Global Settings"
+#~ msgstr "Γενικές ρυθμίσεις"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Αυτές οι ρυθμίσεις ισχύουν για όλα τα θέματα."
+
+#~ msgid "Logo"
+#~ msgstr "Λογότυπο"
+
+#~ msgid "Upload image"
+#~ msgstr "Ανέβασμα Εικόνας"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Καθαρό λογότυπο"
+
+#~ msgid "Footer Text"
+#~ msgstr "Κείμενο Yποσέλιδου"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Εάν παραμείνει κενό, θα εμφανιστεί μια τυπική ειδοποίηση πνευματικών "
+#~ "δικαιωμάτων. Ορίστε έναν χώρο για να παρακάμψετε αυτήν τη συμπεριφορά."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Ειδικές ρυθμίσεις θεμάτων"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Αυτές οι ρυθμίσεις ισχύουν για το θέμα που έχετε επιλέξει. (%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Γραμματοσειρές"
+
+#~ msgid "Body Font"
+#~ msgstr "Γραμματοσειρά Σώματος"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Στοίβα γραμματοσειράς συστήματος"
+
+#~ msgid "Heading Font"
+#~ msgstr "Γραμματοσειρά Κεφαλίδας"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "Από προεπιλογή, το CheckoutWC χρησιμοποιεί μια στοίβα γραμματοσειράς "
+#~ "συστήματος, η οποία αποδίδει την ταχύτερη απόδοση. Μπορείτε να επιλέξετε "
+#~ "να χρησιμοποιήσετε μια γραμματοσειρά Google εδώ."
+
+#~ msgid "Color Settings"
+#~ msgstr "Ρυθμίσεις Χρωμάτων"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Προσαρμοσμένο CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Προσθέστε τους Προσαρμοσμένους κανόνες CSS για να ελέγξετε πλήρως την "
+#~ "εμφάνιση του προτύπου πληρωμής."
+
+#~ msgid "Export Settings"
+#~ msgstr "Εξαγωγή ρυθμίσεων"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Κατεβάστε ένα αντίγραφο ασφαλείας των ρυθμίσεών σας."
+
+#~ msgid "Import Settings"
+#~ msgstr "Εισαγωγή Ρυθμίσεων"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Μεταφόρτωση ρυθμίσεων αρχείου και εισαγωγής"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Πριν επικοινωνήσετε με την Υποστήριξη"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Μπορείτε να βρείτε την απάντηση στις περισσότερες ερωτήσεις στη <a href="
+#~ "\"https://kb.checkoutwc.com\" target=\"_blank\">βάση γνώσεων</a> μας."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Ακολουθούν μερικοί δημοφιλείς οδηγοί:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Εξακολουθείτε να χρειάζεστε βοήθεια;"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Εάν εξακολουθείτε να χρειάζεστε βοήθεια μετά την αναζήτηση στη βάση "
+#~ "γνώσεων μας, θα χαρούμε να σας βοηθήσουμε."
+
+#~ msgid "Contact Support"
+#~ msgstr "Επικοινωνήστε με το κέντρο υποστήριξης"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "Το οικοσύστημα WooCommerce είναι γεμάτο φανταστικά plugins. Εδώ είναι "
+#~ "μερικοί που λειτουργούν πολύ καλά με το CheckoutWC που συνιστούμε ολόψυχα "
+#~ "στους πελάτες μας. (Μερικοί από αυτούς τους συνδέσμους μπορεί να "
+#~ "περιλαμβάνουν την παρακολούθηση θυγατρικών. Αυτό δεν επηρεάζει την "
+#~ "απόφασή μας να συμπεριλάβουμε μια προσθήκη.)"
+
+#~ msgid "More Info"
+#~ msgstr "Περισσότερα"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong> %s</strong> : Εντοπίστηκαν ασυμβίβαστα πρόσθετα προειδοποίησης!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr ""
+#~ "Απενεργοποιήστε αυτές τις προσθήκες για να αποφύγετε προβλήματα με το "
+#~ "ταμείο σας!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Η άδειά σας είναι έγκυρη και ενεργοποιημένη για "
+#~ "αυτόν τον ιστότοπο, αλλά το πρότυπό σας είναι απενεργοποιημένο για "
+#~ "κανονικούς χρήστες. Για να το διορθώσετε, μεταβείτε στο %s> %s> %s και "
+#~ "επιλέξτε \" %s\"."
+
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Το κλειδί άδειας χρήσης φαίνεται να έχει λήξει. "
+#~ "Επαληθεύστε ότι το κλειδί άδειας χρήσης σας είναι έγκυρο ή <a target="
+#~ "\"_blank\" href=\"https://www.checkoutwc.com/checkout/?edd_license_key=%s"
+#~ "\">ανανεώστε την άδειά σας τώρα</a> για να επαναφέρετε την πλήρη "
+#~ "λειτουργικότητα."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Το κλειδί άδειας χρήσης λείπει ή δεν είναι έγκυρο. "
+#~ "Βεβαιωθείτε ότι το κλειδί άδειας χρήσης σας είναι έγκυρο ή <a target="
+#~ "\"_blank\" href=\"https://www.checkoutwc.com/\">αγοράστε μια άδεια</a> "
+#~ "για την αποκατάσταση της πλήρους λειτουργικότητας."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Σας ευχαριστούμε που εγκαταστήσατε το Checkout για το WooCommerce! Για να "
+#~ "ξεκινήσετε, κάντε κλικ στην <strong>Άδεια</strong> παρακάτω και "
+#~ "ενεργοποιήστε το κλειδί άδειας χρήσης!"
+
+#~ msgid "Phone"
+#~ msgstr "Τηλέφωνο"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Δεν είναι δυνατή η εισαγωγή ρυθμίσεων. Επιλέξατε ένα αρχείο "
+#~ "JSON για μεταφόρτωση;"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: Εισαγωγή ρυθμίσεων με επιτυχία."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Αυτές οι ρυθμίσεις ισχύουν μόνο για το τρέχον ενεργό πρότυπο. Αν αλλάξετε "
+#~ "πρότυπα στο εργαλείο προσαρμογής, αυτές οι ρυθμίσεις θα καταστούν μη "
+#~ "διαθέσιμες, αλλά η αποθήκευση θα δημοσιεύσει τυχόν αλλαγές εδώ πριν από "
+#~ "την εναλλαγή των προτύπων!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Η ενεργοποίηση απέτυχε: Ενεργοποιήστε το WooCommerce για να "
+#~ "χρησιμοποιήσετε το Checkout για το WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Χρώμα Φόντου Σώματος"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Χρώμα Κειμένου Σώματος"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Χρώμα Φόντου Κεφαλίδας"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Χρώμα Κειμένου Κεφαλίδας"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Χρώμα Φόντου Yποσέλιδου"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Χρώμα Κειμένου Υποσέλιδου"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Περίληψη Χρώμα φόντου"
+
+#~ msgid "Accent Color"
+#~ msgstr "Χρώμα Έμφασης"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Χρώμα φόντου πρωτεύοντος κουμπιού"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Κύριο Χρώμα Κειμένου Κουμπιού"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Χρώμα αιωρήματος φόντου πρωτεύοντος κουμπιού"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Χρώμα αιωρήματος κειμένου κύριου κουμπιού"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Χρώμα φόντου δευτερεύοντος κουμπιού"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Δευτερεύον Χρώμα Κειμένου Κουμπιού"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Χρώμα φόντου δευτερεύοντος κουμπιού"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Χρώμα κειμένου δευτερεύοντος κουμπιού"
+
+#~ msgid "Link Color"
+#~ msgstr "Χρώμα Συνδέσμου"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Χρώμα φόντου Ποσότητα αντικειμένου καλαθιού"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Χρώμα κειμένου Ποσότητα αντικειμένου καλαθιού"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Υπάρχει διαθέσιμη μια νέα έκδοση του %1$s. %2$s Προβολή έκδοσης %3$s "
+#~ "Λεπτομέρειες %4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Υπάρχει διαθέσιμη μια νέα έκδοση του %1$s . %2$s Προβολή έκδοσης %3$s "
+#~ "λεπτομέρειες %4$s ή %5$ παράταση τώρα%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Δεν έχετε άδεια να εγκαταστήσετε ενημερώσεις πρόσθετων"
+
+#~ msgid "Error"
+#~ msgstr "Σφάλμα"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Να επιτρέπεται στο Checkout για το WooCommerce να παρακολουθεί τη χρήση "
+#~ "του plugin; Βοηθήστε να κάνετε το Checkout για το WooCommerce καλύτερο."
+
+#~ msgid "Allow"
+#~ msgstr "Να επιτραπεί"
+
+#~ msgid "Do not allow"
+#~ msgstr "Να μην επιτρέπεται"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Δεν υπολογίζεται"
+
+#~ msgid "Not Available"
+#~ msgstr "Μη διαθέσιμο"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Edit"
+#~ msgstr "Επεξεργασία"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"

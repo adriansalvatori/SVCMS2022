@@ -1,0 +1,156 @@
+@import "icon-font";
+
+$mobile-bp: 900px;
+
+
+@mixin clearfix() {
+	*zoom: 1;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+
+.aw-email-referral-form {
+	p.form-row {
+		margin: 0 0 1em;
+	}
+
+	.woocommerce-Input {
+		width: 100%;
+	}
+}
+
+
+.aw-referrals-share-container {
+	clear: both;
+}
+
+
+.aw-referrals-share-buttons {
+	margin: 22px 0 2px;
+	font-size: 0;
+	text-align: center;
+	@include clearfix();
+
+	a.btn {
+		box-sizing: border-box;
+		display: inline-block;
+		border: none;
+		background: #43454b;
+		color: #fff;
+		padding: .84em 1.387em .91em;
+		line-height: 0.9;
+		font-weight: 600;
+		text-shadow: none;
+		border-radius: 0;
+		text-align: center;
+		min-width: 240px;
+		font-size: 16px;
+		margin: 0 5px 9px;
+		text-decoration: none !important;
+
+		&:before {
+			@extend %automatewoo-referrals-icon;
+			line-height: 1.4;
+			margin-right: 0.7em;
+			font-size: 1.2em;
+			position: relative;
+			top: -1px;
+			vertical-align: middle;
+		}
+
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+
+	a.btn-email {
+		&:before {
+			@extend %automatewoo-referrals-icon--mail;
+		}
+	}
+
+	a.btn-facebook {
+		background: #3B5998;
+
+		&:before {
+			@extend %automatewoo-referrals-icon--facebook;
+		}
+	}
+
+	a.btn-twitter {
+		background: #55acee;
+
+		&:before {
+			@extend %automatewoo-referrals-icon--twitter;
+		}
+	}
+
+	a.btn-whatsapp {
+		background: #55acee;
+
+		&:before {
+			@extend %automatewoo-referrals-icon--whatsapp;
+		}
+	}
+}
+
+
+.aw-referrals-share-or {
+	text-align: center;
+	margin: 0 0 1.1em;
+	color: #bbbbbb;
+	text-transform: uppercase;
+	font-size: 1.07em;
+}
+
+
+
+.aw-referrals-share-widget {
+	margin: 1.5em 0;
+
+	@media ( min-width: $mobile-bp ) {
+		margin: 3em 0;
+	}
+
+	&--position-thankyou-top {
+		margin-top: 0;
+	}
+
+	&--position-shortcode-sidebar {
+		width: 400px;
+
+		.aw-referrals-share-buttons a.btn {
+			width: 100%;
+			margin: 0 0 8px;
+		}
+	}
+}
+
+
+.aw-referrals-share-widget-text {
+	text-align: center;
+
+	@media ( min-width: $mobile-bp ) {
+		padding: 0 1.5em;
+	}
+}
+
+
+.aw-referrals-well {
+	background: #f8f8f8;
+	padding: 1em 2em;
+
+	@media ( min-width: $mobile-bp ) {
+		padding: 2.5em 4em;
+	}
+}
+

@@ -1,0 +1,35 @@
+/* this grid will have thumb + under title)guaven_woos.sugbarwidth */
+
+.guaven_woos_div {
+    float: initial;
+    position:initial;
+}
+
+.guaven_woos_suggestion_list,.guaven_woos_suggestion_unlisted li {
+    display: inline-block;
+    overflow: auto;
+    min-height: 85px;
+    margin-bottom: 3px;
+    width: 50%;
+}
+@media(min-width:768px){
+    .guaven_woos_suggestion_list,.guaven_woos_suggestion_unlisted li {
+        width: 33%;
+    }
+}
+
+.guaven_woos_mobile_div_state .guaven_woos_titlediv small {
+    text-align: left;
+    display: block;
+    float: initial;
+    padding-bottom: 20px;
+}
+
+.guaven_woos_mobile_div_state .guaven_woos_titlediv {
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+}
+
+.guaven_woos_img {width:100px;position:initial}
+.guaven_woos_titlediv {padding-left:5px;margin-left:0px !important;font-size:12px}

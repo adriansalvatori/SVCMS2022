@@ -1,0 +1,62 @@
+/* Functionally the row */
+.fields-wrap {
+  margin: 0 0 1.5em;
+
+  br {
+    display: none;
+  }
+
+  input[type=text], textarea {
+    width: 100%;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+
+    &.description {
+      margin-top: 1em;
+      font-weight: normal;
+      font-size: 14px;
+    }
+
+    abbr {
+      color: red;
+      margin-left: 0.25em;
+    }
+  }
+  
+  &.tc_checkbox_field, &.tc_radio_field {
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    input {
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.tickera-input-field {
+  padding: 0.7em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tickera_owner_info h2 {
+  font-size: 1.25em;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.tickera_owner_info h5 {
+  font-size: 1em;
+  color: #333;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1em;
+}

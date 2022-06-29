@@ -1,0 +1,174 @@
+:root{
+
+  // Global
+  --xt-woofc-primary-color: #263646;
+  --xt-woofc-accent-color: #2c97de;
+  --xt-woofc-color: #666666;
+  --xt-woofc-bg-color: #ffffff;
+  --xt-woofc-badge-bg-color: #e94b35;
+  --xt-woofc-error-color: #d91b1b;
+  --xt-woofc-success-color: #4b9b12;
+
+  --xt-woofc-link-color: var(--xt-woofc-primary-color);
+  --xt-woofc-link-hover-color: var(--xt-woofc-link-color);
+
+  --xt-woofc-border-width: 1px;
+  --xt-woofc-border-style: solid;
+  --xt-woofc-border-color: #eaeaea;
+  --xt-woofc-border: var(--xt-woofc-border-width) var(--xt-woofc-border-style) var(--xt-woofc-border-color);
+  --xt-woofc-radius: 6px;
+
+  // Woo Notices
+  --xt-woofc-notice-font-size: 13px;
+
+  --xt-woofc-notice-error-color: var(--xt-woofc-primary-color);
+  --xt-woofc-notice-error-bg-color: var(--xt-woofc-bg-color);
+  --xt-woofc-notice-error-icon-color: var(--xt-woofc-error-color);
+
+  --xt-woofc-notice-success-color: var(--xt-woofc-primary-color);
+  --xt-woofc-notice-success-bg-color: var(--xt-woofc-bg-color);
+  --xt-woofc-notice-success-icon-color: var(--xt-woofc-success-color);
+
+  --xt-woofc-notice-info-color: var(--xt-woofc-primary-color);
+  --xt-woofc-notice-info-bg-color: var(--xt-woofc-bg-color);
+  --xt-woofc-notice-info-icon-color: var(--xt-woofc-accent-color);
+
+  // Visibility
+  --xt-woofc-zindex: 90200;
+
+  // Overlay
+  --xt-woofc-overlay-color: rgba(0,0,0,.5);
+
+  // Loading Spinner
+  --xt-woofc-spinner-margin: 0 auto 0;
+  --xt-woofc-spinner-size: 40px;
+  --xt-woofc-spinner-color: var(--xt-woofc-accent-color);
+  --xt-woofc-spinner-overlay-color: rgba(255,255,255,0.5);
+
+  // General Settings
+  --xt-woofc-width: 440px;
+  --xt-woofc-height: 500px;
+  --xt-woofc-hoffset: 20px;
+  --xt-woofc-voffset: 20px;
+
+  // Trigger
+  --xt-woofc-trigger-size: 72px;
+  --xt-woofc-trigger-cart-icon-color: var(--xt-woofc-primary-color);
+  --xt-woofc-trigger-close-icon-color: var(--xt-woofc-primary-color);
+
+  --xt-woofc-trigger-bg-color: var(--xt-woofc-bg-color);
+  --xt-woofc-trigger-bg-active-color: var(--xt-woofc-bg-color);
+
+  // Counter
+  --xt-woofc-counter-size: 25px;
+  --xt-woofc-counter-font-size: calc(var(--xt-woofc-counter-size) * 0.55);
+  --xt-woofc-counter-color: #ffffff;
+  --xt-woofc-counter-bg-color: var(--xt-woofc-badge-bg-color);
+
+  // Header
+  --xt-woofc-header-height: 40px;
+  --xt-woofc-header-color: #808b97;
+  --xt-woofc-header-error-color: var(--xt-woofc-error-color);
+  --xt-woofc-header-link-color: var(--xt-woofc-link-color);
+  --xt-woofc-header-link-hover-color: var(--xt-woofc-link-hover-color);
+  --xt-woofc-header-bg-color: var(--xt-woofc-bg-color);
+  --xt-woofc-header-border-color: var(--xt-woofc-border-color);
+  --xt-woofc-header-title-color: var(--xt-woofc-primary-color);
+
+  // Header Clear Icon
+  --xt-woofc-header-clear-color: var(--xt-woofc-primary-color);
+  --xt-woofc-header-clear-hover-color: var(--xt-woofc-header-error-color);
+
+  // Header Close Icon
+  --xt-woofc-header-close-color: var(--xt-woofc-primary-color);
+
+  // Header Coupons
+  --xt-woofc-coupon-button-bg-color: #eeeeee;
+  --xt-woofc-coupon-button-text-color: var(--xt-woofc-primary-color);
+  --xt-woofc-coupon-savings-text-color: #008000;
+
+  // Header Shipping Bar
+  --xt-woofc-shipping-bar-bg-color: inherit;
+  --xt-woofc-shipping-bar-color: var(--xt-woofc-primary-color);
+  --xt-woofc-shipping-bar-progress-inactive-color: var(--xt-woofc-border-color);
+  --xt-woofc-shipping-bar-progress-active-color: var(--xt-woofc-primary-color);
+  --xt-woofc-shipping-bar-progress-completed-color: var(--xt-woofc-success-color);
+
+  // Header Message
+  --xt-woofc-header-msg-bg-color: inherit;
+  --xt-woofc-header-msg-color: var(--xt-woofc-primary-color);
+
+  // Product List
+  --xt-woofc-list-gutter: 10px;
+  --xt-woofc-list-border-width: var(--xt-woofc-border-width);
+  --xt-woofc-list-border-style: var(--xt-woofc-border-style);
+  --xt-woofc-list-border: var(--xt-woofc-list-border-width) var(--xt-woofc-border-style) var(--xt-woofc-border-color);
+
+  // Product
+  --xt-woofc-product-title-wrap: nowrap;
+  --xt-woofc-product-title-color: var(--xt-woofc-link-color);
+  --xt-woofc-product-title-hover-color: var(--xt-woofc-link-hover-color);
+
+  --xt-woofc-product-price-color: var(--xt-woofc-primary-color);
+
+  --xt-woofc-product-attributes-color: var(--xt-woofc-color);
+
+  --xt-woofc-product-qty-icon-size: 10px;
+  --xt-woofc-product-qty-icon-color: var(--xt-woofc-color);
+  --xt-woofc-product-qty-icon-hover-color: var(--xt-woofc-link-hover-color);
+  --xt-woofc-product-qty-input-color: inherit;
+  --xt-woofc-product-qty-input-size: 14px;
+  --xt-woofc-product-qty-input-radius: 0px;
+
+  --xt-woofc-product-remove-color: var(--xt-woofc-link-color);
+  --xt-woofc-product-remove-hover-color: var(--xt-woofc-error-color);
+
+  --xt-woofc-product-image-width: 80px;
+  --xt-woofc-product-image-padding: 0;
+  --xt-woofc-product-image-border-radius: 0;
+  --xt-woofc-product-image-border-width: 0;
+  --xt-woofc-product-image-border-color: initial;
+  --xt-woofc-product-image-height: var(--xt-woofc-product-image-width);
+
+  // Suggested Products
+  --xt-woofc-sp-title-color: var(--xt-woofc-primary-color);
+  --xt-woofc-sp-arrow-size: 20px;
+  --xt-woofc-sp-arrow-color: var(--xt-woofc-primary-color);
+  --xt-woofc-sp-arrow-hover-color: var(--xt-woofc-accent-color);
+
+  // Cart Totals
+  --xt-woofc-totals-savings-color: var(--xt-woofc-success-color);
+  --xt-woofc-totals-font-size: 13px;
+
+  // Checkout Form
+  --xt-woofc-checkout-form-font-size: 120%;
+
+  // Checkout Btn
+  --xt-woofc-checkout-btn-height: var(--xt-woofc-trigger-size);
+  --xt-woofc-checkout-btn-bg-color: var(--xt-woofc-accent-color);
+  --xt-woofc-checkout-btn-bg-hover-color: var(--xt-woofc-checkout-btn-bg-color);
+  --xt-woofc-checkout-btn-color: #ffffff;
+  --xt-woofc-checkout-btn-hover-color: var(--xt-woofc-checkout-btn-color);
+
+
+  // Custom Payment Btns
+  --xt-woofc-payment-btns-padding: 5px;
+
+  // Menu Item Link
+  --xt-woofc-menu-text-color: inherit;
+  --xt-woofc-menu-icon-scale: 1.2;
+  --xt-woofc-menu-icon-color: inherit;
+  --xt-woofc-menu-badge-scale: 1;
+  --xt-woofc-menu-badge-color: #ffffff;
+  --xt-woofc-menu-badge-bg-color: var(--xt-woofc-badge-bg-color);
+
+  // Shortcode Link
+  --xt-woofc-shortcode-size: inherit;
+  --xt-woofc-shortcode-text-color: inherit;
+  --xt-woofc-shortcode-icon-scale: 1.2;
+  --xt-woofc-shortcode-icon-color: inherit;
+  --xt-woofc-shortcode-badge-scale: 1;
+  --xt-woofc-shortcode-badge-color: #ffffff;
+  --xt-woofc-shortcode-badge-bg-color: var(--xt-woofc-badge-bg-color);
+
+}

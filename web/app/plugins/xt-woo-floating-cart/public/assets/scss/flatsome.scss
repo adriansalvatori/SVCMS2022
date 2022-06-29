@@ -1,0 +1,24 @@
+#xt_woofc {
+	.woocommerce-checkout-review-order {
+		#payment div.payment_box{
+			background:inherit!important;
+		}
+
+	}
+
+	.woocommerce-billing-fields{
+		padding-top: 0;
+		border-top: none;
+	}
+
+	@media screen and (max-width: 849px) {
+		.col {
+			padding: 0;
+		}
+
+		.has-border {
+			border: 0;
+			padding: 0;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.digits_admim_conf .dig_admin_side {
+    position: absolute;
+    direction: ltr;
+}
+
+.dig_admin_flt_btn {
+    position: relative !important;
+    top: 0;
+    right: 0;
+    direction: ltr;
+}
+
+.digits_admim_conf .dig_admin_submit[type="submit"] {
+    left: 45px !important;
+}
+
+.dig_admin_head {
+    text-align: right;
+    direction: rtl;
+}
+
+.dig_admin_head::after {
+    left: 0px;
+    right: 0.5em;
+    margin-left: -50%;
+    margin-right: 0px;
+}
+
+.dig_gs_log_men {
+    float: left;
+}
+
+.dig_popmessage {
+    direction: rtl;
+    cursor: default;
+    line-height: 18px;
+}
+
+.dig_sme_lft_algn {
+    text-align: right !important;
+}
+.dig_notice button{
+    left: 10px;
+    right: unset;
+}
+
+.digits_admim_conf .select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+    right: unset;
+    left: 10px;
+}
+.dg_cs_td .dig_cust_default_fields_drag{
+    left: 42px;
+    right: unset;
+}

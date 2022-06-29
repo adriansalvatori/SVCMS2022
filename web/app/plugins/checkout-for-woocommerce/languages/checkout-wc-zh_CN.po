@@ -1,0 +1,1416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:53-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr "登录时出错。请检查您的凭据，然后重试。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "电子邮件地址包含无效的域名。"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "请输入一个有效的%s。"
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "全名"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "房屋号"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "街道名稱"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "添加地址线2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "添加公司"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "帳單地址"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "与PayPal签约。 请继续下面的订单。"
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "应用"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "有促销代码吗？请点击这里。"
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "优惠码"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "输入促销代码"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "祝贺你!你可以得到免费的标准运费。"
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "你离免费送货还有%s步!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "使用此地址"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "地址验证"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr "您提供的送货地址与我们的验证服务所建议的地址不一致。请核实您的地址。"
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "您进入了"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "我们建议"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "请输入一个有效的电话号码。"
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "请输入你的名字和姓氏。"
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "配送地址"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "请输入新的数量："
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr "3位数的安全码，通常在卡的背面。美国运通卡的正面有一个4位数的密码。"
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "您是否确定要从您的购物车中删除此商品？"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "请输入有效的邮政编码。"
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "没有可用的运输方法"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "已完成的订单"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "付款"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "所有的交易都是安全和加密的。"
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "您的订单是免费的。不需要付款。"
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "跟邮寄地址一样"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "使用不同的帐单地址"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "返回到购物车"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "继续发货"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "继续付款"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "检查订单"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "返回信息"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "返回运输"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "返回付款"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "或"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "递减"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "增量"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "显示订单总结"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "隐藏订单摘要"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "快速结帐"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "信息"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "订单审查"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "已经拥有账户?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "登录以获得更快的结账体验。"
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "创建 %s 购物帐户。"
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "如果您没有帐户, 我们将为您创建一个帐户。"
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "欢迎回来，%1$s（%2$s）。"
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "注销。"
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "欢迎您回来"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr "看起来你已经有了一个账户。请在下面输入你的登录信息。"
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr "如果你以前在我们这里购物过，请在下面输入你的登录信息。"
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "或继续做客"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "结算和送货地址"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "寄送到"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "联系"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "更改"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "方法"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "配送方式"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "选择与您的卡或支付方式相匹配的地址。"
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "优惠码"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "订单 %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "谢谢 %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "订单状态"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "订单更新"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "您将通过电子邮件获得运输和交货更新。"
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "联系信息"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "运输"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "登录"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "评论"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "您的购物车是空的"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "您的购物车"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "漂亮的，经过转换优化的WooCommerce结帐模板。"
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "选择一个国家"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "登录是可选的。你可以继续你按以下的顺序。"
+
+#~ msgid "Address Required"
+#~ msgstr "需要的地址"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr "<h3><strong>%s</strong>:使用CheckoutWC需要PHP 7.0或更高版本。</h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "新版本的PHP速度更快，也更安全，所以更新会对你的网站性能产生积极影响。"
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "为了防止致命的错误，我们已经将%s加载到<strong>%s</strong>中，这将禁用所有"
+#~ "的特性和功能。在大多数情况下，升级只需要几分钟的时间。请联系您的主机提供商"
+#~ "了解更多信息。"
+
+#~ msgid "safe mode"
+#~ msgstr "安全模式"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "启用Beaver Themer支持。"
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "允许阿狸西默更换页眉和页脚。"
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "启用Elementor Pro支持。"
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "允许Elementor Pro替换页眉和页脚。"
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "支付字段编辑器"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "启用“签出字段编辑器”地址字段替代。"
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr "允许WooCommerce Checkout字段编辑器修改帐单和收货地址字段。"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#~ msgid "Premium Features"
+#~ msgstr "高级功能"
+
+#~ msgid "Template"
+#~ msgstr "模板"
+
+#~ msgid "Design"
+#~ msgstr "设计"
+
+#~ msgid "Integrations"
+#~ msgstr "集成"
+
+#~ msgid "Addons"
+#~ msgstr "插件"
+
+#~ msgid "License"
+#~ msgstr "许可证"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Support"
+#~ msgstr "支持"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "推荐插件"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerce为WooCommerce提供了漂亮的、转换优化的结账模板。"
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "此设置被WooCommerce Checkout Field Editor覆盖。"
+
+#~ msgid "Enable / Disable"
+#~ msgstr "启用/停用"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "使用Checkout进行WooCommerce模板"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "启用或禁用 WooCommerce 主题的签出。(注： 主题始终为管理员用户启用。)"
+
+#~ msgid "Login Style"
+#~ msgstr "图标样式"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "增强型（建议）"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce 默认"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "增强版。根据输入的电子邮件地址是否与账户匹配，自动显示和隐藏登录字段。(建"
+#~ "议使用)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr "WooCommerce Default:在结账表单上方的横幅上显示登录提醒。"
+
+#~ msgid "Registration Style"
+#~ msgstr "注册方式"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "强化了。自动生成一个用户名和密码，并通过WooCommerce的原生功能将其通过电子"
+#~ "邮件发送给客户。(推荐使用)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce默认的。提供了密码字段，让客户选择自己的密码。不建议使用。"
+
+#~ msgid "Field Label Style"
+#~ msgstr "现场标签样式"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "浮动式（推荐）"
+
+#~ msgid "Normal"
+#~ msgstr "正常"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr "浮动。根据字段是否有值自动显示和隐藏标签。(建议使用)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "正常情况下。每个字段上方都会出现标签。"
+
+#~ msgid "Cart Item Label"
+#~ msgstr "购物车项目标签"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "文本（推荐）"
+
+#~ msgid "Link"
+#~ msgstr "链接"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr "文字。请勿将购物车中的商品链接到单品页面。(推荐)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "链接。链接：将每个购物车中的商品链接到产品页面。"
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "购物车项目数据显示"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "短的（推荐）"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Short只显示变化值。例如，尺寸：XL，颜色：红色显示为XL/红色。颜色：红色显示"
+#~ "为XL/红色。(推荐)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "当使用WooCommerce Default时，每个变体使用此格式在单独的一行中显示。标签。"
+#~ "价值"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "跳过发货步骤"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "跳过运输步骤"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "启用隐藏发货方式步骤。如果您的所有订单只有一个运输方式选项，这很有用。"
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "启用订单说明字段"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr "启用或禁用订单备注字段。默认情况下禁用。"
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "移动优惠券领域"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "在移动端支付选项上方显示优惠券字段。"
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "在移动设备的支付网关上方显示优惠券字段。帮助客户在不展开购物车摘要的情况下"
+#~ "找到优惠券字段。"
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "移动信用卡标志"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "在移动端启用信用卡标识"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "在移动端显示信用卡LOGO。注意：很多网关标识在移动端无法正常渲染。建议您在启"
+#~ "用前进行测试。默认情况下。关闭"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "购物车摘要移动标签"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "示例：显示订单摘要和优惠券"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "如果留空，将使用此默认值: "
+
+#~ msgid "Header Scripts"
+#~ msgstr "页眉脚本"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "此代码将在文档源中的关闭 <code>&lt;/head&gt;</code> 标记之前立即输出。"
+
+#~ msgid "Footer Scripts"
+#~ msgstr "頁尾腳本"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "此代码将在文档源中的关闭 <code>&lt;/body&gt;</code> 标记之前立即输出。"
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "启用使用率跟踪"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "允许Checkout for WooCommerce跟踪插件使用情况？"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "统计数据查看器"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "实验性整合"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr "不支持实验性集成，也不经过与我们推荐配置相同的测试过程。"
+
+#~ msgid "Template Loader"
+#~ msgstr "模板加载器"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "无分心门户（推荐"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress主题"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "分散注意力的门户。在一个不加载活动的WordPress主题或样式的免打扰门户中显示"
+#~ "CheckoutWC模板。(推荐)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr "WordPress主题。在活动的WordPress主题内容区域加载CheckoutWC模板。"
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "实验 - 不支持的配置"
+
+#~ msgid "Cart Editing"
+#~ msgstr "购物车编辑"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "启用购物车编辑。"
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr "启用或禁用购物车编辑功能。允许客户移除或调整购物车数量。"
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "购物车编辑空车重定向"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr "客户从结帐页面清空购物车时重定向到的网址。"
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "如果留空，客户将被重定向到购物车页面。"
+
+#~ msgid "Order Pay"
+#~ msgstr "订单支付"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "启用对订单付款页面的支持。"
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "使用结帐模板进行订单付款页面。"
+
+#~ msgid "One Page Checkout"
+#~ msgstr "单页付款功能"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "启用单页结账。"
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "在一个选项卡上显示所有结账字段。对于数字商店或强制要求账单和送货地址相同的"
+#~ "商店很有用。"
+
+#~ msgid "Thank You Page"
+#~ msgstr "谢谢页面"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "启用感谢页面支持。"
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "启用“谢谢页面” /“收到订单”模板。在“我的帐户”中查看订单时，也会使用此模板。"
+
+#~ msgid "Order Statuses"
+#~ msgstr "订单状态"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "在“谢谢”页面上显示的状态。"
+
+#~ msgid "Map Embed"
+#~ msgstr "地图嵌入"
+
+#~ msgid "Enable map embed."
+#~ msgstr "启用地图嵌入。"
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr "启用或禁用在“感谢页面”上嵌入的地图。需要Google API密钥。"
+
+#~ msgid "My Account"
+#~ msgstr "我的账户"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "使用结帐模板进行订单付款页面。"
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr "勾选后，在 \"我的账户 \"中查看订单将使用感谢页模板。"
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "地址自动完成"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "启用地址自动填充功能。"
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr "启用或禁用地址自动完成功能。需要Google API密钥。"
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API密钥"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google API密钥。在<a target=\"_blank\" href=\"https://developers.google."
+#~ "com/places/web-service/get-api-key\">Google Cloud Platform Console中</a>可"
+#~ "用。"
+
+#~ msgid "User Matching"
+#~ msgstr "用户匹配"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "启用（推荐）"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "已启用。在新购买和新用户注册时，自动将客人订单与用户账户匹配。(推荐)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr "WooCommerce Default:在结账表单上方的横幅上显示登录提醒。"
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP脚本集"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "在这里添加PHP代码片段来修改你的结账页面。如果你有很多的代码片段，你可以考"
+#~ "虑使用代码片段。"
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "需要许可证升级"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr "要启用这些功能，必须具有成长许可证或开发人员许可证。"
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "您可以在“ <a target=\"_blank\" href=\"%1$s\">我的帐户”中</a>升级许可证。有"
+#~ "关升级许可证的帮助， <a target=\"_blank\" href=\"%2$s\">请单击此处。</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "设置覆盖"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr "此设置目前被程序覆盖。要启用它，请删除您的自定义代码。"
+
+#~ msgid "Templates"
+#~ msgstr "模板"
+
+#~ msgid "Active: "
+#~ msgstr "启动: "
+
+#~ msgid "Activate"
+#~ msgstr "激活"
+
+#~ msgid "Global Settings"
+#~ msgstr "全局设置"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "这些设置适用于所有主题。"
+
+#~ msgid "Logo"
+#~ msgstr "标识"
+
+#~ msgid "Upload image"
+#~ msgstr "上传图片"
+
+#~ msgid "Clear Logo"
+#~ msgstr "删除徽标"
+
+#~ msgid "Footer Text"
+#~ msgstr "页脚文本"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr "如果保留空白, 将显示标准版权声明。设置为单个空格以覆盖此行为。"
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "主题特定设置"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "这些设置适用于您选择的主题。(%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "字体"
+
+#~ msgid "Body Font"
+#~ msgstr "正文字体"
+
+#~ msgid "System Font Stack"
+#~ msgstr "系统字库"
+
+#~ msgid "Heading Font"
+#~ msgstr "标题字体"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "默认情况下，CheckoutWC使用的是系统字体堆栈，它的性能最快。你可以选择在这里"
+#~ "使用Google字体。"
+
+#~ msgid "Color Settings"
+#~ msgstr "颜色设置"
+
+#~ msgid "Custom CSS"
+#~ msgstr "自定义样式"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr "添加自定义 CSS 规则以完全控制签出模板的外观。"
+
+#~ msgid "Export Settings"
+#~ msgstr "导出设置"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "下载设置的备份文件。"
+
+#~ msgid "Import Settings"
+#~ msgstr "导入设置"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "上传文件和导入设置"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "在联系支持之前"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr "你可以在我们的知识库中找到大多数问题的答案。"
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "下面是一些流行的指南。"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "还需要帮助吗?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr "如果您在搜索了我们的知识库后仍然需要帮助，我们很乐意为您提供帮助。"
+
+#~ msgid "Contact Support"
+#~ msgstr "联系支持"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerce生态系统充满了梦幻般的插件。以下是我们竭诚向客户推荐的一些与"
+#~ "CheckoutWC配合得非常好的产品。 （其中一些链接可能包括联盟会员跟踪。这不会"
+#~ "影响我们决定添加插件。）"
+
+#~ msgid "More Info"
+#~ msgstr "更多信息"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "%s:警告不兼容的插件被检测到!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "请停用这些插件以避免结帐时出现问题！"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "%s:您的许可证对这个网站是有效的，并已激活，但您的模板对普通用户是无效的。"
+#~ "要解决这个问题，请到%s > %s > %s > %s，然后勾选\"%s\"。"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "%s:您的许可证密钥似乎已经过期了。请确认您的许可证密钥是否有效，或立即更新"
+#~ "您的许可证以恢复完整的功能。"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "%s:您的许可证密钥丢失或无效。请确认您的许可证密钥是否有效或购买许可证以恢"
+#~ "复完整功能。"
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "感谢您为 WooCommerce 安装结帐!要开始, 请单击下面的<strong>许可证</strong>"
+#~ "并激活您的许可证密钥!"
+
+#~ msgid "Phone"
+#~ msgstr "电话"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr "CheckoutWC: 无法导入设置。你是否选择了一个JSON文件来上传？"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC：成功导入设置。"
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "这些设置仅适用于当前活动的模板。如果您在自定义程序中切换模板, 这些设置将变"
+#~ "得不可用, 但保存将在切换模板之前在此处发布任何更改!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr "激活失败：请激活WooCommerce以便为WooCommerce使用Checkout"
+
+#~ msgid "Body Background Color"
+#~ msgstr "主体背景颜色"
+
+#~ msgid "Body Text Color"
+#~ msgstr "正文文本颜色"
+
+#~ msgid "Header Background Color"
+#~ msgstr "页眉背景色"
+
+#~ msgid "Header Text Color"
+#~ msgstr "页眉文本颜色"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "页脚背景颜色"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "页脚文字颜色"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "概要背景颜色"
+
+#~ msgid "Accent Color"
+#~ msgstr "强调色"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "主按钮背景颜色"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "主按钮文字颜色"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "主按钮背景悬停颜色"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "主按钮 文字悬停颜色"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "辅助按钮背景颜色"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "次要按钮文字颜色"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "辅助按钮背景悬停颜色"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "二级按钮文字悬停颜色"
+
+#~ msgid "Link Color"
+#~ msgstr "链接颜色"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "购物车项目 数量 背景色"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "購物車項目數量 文字顏色"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr "有一个新版本的%1$s可用。 %2$s View版本%3$s细节%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "有一个新版本的%1$s可用。 %2$s View版本 %3$s 详细信息%4$s 或%5$supdate now"
+#~ "%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "你没有安装插件更新的权限"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "允许Checkout for WooCommerce跟踪插件使用情况？帮助更好地检查WooCommerce。"
+
+#~ msgid "Allow"
+#~ msgstr "允许"
+
+#~ msgid "Do not allow"
+#~ msgstr "不允许"
+
+#~ msgid "Not Calculated"
+#~ msgstr "未计算"
+
+#~ msgid "Not Available"
+#~ msgstr "不可用"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr "您正在为客人的订单付款。只有在您认可此订单的情况下，请继续付款。"
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr "此订单无法支付。如果您需要帮助，请联系我们。"
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "此订单的状态为\"%s\"&mdash; 不会为此买单。请如果您需要帮助，和我们联系。"
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "处理结帐错误。 请再试一次。"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Lost your password?"
+#~ msgstr "忘记密码？"
+
+#~ msgid "Customer information"
+#~ msgstr "客户信息"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "選擇其它配送方式:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout for WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "我们的 DNA 有很好的支持."
+
+#~ msgid "First Name"
+#~ msgstr "名字"
+
+#~ msgid "Last Name"
+#~ msgstr "姓"
+
+#~ msgid "Email"
+#~ msgstr "电子邮件"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "Subtotal"
+#~ msgstr "小计"
+
+#~ msgid "Total"
+#~ msgstr "共计"
+
+#~ msgid ""
+#~ "You are using a legacy child theme which will be disabled in a future "
+#~ "version. Changing theme settings is not possible for legacy themes."
+#~ msgstr ""
+#~ "您使用的是将在未来版本中禁用的旧式子主题。对于旧式主题, 更改主题设置是不可"
+#~ "能的。"
+
+#~ msgid ""
+#~ "It looks like you are using a legacy checkout theme, located in %s. "
+#~ "Legacy themes are deprecated and you should upgrade to the new theme "
+#~ "structure as soon as possible to prevent problems with future release. "
+#~ "For more information, <a target=\"_blank\" href=\"https://www.checkoutwc."
+#~ "com/docs/developer-api/template-files/upgrading-legacy-custom-templates/"
+#~ "\">read our migration guide.</a>"
+#~ msgstr ""
+#~ "它看起来像您正在使用的旧签出主题, 位于%s 中. 旧版主题已弃用, 您应尽快升级"
+#~ "到新的主题结构, 以防止将来发布问题。有关详细信息, 请<a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/docs/developer-api/template-files/"
+#~ "upgrading-legacy-custom-templates/\">阅读我们的迁移指南.</a>"
+
+#~ msgid "Taxes"
+#~ msgstr "税额"
+
+#~ msgid "Show Phone Fields"
+#~ msgstr "显示电话字段"
+
+#~ msgid "Enable billing and shipping phone fields"
+#~ msgstr "启用计费和送货电话字段"
+
+#~ msgid ""
+#~ "Enable or disable billing and shipping phone fields as required fields. "
+#~ "(Default: Disabled)"
+#~ msgstr "启用或禁用所需的计费和送货电话字段。(默认值: 已禁用)"
+
+#~ msgid "Last name"
+#~ msgstr "名字"
+
+#~ msgid "Address"
+#~ msgstr "地址"
+
+#~ msgid "Apt, suite, etc."
+#~ msgstr "Apt，Suite，Bldg。"
+
+#~ msgid "Country"
+#~ msgstr "國家"
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "邮政编码"
+
+#~ msgid "State / County"
+#~ msgstr "省/市"
+
+#~ msgid "Town / City"
+#~ msgstr "城市"
+
+#~ msgid "Update country"
+#~ msgstr "更新国家"
+
+#~ msgid "Select a state&hellip;"
+#~ msgstr "选择一个地区&hellip;"
+
+#~ msgid "Choose an option"
+#~ msgstr "选择一个选项"
+
+#~ msgctxt "shipping packages"
+#~ msgid "Shipping"
+#~ msgid_plural "Shipping %d"
+#~ msgstr[0] "运输"
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please double check your "
+#~ "address, or contact us if you need any help."
+#~ msgstr ""
+#~ "没有可用的运送方式。请仔细检查您的地址，如果您需要任何帮助，请联系我们。"
+
+#~ msgid ""
+#~ "Sorry, it seems that there are no available payment methods for your "
+#~ "location. Please contact us if you require assistance or wish to make "
+#~ "alternate arrangements."
+#~ msgstr ""
+#~ "很抱歉，似乎你所在的位置没有可用的付款方式。如果您需要帮助请联系我们，或希"
+#~ "望使其他安排。"
+
+#~ msgid "Checkout is not available whilst your cart is empty."
+#~ msgstr "当您的购物车为空时, 结帐不可用。"
+
+#~ msgid "Select an option&hellip;"
+#~ msgstr "选择一个选项&hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "找不到匹配项"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading failed"
+#~ msgstr "加载失败"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "请输入％qty％或更多字符"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "请删除1个字符"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "请删除 %qty% 个字符"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select 1 item"
+#~ msgstr "您只能选择1个项目"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select %qty% items"
+#~ msgstr "您只能选择％qty％项目"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "载入更多结果＆hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Searching&hellip;"
+#~ msgstr "搜索&hellip;"
+
+#~ msgid "Cart"
+#~ msgstr "购物车"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+#~ msgstr ""
+#~ "有一个新版本的 %1$s 可用. <a target=\"_blank\" class=\"thickbox\" href="
+#~ "\"%2$s\">查看版本 %3$s 详情</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "有一个新的版本 %1$s 可用。<a target=\"_blank\" class=\"thickbox\" href="
+#~ "\"%2$s\">视图版本 %3$s 细节</a> 或者 <a href=\"%4$s\">现在更新</a>."
+
+#~ msgid ""
+#~ "There are no shipping methods available. Please ensure that your address "
+#~ "has been entered correctly, or contact us if you need any help."
+#~ msgstr ""
+#~ "没有可用的运送方式。 请确保您的地址已正确输入，如果您需要任何帮助，请联系"
+#~ "我们。"
+
+#~ msgctxt "checkout-wc"
+#~ msgid "Apt, suite, etc. (optional)"
+#~ msgstr "Apt，Suite，Bldg。 （可选）"
+
+#~ msgid ""
+#~ "If you do not have an account, the information provided here will be used "
+#~ "to create an account on checkout."
+#~ msgstr "如果您没有帐户，这里提供的信息将用于在结帐时创建一个帐户。"
+
+#~ msgid ""
+#~ "We can't wait to help you with Checkout for WooCommerce! Please fill out "
+#~ "the following form and one of our support staff will respond within 12-24 "
+#~ "hours. (average)"
+#~ msgstr ""
+#~ "我们迫不及待要帮你结帐 WooCommerce!请填写以下表格, 我们的一名支持人员将在"
+#~ "12-24 小时内回复。平均)"
+
+#~ msgid "Many issues are addressed in our documentation:"
+#~ msgstr "我们的文档中讨论了许多问题:"
+
+#~ msgid "View Documentation"
+#~ msgstr "查看文档"
+
+#~ msgid ""
+#~ "If you need help for something not covered in our documentation, please "
+#~ "click this button to file a support request:"
+#~ msgstr "如果您需要我们文档中未涉及的内容的帮助, 请单击此按钮以提交支持请求:"
+
+#~ msgid "Support Request"
+#~ msgstr "要求支持"
+
+#~ msgid "Create a %s shopping account."
+#~ msgstr "创建购物帐户 %s。"
+
+#~ msgid ""
+#~ "Shipping costs will be calculated once you have provided your address."
+#~ msgstr "一旦您提供地址，运费将会计算在内。"
+
+#~ msgid "Apartment, suite, unit etc."
+#~ msgstr "公寓，套房，單位等。"
+
+#~ msgid "Header Shadow Color"
+#~ msgstr "標題陰影顏色"
+
+#~ msgid "Brandon Tassone"
+#~ msgstr "Brandon Tassone"

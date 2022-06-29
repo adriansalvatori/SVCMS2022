@@ -1,0 +1,406 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2017-10-14 11:44-0400\n"
+"Last-Translator: \n"
+"Language-Team: support@checkoutwc.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr ""
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr ""
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr ""
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr ""
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr ""
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr ""
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr ""
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr ""
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr ""
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr ""
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr ""
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr ""
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr ""
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr ""
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr ""
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr ""
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr ""
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address "
+"from our verification service. Please verify your address."
+msgstr ""
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr ""
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr ""
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr ""
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr ""
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr ""
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr ""
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr ""
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr ""
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr ""
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr ""
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr ""
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr ""
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr ""
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr ""
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr ""
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr ""
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr ""
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr ""
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr ""
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr ""
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr ""
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr ""
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr ""
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr ""
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr ""
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr ""
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr ""
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr ""
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr ""
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr ""
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr ""
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr ""
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr ""
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr ""
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr ""
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr ""
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr ""
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr ""
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr ""
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr ""
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr ""
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr ""
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr ""
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr ""
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr ""
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr ""
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr ""
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr ""
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr ""
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr ""

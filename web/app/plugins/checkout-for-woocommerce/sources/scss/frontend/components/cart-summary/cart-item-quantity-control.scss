@@ -1,0 +1,90 @@
+.cfw-edit-item-quantity-control-wrap {
+    display: flex;
+    align-items: center;
+    color: #717171;
+}
+
+.cfw-quantity-remove-item {
+    transition: all .2s ease;
+    opacity: 0;
+}
+
+.cart-item-row:hover .cfw-edit-item-quantity-control-wrap .cfw-quantity-remove-item {
+    opacity: 1;
+}
+
+.cfw-quantity-stepper {
+    font-size: 0.75em;
+    display: inline-flex;
+    align-items: center;
+    border: solid 1px rgb(211, 212, 213);
+    border-radius: 16px;
+    margin-top: 0.5em;
+    opacity: 0.9;
+
+    .cfw-quantity-stepper-btn-minus, .cfw-quantity-stepper-btn-plus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        min-width: 30px;
+        min-height: 30px;
+        background: none;
+        appearance: none;
+        padding: 0 !important;
+        margin-bottom: 0;
+        margin-right: 0;
+
+        &.maxed {
+            cursor: not-allowed;
+
+            &:hover {
+                background: #d9d9d9;
+            }
+        }
+
+        &:hover {
+            background: #333;
+
+            svg {
+                fill: #fff;
+            }
+        }
+
+        svg {
+            width: 0.5rem;
+            height: auto;
+            fill: #333333;
+        }
+    }
+
+    .cfw-quantity-stepper-btn-minus {
+        border: none;
+        border-right: solid 1px rgb(211, 212, 213);
+        border-top-left-radius: inherit;
+        border-bottom-left-radius: inherit;
+    }
+
+    .cfw-quantity-stepper-btn-plus {
+        border: none;
+        border-left: solid 1px rgb(211, 212, 213);
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+
+    .cfw-quantity-stepper-value-label {
+        font-weight: 700;
+        width: 100%;
+        min-width: 30px;
+        text-align: center;
+        color: var(--cfw-body-text-color) !important;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+        user-select: none;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}

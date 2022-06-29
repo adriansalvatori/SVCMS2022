@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: assets/js/src/app/components/threads/task-overview.vue:180
+msgid "Are you sure you want to permanently delete this attachment?"
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:184
+msgid "Are you sure?"
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:186
+msgid "Yes"
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:187
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:210
+msgid "Deleted"
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:216
+msgid "Could not delete the attachment."
+msgstr ""
+
+#: assets/js/src/app/components/threads/task-overview.vue:276
+msgid "Hmmm... something went wrong."
+msgstr ""

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+    <domain name="woo-floating-cart">
+        <project>
+            <source>
+                <exclude>
+                    <directory>xt-framework</directory>
+                </exclude>
+            </source>
+            <target>
+                <directory>languages</directory>
+            </target>
+            <template>
+                <file>languages/woo-floating-cart.pot</file>
+            </template>
+        </project>
+    </domain>
+    <domain name="xt-framework">
+        <project name="XT Framework" slug="xt-framework">
+            <source>
+                <directory>xt-framework</directory>
+                <exclude>
+                    <directory>xt-framework/includes/freemius</directory>
+                </exclude>
+            </source>
+            <target>
+                <directory>xt-framework/languages</directory>
+            </target>
+            <template>
+                <file>xt-framework/languages/xt-framework.pot</file>
+            </template>
+        </project>
+        <project name="Freemius" slug="freemius">
+            <source>
+                <directory>xt-framework/includes/freemius</directory>
+            </source>
+            <target>
+                <directory>xt-framework/includes/freemius/languages</directory>
+            </target>
+            <template>
+                <file>xt-framework/includes/freemius/languages/freemius.pot</file>
+            </template>
+        </project>
+    </domain>
+</bundle>

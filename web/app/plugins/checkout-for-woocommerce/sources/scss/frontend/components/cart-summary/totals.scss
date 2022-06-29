@@ -1,0 +1,105 @@
+#cfw-totals-list table {
+    padding-top: 1em;
+    display: block;
+    width: 100%;
+
+    strong {
+        font-weight: normal;
+    }
+
+    tbody {
+        display: block;
+    }
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+
+        th {
+            font-size: 14px;
+            font-weight: normal;
+            text-align: left;
+            flex-basis: 33.33%;
+        }
+
+        td {
+            text-align: right;
+            flex-basis: 66.66%;
+        }
+
+        &.order-total {
+            align-items: baseline;
+            border-top: 2px solid #000;
+            color: var(--cfw-cart-summary-order-total-text-color);
+
+            .amount {
+                font-weight: bold;
+            }
+
+            th, td {
+                font-size: initial;
+                font-weight: 700;
+            }
+
+            .includes_tax {
+                display: block;
+                margin-top: 10px;
+                font-weight: normal;
+                color: #666;
+            }
+        }
+
+        /**
+        Subscriptions
+         */
+        &.recurring-totals { // Title
+            th {
+                padding-top: 1.5em;
+                text-transform: none !important;
+                font-size: 1.25em;
+                color: #333;
+                font-weight: 300;
+                flex-basis: auto;
+            }
+        }
+
+        &.recurring-total {
+            align-items: baseline;
+
+            .first-payment-date {
+                color: #666;
+                position: relative;
+                margin-top: 10px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    .type {
+        font-size: 14px;
+    }
+
+    .place-order {
+        display: none;
+        margin-top: 1em;
+        text-align: right;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    #cfw-totals-list {
+        margin-bottom: 0;
+    }
+
+    .cfw-other-totals {
+        & > *:first-child {
+            margin-top: 20px;
+        }
+
+        table td {
+            text-align: right;
+        }
+    }
+}

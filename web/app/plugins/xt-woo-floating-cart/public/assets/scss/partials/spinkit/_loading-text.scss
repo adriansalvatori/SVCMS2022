@@ -1,0 +1,14 @@
+/*
+ *  Usage:
+ *
+      <div class="xt_woofc-spinner-loading-text">Loading...</div>
+ *
+ */
+
+.xt_woofc-spinner-loading-text {
+  	width: 100%;
+	font-size: 20px;
+	color: var(--xt-woofc-spinner-color);
+  	margin: var(--xt-woofc-spinner-margin);
+  	text-align: center;
+}

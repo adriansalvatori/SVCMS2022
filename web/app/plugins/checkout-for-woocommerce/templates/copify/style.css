@@ -1,0 +1,91 @@
+/*!
+  Template Name:   	Copify
+  Author:           Brandon Tassone
+  Author URI:       https://objectiv.co/
+  Description:  	A theme inspired by Shopify.
+  Version:      	3.0.0
+  Supports:         summary-background, order-pay, order-received, breadcrumb-colors
+ */
+#cfw {
+  margin-top: 2em;
+}
+
+#cfw-logo-container .cfw-logo, #cfw-logo-container-mobile .cfw-logo {
+  padding-top: 0;
+}
+#cfw-logo-container .cfw-logo a, #cfw-logo-container-mobile .cfw-logo a {
+  margin-top: 0;
+}
+
+#cfw-cart-summary > *:not(#cfw-mobile-cart-header) {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-mobile-cart-header {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-cart-summary-content {
+  position: relative;
+  z-index: 2;
+}
+
+#cfw-cart-summary {
+  border-left: 0;
+  padding: 0;
+}
+#cfw-cart-summary:before {
+  content: " ";
+  background: var(--cfw-cart-summary-background-color);
+  position: fixed;
+  height: calc(100vh + 60px);
+  width: 100%;
+  top: 0;
+  border-left: 1px solid #eee;
+  z-index: 1;
+}
+
+#cfw-logo-container-mobile {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  #cfw {
+    margin-top: 1em;
+  }
+
+  #cfw-logo-container {
+    display: none;
+  }
+
+  #cfw-logo-container-mobile {
+    display: block;
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+
+  #cfw-cart-summary:before {
+    content: none;
+  }
+}
+form.woocommerce-checkout > .woocommerce-NoticeGroup {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+  padding-right: 20px;
+}
+@media (max-width: 991.98px) {
+  form.woocommerce-checkout > .woocommerce-NoticeGroup {
+    width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
+    padding: 0 20px;
+  }
+}
+
+#cfw-header {
+  min-height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map*/

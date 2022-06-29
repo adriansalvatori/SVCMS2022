@@ -1,0 +1,389 @@
+// WooCommerce Core Fonts
+/**
+ * _fonts.scss
+ * Custom WooCommerce fonts.
+ */
+@font-face {
+    font-family: 'star';
+    src: url('../../fonts/star.eot');
+    src: url('../../fonts/star.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/star.woff') format('woff'),
+    url('../../fonts/star.ttf') format('truetype'),
+    url('../../fonts/star.svg#star') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WooCommerce';
+    src: url('../../fonts/WooCommerce.eot');
+    src: url('../../fonts/WooCommerce.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/WooCommerce.woff') format('woff'),
+    url('../../fonts/WooCommerce.ttf') format('truetype'),
+    url('../../fonts/WooCommerce.svg#WooCommerce') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.product-tax {
+    font-size: smaller;
+}
+
+/**
+ *From: woocommerce.scss
+ */
+
+/**
+ * Forms
+ */
+form.woocommerce-form-coupon .form-row, form.woocommerce-form-login .form-row {
+    padding: 3px;
+    margin: 0 0 6px;
+
+    [placeholder]:focus::-webkit-input-placeholder {
+        transition: opacity 0.5s 0.5s ease;
+        opacity: 0;
+    }
+
+    label {
+        line-height: 2;
+    }
+
+    label.hidden {
+        visibility: hidden;
+    }
+
+    label.inline {
+        display: inline;
+    }
+
+    .woocommerce-input-wrapper {
+
+        .description {
+            background: #1e85be;
+            color: #fff;
+            border-radius: 3px;
+            padding: 1em;
+            margin: 0.5em 0 0;
+            clear: both;
+            display: none;
+            position: relative;
+
+            a {
+                color: #fff;
+                text-decoration: underline;
+                border: 0;
+                box-shadow: none;
+            }
+
+            &::before {
+                left: 50%;
+                top: 0%;
+                margin-top: -4px;
+                transform: translateX(-50%) rotate(180deg);
+                content: "";
+                position: absolute;
+                border-width: 4px 6px 0 6px;
+                border-style: solid;
+                border-color: #1e85be transparent transparent transparent;
+                z-index: 100;
+                display: block;
+            }
+        }
+    }
+
+    select {
+        cursor: pointer;
+        margin: 0;
+    }
+
+    .required {
+        color: red;
+        font-weight: 700;
+        border: 0 !important;
+        text-decoration: none;
+        visibility: hidden; // Only show optional by default.
+    }
+
+    .optional {
+        visibility: visible;
+    }
+
+    .input-checkbox {
+        display: inline;
+        margin: -2px 8px 0 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    input.input-text,
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        outline: 0;
+        line-height: normal;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        appearance: none !important;
+        background: #fff;
+        transition: all .2s ease;
+        color: #333;
+        padding: .80em .8em;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #d9d9d9 !important;
+        box-shadow: none;
+        transition-delay: 0s, 0s;
+        transition-duration: 0.2s, 0s;
+        transition-property: all, width;
+        transition-timing-function: ease-out, ease;
+
+        &::placeholder {
+            color: #ccc;
+        }
+
+        &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 2px #c7c7c7;
+        }
+    }
+
+    textarea {
+        height: 4em;
+        line-height: 1.5;
+        display: block;
+        box-shadow: none;
+    }
+
+    .select2-container {
+        width: 100%;
+        line-height: 2em;
+    }
+
+    &.woocommerce-invalid {
+
+        label {
+            color: #a00;
+        }
+
+        .select2-container,
+        input.input-text,
+        select {
+            border-color: #a00;
+        }
+    }
+
+    &.woocommerce-validated {
+
+        .select2-container,
+        input.input-text,
+        select {
+            border-color: darken(#7ad03a, 5%);
+        }
+    }
+
+    ::-webkit-input-placeholder {
+        line-height: normal;
+    }
+
+    :-moz-placeholder {
+        line-height: normal;
+    }
+
+    :-ms-input-placeholder {
+        line-height: normal;
+    }
+}
+
+
+/**
+ * Forms
+ * From: woocommerce-forms.scss
+ */
+form.woocommerce-form-login, form.woocommerce-form-coupon, .payment_box {
+    .clear {
+        clear: both;
+    }
+
+    .form-row {
+        @include clearfix();
+
+        label {
+            display: block;
+
+            &.checkbox {
+                display: inline;
+            }
+        }
+
+        select {
+            width: 100%;
+        }
+
+        .input-text {
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+
+    .form-row-first,
+    .form-row-last {
+        width: 47%;
+        overflow: visible;
+    }
+
+    .form-row-first {
+        float: left;
+
+        /*rtl:raw:
+        float: right;
+        */
+    }
+
+    .form-row-last {
+        float: right;
+    }
+
+    .form-row-wide {
+        clear: both;
+    }
+
+    .button {
+        font-size: 100%;
+        margin: 0;
+        line-height: 1;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        overflow: visible;
+        padding: .618em 1em;
+        font-weight: 700;
+        border-radius: 3px;
+        left: auto;
+        color: #515151;
+        background-color: #ebe9eb;
+        border: 0;
+        display: inline-block;
+        background-image: none;
+        box-shadow: none;
+        text-shadow: none;
+        width: auto;
+    }
+}
+
+form.woocommerce-form-coupon {
+    margin-bottom: 1em;
+}
+
+.woocommerce-button {
+    width: auto;
+}
+
+/**
+ * Password strength meter
+ */
+.woocommerce-password-strength {
+    text-align: center;
+    font-weight: 600;
+    padding: 3px 0.5em;
+    font-size: 1em;
+
+    &.strong {
+        background-color: #c1e1b9;
+        border-color: #83c373;
+    }
+
+    &.short {
+        background-color: #f1adad;
+        border-color: #e35b5b;
+    }
+
+    &.bad {
+        background-color: #fbc5a9;
+        border-color: #f78b53;
+    }
+
+    &.good {
+        background-color: #ffe399;
+        border-color: #ffc733;
+    }
+}
+
+.woocommerce-form-login-toggle {
+    @include media-breakpoint-down(lg) {
+        margin: 0 20px;
+    }
+}
+
+.woocommerce .woocommerce-form-login {
+    margin-bottom: 1em;
+    font-size: 0.875em;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form__label-for-checkbox {
+    display: block !important;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
+    float: left;
+    margin-right: 1em;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__rememberme {
+    display: inline-block !important;
+}
+
+main.checkoutwc .woocommerce-Price-amount {
+    white-space: nowrap;
+}
+
+/**
+ * Native Styling for receipt hook
+ */
+.woocommerce ul.order_details {
+    margin: 0 0 3em;
+    list-style:none
+}
+
+.woocommerce ul.order_details::after, .woocommerce ul.order_details::before {
+    content: ' ';
+    display:table
+}
+
+.woocommerce ul.order_details::after {
+    clear:both
+}
+
+.woocommerce ul.order_details li {
+    float: left;
+    margin-right: 2em;
+    text-transform: uppercase;
+    font-size: .715em;
+    line-height: 1;
+    border-right: 1px dashed #d3ced2;
+    padding-right: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type:none;
+    margin-bottom: 0.5em; // CheckoutWC only
+}
+
+.woocommerce ul.order_details li strong {
+    display: block;
+    font-size: 1.4em;
+    text-transform: none;
+    line-height:1.5
+}
+
+.woocommerce ul.order_details li:last-of-type {
+    border:none
+}
+/**
+ * End Native Styling for receipt hook
+ */
+@include media-breakpoint-down(lg) {
+    .checkoutwc .woocommerce-info a {
+        float:none;
+    }
+}

@@ -1,0 +1,12 @@
+.cfw-place-order-wrap {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-down(lg) {
+        width: 100%;
+    }
+}
+
+.cfw-payment-method-active #cfw-totals-list .place-order {
+  display: block;
+}

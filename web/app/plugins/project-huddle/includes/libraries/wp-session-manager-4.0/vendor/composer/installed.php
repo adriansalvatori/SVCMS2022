@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '4.2.0',
+        'version' => '4.2.0.0',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'ericmann/wp-session-manager',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'defuse/php-encryption' => array(
+            'pretty_version' => 'v2.3.1',
+            'version' => '2.3.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../defuse/php-encryption',
+            'aliases' => array(),
+            'reference' => '77880488b9954b7884c25555c2a0ea9e7053f9d2',
+            'dev_requirement' => false,
+        ),
+        'ericmann/sessionz' => array(
+            'pretty_version' => '0.3.1',
+            'version' => '0.3.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ericmann/sessionz',
+            'aliases' => array(),
+            'reference' => 'b1a278c54aa13035ed0ca0c297fb117d04036d9b',
+            'dev_requirement' => false,
+        ),
+        'ericmann/wp-session-manager' => array(
+            'pretty_version' => '4.2.0',
+            'version' => '4.2.0.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '32e99a171531bd818fe2c260db02a11d243effbf',
+            'dev_requirement' => false,
+        ),
+    ),
+);

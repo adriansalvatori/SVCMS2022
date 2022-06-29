@@ -1,0 +1,45 @@
+.xt_woofc-shipping-bar {
+  text-align: center;
+  padding: 15px 8%;
+  font-size: 16px;
+  background-color: var(--xt-woofc-shipping-bar-bg-color);
+  color: var(--xt-woofc-shipping-bar-color);
+  width:100%;
+  margin: 0 auto;
+
+  .xt_woofc-shipping-bar-text {
+    font-weight: 600;
+  }
+
+  .xt_woofc-shipping-bar-perc {
+    height: 8px;
+    width: 100%;
+    background-color: var(--xt-woofc-shipping-bar-progress-inactive-color);
+    border-radius: 5px;
+    display: table;
+    margin: 15px auto 0;
+    overflow: hidden;
+
+    > span {
+      display: block;
+      z-index: 1;
+      height: inherit;
+      background-color: var(--xt-woofc-shipping-bar-progress-active-color);
+      transition: width 0.3s ease, background-color 0.3s ease;
+      width: 0;
+    }
+
+    &[data-width="100%"] > span{
+      background-color: var(--xt-woofc-shipping-bar-progress-completed-color);
+    }
+  }
+
+  .xt_woofc-empty &,
+  &:empty{
+    display:none;
+  }
+
+  p{
+    margin:0!important;
+  }
+}

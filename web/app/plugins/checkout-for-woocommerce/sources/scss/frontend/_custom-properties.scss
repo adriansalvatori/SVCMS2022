@@ -1,0 +1,38 @@
+:root {
+    --cfw-heading-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --cfw-body-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --cfw-body-background-color: #fff;
+    --cfw-body-text-color: #666;
+    --cfw-body-link-color: #0073aa;
+    --cfw-header-background-color: #fff;
+    --cfw-header-text-color: #2b2b2b;
+    --cfw-header-bottom-margin: 0;
+    --cfw-footer-background-color: #fff;
+    --cfw-footer-text-color: #999;
+    --cfw-footer-top-margin: 0;
+    --cfw-cart-summary-background-color: #ffffff;
+    --cfw-cart-summary-mobile-background-color: #f4f4f4;
+    --cfw-cart-summary-text-color: #333333;
+    --cfw-cart-summary-item-quantity-background-color: #727272e6;
+    --cfw-cart-summary-item-quantity-text-color: #fff;
+    --cfw-cart-summary-order-total-text-color: #000;
+    --cfw-breadcrumb-completed-text-color: #00000080;
+    --cfw-breadcrumb-current-text-color: #333;
+    --cfw-breadcrumb-next-text-color: #00000080;
+    --cfw-breadcrumb-completed-accent-color: #333;
+    --cfw-breadcrumb-current-accent-color: #333;
+    --cfw-breadcrumb-next-accent-color: #333;
+    --cfw-buttons-primary-background-color: #333;
+    --cfw-buttons-primary-text-color: #ffffff;
+    --cfw-buttons-primary-hover-background-color: #555;
+    --cfw-buttons-primary-hover-text-color: #ffffff;
+    --cfw-buttons-secondary-background-color: #333;
+    --cfw-buttons-secondary-text-color: #ffffff;
+    --cfw-buttons-secondary-hover-background-color: #555;
+    --cfw-buttons-secondary-hover-text-color: #555;
+    --cfw-logo-url: '';
+    --cfw-loading-shimmer-display-mode: block;
+    --cfw-loading-shimmer-cart-item-quantity-display-mode: none;
+    --cfw-loading-shimmer-primary-color: #eff1f3;
+    --cfw-loading-shimmer-gradient: linear-gradient(to right, var(--cfw-loading-shimmer-primary-color) 4%, #e2e2e2 25%, var(--cfw-loading-shimmer-primary-color) 36%);
+}

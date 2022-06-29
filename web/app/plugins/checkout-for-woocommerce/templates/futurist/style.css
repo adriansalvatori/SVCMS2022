@@ -1,0 +1,198 @@
+/*!
+  Template Name:   	Futurist
+  Author:           Brandon Tassone
+  Author URI:       https://objectiv.co/
+  Description:  	A modern twist on our classic theme.
+  Version:      	3.0.0
+  Supports:         header-background, footer-background, order-pay, order-received, summary-background, breadcrumb-colors
+ */
+#cfw-logo-container {
+  text-align: center;
+}
+#cfw-logo-container .cfw-logo {
+  padding: 0;
+  height: auto;
+}
+#cfw-logo-container .cfw-logo .logo {
+  background-position: center;
+  height: 4em;
+  display: block;
+  margin: 0.75em auto;
+}
+
+body.futurist h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+body.futurist #cfw-cart-summary {
+  padding-left: 20px;
+  background: var(--cfw-body-background-color);
+}
+@media (max-width: 991.98px) {
+  body.futurist #cfw-cart-summary {
+    background: var(--cfw-cart-summary-mobile-background-color);
+    padding: 0;
+  }
+}
+body.futurist #cfw-cart-summary #cfw-cart-summary-content {
+  background: var(--cfw-cart-summary-background-color);
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+@media (max-width: 991.98px) {
+  body.futurist #cfw-cart-summary #cfw-cart-summary-content {
+    padding: 0 20px;
+    background: unset;
+  }
+}
+body.futurist #cfw-cart-summary #cfw-cart-summary-content > h3 {
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #bfbfbf;
+}
+body.futurist #cfw-breadcrumb {
+  list-style-type: none;
+  margin: 0 auto 2em;
+  padding: 0;
+  display: flex;
+  position: relative;
+  max-width: 540px;
+  width: 100%;
+  font-size: 1em;
+  justify-content: center;
+}
+body.futurist #cfw-breadcrumb:after {
+  content: " ";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--cfw-breadcrumb-completed-accent-color);
+}
+body.futurist #cfw-breadcrumb li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 2;
+  margin: 0 1em;
+  background: var(--cfw-body-background-color);
+  width: 25%;
+  font-size: 0.75em;
+  flex-grow: 1;
+}
+@media (max-width: 767.98px) {
+  body.futurist #cfw-breadcrumb li {
+    margin: 0 0.5em;
+  }
+}
+body.futurist #cfw-breadcrumb li:not(:last-child):after {
+  display: none;
+}
+body.futurist #cfw-breadcrumb li:first-child {
+  margin-left: 0;
+}
+body.futurist #cfw-breadcrumb li:last-child {
+  margin-right: 0;
+}
+body.futurist #cfw-breadcrumb li > a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.875em;
+  color: var(--cfw-breadcrumb-completed-text-color);
+}
+body.futurist #cfw-breadcrumb li > a:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body.futurist #cfw-breadcrumb li:before {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-bottom: 0.8em;
+  border: 2px solid var(--cfw-breadcrumb-completed-accent-color);
+  background: var(--cfw-breadcrumb-completed-accent-color);
+}
+body.futurist #cfw-breadcrumb li.tab.active ~ li.tab a {
+  color: var(--cfw-breadcrumb-next-text-color);
+}
+body.futurist #cfw-breadcrumb li.tab.active ~ li.tab:before {
+  border-color: var(--cfw-breadcrumb-next-accent-color);
+  background: var(--cfw-body-background-color);
+}
+body.futurist #cfw-breadcrumb li.tab.active a {
+  color: var(--cfw-breadcrumb-current-text-color);
+}
+body.futurist #cfw-breadcrumb li.tab.active:before {
+  border-color: var(--cfw-breadcrumb-current-accent-color);
+  background: var(--cfw-breadcrumb-current-accent-color);
+}
+body.futurist .cfw-breadcrumb-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  width: 100%;
+}
+body.futurist #cfw-cart {
+  margin-bottom: 0;
+}
+body.futurist #cfw-coupons {
+  margin: 1.5em 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+body.futurist #cfw-coupons .cfw-input-wrap-row {
+  margin-bottom: 0;
+}
+body.futurist #cfw-totals-list {
+  margin-bottom: 0;
+}
+body.futurist #cfw-totals-list .cfw-totals-normal > *:first-child {
+  padding-top: 0;
+}
+body.futurist #cfw-totals-list .cfw-totals-normal .cfw-flex-row {
+  border-bottom: none !important;
+}
+body.futurist #cfw-totals-list #cfw-cart-total {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: none;
+  padding-bottom: 0;
+  padding-top: 1.5em;
+}
+body.futurist #cfw-totals-list .recurring-totals th {
+  text-transform: uppercase !important;
+  font-weight: 700;
+}
+body.futurist #cfw-totals-list .shipping.recurring-total ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+body.futurist #cfw-totals-list .shipping.recurring-total ul li {
+  margin-bottom: 0.35em;
+  font-size: 0.9em;
+}
+body.futurist #cfw-totals-list .shipping.recurring-total ul li input {
+  margin-right: 0.3em;
+}
+body.futurist #cfw-totals-list .shipping.recurring-total ul li:last-child {
+  margin-bottom: 0;
+}
+
+#cfw #cfw-cart-summary .cfw-order-bumps.cfw-has-bumps {
+  margin-top: 1.8rem;
+}
+
+/*# sourceMappingURL=style.css.map*/

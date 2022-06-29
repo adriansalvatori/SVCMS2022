@@ -1,0 +1,53 @@
+*** AutomateWoo - Birthdays Add-on ***
+
+2022-06-07 - version 1.3.8
+* Tweak - WC 6.6 compatibility.
+
+2022-05-17 - version 1.3.7
+* Tweak - WC 6.5 compatibility.
+
+2022-04-19 - version 1.3.6
+* Fix - Fix styling issue with Twenty Twenty theme.
+* Tweak - WC 6.4 compatibility.
+
+2022-01-17 - version 1.3.5
+* Compat bump to WC 6.1
+
+2021-12-15 - version 1.3.4
+* Fix - Remove the added WordPress and PHP versions (#34)
+* Tweak - Compatibility testing with WordPress 5.9 and WooCommerce 6.0  (#33)
+
+2021-07-27 - version 1.3.3
+* Fix - Fix admin language matches site language rather than profile language.
+
+2021-03-17 - version 1.3.2
+* Fix - Remove deprecated jQuery functions.
+
+2021-02-12 - version 1.3.1
+* Tweak - WC 5.0 compatibility
+
+2021-02-12 - version 1.3.0
+* Tweak - PHP 8 compatibility
+* Tweak - WordPress 5.6 compatibility
+* Fix - Missing plugin welcome notice
+
+2020-10-20 - version 1.2.0
+
+* New Minimum Requirements - AutomateWoo 5.1
+
+* New - Updated "Customer Birthday" trigger to use ActionScheduler
+* New - Updated translations to use translate.wordpress.com
+
+2020-04-29 - version 1.1.2
+
+* Add support for WC 4.1
+
+2019-11-13 - version 1.1.1
+
+* Add support for WC 3.8
+
+2019-10-10 - version 1.1.0
+* Add support for plugin updates via the WooCommerce.com Extension Marketplace
+
+2019-03-14 - version 1.0.0
+* Initial release

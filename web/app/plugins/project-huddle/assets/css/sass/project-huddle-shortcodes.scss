@@ -1,0 +1,20 @@
+/*-----------------------------------------------------------------------------------
+
+	Project Huddle Shortcodes
+	Version: 1.0
+
+	@uses compass
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------*/
+
+.ph-login-form input[type=password], .ph-login-form input[type=text] {
+	width: 100%;
+    display: inline-block;
+}
+
+.ph-login-form p {
+	margin: 10px;
+}

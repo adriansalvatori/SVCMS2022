@@ -1,0 +1,21 @@
+.xtfw-admin-tabs-page .xtfw-admin-tabs-panel.xtfw-panel-settings-type {
+    padding: 0;
+    box-shadow: none;
+
+    @media screen and (max-width: 782px) {
+        box-shadow: 0 0 10px rgba(24, 24, 24, 0.15) !important;
+        border-radius: 5px;
+    }
+}
+
+@import "partials/variables";
+@import "partials/spinner";
+@import "partials/highlight";
+@import "partials/inline-confirm";
+@import "partials/select2";
+@import "partials/color-picker";
+@import "partials/range";
+@import "partials/radio";
+@import "partials/toggle";
+@import "partials/reset";
+@import "partials/form";

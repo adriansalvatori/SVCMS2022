@@ -1,0 +1,31 @@
+.parsley-errors-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #f04f63;
+  font-weight: 300;
+  font-size: 14px;
+
+  li {
+    margin-top: 10px;
+  }
+}
+
+.form-row .parsley-error:not(.checkbox) {
+  box-shadow: 0 0 0 1px #f04f63!important;
+}
+
+.cfw-check-input {
+    .parsley-error input {
+        border-color: #f04f63 !important;
+    }
+
+    .parsley-errors-list.filled {
+        margin-left: 1em;
+
+        li {
+            margin-top: 0;
+            line-height: 18px;
+        }
+    }
+}

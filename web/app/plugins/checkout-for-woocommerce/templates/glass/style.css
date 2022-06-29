@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/*!
+  Template Name:   	Glass
+  Author:           Clifton Griffin
+  Author URI:       https://objectiv.co/
+  Description:  	A sleek and smooth checkout template.
+  Version:      	1.0.0
+  Supports:         header-background, footer-background, order-pay, order-received, summary-background, accent-color, breadcrumb-colors
+ */
+.woocommerce-info {
+  padding: 15px;
+  margin-bottom: 1em;
+  border: 1px solid #dfe3e8;
+  border-radius: 5px;
+  line-height: 1.625;
+  color: #383d41;
+  background-color: transparent;
+}
+
+form.woocommerce-checkout > .woocommerce-NoticeGroup {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+  padding-right: 20px;
+}
+@media (max-width: 991.98px) {
+  form.woocommerce-checkout > .woocommerce-NoticeGroup {
+    width: 100%;
+    max-width: 100%;
+    flex-shrink: 0;
+    padding: 0 20px;
+  }
+}
+
+#cfw #cfw-cart-summary {
+  border-left: 0;
+  padding: 0;
+  position: relative;
+}
+#cfw #cfw-cart-summary:before {
+  content: " ";
+  background: var(--cfw-cart-summary-background-color);
+  position: fixed;
+  height: calc(100vh + 60px);
+  width: 100%;
+  top: 0;
+  border-left: 1px solid #eee;
+  z-index: 1;
+}
+@media (max-width: 991.98px) {
+  #cfw #cfw-cart-summary:before {
+    content: none;
+  }
+}
+#cfw #cfw-cart-summary > *:not(#cfw-mobile-cart-header) {
+  position: relative;
+  z-index: 2;
+}
+#cfw #cfw-mobile-cart-header {
+  position: relative;
+  z-index: 2;
+}
+#cfw #cfw-cart-summary-content {
+  position: relative;
+  z-index: 2;
+}
+#cfw #cfw-cart {
+  margin-bottom: 0;
+}
+#cfw #cfw-cart h3 {
+  font-size: 1.25em;
+}
+#cfw .cfw-glass-cart-wrap, #cfw #cfw-coupons {
+  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.15);
+  background: #fff !important;
+  padding: 1em;
+  margin-bottom: 0;
+}
+#cfw #cfw-coupons .cfw-input-wrap-row {
+  margin-bottom: 0;
+}
+#cfw #cfw-coupons {
+  border-top: 1px solid rgba(189, 175, 161, 0.3);
+}
+
+#cfw {
+  counter-reset: checkoutSteps;
+}
+#cfw #cfw-breadcrumb li.tab {
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+#cfw #cfw-breadcrumb li.tab a {
+  transition: all 0.2s ease;
+  display: block;
+  padding-bottom: 1em;
+  border-bottom: 3px solid var(--cfw-breadcrumb-completed-accent-color);
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  color: #333;
+  font-weight: normal;
+}
+#cfw #cfw-breadcrumb li.tab.active ~ li.tab a {
+  color: #dfdcdb;
+  border-bottom-color: var(--cfw-breadcrumb-next-accent-color);
+}
+#cfw #cfw-breadcrumb li.tab.active ~ li.tab a:after {
+  display: none;
+}
+#cfw #cfw-breadcrumb li.tab.active a {
+  color: blue;
+  border-bottom-color: var(--cfw-breadcrumb-current-accent-color);
+}
+#cfw #cfw-breadcrumb li.tab.active a:after {
+  visibility: hidden;
+}
+#cfw #cfw-breadcrumb li.tab a:before {
+  counter-increment: checkoutSteps;
+  content: counter(checkoutSteps);
+  display: inline-block;
+  margin-right: 6px;
+}
+@media (max-width: 991.98px) {
+  #cfw #cfw-breadcrumb li.tab a:before {
+    display: none;
+  }
+}
+#cfw #cfw-breadcrumb li.tab a:after {
+  content: "\2713";
+  color: var(--cfw-breadcrumb-completed-accent-color);
+  margin-left: 6px;
+}
+#cfw #cfw-breadcrumb li.tab:after {
+  display: none;
+}
+
+#cfw .cfw-primary-btn {
+  box-shadow: 0 0.4rem 1.2rem -0.2rem rgba(0, 0, 0, 0.2);
+}
+
+#cfw-header {
+  z-index: 2;
+}
+
+#cfw-footer {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 100%;
+  min-height: 6rem;
+  z-index: 10000000000;
+}
+
+body.checkout-wc {
+  position: relative;
+  min-height: 100vh;
+}
+
+#cfw .cfw-review-pane {
+  border: 1px solid #b5b5b5;
+  border-radius: 0;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+}
+#cfw .cfw-review-pane li {
+  padding: 0 1.25em;
+}
+#cfw .cfw-review-pane li .inner, #cfw .cfw-review-pane li .cfw-review-pane-link {
+  padding: 1.25em 0;
+}
+#cfw .cfw-shipping-methods-list {
+  border: none;
+  border-radius: 0;
+}
+#cfw .cfw-shipping-methods-list li:first-child {
+  border-radius: 0;
+}
+#cfw .cfw-shipping-methods-list li {
+  padding: 1.5em;
+  border: 1px solid #b5b5b5;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+#cfw .cfw-shipping-methods-list li > * {
+  position: relative;
+}
+#cfw .cfw-shipping-methods-list li.active {
+  background-color: var(--cfw-active-theme-colors-accent-color);
+  border: none;
+}
+#cfw .cfw-shipping-methods-list li.active:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#cfw .cfw-shipping-methods-list li ~ li {
+  margin-top: 1em;
+}
+
+#cfw .cfw-radio-reveal-group {
+  background: none;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+}
+#cfw .cfw-radio-reveal-content {
+  background: none;
+  border: none;
+  padding: 0;
+  padding-top: 20px;
+}
+#cfw .cfw-radio-reveal-li {
+  margin-bottom: 1em !important;
+  overflow: visible;
+  border-radius: 0 !important;
+  border: none;
+}
+#cfw .cfw-radio-reveal-title {
+  font-weight: 500;
+}
+#cfw .cfw-radio-reveal-title-wrap {
+  background: none;
+  border: 1px solid #b5b5b5;
+  border-radius: 2px;
+}
+#cfw .cfw-radio-reveal-label {
+  padding: 1.5em 0 !important;
+}
+#cfw .cfw-radio-reveal-title-wrap input[type=radio] {
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+}
+#cfw .cfw-radio-reveal-li.cfw-active .cfw-radio-reveal-title-wrap {
+  background-color: var(--cfw-active-theme-colors-accent-color);
+  border: none;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+#cfw .cfw-radio-reveal-li.cfw-active .cfw-radio-reveal-title-wrap:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#cfw .cfw-radio-reveal-li.cfw-active .cfw-radio-reveal-title-wrap > * {
+  position: relative;
+}
+
+#cfw #cfw-totals-list th {
+  text-transform: uppercase;
+}
+
+#cfw input[type=radio] {
+  border: 1px solid rgba(19, 33, 71, 0.2);
+  box-shadow: none !important;
+}
+#cfw input[type=radio]:checked:after {
+  position: absolute;
+  background-color: #135bff;
+  height: 6px;
+  width: 6px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  margin: 0;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out 0.1s;
+}
+
+#cfw input[type=checkbox]:checked {
+  box-shadow: 0 0 0 10px #135bff inset;
+}
+
+#cfw #cfw-cart-summary .cfw-order-bumps {
+  background: #fff;
+  padding: 1.25em;
+}
+#cfw #cfw-cart-summary .cfw-order-bumps .cfw-order-bump {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+:root {
+  --cfw-active-theme-colors-accent-color: #dee6fe;
+}
+
+/*# sourceMappingURL=style.css.map*/

@@ -1,0 +1,124 @@
+.comment-textarea.focus {
+  padding-bottom: 45px; }
+  .comment-textarea.focus + .ph-comment-form-controls {
+    display: -ms-flexbox;
+    display: flex; }
+
+.ph-upload {
+  cursor: pointer;
+  color: #999999; }
+
+.ph-attachment-container,
+.ph-comment-attachment-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -7px; }
+
+.ph-file-attachment-thumbnail {
+  max-width: 50px;
+  margin: 10px 7px 5px; }
+  .ph-file-attachment-thumbnail svg {
+    fill: currentColor; }
+  .ph-file-attachment-thumbnail .ph-loading-image {
+    transform: scale(0.5); }
+  .ph-file-attachment-thumbnail .thumb-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #a8acaf;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(25, 29, 34, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .ph-file-attachment-thumbnail .ph-close-icon {
+    position: absolute !important;
+    top: -7px;
+    right: -7px;
+    background: #51595f;
+    color: #fff;
+    line-height: 0;
+    border-radius: 99px;
+    padding: 3px;
+    cursor: pointer;
+    z-index: 9; }
+  .ph-file-attachment-thumbnail .ph-download {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 3px;
+    bottom: 0;
+    color: #fff;
+    background: #191d22;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    color: #fff !important;
+    cursor: pointer; }
+    .ph-file-attachment-thumbnail .ph-download:hover {
+      opacity: 0.75; }
+  .ph-file-attachment-thumbnail .ph-attachment-title {
+    font-size: 10px;
+    line-height: 15px;
+    min-height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .ph-file-attachment-thumbnail .ph-attachment-title:focus:after, .ph-file-attachment-thumbnail .ph-attachment-title:hover:after {
+      content: attr(data-text);
+      font-size: 12px;
+      overflow: visible;
+      text-overflow: inherit;
+      background: #fff;
+      position: absolute;
+      left: auto;
+      top: auto;
+      width: auto;
+      max-width: 20rem;
+      border-radius: 3px;
+      padding: 4px 8px;
+      box-shadow: 0 2px 11px 0 rgba(25, 29, 34, 0.1);
+      white-space: normal;
+      word-wrap: break-word;
+      display: block;
+      color: black;
+      margin-top: -1.2rem;
+      margin-left: -6px; }
+  .ph-file-attachment-thumbnail .ph-generic-attachment-icon {
+    font-weight: bold;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px; }
+  .ph-file-attachment-thumbnail .ph-upload-progress {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    height: 3px;
+    border-radius: 999px;
+    overflow: hidden; }
+    .ph-file-attachment-thumbnail .ph-upload-progress .ph-upload-progress-indicator {
+      height: 100%;
+      width: 0%;
+      background: #6e7b89;
+      border-radius: 999px;
+      transition: width 0.35s ease; }
+

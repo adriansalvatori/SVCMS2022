@@ -1,0 +1,124 @@
+/**1.0.10 - 2022.06.15**/
+- Fixed: CSS of out-of-stock icon when enabling option to show attribute value for Color/Image type
+- Fixed: Custom attributes not saving correctly if name contains quote sign
+
+/**1.0.9 - 2022.06.13**/
+- Fixed: "Change the size of attribute items" not applied to Select type
+- Improved: Values of Global attributes are paginated
+- Improved: Remove empty css
+- Added: Preview of attribute image and color on Global attributes page
+- Added: Ability to modify tooltip content, show attribute image/variation image in tooltip
+- Added: Option to show attribute value for Color/Image type
+
+/**1.0.8 - 2022.03.29**/
+- Fixed: Swatches sometimes not initialize on product page built with Elementor
+- Fixed: Small bug causes Elementor Hamburger menu not working when using along with WP rocket
+- Updated: VillaTheme support
+
+/**1.0.7 - 2022.03.23**/
+- Fixed: Out-of-stock visual issue
+- Improved: Use srcset for attribute image when available
+- Updated: VillaTheme support
+- Added: Option to only use Custom position for swatches on product list
+
+/**1.0.6 - 2022.03.11**/
+- Fixed: Zoom image not changing accordingly for "Change product image" option when using with Woodmart theme
+- Fixed: Impeka theme - product item height on archive not auto correcting after variation swatches init
+- Fixed: Tooltip not showing for out-of-stock attributes
+- Added: Action hooks viwpvs_before_loop_variation_swatches and viwpvs_after_loop_variation_swatches
+
+/**1.0.5 - 2022.01.15**/
+- Fixed: Deprecated is_ajax in WC6.1
+- Fixed: Backorder status condition check
+- Fixed: Swatches not working with Woodmart theme's quickview
+- Fixed: Some fields of global attributes(Edit screen) are duplicated when WPML is active
+- Fixed: "Change product image" option not working if a product has more variations than "Ajax variation threshold"
+- Updated: Make "Out of stock" design(Swatches profile) apply no matter "Disable 'out of stock' variation items" option is on or off
+
+/**1.0.4 - 2021.11.16**/
+- Fixed: Custom attribute not saving the value 0
+- Fixed: "Change product image" option overrides variation image when a variation is selected
+- Added: Custom hook for swatches position
+
+/**1.0.3.2 - 2021.10.15**/
+- Fixed: Missing variation price on product list if swatches position is before/after title
+- Fixed: Custom attributes not saving correctly if attribute name is in non-latin language
+- Updated: Load images/colors(filter by attributes) from original language if not set in a second language(WPML)
+- Added: Option to set maximum items shown by default for WooCommerce filter widget
+
+/**1.0.3.1 - 2021.09.15**/
+- Fixed: Change attribute select when an attribute does not exist in any variations
+- Fixed: Swatches in product list not working if Default Form Values do not exist in any variations
+- Fixed: Custom attributes not saving correctly if attribute name contains special characters
+- Fixed: Out-of-stock attributes not blur out when turning off "Disable Out of stock variation items" option if Default Form Values are set
+- Fixed: "Show selected attribute item" not working with products that have more variations than the Ajax variation threshold
+- Updated: Remove Ajax variation threshold limitation
+- Optimized: Do not print css with empty style
+- Added: Compatibility with JetSmart filters plugin
+
+/**1.0.3 - 2021.04.22**/
+- Fixed: Show selected attribute item on single
+- Fixed: Variation image in product list not change when selecting an attribute with image caused by some lazyload functionality of some plugins/themes
+- Fixed: Swatches type Variation image not working with translated product variations(WPML)
+- Fixed: Conflict with Contact form
+- Updated: Hide 'out of stock' variation item option for Product list
+- Updated: Product edit page: button "Add new" -> "Add", add button "Add new" like WooCommerce which is to create a new term for global attributes
+- Updated: “Out of stock” products are still selectable
+- Added: Option to change product image according to attribute/variation image when selecting an attribute value
+- Added: Compatibility with FacetWP, Ajax load more(Darren Cooney)
+- Added: Add to cart button text on product list can be translated with WPML, Polylang
+- Added: Swatches align for single product
+
+/**1.0.2.6 - 2020.12.18**/
+- Added: Reset settings general
+- Added: Attribute image size
+- Fixed: Auto update
+
+/**1.0.2.5 - 2020.12.12**/
+- Fixed: Swatches select revert to attribute slug after add to cart
+- Fixed: Color separator selection changes not reflecting
+- Fixed: Display swatches slider
+- Fixed: Save attribute on product editor page
+- Updated: Delete image for attribute item
+- Updated: Style quantity on product list
+- Updated: Compatibility with WP 5.6 and WC 4.8
+- Added: New position on Product List - before product title, after product title
+- Added: Enable/disable attribute title on single
+- Added: Show selected attribute item on single
+- Added: Import/ export settings general
+
+/**1.0.2.4 - 2020.08.15**/
+- Added: Compatibility with WP 5.5 and WC 4.3
+– Fixed: 'Out of stock' Swatches - namesake
+- Fixed: Check update request
+
+/**1.0.2.3 - 2020.07.01**/
+– Fixed: Design 'Filter Products by Attribute' WooCommerce
+
+/**1.0.2.2 - 2020.06.29**/
+– Updated: Class support
+– Added: Add Quantity field in Product list
+– Added: Add default Swatches profile
+– Added: Add ajax variation threshold
+– Added: Select multi value for global in the product edit page
+– Added: Custom design Global Attribute for Product category
+– Added: Design 'Filter Products by Attribute' WooCommerce
+– Added: Carousel format for a large number of variations in Product list
+– Added: filter 'viwpvs_variation_option_tooltip' to change content of the tooltip
+
+/**1.0.2.1 - 2020.05.09**/
+- Fixed: 'Out of stock' Swatches in single product page
+- Fixed: Show in product list for custom attribute
+- Fixed: Display color type and image type for custom attribute
+
+/**1.0.2 - 2020.04.18**/
+- Fixed: 'out of stock' Swatches in Product list
+- Added: Text of 'add to cart' button in Product list
+- Added: Hide 'out of stock' variation item
+
+/**1.0.1 - 2020.04.04**/
+- Fixed: Function prefix
+- Fixed: Horizontal style
+
+/**1.0.0 - 2020.04.02**/
+~ The first released

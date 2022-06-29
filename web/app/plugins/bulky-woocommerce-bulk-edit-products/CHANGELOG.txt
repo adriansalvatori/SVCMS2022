@@ -1,0 +1,74 @@
+/** 1.2.0 - 2022.06.24 **/
+- Fixed: Display RTL
+- Fixed: Search from 0 to 0
+– Fixed: SKU is removed when filter edit fields
+– Fixed: Change option Orderby regular/sale price to orderby price
+– Fixed: Paste data from clipboard
+- Update: Calculate sale price base on regular price
+- Update: Add images to galleries
+- Update: Add attributes to products
+- Update: Select & multiselect for custom meta fields
+- Update: Filter include variation
+
+/** 1.1.8 - 2022.03.30 **/
+- Update: VillaTheme_Support
+
+/** 1.1.7 - 2022.03.23 **/
+- Update: VillaTheme_Support
+
+/** 1.1.6 - 2022.03.01 **/
+- Fixed: Product thumbnail with .jpeg type
+
+/** 1.1.5 - 2021.12.28 **/
+- Fixed: Add image to gallery
+- Update: Mark selected row
+
+/** 1.1.4 - 2021.11.22 **/
+- Fixed: Select fields to edit
+- Update: Copy data between columns same type
+
+/** 1.1.3 - 2021.11.10 **/
+-Update: Change select categories with using select2
+-Update: Find & replace categories
+-Fixed: Get users
+-Fixed: Format variation title
+
+/** 1.1.2 - 2021.10.11 **/
+-Update: Find and replace tags
+
+/** 1.1.1 - 2021.10.11 **/
+-Fix: Calculator for number type
+
+/** 1.1.0 - 2021.10.11 **/
+- Update: Edit orders, coupons in bulk
+
+/** 1.0.4 - 2021.09.02 **/
+-Fix: Clear tags, cross-sell, upsell column
+-Fix: Copy cell is object
+-Fix: Use for variation not save
+-Update: Edit publish date
+-Update: Edit multiple calendar cells
+-Update: Delete cell content when select column
+
+/** 1.0.3 - 2021.08.20 **/
+-Fix: Scroll bar not working after close select upsell/cross-sell column
+-Fix: Curency format
+-Update: Duplicate product
+
+/** 1.0.2 - 2021.08.16 **/
+-Fix: Show all categories
+-Fix: Remove other plugin scripts
+-Fix: meta data texteditor
+-Fix: Undo for texteditor column type
+-Fix: Display upsells
+
+/** 1.0.1 - 2021.08.07 **/
+-Fix: Close image cell
+-Fix: Check image url contain some special character
+-Fix: urldecode slug
+
+/** 1.0.0.1 - 2021.03.08 **/
+- Update: Add auto update ID
+
+/** 1.0.0 - 2021.08.02 **/
+~ The first released.

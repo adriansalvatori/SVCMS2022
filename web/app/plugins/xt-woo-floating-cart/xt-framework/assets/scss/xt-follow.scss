@@ -1,0 +1,83 @@
+/* XT Social Share */
+.xt-follow{
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: -8px;
+
+	.rtl &{
+		float:left;
+	}
+
+	&:before {
+		content: 'Follow Us';
+		display: inline-block;
+		font-size: 14px;
+		color: #888;
+		position: relative;
+		top: -10px;
+		margin-right: 10px;
+
+		.rtl & {
+			float:left;
+			top:8px;
+		}
+	}
+
+	a{
+		display: inline-block;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 32px;
+		height:32px;
+		margin-left: 8px;
+		cursor: pointer;
+		transition: transform 0.4s;
+		transform:scale(1);
+		outline: none;
+
+		&:focus,
+		&:active{
+			outline: none;
+			box-shadow: none;
+			cursor: pointer;
+		}
+
+		&:hover{
+			transform:scale(1.15);
+			cursor: pointer;
+		}
+	}
+
+	.xt-follow-site{
+		background-image: url(../images/social/site.png);
+	}
+	.xt-follow-twitter{
+		background-image: url(../images/social/twitter.png);
+	}
+	.xt-follow-facebook{
+		background-image: url(../images/social/facebook.png);
+	}
+	.xt-follow-linkedin{
+		background-image: url(../images/social/linkedin.png);
+	}
+	.xt-follow-envato{
+		background-image: url(../images/social/envato.png);
+	}
+
+
+	@media screen and (max-width: 782px) {
+
+		& {
+			float:none;
+			width:100%;
+			text-align:center;
+			margin: 20px 0 0;
+
+			&:before{
+				display:none;
+			}
+		}
+	}
+}

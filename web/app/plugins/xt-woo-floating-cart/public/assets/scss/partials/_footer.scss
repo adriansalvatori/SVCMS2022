@@ -1,0 +1,16 @@
+.xt_woofc-footer {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	width: 100%;
+	border-radius: 0 0 var(--xt-woofc-radius) var(--xt-woofc-radius);
+	bottom: 0;
+
+	.xt_woofc-cart-opened &,
+	.xt_woofc-cart-open & {
+		box-shadow: 0 -2px 20px rgba(#000, .15);
+		background: var(--xt-woofc-bg-color);
+		transition: box-shadow 0.5s, border-radius 0.5s;
+		overflow: hidden;
+	}
+}

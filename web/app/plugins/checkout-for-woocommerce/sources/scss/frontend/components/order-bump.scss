@@ -1,0 +1,56 @@
+.cfw-order-bumps {
+    .cfw-order-bump {
+        background: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid #eee;
+        border-radius: 5px;
+
+        > div {
+            padding: 0.75rem;
+        }
+
+        .cfw-order-bump-header {
+            border-bottom: 1px solid #eee;
+            color: $dark;
+
+            label {
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+
+        .cfw-order-bump-body img {
+            max-width: 100%;
+        }
+
+        .cfw-order-bump-total {
+            margin-top: 0.5em;
+            font-weight: bold;
+            color: $black;
+
+            del {
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+// Hide payment tab order bumps output on desktop
+#order_review .cfw-order-bumps.cfw-order-bumps-mobile {
+    display: none;
+
+    @include media-breakpoint-down(lg) {
+        display: block;
+    }
+}
+
+// Hide sidebar order bumps on mobile
+#cfw-cart-summary .cfw-order-bumps.cfw-order-bumps-mobile {
+    display: block;
+}
+
+.cfw-order-bumps:not(.cfw-order-bumps-mobile) {
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+}

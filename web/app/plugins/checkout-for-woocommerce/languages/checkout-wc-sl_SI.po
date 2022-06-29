@@ -1,0 +1,1282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:51-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Pri prijavi je prišlo do napake. Preverite svoje poverilnice in poskusite "
+"znova."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "E-poštni naslov vsebuje neveljavno ime domene."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Vnesite veljavno %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Polno ime"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Hišna številka"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Naziv ulice"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Dodaj naslovno vrstico 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Dodajte podjetje"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Naslov naročnika"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Prijavljen s storitvijo PayPal. Nadaljujte z naročilom spodaj."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Uporabi"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "imaš promocijsko kodo? Klikni tukaj."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Promocijska koda"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Vnesite promocijsko kodo"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Čestitke! Dobili ste brezplačno standardno dostavo."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Od brezplačne dostave vas loči %s!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Uporabite ta naslov"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Preverjanje naslova"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Naslov za pošiljanje, ki ste ga navedli, se ne ujema s predlaganim naslovom "
+"iz naše storitve preverjanja. Prosimo, preverite svoj naslov."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Vstopili ste"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Predlagamo"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Vnesite veljavno telefonsko številko."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Vnesite svoje ime in priimek."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Naslov za dostavo"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Vnesite novo količino:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"3-mestna varnostna koda je običajno na zadnji strani kartice. Kartice "
+"American Express imajo na sprednji strani 4-mestno kodo."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Ali ste prepričani, da želite ta izdelek odstraniti iz košarice?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Vnesite veljavno poštno številko."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Načini dostave niso na voljo"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Popolna naročilo"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Plačilo"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Vse transakcije so varne in šifrirane."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Vaše naročilo je brezplačno. Plačilo ni potrebno."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Enako kot naslov za dostavo"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Uporabite drug naslov za izstavitev računa"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Nazaj v košarico"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Nadaljujte z pošiljanjem"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Continue to payment"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Pregledaj naročilo"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Vrnite se k informacijam"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Vrnite se k pošiljanju"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Vrnitev na plačilo"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Or"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Zmanjšanje"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Povečanje"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Prikaži povzetek naročila"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Skrij povzetek naročila"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Hitra blagajna"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Informacija"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Pregled naročila"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Že imate račun pri nas?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Prijavite se za hitrejšo izkušnjo nakupa."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Ustvarite račun za nakup %s."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Če nimate računa, ga bomo ustvarili za vas."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Dobrodošli nazaj,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Odjava."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Dobrodošel nazaj"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Videti je, da že imate račun. Prosimo, vnesite svoje podatke za prijavo "
+"spodaj."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr "Če ste pri nas že nakupovali, spodaj vnesite svoje podatke za prijavo."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Ali nadaljujte kot gost"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Naslov za obračun in pošiljanje"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Naslov dostave"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Kontakt"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Spremeni"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Metoda"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Način dostave"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Izberite naslov, ki se ujema z vašo kartico ali plačilnim sredstvom."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Promocijska koda"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Naročilo %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Hvala %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Zaključek naročila"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Posodobitve naročila"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Posodobitve dostave in dostave boste prejeli po e-pošti."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Kontaktni podatki"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Dostava"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Prijava"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Pregled"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Vaša košarica je prazna"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Vaša košarica"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Beautiful, conversion optimized checkout template for WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Izberite državo"
+
+#~ msgid "Password"
+#~ msgstr "Geslo"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "Prijava ni obvezna. Nadaljnje naročilo lahko nadaljujete spodaj."
+
+#~ msgid "Address Required"
+#~ msgstr "Obvezen naslov"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : Za uporabo CheckoutWC je potreben PHP 7.0 ali "
+#~ "novejši. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Novejše različice PHP so hitrejše in varnejše, zato bo posodabljanje "
+#~ "pozitivno vplivalo na uspešnost vašega spletnega mesta."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Da preprečimo usodne napake, smo naložili %s v <strong> %s</strong> , kar "
+#~ "onemogoči vse funkcije in funkcionalnosti. V večini primerov nadgradnja "
+#~ "traja le nekaj minut. Za več informacij se obrnite na ponudnika "
+#~ "gostovanja."
+
+#~ msgid "safe mode"
+#~ msgstr "varni način"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Omogoči podporo Beaver Themer."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Dovoli Beaver Themerju, da zamenja glavo in nogo."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Omogoči podporo Elementor Pro."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Dovoli Elementor Pro, da zamenja glavo in nogo."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Checkout urejevalnik polja"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Omogoči preglasitev polja za urejanje polja za urejanje blaga."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Dovoli urejevalniku polja WooCommerce Checkout, da spremeni polja za "
+#~ "obračun in pošiljanje."
+
+#~ msgid "General"
+#~ msgstr "Splošno"
+
+#~ msgid "Premium Features"
+#~ msgstr "Premium možnosi"
+
+#~ msgid "Template"
+#~ msgstr "Predloga"
+
+#~ msgid "Design"
+#~ msgstr "Izgled"
+
+#~ msgid "Integrations"
+#~ msgstr "Integracije"
+
+#~ msgid "Addons"
+#~ msgstr "Dodatki"
+
+#~ msgid "License"
+#~ msgstr "Licenca"
+
+#~ msgid "Tools"
+#~ msgstr "Orodja"
+
+#~ msgid "Support"
+#~ msgstr "Podpora"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Priporočeni vtičniki"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout za WooCommerce ponuja čudovite predloge za odjava, optimizirane "
+#~ "za pretvorbo, za WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "To nastavitev preglasi urejevalnik polja WooCommerce Checkout."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Omogoči/onemogoči"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Uporabite Checkout za predlogo WooCommerce"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Omogočite ali onemogočite temo storitve Checkout za WooCommerce. (OPOMBA: "
+#~ "tema je vedno omogočena za skrbniške uporabnike.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Slog prijave"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Izboljšana (priporočeno)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce Privzeto"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Izboljšano: samodejno prikazovanje in skrivanje prijavnih polj glede na "
+#~ "to, ali se vneseni e-poštni naslov ujema z računom. (Priporočljivo)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce privzeto: prikaže opomnik za prijavo v pasici nad obrazcem za "
+#~ "plačilo."
+
+#~ msgid "Registration Style"
+#~ msgstr "Slog registracije"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Izboljšano: samodejno ustvarite uporabniško ime in geslo ter ga pošljete "
+#~ "kupcu z izvorno funkcijo WooCommerce. (Priporočljivo)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce privzeto: polje za geslo je na voljo, da lahko stranka izbere "
+#~ "svoje geslo. Ni priporočljivo."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Slog polja"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Plavajoče (priporočeno)"
+
+#~ msgid "Normal"
+#~ msgstr "Običajno"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Plavajoče: samodejno prikažite in skrijete nalepke glede na to, ali ima "
+#~ "polje vrednost. (Priporočljivo)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Običajno: Oznake se vedno pojavljajo nad vsakim poljem."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Oznaka izdelka na vozičku"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Besedilo (priporočeno)"
+
+#~ msgid "Link"
+#~ msgstr "Povezava"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Besedilo: Ne povezujte elementov vozička na eno stran izdelka. "
+#~ "(Priporočljivo)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Povezava: povezavo vsakega izdelka vozička na stran izdelka."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Prikaz podatkov o izdelkih v košarici"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Kratek (priporočeno)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Kratek prikaz samo vrednosti variacije. Na primer velikost: XL, barva: "
+#~ "rdeča je prikazana kot XL / rdeča. (Priporočljivo)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Pri uporabi privzetega WooCommerce se vsaka različica prikaže v ločeni "
+#~ "vrstici v tej obliki: Oznaka: Vrednost"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Preskočite korak dostave"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Preskočite korak pošiljanja"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Omogoči, da skrijete korak načina pošiljanja. Koristno, če imate za vsa "
+#~ "naročila samo eno možnost dostave."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Omogoči polje Opombe k naročilu"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr "Omogoči ali onemogoči polje beležk o naročilu. Privzeto onemogočeno"
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Polje mobilnega kupona"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Pokaži polje kupona nad možnostmi plačila na mobilnem telefonu."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Prikažite polje kupona nad prehodi za plačila na mobilnih napravah. "
+#~ "Strankam pomaga najti polje kupona, ne da bi razširili povzetek košarice."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Logotipi za mobilne kreditne kartice"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Omogoči logotipe kreditnih kartic v mobilnih napravah"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Pokažite logotipe kreditne kartice na mobilnem telefonu. Opomba: "
+#~ "Številnih logotipov prehodov ni mogoče pravilno upodobiti na mobilnih "
+#~ "napravah. Priporočamo, da pred omogočanjem preizkusite. Privzeto: "
+#~ "izklopljeno"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Oznaka za košarico Povzetek Mobile Label"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Primer: Prikaži povzetek naročila in kupone"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Če je prazno, bo uporabljeno to privzeto: "
+
+#~ msgid "Header Scripts"
+#~ msgstr "Skripti glave"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Ta koda bo izpisana neposredno pred zaključno oznako <code>&lt;/head&gt;</"
+#~ "code> v viru dokumenta."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Skripti za nogo"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Ta koda se bo izpisala tik pred zapiralno oznako <code>&lt;/body&gt;</"
+#~ "code> v viru dokumenta."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Omogoči sledenje uporabe"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "Dovoli Checkout za WooCommerce za sledenje uporabe vtičnika?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Stat Zbirka podatkov"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Eksperimentalne integracije"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Eksperimentalne integracije niso podprte in ne potekajo skozi iste "
+#~ "procese testiranja kot naše priporočene konfiguracije."
+
+#~ msgid "Template Loader"
+#~ msgstr "Naložnik predloge"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Portal brez motenj (priporočeno)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress tema"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Portal brez motenj: Predloge za prikaz CheckoutWC na portalu brez motenj, "
+#~ "ki ne naloži aktivne teme ali slogov WordPress. (Priporočljivo)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "Tema WordPress: Naložite predloge CheckoutWC v aktivno vsebinsko področje "
+#~ "WordPress."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Eksperimentalno - nepodprta konfiguracija"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Urejanje košarice"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Omogoči urejanje košarice."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Omogoči ali onemogoči funkcijo urejanja vozička. Stranki omogoča, da "
+#~ "odstrani ali prilagodi količino košarice."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Urejanje košarice Preusmeritev prazne košarice"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL za preusmeritev, ko stranka izprazni voziček na strani za prevzem."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "Če pustite prazno, bo stranka preusmerjena na stran vozička."
+
+#~ msgid "Order Pay"
+#~ msgstr "Naroči plačilo"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Omogoči stran za plačilo naročila."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Uporabite checkout predlogo za plačilo strani."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Naročilo na eni strani"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Omogoči plačilo na eni strani"
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Pokaži vsa polja za odjava na enem zavihku Uporabno za digitalne "
+#~ "prodajalne ali prodajalne, ki prisilijo, da je naslov za izstavitev "
+#~ "računov in pošiljko enak."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Hvala stran"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Omogočite podporo strani za zahvalo."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Omogoči prejeto predlogo za stran za zahvalo / naročilo. Ta predloga se "
+#~ "uporablja tudi pri ogledu naročil v Mojem računu."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Naročite statuse"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Statusi, ki se prikažejo na strani z zahvalo."
+
+#~ msgid "Map Embed"
+#~ msgstr "Vdelava zemljevida"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Omogoči vdelavo zemljevida."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Omogočanje ali onemogočanje vdelave zemljevida na strani zahvale. Zahteva "
+#~ "ključ Google API."
+
+#~ msgid "My Account"
+#~ msgstr "Moj račun"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Uporabite checkout predlogo za plačilo strani."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Če je ta možnost označena, bo za ogled naročil v računu uporabljena "
+#~ "predloga strani z zahvalo."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Samodokončanje naslova"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Omogoči samodokončanje naslova."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Omogoči ali onemogoči funkcijo samodejnega dokončanja naslova. Zahteva "
+#~ "ključ Google API."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API Ključ"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Ključ Google API. Na voljo v <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">konzoli Google "
+#~ "Cloud Platform</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Ujemanje uporabnikov"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Izboljšana (priporočeno)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Omogočeno: samodejno primerja naročila gostov z uporabniškimi računi ob "
+#~ "novem nakupu in ob registraciji novega uporabnika. (Priporočljivo)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce privzeto: prikaže opomnik za prijavo v pasici nad obrazcem za "
+#~ "plačilo."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP izrezki"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Tukaj dodajte delčke PHP, če želite spremeniti stran za nakup. Če imate "
+#~ "veliko odrezkov, boste morda želeli razmisliti o uporabi <a target="
+#~ "\"_blank\" href=\"%s\">kodnih</a> odrezkov."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Potrebna je nadgradnja licence"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr "Za omogočanje teh funkcij je potrebna licenca za rast ali razvoj."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Licenco lahko nadgradite v » <a target=\"_blank\" href=\"%1$s\">Moj "
+#~ "račun«</a> . Za pomoč pri nadgradnji licence <a target=\"_blank\" href="
+#~ "\"%2$s\">kliknite tukaj.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Nastavitev Overridden"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Ta nastavitev je trenutno programsko razveljavljena. Če ga želite "
+#~ "omogočiti, odstranite kodo po meri."
+
+#~ msgid "Templates"
+#~ msgstr "Predloge"
+
+#~ msgid "Active: "
+#~ msgstr "Aktivno: "
+
+#~ msgid "Activate"
+#~ msgstr "Aktiviraj"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globalne nastavitve"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Te nastavitve veljajo za vse teme."
+
+#~ msgid "Logo"
+#~ msgstr "Logotip"
+
+#~ msgid "Upload image"
+#~ msgstr "Naloži sliko"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Počisti logotip"
+
+#~ msgid "Footer Text"
+#~ msgstr "Besedilo v nogi"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Če pustite prazno, se bo prikazalo standardno obvestilo o avtorskih "
+#~ "pravicah. Nastavite na en presledek, da preglasite to vedenje."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Posebne nastavitve za temo"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Te nastavitve veljajo za izbrano temo. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Pisave"
+
+#~ msgid "Body Font"
+#~ msgstr "Glavni slog besedila"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Sistemski sklad pisave"
+
+#~ msgid "Heading Font"
+#~ msgstr "Naslov pisave"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "CheckoutWC privzeto uporablja sistemski sklad pisave, ki prinaša "
+#~ "najhitrejše zmogljivosti. Tu lahko izberete Googlovo pisavo."
+
+#~ msgid "Color Settings"
+#~ msgstr "Nastavitev barv"
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS po meri"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Dodajte pravila CSS po meri, da v celoti nadzirate videz predloge za "
+#~ "prevzem."
+
+#~ msgid "Export Settings"
+#~ msgstr "Izvoz nastavitev"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Prenesite varnostno datoteko svojih nastavitev."
+
+#~ msgid "Import Settings"
+#~ msgstr "Uvoz nastavitev"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Naložite nastavitve datotek in uvozi"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Preden se obrnete na podporo"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Odgovor na večino vprašanj najdete v naši <a href=\"https://kb.checkoutwc."
+#~ "com\" target=\"_blank\">bazi znanja</a> ."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Tukaj je nekaj priljubljenih vodnikov:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Še vedno potrebujete pomoč?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Če po iskanju naše baze znanja še vedno potrebujete pomoč, vam bomo z "
+#~ "veseljem pomagali."
+
+#~ msgid "Contact Support"
+#~ msgstr "Obrnite se na podporo"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "Ekosistem WooCommerce je poln fantastičnih dodatkov. Tukaj je nekaj, ki "
+#~ "zelo dobro delujejo s programom CheckoutWC, ki ga iskreno priporočamo "
+#~ "našim strankam. (Nekatere od teh povezav lahko vključujejo sledenje "
+#~ "affiliate-jem. To ne vpliva na našo odločitev o vključitvi dodatka.)"
+
+#~ msgid "More Info"
+#~ msgstr "Več informacij"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "<strong> %s</strong> : Opozorili so odkriti nezdružljivi vtičniki!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "Izključite te vtičnike, da se izognete težavam pri nakupu!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Vaša licenca je veljavna in aktivirana za to "
+#~ "spletno mesto, vendar je vaša predloga za običajne uporabnike "
+#~ "onemogočena. Če želite to popraviti, pojdite na %s> %s> %s in potrdite \" "
+#~ "%s\"."
+
+#~ msgid "Settings"
+#~ msgstr "Nastavitve"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Kaže, da je vaš licenčni ključ potekel. Preverite, "
+#~ "ali je vaš licenčni ključ veljaven ali <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">zdaj</a> "
+#~ "obnovite <a target=\"_blank\" href=\"https://www.checkoutwc.com/checkout/?"
+#~ "edd_license_key=%s\">licenco,</a> da obnovite polno funkcionalnost."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Vaš licenčni ključ manjka ali ni veljaven. "
+#~ "Preverite, ali je vaš licenčni ključ veljaven ali <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/\">kupite licenco</a> za obnovitev "
+#~ "popolne funkcionalnosti."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Hvala, ker ste namestili Checkout za WooCommerce! Za začetek kliknite "
+#~ "spodnjo <strong>licenco</strong> in aktivirajte licenčni ključ!"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: nastavitev ni mogoče uvoziti. Ali ste izbrali datoteko JSON "
+#~ "za prenos?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: nastavitve uspešno uvožene."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Te nastavitve veljajo samo za trenutno aktivno predlogo. Če zamenjate "
+#~ "predloge v prilagodilniku, bodo te nastavitve postale nedostopne, vendar "
+#~ "bo shranjevanje tukaj objavilo vse spremembe pred zamenjavo predlog!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Aktivacija ni uspela: aktivirajte WooCommerce, če želite uporabljati "
+#~ "Checkout za WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Barva ozadja telesa"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Barva vsebine strani"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Barva ozadja Glave"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Barva besedila v glavi"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Barva ozadja za nogo"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Barva besedila v Nogi"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Povzetek barve ozadja"
+
+#~ msgid "Accent Color"
+#~ msgstr "Barva poudarka"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Barva ozadja primarne tipke"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Barva besedila primarnega gumba"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Barva ozadja primarne tipke s kazalcem miške"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Barva besedila osnovne tipke gumba"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Barva ozadja sekundarne tipke"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Barva besedila sekundarnega gumba"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Barva ozadja sekundarne tipke"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Barva besedila sekundarne tipke"
+
+#~ msgid "Link Color"
+#~ msgstr "Barva povezave"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Količina izdelka Količina Barva ozadja"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Količina izdelka Količina Barva besedila"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Na voljo je nova različica %1$s. %2$s Poglej različico %3$s podrobnosti "
+#~ "%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Na voljo je nova različica %1$s. %2$s Poglej različico %3$s podrobnosti "
+#~ "%4$s ali %5$s nadgradi zdaj %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nimate dovoljenja za namestitev posodobitev za vtičnike"
+
+#~ msgid "Error"
+#~ msgstr "Napaka"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Dovoli Checkout za WooCommerce za sledenje uporabe vtičnika? Pomagajte, "
+#~ "da je boljši Checkout za WooCommerce."
+
+#~ msgid "Allow"
+#~ msgstr "Dovoli"
+
+#~ msgid "Do not allow"
+#~ msgstr "Ne omogočajo"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Ni izračunano"
+
+#~ msgid "Not Available"
+#~ msgstr "Ni na voljo"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Plačujete za naročilo gostov. Nadaljujte s plačilom samo, če prepoznate "
+#~ "to naročilo."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Tega naročila ni mogoče plačati. Kontaktiraj me, če potrebuješ pomoč."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Status tega naročila je & ldquo; %s & rdquo; & mdash; zanj ni mogoče "
+#~ "plačati. Če potrebujete pomoč, se obrnite na nas."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Napaka pri obdelavi blagajne. Prosim poskusite ponovno."
+
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "Remove"
+#~ msgstr "Odstrani"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Pozabljeno geslo?"
+
+#~ msgid "Customer information"
+#~ msgstr "Informacije za stranke"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "Izberite način dostave:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout for WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "Odlična podpora je v naši DNK."

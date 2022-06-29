@@ -1,0 +1,25 @@
+{
+	"name": "stackable/load-more",
+	"title": "Load More Button",
+	"description": "Load more button for your Stackable Posts block",
+	"category": "layout",
+	"parent": [
+		"stackable/posts"
+	],
+	"usesContext": [
+		"type",
+		"orderBy",
+		"order",
+		"taxonomyType",
+		"taxonomy",
+		"taxonomyFilterType",
+		"postOffset",
+		"postExclude",
+		"postInclude",
+		"numberOfItems",
+		"query",
+		"queryId",
+		"stkQueryId"
+	],
+	"textdomain": "stackable-ultimate-gutenberg-blocks"
+}

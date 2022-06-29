@@ -1,0 +1,18 @@
+html[uip-toolbar="true"] body.toplevel_page_revslider {
+  #wpadmin_overlay_top {
+    display: none !important;
+  }
+  #wpadminbar {
+    filter: none !important;
+  }
+}
+///MENU
+html[uip-admin-menu="true"] body.toplevel_page_revslider {
+  #wpadmin_overlay {
+    display: none !important;
+  }
+  #adminmenuback,
+  #adminmenuwrap {
+    filter: none !important;
+  }
+}

@@ -1,0 +1,206 @@
+@import "@sass/global/_variables.scss";
+@import "@sass/global/_mixins.scss";
+
+.ph-stroke {
+  stroke: currentColor;
+  stroke-width: 2px;
+}
+.ph-stroke.ph-thin {
+  stroke-width: 1px;
+}
+.ph-fill {
+  fill: currentColor;
+}
+
+.menububble {
+  position: absolute;
+  display: flex;
+  z-index: 20;
+  background: #222;
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__button {
+    display: inline-flex;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    width: 34px;
+    text-align: center;
+    color: #fff;
+    padding: 3px 6px;
+    margin-right: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: rgba(#fff, 0.1);
+    }
+
+    &.is-active {
+      background-color: rgba(#fff, 0.2);
+    }
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    font: inherit;
+    border: none;
+    background: transparent;
+    color: #fff;
+  }
+}
+
+.editor__content p.is-empty:first-child::before {
+  content: attr(data-empty-text);
+  float: left;
+  color: #aaa;
+  pointer-events: none;
+  height: 0;
+}
+
+input.menububble__input {
+  background: transparent !important;
+  padding: 5px !important;
+  margin: 0 !important;
+  color: #fff !important;
+}
+
+form.menububble__form {
+  margin: 0 !important;
+}
+
+pre {
+  &::before {
+    content: attr(data-language);
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.6rem;
+  }
+  code {
+    .hljs-comment,
+    .hljs-quote {
+      color: #999999;
+    }
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-attribute,
+    .hljs-tag,
+    .hljs-name,
+    .hljs-regexp,
+    .hljs-link,
+    .hljs-name,
+    .hljs-selector-id,
+    .hljs-selector-class {
+      color: #8a7b52;
+    }
+    .hljs-number,
+    .hljs-meta,
+    .hljs-built_in,
+    .hljs-builtin-name,
+    .hljs-literal,
+    .hljs-type,
+    .hljs-params {
+      color: #d35400;
+    }
+    .hljs-string,
+    .hljs-symbol,
+    .hljs-bullet {
+      color: #00979d;
+    }
+    .hljs-title,
+    .hljs-section {
+      color: #ffcc66;
+    }
+    .hljs-keyword,
+    .hljs-selector-tag {
+      color: #6699cc;
+    }
+    .hljs-emphasis {
+      font-style: italic;
+    }
+    .hljs-strong {
+      font-weight: 700;
+    }
+  }
+}
+
+.editor__content {
+  @include editor-styles;
+}
+
+.ph-suggestion-list {
+  max-width: 200px;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  background: #fff;
+  padding: 15px;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  bottom: 60px;
+  transform: translateX(-50%);
+
+  &__item {
+    padding: 5px;
+    transition: background 0.35s ease, color 0.35s ease;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 13px;
+
+    .ph-avatar {
+      border-radius: 50%;
+      width: 18px !important;
+      position: relative !important;
+      height: auto;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+      overflow: hidden;
+
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    &.is-selected {
+      background: var(--ph-accent-color, #4353ff);
+      color: #fff;
+    }
+  }
+
+  &__items {
+    max-height: 100px;
+    width: 100%;
+    overflow: auto;
+    @include scrollbar-min();
+  }
+}

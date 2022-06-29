@@ -1,0 +1,67 @@
+.cfw-small {
+    font-size: 0.875em;
+}
+
+main.checkoutwc .cfw-padding-top {
+    margin-top: 1em;
+}
+
+main.checkoutwc .cfw-light-gray {
+    color: #737373;
+}
+
+.cfw-pt-1 {
+    padding-top: 1em !important;
+}
+
+.cfw-pt-2 {
+    padding-top: 2em !important;
+}
+
+.cfw-xtra-small {
+    font-size: 0.75em;
+}
+
+.cfw-hidden {
+    display: none;
+}
+
+.cfw-cfe-active .cfw-hidden {
+    display: none !important;
+}
+
+.cfw-force-hidden {
+    display: none !important;
+}
+
+.cfw-no-border {
+    border: none !important;
+}
+
+main.checkoutwc .cfw-rp {
+    padding-right: 20px;
+
+    @include media-breakpoint-down(lg) {
+        padding: 0 20px;
+    }
+}
+
+.cfw-display-table {
+    display: table;
+}
+
+.cfw-display-table-row {
+    display: table-row;
+}
+
+.cfw-display-table-cell {
+    display: table-cell;
+}
+
+.cfw-w100 {
+    width: 100%;
+}
+
+.cfw-mb {
+    margin-bottom: .8em !important;
+}

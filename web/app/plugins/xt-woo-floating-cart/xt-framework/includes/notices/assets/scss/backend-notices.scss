@@ -1,0 +1,55 @@
+.xt-framework-notice{
+
+  line-height: initial!important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex:1;
+
+  p{
+    display: flex;
+    flex:1;
+    align-items: center;
+    text-align: left;
+
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .button,
+  .button-primary{
+    line-height: 25px;
+    min-height: 25px;
+  }
+
+  .wp-core-ui &.is-dismissible {
+    padding-right: 0;
+  }
+
+  .notice-dismiss{
+    position: initial;
+    box-shadow: none;
+    outline: none;
+    padding: 0 10px;
+  }
+
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .xt-framework-notice-col-full,
+  .xt-framework-notice-col-left{
+    padding-right: 15px;
+    flex:1;
+  }
+
+  .xt-framework-notice-col-right{
+
+    @media screen and (max-width: 400px) {
+      margin-top:12px;
+    }
+  }
+}

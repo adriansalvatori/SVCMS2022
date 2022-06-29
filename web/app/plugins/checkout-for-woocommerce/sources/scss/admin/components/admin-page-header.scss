@@ -1,0 +1,81 @@
+.cfw-admin-page:not(.post-type-cfw_order_bumps) {
+    #wpbody-content {
+        padding-top: 75px;
+    }
+    #wpcontent {
+        padding-left: 0;
+    }
+}
+
+#cfw_admin_page_header {
+    top: 32px;
+    width: calc(100% - 160px);
+
+    svg {
+        height: 48px;
+    }
+
+    @media (max-width: 782px) {
+        top: 47px;
+        width: 100%;
+    }
+
+    @media (min-width: 783px) and(max-width: 960px) {
+        width:calc(100% - 36px);
+    }
+}
+
+
+.cfw-admin-page-heading {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 60px;
+    z-index: 10001;
+    border-bottom: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+    h1 {
+        font-size: 14px;
+        margin: 0;
+        margin-left: 40px;
+        line-height: 60px;
+        font-weight: 300;
+
+        span {
+            font-weight: 600;
+        }
+    }
+}
+
+.cfw-admin-content-wrap {
+    .notice, div.updated, div.error {
+        margin-left: 0;
+    }
+
+    .form-table {
+        max-width: 1000px;
+    }
+}
+
+body.post-type-cfw_order_bumps {
+    .cfw-admin-content-wrap {
+        margin-top: 75px;
+    }
+
+    #wpbody-content {
+        padding-top: 64px;
+    }
+
+    #cfw_admin_page_header {
+        left: -20px;
+        right: -20px;
+        top: 0;
+        width: unset;
+        //h1 {
+        //    margin-left: 20px;
+        //}
+    }
+}

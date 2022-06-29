@@ -1,0 +1,256 @@
+.xt_woofc-body {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	padding: 0;
+	margin: var(--xt-woofc-header-height) 0 0;
+	/* add 2px to avoid shadow flicker above checkout button */
+	height: calc(100% - var(--xt-woofc-header-height) - var(--xt-woofc-checkout-btn-height) + 2px);
+	color: var(--xt-woofc-color);
+	background-color: var(--xt-woofc-bg-color);
+	transition: opacity .2s;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+
+	html:not(.xtfw-touchevents) &{
+
+		/* ===== Scrollbar CSS ===== */
+
+		/* Firefox */
+		scrollbar-width: thin;
+		scrollbar-color: var(--xt-woofc-border-color) var(--xt-woofc-bg-color);
+
+		/* Chrome, Edge, and Safari */
+		&::-webkit-scrollbar {
+			width: 12px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: var(--xt-woofc-bg-color);
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: var(--xt-woofc-border-color);
+			border-radius: 6px;
+			border: 2px solid var(--xt-woofc-bg-color);
+		}
+
+		/* ===== End Scrollbar CSS ===== */
+	}
+
+	.xt_woofc-coupons-visible & {
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.xt_woofc-empty &{
+		overflow: hidden;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		color: var(--xt-woofc-primary-color);
+	}
+
+	a {
+		color: var(--xt-woofc-link-color);
+		transition: color 0.3s;
+
+		.xtfw-no-touchevents &:hover,
+		.xtfw-touchevents &:focus {
+			color: var(--xt-woofc-link-hover-color);
+		}
+	}
+
+	.button {
+		background: var(--xt-woofc-checkout-btn-bg-color) !important;
+		color: var(--xt-woofc-checkout-btn-color) !important;
+		border: 0 !important;
+
+		&:hover {
+			background: var(--xt-woofc-checkout-btn-bg-hover-color) !important;
+			color: var(--xt-woofc-checkout-btn-hover-color) !important;
+		}
+	}
+
+	.xt_woofc-body-header {
+		color: var(--xt-woofc-header-color);
+		background: var(--xt-woofc-header-bg-color);
+		border-bottom: var(--xt-woofc-border);
+		margin-top: -1px;
+
+		> *:not(:last-child):not(:empty):not(.xt_woofc-wc-notices):not(.xt-framework-notices) {
+			border-bottom: var(--xt-woofc-border);
+		}
+
+		a {
+			color: var(--xt-woofc-header-link-color);
+			transition: color 0.3s;
+
+			.xtfw-no-touchevents &:hover,
+			.xtfw-touchevents &:focus {
+				color: var(--xt-woofc-header-link-hover-color);
+			}
+
+			&.button {
+				color: inherit;
+			}
+		}
+
+		&:empty {
+			display: none;
+		}
+
+		.xt_woofc-checkout-loading & {
+			opacity: 0;
+			transition: 0.3s
+		}
+	}
+
+	.xt_woofc-body-footer {
+
+		background-color: var(--xt-woofc-bg-color);
+		border-top: var(--xt-woofc-border);
+		margin-bottom: -1px;
+		transition: opacity 0.2s 0.4s;
+
+		&:empty {
+			display: none;
+		}
+
+		.xt_woofc-loading-hide-content & {
+			opacity: 0;
+			transition: 0.3s
+		}
+	}
+
+	.woocommerce-cart-form {
+		display: none;
+	}
+
+	.xt_woofc-list-wrap {
+		flex: 1;
+
+		.xt_woofc-empty & {
+			position: absolute;
+			top: calc(50% + (var(--xt-woofc-header-height) / 2));
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			white-space: nowrap;
+		}
+
+		.xt_woofc-checkout-loading & {
+			opacity: 0;
+			transition: 0.3s
+		}
+	}
+
+	.xt_woofc-list {
+		padding: calc(var(--xt-woofc-list-gutter) * 1.2);
+		position: relative;
+		margin: 0 !important;
+		list-style: none;
+
+		html:not(.xt_woofc-loading) & {
+			overflow: hidden;
+		}
+
+		li {
+			position: relative;
+			@include clearfix;
+			opacity: 0;
+			transform: translateX(80px);
+			transition: opacity 0s .2s, transform 0s .2s;
+			list-style: none;
+			margin: 0;
+
+			&:not(:last-of-type):not(.xt_woofc-no-product) {
+				margin-bottom: var(--xt-woofc-list-gutter);
+				padding-bottom: var(--xt-woofc-list-gutter);
+
+				&:not(.xt_woofc-deleting-last) {
+					border-bottom: var(--xt-woofc-list-border);
+				}
+			}
+
+			&.xt_woofc-deleting-last {
+				padding-bottom: 0 !important;
+				margin-bottom: 0 !important;
+			}
+
+			.xt_woofc-deleting-last {
+				margin-bottom: var(--xt-woofc-list-gutter);
+				padding-bottom: var(--xt-woofc-list-gutter);
+			}
+
+			.xt_woofc-cart-open & {
+
+				transition: transform .3s .2s, opacity .3s .2s;
+				opacity: 1;
+				transform: translateX(0);
+
+				&.xt_woofc-deleted {
+					/* this class is added to an item when it is removed form the cart */
+					position: absolute;
+					left: 1.4em;
+					width: calc(100% - 2.8em);
+					opacity: 0 !important;
+					animation: xt_woofc-item-slide-out .3s forwards;
+
+					&.xt_woofc-undo-deleted {
+						/* used to reinsert an item deleted from the cart when user clicks 'Undo' */
+						animation: xt_woofc-item-slide-in .3s forwards;
+					}
+				}
+
+				&:nth-of-type(2) {
+					transition-duration: .4s;
+				}
+
+				&:nth-of-type(3) {
+					transition-duration: .5s;
+				}
+
+				&:nth-of-type(4) {
+					transition-duration: .6s;
+				}
+
+				&:nth-of-type(5) {
+					transition-duration: .7s;
+				}
+
+				&:nth-of-type(6) {
+					transition-duration: .75s;
+				}
+
+				&:nth-of-type(7) {
+					transition-duration: .8s;
+				}
+
+				&:nth-of-type(8) {
+					transition-duration: .85s;
+				}
+
+				&:nth-of-type(9) {
+					transition-duration: .9s;
+				}
+
+				&:nth-of-type(10) {
+					transition-duration: .95s;
+				}
+
+			}
+
+			&.xt_woofc-deleted + li {
+				animation: xt_woofc-item-move-up .3s;
+				animation-fill-mode: forwards;
+			}
+
+			&.xt_woofc-undo-deleted + li {
+				animation: xt_woofc-item-move-down .3s;
+				animation-fill-mode: forwards;
+			}
+		}
+	}
+}

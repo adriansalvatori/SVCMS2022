@@ -1,0 +1,49 @@
+// Product Title / Meta Data
+main.checkoutwc .cfw-woocommerce-subscription-gifting {
+    .woocommerce_subscription_gifting_checkbox {
+        margin-right: 0;
+    }
+
+    label {
+        font-size: 0.875em;
+    }
+
+    .woocommerce_subscriptions_gifting_recipient_email input {
+        margin: 0.25em 0 0;
+        box-sizing: border-box;
+        width: 100%;
+        outline: 0;
+        line-height: normal;
+        -webkit-appearance: none !important;
+        -moz-appearance: none !important;
+        appearance: none !important;
+        background: #fff;
+        transition: all .2s ease;
+        color: #333;
+        padding: .80em .8em;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1px solid #d9d9d9 !important;
+        box-shadow: none;
+        transition-delay: 0s, 0s;
+        transition-duration: 0.2s, 0s;
+        transition-property: all, width;
+        transition-timing-function: ease-out, ease;
+
+        &::placeholder {
+            color: #ccc;
+        }
+
+        &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 2px #c7c7c7;
+        }
+    }
+
+    fieldset {
+        border-radius: 5px;
+        border: 1px solid darken(#F0F8FF, 3%) !important;
+        background-color: #F0F8FF;
+        padding: 8px;
+    }
+}

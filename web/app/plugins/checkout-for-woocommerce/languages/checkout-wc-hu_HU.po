@@ -1,0 +1,1362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:40-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Loco-Version: 2.2.0; wp-5.1\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Hiba történt a bejelentkezéskor. Kérjük, ellenőrizze a hitelesítő adatait, "
+"és próbálja újra."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "Az e-mail cím érvénytelen domain nevet tartalmaz."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Kérjük, adjon meg egy érvényes %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Teljes név"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Házszám"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Közterület név"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Cím hozzáadása 2. sor"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Cég hozzáadása"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Számlázási adatok"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Belépett a PayPal szolgáltatással. Kérjük, folytassa a megrendelését."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Beváltom"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Van akciós kódod? Kattints ide."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Promóciós kód"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Írja be a promóciós kódot"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Gratulálok! Ingyenes standard szállítást kapsz."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Már csak %s van az ingyenes szállításig!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Használja ezt a címet"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Lakcím igazolása"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Az Ön által megadott szállítási cím nem egyezik az ellenőrző szolgáltatásunk "
+"által javasolt címmel. Kérjük, ellenőrizze a címét."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Ön belépett"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Javasoljuk"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Kérlek adj meg egy érvényes telefonszámot."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Kérjük, adja meg a kereszt- és vezetéknevét."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Szállítási cím"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Adjon meg egy új mennyiséget:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Háromjegyű biztonsági kód általában található a kártya hátoldalán. Az "
+"American Express kártyák előlapján egy négyjegyű kód található."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Biztosan el akarja távolítani ezt az elemet a kosárból?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Valós irányítószámot kell megadni."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Nincs szállítási módszer"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Vásárlás befejezése"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Fizetés"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Minden tranzakció biztonságos és titkosított."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "A vásárlás összege 0 Ft, nincs szükség fizetésre."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Ugyanaz mint a szállítási cím"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Más számlázási címet adok meg"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Vissza a kosárhoz"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Folytassa a szállítással"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Tovább a fizetéshez"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Rendelés áttekintése"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Vissza az információkhoz"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Vissza a szállításhoz"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Vissza a fizetéshez"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Vagy"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Csökkentés"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Növekmény"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Mutasd a kosár tartalmát"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Rendelési összefoglaló elrejtése"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Expressz pénztár"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Információ"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Rendelés felülvizsgálata"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Van már nálunk fiókod?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Jelentkezz be a gyorsabb vásárlási élményért."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "%s vásárlási fiók létrehozása."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Ha nincs fiókja, akkor létrehozunk egyet az Ön számára."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Üdvözlettel,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Kijelentkezés."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Köszöntünk a fiókodban!"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Úgy tűnik, már van fiókja. Kérjük, adja meg a bejelentkezési adatait az "
+"alábbiakban."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Ha már vásárolt nálunk korábban, kérjük, adja meg bejelentkezési adatait az "
+"alábbiakban."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Vagy folytassa vendégként"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Számlázási és szállítási cím"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Kiszállítás"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Változtatás"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Módszer"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Szállítási mód"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Válassza ki a kártyájának vagy fizetési módjának megfelelő címet."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Promóciós kód"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "%s rendelése"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Köszönöm nektek %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Rendelés állapota"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Rendelési frissítések"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "E-mailben kapsz szállítási és kézbesítési frissítéseket."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Elérhetőség"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Szállítás"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Felülvizsgálat"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "A kosár üres"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Kosarad"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr ""
+"Gyönyörű, átalakított optimalizált pénztár sablonok a WooCommerce számára."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Válasszon Országot"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr ""
+#~ "A bejelentkezés nem kötelező. Folytathatja a megrendelését az alábbiak "
+#~ "szerint."
+
+#~ msgid "Address Required"
+#~ msgstr "Cím szükséges"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : PHP 7.0 vagy újabb szükséges a CheckoutWC "
+#~ "használatához. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "A PHP újabb verziója gyorsabb és biztonságosabb, így a frissítés pozitív "
+#~ "hatással lesz a webhely teljesítményére."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "A végzetes hibák elkerülése érdekében a (z) <strong> %s</strong> fájlt "
+#~ "betöltöttük a (z) <strong> %s</strong> fájlba, amely letiltja az összes "
+#~ "szolgáltatást és funkciót. A legtöbb esetben a frissítés csak néhány "
+#~ "percet vesz igénybe. További információkért forduljon a tárhely "
+#~ "szolgáltatójához."
+
+#~ msgid "safe mode"
+#~ msgstr "biztonságos mód"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Engedélyezze a Beaver Themer támogatását."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Hagyja, hogy a Beaver Themer fejlécét és láblécét cserélje ki."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Engedélyezze az Elementor Pro támogatást."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Hagyja az Elementor Pro fejlécét és láblécét cserélni."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Pénztár mezőszerkesztő"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Engedélyezze a Checkout Field Editor címmező felülbírálását."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Engedje meg, hogy a WooCommerce Checkout Field Editor módosítsa a "
+#~ "számlázási és a szállítási cím mezőket."
+
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgid "Premium Features"
+#~ msgstr "Prémium Funkciók"
+
+#~ msgid "Template"
+#~ msgstr "Sablon"
+
+#~ msgid "Design"
+#~ msgstr "Kinézet"
+
+#~ msgid "Integrations"
+#~ msgstr "Integrációk"
+
+#~ msgid "Addons"
+#~ msgstr "Bővítmények"
+
+#~ msgid "License"
+#~ msgstr "Licensz"
+
+#~ msgid "Tools"
+#~ msgstr "Eszközök"
+
+#~ msgid "Support"
+#~ msgstr "Támogatás"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Ajánlott bővítmények"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "A WooCommerce Checkoutja a WooCommerce számára egy szép, konverzióval "
+#~ "optimalizált pénztár sablont biztosít."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Ezt a beállítást a WooCommerce Checkout mezőszerkesztő felülbírálja."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Engedélyezés / Tiltás"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Használja a Checkout szolgáltatást a WooCommerce sablonhoz"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "A Checkout engedélyezése vagy letiltása a WooCommerce témához. "
+#~ "(MEGJEGYZÉS: A téma mindig engedélyezett az adminisztrátori felhasználók "
+#~ "számára.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Bejelentkezés stílus"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Továbbfejlesztett (ajánlott)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce alapértelmezett"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Továbbfejlesztett: A bejelentkezési mezők automatikus megjelenítése és "
+#~ "elrejtése attól függően, hogy a megadott e-mail cím megegyezik-e egy "
+#~ "fiókkal. (Ajánlott)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce alapértelmezés: Jelentkezzen be egy bejelentkezési "
+#~ "emlékeztetőt egy szalaghirdetésben a fizetési forma fölött."
+
+#~ msgid "Registration Style"
+#~ msgstr "Regisztrációs stílus"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Továbbfejlesztett: A felhasználónév és jelszó automatikus létrehozása és "
+#~ "e-mail küldése az ügyfélnek a natív WooCommerce funkció használatával. "
+#~ "(Ajánlott)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce alapértelmezés: Jelszómező jelenik meg az ügyfél számára a "
+#~ "saját jelszó kiválasztásához. Nem ajánlott."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Mezőcímke stílus"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Úszó (ajánlott)"
+
+#~ msgid "Normal"
+#~ msgstr "Normál"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Lebegő: A címkék automatikus megjelenítése és elrejtése annak alapján, "
+#~ "hogy a mezőnek van-e értéke. (Ajánlott)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Normál: A címkék minden mező felett mindig megjelennek."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Kosárcímke"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Szöveg (ajánlott)"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Szöveg: Ne kösse össze a kosár elemeit egyetlen termékoldallal. (Ajánlott)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Link: Összekapcsolja az egyes kosár elemeket a termékoldallal."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Kosár elem adatkijelző"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Rövid (ajánlott)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "A rövid csak a variációs értékeket jeleníti meg. Például, Méret: XL, "
+#~ "Szín: Piros jelenik meg, mint XL / piros. (Ajánlott)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "A WooCommerce Default használatakor minden variáció külön sorban jelenik "
+#~ "meg a következő formátum használatával: Címke: Érték"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Átugrani a szállítási lépést"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "A szállítási lépés átugrása"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "A szállítási módszer lépés elrejtése. Hasznos, ha csak egy szállítási "
+#~ "opció van az összes megrendeléshez."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "A Rendelési megjegyzések mező engedélyezése"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "A rendelési jegyzetek mező engedélyezése vagy letiltása. Alapértelmezés "
+#~ "szerint le van tiltva."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Mobil kupon mező"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Mutasson a kupon mezőt a mobil fizetési lehetőségek felett."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Mutasson a kupon mezőt a fizetési átjárók felett a mobil eszközökön. "
+#~ "Segít az ügyfeleknek a kuponmező megtalálásában a kosár összefoglalásának "
+#~ "kibővítése nélkül."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Mobil hitelkártya logók"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Hitelkártya-logók engedélyezése a mobiltelefonon"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Mutassa meg a hitelkártya logóit a mobiltelefonon. Megjegyzés: Sok átjáró "
+#~ "logót nem lehet megfelelően megjeleníteni a mobiltelefonon. Javasoljuk, "
+#~ "hogy tesztelje engedélyezése előtt. Alapértelmezés: Ki"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Kosár összefoglaló Mobil címke"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Példa: Rendelési összegzés és kuponok megjelenítése"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Ha üresen hagyja, akkor ez az alapértelmezett:"
+
+#~ msgid "Header Scripts"
+#~ msgstr "Fejléc parancsfájlok"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Ezt a kódot közvetlenül a dokumentum forrásának záró <code>&lt;/head&gt;</"
+#~ "code> címke előtt adja ki."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Lábléc parancsfájlok"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Ezt a kódot közvetlenül a dokumentumforrás záró <code>&lt;/body&gt;</"
+#~ "code> címke előtt adja ki."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Használati követés engedélyezése"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr ""
+#~ "Engedélyezze a Checkout-ot a WooCommerce számára a plugin használatának "
+#~ "követésére?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Stat Gyűjtemény Data Viewer"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Kísérleti integrációk"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "A kísérleti integráció nem támogatott, és nem ugyanazon a tesztelési "
+#~ "folyamaton megy keresztül, mint az ajánlott konfigurációink."
+
+#~ msgid "Template Loader"
+#~ msgstr "Sablon betöltő"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "A figyelmeztetésmentes portál (ajánlott)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress Sablon"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Distraction Free Portal: A CheckoutWC sablonjainak megjelenítése olyan "
+#~ "zavaró portálon, amely nem tölti be az aktív WordPress témát vagy "
+#~ "stílusokat. (Ajánlott)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "WordPress téma: Töltse be a CheckoutWC sablonokat az aktív WordPress téma "
+#~ "tartalomterületére."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Kísérleti - Nem támogatott konfiguráció"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Kosár szerkesztése"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "A kosár szerkesztésének engedélyezése."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "A kosárszerkesztő funkció engedélyezése vagy letiltása. Lehetővé teszi az "
+#~ "ügyfél számára, hogy eltávolítsa vagy állítsa be a kosarakat."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Kosár szerkesztése üres kosár átirányítása"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL-cím, amely átirányítja a vásárlót, ha a vásárlónk kiüríti a kosarat a "
+#~ "fizetési oldalról."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "Ha üres marad, az ügyfél átirányításra kerül a kosár oldalára."
+
+#~ msgid "Order Pay"
+#~ msgstr "Rendelés fizetés"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "A megrendelés fizetés oldal támogatásának engedélyezése."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Használja a pénztár sablont a fizetési oldalra."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Egyoldalas fizetés"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Engedélyezze az egyoldalas fizetést."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Az összes fizetési mező megjelenítése egy lapon. Hasznos digitális "
+#~ "üzletekben vagy olyan üzletekben, amelyeknél a számlázási és a szállítási "
+#~ "cím megegyezik."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Köszönöm oldal"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Támogatás engedélyezése a köszönő oldal számára."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Engedélyezze a köszönő oldal / megrendelés kapott sablont. Ezt a sablont "
+#~ "akkor is használják, ha megrendeléseket tekint a Saját fiókban."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Rendelési állapotok"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "A köszönő oldalon megjelenő állapotok."
+
+#~ msgid "Map Embed"
+#~ msgstr "Térkép beágyazása"
+
+#~ msgid "Enable map embed."
+#~ msgstr "A térkép beágyazásának engedélyezése."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "A térkép beágyazásának engedélyezése vagy letiltása a köszönő oldalon. "
+#~ "Szükséges a Google API kulcs."
+
+#~ msgid "My Account"
+#~ msgstr "Fiókom"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Használja a pénztár sablont a fizetési oldalra."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Ha be van jelölve, a megrendeléseknek a Saját fiókban történő "
+#~ "megtekintésénél a köszönőoldal sablonját használjuk."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Automatikus kiegészítés"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Cím automatikus engedélyezése engedélyezve."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "A cím automatikus kiegészítése funkció engedélyezése vagy letiltása. "
+#~ "Szükséges a Google API kulcs."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API Kulcs"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google API kulcs. Elérhető a <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console-ban</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Felhasználói egyeztetés"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Továbbfejlesztett (ajánlott)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Engedélyezve: A vendégek megrendelései automatikusan illeszkednek a "
+#~ "felhasználói fiókokhoz új vásárláskor, valamint új felhasználó "
+#~ "regisztrációjakor. (Ajánlott)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce alapértelmezés: Jelentkezzen be egy bejelentkezési "
+#~ "emlékeztetőt egy szalaghirdetésben a fizetési forma fölött."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP Snippets"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Adjon hozzá PHP-kódrészleteket, hogy itt módosítsa a fizetési oldalt. Ha "
+#~ "sok kivonat van, érdemes megfontolnia a <a target=\"_blank\" href=\"%s"
+#~ "\">kódrészletek használatát</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Licencfrissítés szükséges"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Ezen szolgáltatások engedélyezéséhez növekedési vagy fejlesztői licenc "
+#~ "szükséges."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "A licencet frissítheti a <a target=\"_blank\" href=\"%1$s\">Saját "
+#~ "fiókban</a> . A licenc frissítéséhez <a target=\"_blank\" href=\"%2$s"
+#~ "\">kattintson ide.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "A beállítás felülbírált"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Ezt a beállítást jelenleg programozottan felülbírálják. Engedélyezéséhez "
+#~ "távolítsa el az egyedi kódot."
+
+#~ msgid "Templates"
+#~ msgstr "Sablonok"
+
+#~ msgid "Active: "
+#~ msgstr "Aktív: "
+
+#~ msgid "Activate"
+#~ msgstr "Aktiválás"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globális beállítások"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Ezek a beállítások minden témára vonatkoznak."
+
+#~ msgid "Logo"
+#~ msgstr "Logó"
+
+#~ msgid "Upload image"
+#~ msgstr "Kép feltöltése"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Logó törlése"
+
+#~ msgid "Footer Text"
+#~ msgstr "Lábléc szöveg"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Ha üresen hagyja, megjelenik egy szabványos szerzői jogi figyelmeztetés. "
+#~ "Állítsa be egy helyet a viselkedés felülbírálásához."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Témaspecifikus beállítások"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Ezek a beállítások a kiválasztott témára vonatkoznak. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Betűk"
+
+#~ msgid "Body Font"
+#~ msgstr "Szövegtörzs Betűtípus"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Rendszer betűkészlet-verem"
+
+#~ msgid "Heading Font"
+#~ msgstr "Címsor betű"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "Alapértelmezés szerint a CheckoutWC egy rendszer betűkészlet-veremt "
+#~ "használ, amely a leggyorsabb teljesítményt nyújtja. Itt választhat egy "
+#~ "Google betűtípust."
+
+#~ msgid "Color Settings"
+#~ msgstr "Szín beállítások"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Egyedi CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Adjon hozzá egyéni CSS szabályokat a pénztár sablon megjelenésének teljes "
+#~ "szabályozásához."
+
+#~ msgid "Export Settings"
+#~ msgstr "Beállítások exportálása"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Töltse le a biztonsági másolatot a beállításaiból."
+
+#~ msgid "Import Settings"
+#~ msgstr "Beállítások importálása"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Töltse fel a fájlt és importálja a beállításokat"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Mielőtt kapcsolatba lépne az ügyfélszolgálattal"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "A legtöbb kérdésre a választ <a href=\"https://kb.checkoutwc.com\" target="
+#~ "\"_blank\">tudásbázisunkban megtalálja</a> ."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Íme néhány népszerű útmutató:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Még mindig segítségre van szüksége?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Ha továbbra is segítségre van szüksége a tudásbázisunk felkutatása után, "
+#~ "örömmel segítünk Önnek."
+
+#~ msgid "Contact Support"
+#~ msgstr "Kapcsolat az ügyfélszolgálattal"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "A WooCommerce ökoszisztéma tele van fantasztikus bővítményekkel. Íme "
+#~ "néhány, ami igazán jól működik a CheckoutWC-vel, amit szívesen ajánlunk "
+#~ "ügyfeleinknek. (Néhány ilyen link tartalmazhat affiliate nyomon követést. "
+#~ "Ez nem befolyásolja a plugin beillesztését.)"
+
+#~ msgid "More Info"
+#~ msgstr "További infók"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong> %s</strong> : Figyelem: a kompatibilis pluginok figyelmeztetve "
+#~ "vannak!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr ""
+#~ "Kérjük, kapcsolja ki ezeket a plugineket, hogy elkerülje a fizetéssel "
+#~ "kapcsolatos problémákat!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Az Ön licence érvényes és aktiválva van ezen a "
+#~ "webhelyen, de a sablon a normál felhasználók számára le van tiltva. Ennek "
+#~ "javításához lépjen a következő helyre: %s> %s> %s, és jelölje be a \" %s"
+#~ "\" lehetőséget."
+
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Úgy tűnik, hogy a licenckulcs lejárt. Kérjük, "
+#~ "ellenőrizze, hogy a licenckulcs érvényes-e, vagy <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">újítsa "
+#~ "meg most a licencet a</a> teljes funkcionalitás visszaállítása érdekében."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Hiányzik a licenckulcs vagy érvénytelen. Kérjük, "
+#~ "ellenőrizze, hogy a licenckulcs érvényes-e, vagy <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/\">vásároljon licencet</a> a teljes "
+#~ "funkcionalitás visszaállításához."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Köszönjük, hogy telepítette a Checkout szolgáltatást a WooCommerce "
+#~ "számára! Az induláshoz kattintson a <strong>Licencre</strong> , és "
+#~ "aktiválja a licenckulcsot!"
+
+#~ msgid "Phone"
+#~ msgstr "Telefonszám"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Nem sikerült importálni a beállításokat. Kiválasztott egy "
+#~ "feltöltendő JSON fájlt?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: A beállítások sikeresen importáltak."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Ezek a beállítások csak az aktuálisan aktív sablonra vonatkoznak. Ha "
+#~ "sablonokat vált át a testreszabón, ezek a beállítások nem érhetők el, de "
+#~ "a mentés a sablonok cseréjét megelőzően közzéteszi a változtatásokat!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Az aktiválás sikertelen: aktiválja a WooCommerce alkalmazást a Checkout "
+#~ "használatához a WooCommerce számára"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Szövegtörzs háttérszíne"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Szövegtörzs színe"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Fejléc háttér színe"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Fejléc szövegszín"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Lábléc háttérszíne"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Lábléc szöveg szín"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Összefoglaló háttérszín"
+
+#~ msgid "Accent Color"
+#~ msgstr "Kiemelés színe"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Elsődleges gomb háttér színe"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Elsődleges gomb szöveg színe"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Elsődleges gomb háttér lebegő színe"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Elsődleges gomb szöveges lebegő színe"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Másodlagos gomb háttér színe"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Másodlagos gombszöveg színe"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Másodlagos gomb háttér lebegő színe"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Másodlagos gomb szöveges lebegő színét"
+
+#~ msgid "Link Color"
+#~ msgstr "Link színe"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Kosár cikkszám Háttér szín"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Kosár cikkszám Mennyiség Szín"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr "A(z) %1$s új verziója elérhető. %2$sA verzió%3$s részletei%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "A(z) %1$s új verziója elérhető. %2$sVerzió %3$s részleteinek megtekintése"
+#~ "%4$s vagy %5$sfrissítés most%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nincs engedélye a bővítményfrissítések telepítéséhez"
+
+#~ msgid "Error"
+#~ msgstr "Hiba"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Engedélyezze a Checkout-ot a WooCommerce számára a plugin használatának "
+#~ "követésére? Segítsen a Checkout-nak a WooCommerce számára jobbá tenni."
+
+#~ msgid "Allow"
+#~ msgstr "Engedélyezés"
+
+#~ msgid "Do not allow"
+#~ msgstr "Nem enged"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Nem számított"
+
+#~ msgid "Not Available"
+#~ msgstr "Nem elérhető"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Fizet a vendég megrendeléséért. Kérjük, folytassa a fizetést csak akkor, "
+#~ "ha elismeri ezt a megrendelést."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "A rendelés nem kifizethető. Kérlek, lépj kapcsolatba velünk, ha "
+#~ "segítségre van szükséged."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "A rendelés állapota &ldquo;%s&rdquo;&mdash;nem lehet kifizetni. Kérjük, "
+#~ "lépjen kapcsolatba velünk, ha segítségre van szüksége."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Hiba a fizetés feldolgozásakor. Kérjük, próbálja meg újra."
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztés"
+
+#~ msgid "Remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Elfelejtette a jelszavát?"
+
+#~ msgid "Customer information"
+#~ msgstr "Személyes adatok"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "Kérjük válassz fizetési módot:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout a WooCommerce számára"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "Kiváló támogatás a DNS-ben."
+
+#~ msgid "First Name"
+#~ msgstr "Keresztnév"
+
+#~ msgid "Last Name"
+#~ msgstr "Vezetéknév"
+
+#~ msgid "Email"
+#~ msgstr "E-mail cím"
+
+#~ msgid ""
+#~ "You are using a legacy child theme which will be disabled in a future "
+#~ "version. Changing theme settings is not possible for legacy themes."
+#~ msgstr ""
+#~ "Olyan örökölt gyermek témát használ, amely a jövőben le lesz tiltva. A "
+#~ "témakör beállításainak módosítása nem lehetséges a régi témák esetében."
+
+#~ msgid ""
+#~ "It looks like you are using a legacy checkout theme, located in %s. "
+#~ "Legacy themes are deprecated and you should upgrade to the new theme "
+#~ "structure as soon as possible to prevent problems with future release. "
+#~ "For more information, <a target=\"_blank\" href=\"https://www.checkoutwc."
+#~ "com/docs/developer-api/template-files/upgrading-legacy-custom-templates/"
+#~ "\">read our migration guide.</a>"
+#~ msgstr ""
+#~ "Úgy néz ki, mintha egy öreg pénztár témát használna, amely %s-ban "
+#~ "található. Az örökölt témák elavultak, és a lehető leghamarabb "
+#~ "frissítenie kell az új témakört, hogy megelőzze a jövőbeli kiadások "
+#~ "problémáit. További információért <a target=\"_blank\" href=\"https://www."
+#~ "checkoutwc.com/docs/developer-api/template-files/upgrading-legacy-custom-"
+#~ "templates/\">olvassa el a migrációs útmutatót.</a>"
+
+#~ msgid "Subtotal"
+#~ msgstr "Részösszeg"
+
+#~ msgid "Taxes"
+#~ msgstr "ÁFA tartalom"
+
+#~ msgid "Total"
+#~ msgstr "Összesen"
+
+#~ msgid "Show Phone Fields"
+#~ msgstr "Telefonmezők megjelenítése"
+
+#~ msgid "Enable billing and shipping phone fields"
+#~ msgstr "Számlázási és szállítási telefonmezők engedélyezése"
+
+#~ msgid ""
+#~ "Enable or disable billing and shipping phone fields as required fields. "
+#~ "(Default: Disabled)"
+#~ msgstr ""
+#~ "Engedélyezze vagy tiltsa le a számlázási és szállítási telefon mezőket, "
+#~ "mint kötelező mezőket. (Alapértelmezés: Letiltva)"
+
+#~ msgid "Last name"
+#~ msgstr "Vezetéknév"
+
+#~ msgid "Apt, suite, etc."
+#~ msgstr "Egyéb, emelet ajtó."
+
+#~ msgid "Country"
+#~ msgstr "Ország"
+
+#~ msgid "Postcode / ZIP"
+#~ msgstr "Irányítószám"
+
+#~ msgid "Town / City"
+#~ msgstr "Város"

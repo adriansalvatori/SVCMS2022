@@ -1,0 +1,14 @@
+.sa_shipping_addresses_container, .sa_billing_addresses_container {
+    .options_container {
+        margin-left: 0;
+    }
+
+    .single_address {
+        margin: 1em;
+    }
+
+    .address_container_shipping, .address_container_billing {
+        margin-left: 0;
+        margin-right: 1em;
+    }
+}

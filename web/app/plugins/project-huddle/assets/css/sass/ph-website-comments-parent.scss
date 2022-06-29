@@ -1,0 +1,447 @@
+/* purgecss start ignore */
+@import "website/variables";
+@import "@sass/global/_mixins.scss";
+
+$body-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  Roboto !default;
+$body-font-size: 14px;
+$body-line-height: 1.4em;
+
+$nav-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  Roboto !default;
+
+$button-font-size: 12px;
+$button-text-transform: uppercase;
+$button-letter-spacing: 2px;
+
+$plugin-theme-color: #4353ff;
+$comment-margin-padding: 30px;
+
+$background: #23282d;
+
+$bubble-width: 400px;
+
+.project-huddle-comment-bubble,
+.ph-annotation-dot-container,
+.project-huddle-comment-dot,
+.ph-annotation-tooltip,
+.ph-frame-tooltip,
+.project-huddle-toolbar,
+.project-huddle-panel,
+.ph-image-tip,
+.ph-website-comment,
+._ph-notifications,
+.ph-popup-frame {
+  @include defaults();
+}
+
+.ph-fade-enter-active,
+.ph-fade-leave-active {
+  transition: opacity 0.25s;
+}
+.ph-fade-enter, .ph-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+// what the fuck is your problem firefox
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-fade-enter {
+    opacity: 1;
+  }
+  .ph-fade-leave {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.ph-frame-tooltip {
+  position: fixed !important;
+  z-index: 2147483000 !important;
+  background: rgba(26, 32, 44, 0.9) !important;
+  color: #fff !important;
+  border-radius: 2px !important;
+  display: inline-block !important;
+  padding: 5px 8px !important;
+  transform: translateY(calc(-100% - 5px)) translateX(-50%) !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+}
+
+iframe.ph-popup-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  right: 0 !important;
+  z-index: 2147483030 !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ph-comment {
+  display: block;
+  position: relative;
+  z-index: 2147483000 !important;
+
+  &.ph-active-dot {
+    display: block !important;
+    z-index: 2147483001 !important;
+
+    .ph-annotation-dot {
+      cursor: move !important;
+    }
+  }
+
+  &.ph-hover-dot {
+    display: block !important;
+    z-index: 2147483002 !important;
+  }
+}
+
+.project-huddle-comment-bubble {
+  display: none !important;
+  height: 800px;
+  max-width: $bubble-width !important;
+  width: 9999px;
+  margin-left: 38px;
+  margin-top: -45px;
+  position: absolute;
+  transition: opacity 0.1s ease, visibility 0.1s ease;
+
+  .ph-active-dot &,
+  .ph-hover-dot & {
+    display: block !important;
+  }
+
+  .ph-active-dot & {
+    z-index: 2147482999 !important;
+  }
+
+  .ph-hover-dot & {
+    z-index: 2147483000 !important;
+  }
+
+  .ph-right-overflow:not(.ph-left-overflow) & {
+    right: 38px;
+  }
+  .ph-right-overflow.ph-left-overflow & {
+    margin-left: -28px;
+    margin-top: 38px;
+    right: auto;
+  }
+}
+
+.ph-stop-scrolling {
+  height: 100% !important;
+  overflow: hidden !important;
+}
+
+.project-huddle-toolbar {
+  transform: translate3d(
+    0px,
+    0px,
+    0px
+  ); // make sure it doesn't disappear on chrome
+  max-width: 100vw !important;
+  position: fixed !important;
+  border: none !important;
+  margin: 0 !important;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07) !important;
+  z-index: 2147483000 !important;
+  border-radius: 3px !important;
+  transition: box-shadow 80ms ease-in-out !important;
+  @include defaults();
+  min-width: 30px;
+}
+
+.project-huddle-panel {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  border: none !important;
+  margin: 0 !important;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 32px rgba(0, 0, 0, 0.16) !important;
+  z-index: 2147483010 !important;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out, visibility 0.2s ease-in-out 0.08s !important;
+  @include defaults();
+}
+
+@media screen and (min-width: 360px) {
+  .project-huddle-panel {
+    width: 360px !important;
+  }
+}
+
+/* Tracking Tooltip CSS */
+.ph-image-tip {
+  background: rgba(darken(#000, 25%), 0.85);
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  z-index: 999999;
+  width: auto;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  padding: 8px 10px;
+  margin-left: 12px;
+  margin-top: -50px;
+  font-family: sans-serif;
+  white-space: nowrap !important;
+
+  &:after {
+    content: "";
+    position: absolute !important;
+    bottom: -8px;
+    z-index: 100;
+    border: 0 solid #111;
+    border: 0 solid rgba(darken(#000, 25%), 0.85);
+    border-bottom: 8px solid transparent;
+    width: 100%;
+    border-left-width: 8px;
+    left: 0;
+  }
+}
+
+.ph-annotation-dot-container {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  z-index: 9999999999;
+}
+
+$width: 36px;
+$border-width: 3px;
+
+.project-huddle-comment-dot {
+  width: $width !important;
+  height: $width !important;
+  margin-top: -($width/2) !important;
+  margin-left: -($width/2) !important;
+  border: none !important;
+}
+
+.ph-comment-container {
+  .ph-annotation-dot {
+    position: absolute !important;
+    width: $width !important;
+    height: $width !important;
+    margin-top: -($width/2) !important;
+    margin-left: -($width/2) !important;
+    background: #4353ff;
+    border: $border-width solid #fff !important;
+    border-radius: 100% !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+    text-align: center !important;
+    line-height: $width - ($border-width * 2) !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    z-index: 2147483647 !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+    transition: background 0.35s ease, opacity 0.1s ease !important;
+    box-sizing: border-box !important;
+    opacity: 0.5;
+
+    &:before,
+    &:after {
+      bottom: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.1s ease, visibility 0.1s ease;
+    }
+
+    &:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-right-color: #fff;
+      border-width: 8px;
+      right: -25px;
+      left: auto;
+      bottom: 7px;
+      top: auto;
+    }
+    &:before {
+      border-color: rgba(35, 40, 45, 0);
+      border-right-color: rgba(35, 40, 45, 0.16);
+      border-width: 8px;
+      right: -24px;
+      left: auto;
+      bottom: 7px;
+      top: auto;
+    }
+
+    &.ph-approved {
+      background: #5cb85c !important;
+    }
+  }
+
+  .ph-right-overflow:not(.ph-left-overflow) .ph-annotation-dot {
+    &:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-left-color: #fff;
+      border-width: 8px;
+      left: -25px;
+      right: auto;
+      bottom: 7px;
+      top: auto;
+    }
+    &:before {
+      border-color: rgba(35, 40, 45, 0);
+      border-left-color: rgba(35, 40, 45, 0.16);
+      border-width: 8px;
+      left: -24px;
+      right: auto;
+      bottom: 7px;
+      top: auto;
+    }
+  }
+
+  .ph-right-overflow.ph-left-overflow .ph-annotation-dot {
+    &:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #fff;
+      border-width: 8px;
+      bottom: -26px;
+      right: auto;
+      left: 7px;
+      top: auto;
+    }
+    &:before {
+      border-color: rgba(35, 40, 45, 0);
+      border-bottom-color: rgba(35, 40, 45, 0.16);
+      border-width: 8px;
+      bottom: -25px;
+      right: auto;
+      left: 7px;
+      top: auto;
+    }
+  }
+
+  .ph-active-dot .ph-annotation-dot,
+  .ph-hover-dot .ph-annotation-dot {
+    opacity: 1;
+
+    &:before,
+    &:after {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+body._ph-cursor,
+body.ph_cursor:hover,
+._ph-cursor:hover {
+  cursor: crosshair !important;
+  position: static;
+
+  .ph-annotation-dot,
+  ._ph-annotation-dot {
+    pointer-events: none;
+  }
+}
+
+.ph-annotation-tooltip {
+  box-sizing: content-box;
+  display: none;
+  font-family: "Open Sans", "lucida grande", "lucida sans unicode",
+    "lucida sans", sans-serif;
+  line-height: 1.5;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.701961) 0px 0px 2px;
+  max-width: 400px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  top: 161.609px;
+  left: 602.219px;
+  z-index: 2147483645;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+._ph_highlight {
+  outline: 3px solid #5ab6e0;
+  cursor: crosshair;
+}
+
+._ph-hide-resolved {
+  .ph-comment-container
+    .ph-comment:not(.ph-active-dot)
+    .ph-annotation-dot.ph-approved {
+    display: none;
+  }
+}
+
+.ph-comment-thread {
+  position: absolute;
+}
+
+.ph-slide-leave-active,
+.ph-slide-enter-active {
+  transition: 0.25s ease;
+}
+.ph-slide-enter {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.ph-slide-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+.ph-slide-leave {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-slide-leave {
+    visibility: hidden;
+  }
+}
+.ph-slide-leave-to {
+  transform: translateX(100px);
+  opacity: 0;
+}
+.ph-slide-leave-active {
+  transition-delay: 0;
+}
+// fix shitty firefox bugs
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-slide-enter {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .ph-slide-leave {
+    opacity: 0;
+  }
+}
+/* purgecss end ignore */

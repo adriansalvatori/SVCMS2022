@@ -1,0 +1,15 @@
+
+.xt_woofc-fly-to-cart {
+  position: absolute !important;
+  transform-origin: center center;
+  z-index: calc(var(--xt-woofc-zindex) + 2) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  list-style: none;
+  max-width: inherit!important;
+  max-height: inherit!important;
+  .lSPager,
+  .lSAction{
+    display: none;
+  }
+}

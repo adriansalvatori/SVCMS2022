@@ -1,0 +1,1285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:36-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Sisäänkirjautumisessa tapahtui virhe. Tarkista kirjautumistiedot ja yritä "
+"uudelleen."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "Sähköpostiosoite sisältää virheellisen verkkotunnuksen."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Syötä kelvollinen %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Koko nimi"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Talon numero"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Kadun nimi"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Lisää osoiteriville 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Lisää Yritys"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Laskutusosoite"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Kirjautunut sisään PayPalilla. Jatka tilaustasi alla."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Käytä"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Onko sinulla tarjouskoodi? Klikkaa tästä."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Tarjouskoodi"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Kirjoita tarjouskoodi"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Onneksi olkoon! Saat ilmaisen vakiotoimituksen."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Olet %s päässä ilmaisesta toimituksesta!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Käytä tätä osoitetta"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Osoitteen vahvistaminen"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Antamasi toimitusosoite ei vastaa vahvistuspalvelumme ehdottamaa osoitetta. "
+"Tarkista osoitteesi."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Sinä syötit"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Ehdotamme"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Syötä toimiva puhelinnumero."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Kirjoita etu- ja sukunimesi."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Toimitusosoite"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Kirjoita uusi määrä:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"3-numeroinen turvakoodi, joka yleensä löytyy kortin takaosasta. American "
+"Express -korttien etuosassa on nelinumeroinen koodi."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Haluatko varmasti poistaa tämän tuotteen ostoskoristasi?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Kirjoita kelvollinen postinumero."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Ei lähetystapoja"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Lähetä tilaus"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Maksu"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Kaikki tapahtumat ovat suojattuja ja salattuja."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Tilauksesi on ilmainen. Maksua ei vaadita."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Sama kuin toimitusosoite"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Käytä toista laskutusosoitetta"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Takaisin ostoskoriin"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Jatka toimitukseen"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Jatka maksamiseen"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Tarkista tilaus"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Palaa tietoihin"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Palaa kuljetuspalveluun"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Palaa maksuun"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Tai"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Vähennys"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Lisäys"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Näytä tilausyhteenveto"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Piilota tilausyhteenveto"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Pikakassa"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Tiedot"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Tilauksen tarkistus"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Onko sinulla jo tili kanssamme?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Kirjaudu sisään saadaksesi nopeamman kassakokemuksen."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Luo %s ostostili."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Jos sinulla ei ole tiliä, me luot sen sinulle."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Tervetuloa takaisin,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Kirjautua ulos."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Tervetuloa takaisin"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr "Näyttää siltä, että sinulla on jo tili. Anna kirjautumistietosi alla."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Jos olet tehnyt ostoksia kanssamme aiemmin, anna kirjautumistietosi alla."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Tai jatka vieraana"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Laskutus- ja toimitusosoite"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Toimitusosoite"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Ota yhteyttä"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Vaihda"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Menetelmä"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Toimitustapa"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Valitse korttiasi tai maksutapaa vastaava osoite."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Tarjouskoodi"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Tilaus %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Kiitos %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Tilauksen tilanne"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Tilauksen päivitykset"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Saat tilaus- ja toimituspäivitykset sähköpostitse."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Yhteystiedot"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Toimitus"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Arvostelu"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Ostoskori on tyhjä"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Ostoskorisi"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Kauniita, muunnosoptimoituja kassamalleja WooCommerce-palveluun."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Valitse maa"
+
+#~ msgid "Password"
+#~ msgstr "Salasana"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "Sisäänkirjautuminen on vapaaehtoista. Voit jatkaa tilauksesi alla."
+
+#~ msgid "Address Required"
+#~ msgstr "Osoite vaaditaan"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3><strong>%s</strong>: CheckoutWC: n käyttö edellyttää PHP 7.0 tai "
+#~ "uudempi.</h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "PHP: n uudemmat versiot ovat sekä nopeampia että turvallisempia, joten "
+#~ "päivittämisellä on positiivinen vaikutus sivustosi suorituskykyyn."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Fataalisten virheiden estämiseksi olemme ladanneet %s tiedostoon <strong> "
+#~ "%s</strong> , joka poistaa kaikki ominaisuudet ja toiminnot käytöstä. "
+#~ "Useimmissa tapauksissa päivitys vie vain muutaman minuutin. Ota yhteyttä "
+#~ "palveluntarjoajaasi saadaksesi lisätietoja."
+
+#~ msgid "safe mode"
+#~ msgstr "turva tila"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Ota Beaver Themer -tuki käyttöön."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Salli Beaver Themer korvata otsikko ja alatunniste."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Ota Elementor Pro -tuki käyttöön."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Anna Elementor Pron korvata otsikko ja alatunniste."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Kassan kenttäeditori"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Ota Checkout-kenttäeditorin osoitekentän ohitukset käyttöön."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Salli WooCommerce Checkout -kenttäeditorin muokata laskutus- ja "
+#~ "toimitusosoitekenttiä."
+
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgid "Premium Features"
+#~ msgstr "Maksulliset ominaisuudet"
+
+#~ msgid "Template"
+#~ msgstr "Mallipohja"
+
+#~ msgid "Design"
+#~ msgstr "Ulkoasu"
+
+#~ msgid "Integrations"
+#~ msgstr "Integraatiot"
+
+#~ msgid "Addons"
+#~ msgstr "Lisäosat"
+
+#~ msgid "License"
+#~ msgstr "Lisenssi"
+
+#~ msgid "Tools"
+#~ msgstr "Työkalut"
+
+#~ msgid "Support"
+#~ msgstr "Tuki"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Suositellut lisäosat"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerce tarjoaa kauniita muunnosoptimoituja kassamalleja "
+#~ "WooCommerce-palveluille."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "WooCommerce Checkout -kenttäeditori ohittaa tämän asetuksen."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Ota käyttöön poista käytöstä"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Käytä Checkout WooCommerce -mallia"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Ota WooCommerce-teeman Checkout käyttöön tai poista se käytöstä. "
+#~ "(HUOMAUTUS: Teema on aina käytössä järjestelmänvalvojille.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Sisäänkirjautumistyyli"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Tehostettu (suositeltava)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce-oletus"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Parannettu: Näytä ja piilota kirjautumiskentät automaattisesti sen "
+#~ "mukaan, vastaako syötetty sähköpostiosoite tiliä. (Suositus)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce-oletus: Näytä sisäänkirjautumismuistutus bannerissa "
+#~ "kassalomakkeen yläpuolella."
+
+#~ msgid "Registration Style"
+#~ msgstr "Rekisteröintityyli"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Parannettu: Luo käyttäjänimi ja salasana automaattisesti ja lähetä se "
+#~ "sähköpostilla asiakkaalle alkuperäisellä WooCommerce-toiminnolla. "
+#~ "(Suositus)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce-oletus: Salasanakenttä annetaan asiakkaalle valita salasana. "
+#~ "Ei suositeltu."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Kenttämerkintätyyli"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Kelluva (suositeltava)"
+
+#~ msgid "Normal"
+#~ msgstr "Normaali"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Kelluva: Näyttää ja piilottaa tarrat automaattisesti sen perusteella, "
+#~ "onko kentällä arvo. (Suositus)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Normaali: Tarrat näkyvät jokaisen kentän yläpuolella aina."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Ostoskorin etiketti"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Teksti (suositeltava)"
+
+#~ msgid "Link"
+#~ msgstr "Linkki"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Teksti: Älä linkitä ostoskorin tuotteita yhdelle tuotesivulle. (Suositus)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Linkki: Yhdistä jokainen ostoskori tuotesivulle."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Ostoskorin tuotetiedot"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Lyhyt (suositeltava)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Lyhyt näyttää vain variaatioarvot. Esimerkiksi Koko: XL, Väri: Punainen "
+#~ "näkyy muodossa XL / punainen. (Suositus)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Kun käytössä on WooCommerce Default, jokainen muunnelma näytetään "
+#~ "erillisellä rivillä seuraavassa muodossa: Label: Value"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Ohita lähetysvaihe"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Ohita toimitusvaihe"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Ota piilottaa lähetysmenetelmävaihe. Hyödyllinen, jos sinulla on vain "
+#~ "yksi lähetysvaihtoehto kaikille tilauksille."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Ota tilausmerkinnät-kenttä käyttöön"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Ota tilausmerkinnät-kenttä käyttöön tai poista se käytöstä. Poistettu "
+#~ "käytöstä oletuksena."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Mobiili kuponkikenttä"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Näytä kuponkikenttä maksutapojen yläpuolella mobiililaitteessa."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Näytä kuponkikenttä mobiililaitteiden maksuyhdyskäytävien yläpuolella. "
+#~ "Auttaa asiakkaita löytämään kuponkikentän laajentamatta ostoskorin "
+#~ "yhteenvetoa."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Matkapuhelinluottokortit"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Ota luottokorttitunnukset käyttöön mobiililaitteissa"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Näytä luottokorttitunnukset mobiililaitteissa. Huomaa: Monia "
+#~ "yhdyskäytävälogoja ei voida hahmottaa oikein mobiililaitteilla. On "
+#~ "suositeltavaa testata ennen käyttöönottoa. Oletus: Ei käytössä"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Ostoskorin yhteenveto Mobile Label"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Esimerkki: Näytä tilausyhteenveto ja kuponkeja"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Jos jätetään tyhjäksi, tätä oletusarvoa käytetään:"
+
+#~ msgid "Header Scripts"
+#~ msgstr "Header skriptit"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Tämä koodi tulostuu heti ennen sulkevaa <code>&lt;/head&gt;</code> -"
+#~ "tunnistetta asiakirjan lähteessä."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Alatunnisteen skriptit"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Tämä koodi tulostetaan välittömästi ennen sulkevaa <code>&lt;/body&gt;</"
+#~ "code> -tunnistetta asiakirjan lähteessä."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Aktivoi käytön seuranta"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "Sallivatko WooCommerce Checkout seurata laajennuksen käyttöä?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Stat Collection Data Viewer"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Kokeelliset integraatiot"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Kokeellisia integraatioita ei tueta, eivätkä ne käy läpi samaa "
+#~ "testausprosessia kuin suositellut kokoonpanomme."
+
+#~ msgid "Template Loader"
+#~ msgstr "Template Loader"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Häiriöiden ilmainen portaali (suositus)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress-teema"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Häiriöiden vapaa portaali: Näytä CheckoutWC-mallit häiritsemättömässä "
+#~ "portaalissa, joka ei lataa aktiivista WordPress-teemaa tai tyylejä. "
+#~ "(Suositus)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "WordPress-teema: Lataa CheckoutWC-malleja aktiiviseen WordPress-teeman "
+#~ "sisältöalueelle."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Kokeellinen - ei tueta kokoonpanoa"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Korin muokkaus"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Ota ostoskorin muokkaus käyttöön."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Ota korin muokkaustoiminto käyttöön tai poista se käytöstä. Antaa "
+#~ "asiakkaalle poistaa tai säätää ostoskorien määrää."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Ostoskorin muokkaaminen Tyhjän korin uudelleenohjaus"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr "URL-osoite, joka ohjaa asiakkaan tyhjentää ostoskorin kassalla."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "Jos asiakas jätetään tyhjäksi, asiakas ohjataan ostoskoriin."
+
+#~ msgid "Order Pay"
+#~ msgstr "Tilaa maksu"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Ota tilauspalkkisivun tuki käyttöön."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Käytä tilauspalkkisivulle kassalomaketta."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Yhden sivun kassalla"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Ota yhden sivun kassalla käyttöön."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Näytä kaikki kassakentät yhdellä välilehdellä. Hyödyllinen "
+#~ "digitaalikauppoihin tai kauppoihin, jotka pakottavat laskutus- ja "
+#~ "toimitusosoitteen olemaan samat."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Kiitos sivu"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Ota tuki kiitossivulle."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Ota kiitossivu / tilaus vastaanotettu malli käyttöön. Tätä mallia "
+#~ "käytetään myös tarkasteltaessa tilauksia Oma tili -tilassa."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Tilaustilat"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Kiitossivulla näkyvät tilat."
+
+#~ msgid "Map Embed"
+#~ msgstr "Kartta upota"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Ota kartan upotus käyttöön."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Ota kartan upotus käyttöön tai poista se käytöstä kiitossivulla. Vaatii "
+#~ "Google API -avaimen."
+
+#~ msgid "My Account"
+#~ msgstr "Oma tili"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Käytä tilauspalkkisivulle kassalomaketta."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Kun tämä on valittu, tilauksen katseleminen Oma tili -tilassa käyttää "
+#~ "kiitossivumallia."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Osoite Automaattinen täydennys"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Ota osoite automaattisesti käyttöön."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Ota käyttöön tai poista osoitteen automaattisen täydennyksen ominaisuus "
+#~ "käytöstä. Vaatii Google API -avaimen."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API-avain"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Google API -avain. Saatavana <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform -konsolissa</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Käyttäjäsovitus"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Käytössä (suositus)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Käytössä: Vastaa automaattisesti vierastilauksia käyttäjätilille uuden "
+#~ "oston yhteydessä ja uuden käyttäjän rekisteröinnin yhteydessä. (Suositus)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce-oletus: Näytä sisäänkirjautumismuistutus bannerissa "
+#~ "kassalomakkeen yläpuolella."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "PHP-katkelmat"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Lisää PHP-katkelmia muokataksesi kassasivusi täällä. Jos sinulla on "
+#~ "paljon katkelmia, voit harkita <a target=\"_blank\" href=\"%s"
+#~ "\">koodinpätkiä</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Lisenssin päivitys vaaditaan"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Näiden ominaisuuksien käyttöönotto edellyttää kasvu- tai "
+#~ "kehittäjälisenssiä."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Voit päivittää lisenssisi <a target=\"_blank\" href=\"%1$s\">Oma tili -"
+#~ "kohdassa</a> . Apua lisenssisi päivittämiseen <a target=\"_blank\" href="
+#~ "\"%2$s\">napsauttamalla tätä.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Asetus korvattu"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Tämä asetus on tällä hetkellä ohitettu ohjelmallisesti. Poista se "
+#~ "mukautetusta koodista, jotta se voidaan ottaa käyttöön."
+
+#~ msgid "Templates"
+#~ msgstr "Mallit"
+
+#~ msgid "Active: "
+#~ msgstr "Aktiivinen: "
+
+#~ msgid "Activate"
+#~ msgstr "Aktivoi"
+
+#~ msgid "Global Settings"
+#~ msgstr "Yleiset asetukset"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Nämä asetukset koskevat kaikkia teemoja."
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload image"
+#~ msgstr "Lataa kuva"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Tyhjennä logo"
+
+#~ msgid "Footer Text"
+#~ msgstr "Alatunnisteen teksti"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Jos tyhjäksi jätetään, normaali tekijänoikeusilmoitus tulee näkyviin. "
+#~ "Aseta yhteen tilaan ohittaaksesi tämän käytöksen."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Teemakohtaiset asetukset"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Nämä asetukset koskevat valittua teemaa. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Fontit"
+
+#~ msgid "Body Font"
+#~ msgstr "Sisällön kirjaisin"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Järjestelmäkirjasinpino"
+
+#~ msgid "Heading Font"
+#~ msgstr "Otsikon kirjasin"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "Oletuksena CheckoutWC käyttää järjestelmäkirjasinpinoa, joka tuottaa "
+#~ "nopeimman suorituskyvyn. Voit käyttää täällä Google-kirjasinta."
+
+#~ msgid "Color Settings"
+#~ msgstr "Väriasetukset"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Mukautettu CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Lisää mukautettuja CSS-sääntöjä, jotta voit hallita kassamallin ulkonäköä "
+#~ "kokonaan."
+
+#~ msgid "Export Settings"
+#~ msgstr "Vientiasetukset"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Lataa varmuuskopiotiedosto asetuksistasi."
+
+#~ msgid "Import Settings"
+#~ msgstr "Tuo asetukset"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Lataa tiedosto ja tuo asetukset"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Ennen kuin otat yhteyttä tukeen"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Löydät vastauksen useimpiin kysymyksiin <a href=\"https://kb.checkoutwc."
+#~ "com\" target=\"_blank\">tietokannastamme</a> ."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Tässä on suosittuja oppaita:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Tarvitsetko edelleen apua?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Jos tarvitset edelleen apua tietokannastamme etsimisen jälkeen, autamme "
+#~ "mielellämme sinua."
+
+#~ msgid "Contact Support"
+#~ msgstr "Ota yhteyttä tukeen"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerce-ekosysteemi on täynnä fantastisia laajennuksia. Tässä on "
+#~ "muutama, jotka toimivat todella hyvin CheckoutWC: n kanssa ja joita "
+#~ "suosittelemme koko sydämestämme asiakkaillemme. (Muutamiin näistä "
+#~ "linkkeistä voi sisältyä tytäryhtiöiden seuranta. Tämä ei vaikuta "
+#~ "päätökseemme sisällyttää laajennus.)"
+
+#~ msgid "More Info"
+#~ msgstr "Lisätietoja"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong>%s</strong> : Varoitus yhteensopimattomia liitännäisiä havaittu!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "Poista nämä liitännät käytöstä, jotta kassalla ei olisi ongelmia!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong>%s</strong> : Lisenssisi on voimassa ja aktivoitu tälle "
+#~ "sivustolle, mutta malli on poistettu käytöstä normaalien käyttäjien "
+#~ "kohdalla. Korjaa tämä siirtymällä kohtaan %s> %s> %s ja valitsemalla \" %s"
+#~ "\"."
+
+#~ msgid "Settings"
+#~ msgstr "Asetukset"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong>%s</strong> : Lisenssiavaimesi näyttää vanhentuneelta. Varmista, "
+#~ "että lisenssiavaimesi on voimassa, tai <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">uusita "
+#~ "lisenssisi nyt</a> palauttaaksesi kaikki toiminnot."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong>%s</strong> : Lisenssiavaimesi puuttuu tai on virheellinen. "
+#~ "Varmista, että lisenssiavaimesi on voimassa, tai <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/\">osta lisenssi,</a> jotta palautat "
+#~ "kaikki toiminnot."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Kiitos WooCommerce-palvelun Checkoutin asentamisesta! Aloita "
+#~ "napsauttamalla alla olevaa <strong>Lisenssi</strong> ja aktivoi "
+#~ "lisenssiavaimesi!"
+
+#~ msgid "Phone"
+#~ msgstr "Puhelin"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Asetuksia ei voitu tuoda. Valitsitko JSON-tiedoston "
+#~ "ladattavaksi?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: Asetusten tuonti onnistui."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Nämä asetukset koskevat vain tällä hetkellä aktiivista mallia. Jos "
+#~ "vaihdat malleja mukauttajassa, nämä asetukset eivät ole käytettävissä, "
+#~ "mutta tallennus julkaisee muutokset täällä ennen mallien vaihtoa!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Aktivointi epäonnistui: aktivoi WooCommerce käyttääksesi Checkoutia "
+#~ "WooCommerce-palveluun"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Runko taustaväri"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Leipätekstin väri"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Otsikon taustaväri"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Yläosan tekstiväri"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Alatunnisteen taustaväri"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Alatunnisteen tekstin väri"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Yhteenveto taustaväri"
+
+#~ msgid "Accent Color"
+#~ msgstr "Korostusväri"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Ensisijainen painikkeen taustaväri"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Ensisijaisen painikkeen tekstin väri"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Ensisijaisen painikkeen taustan leijuväri"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Ensisijainen painiketekstin väri"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Toissijaisen painikkeen taustaväri"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Toissijaisen painikkeen tekstin väri"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Toissijaisen painikkeen taustan leijuväri"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Toissijaisen painikkeen tekstin osoitinväri"
+
+#~ msgid "Link Color"
+#~ msgstr "Linkin väri"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Ostoskorin erä Määrä Taustaväri"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Ostoskorin erä Määrä Tekstin väri"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Lisäosan %1$s uusi versio on saatavilla. %2$sKatso version %3$s tiedot"
+#~ "%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Lisäosan %1$s uusi versio on saatavilla. %2$sKatso version %3$s tiedot"
+#~ "%4$s tai %5$späivitä nyt%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Sinulla ei ole oikeuksia päivittää lisäosia."
+
+#~ msgid "Error"
+#~ msgstr "Virhe"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Sallivatko WooCommerce Checkout seurata laajennuksen käyttöä? Auta "
+#~ "parantamaan WooCommerce-palvelun Checkoutia."
+
+#~ msgid "Allow"
+#~ msgstr "Salli"
+
+#~ msgid "Do not allow"
+#~ msgstr "Älä salli"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Ei laskettu"
+
+#~ msgid "Not Available"
+#~ msgstr "Ei saatavilla"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Maksat vieraiden tilauksesta. Jatka maksua vain, jos tunnustat tämän "
+#~ "tilauksen."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr "Tätä tilausta ei voida maksaa. Ota yhteyttä, jos tarvitset apua."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Tämän tilauksen tila on & ldquo; %s & rdquo; & mdash; siitä ei voida "
+#~ "maksaa. Ota yhteyttä, jos tarvitset apua."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Virhe kassan käsittelyssä. Yritä uudelleen."
+
+#~ msgid "Edit"
+#~ msgstr "Muokkaa"
+
+#~ msgid "Remove"
+#~ msgstr "Poista"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Unohditko salasanasi?"
+
+#~ msgid "Customer information"
+#~ msgstr "Asiakastiedot"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "Valitse lähetystapa:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Kassalle WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "Erinomainen tuki on DNA: ssa."

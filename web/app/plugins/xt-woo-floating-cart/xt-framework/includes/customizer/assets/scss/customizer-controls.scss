@@ -1,0 +1,377 @@
+
+[id*=accordion-panel-xt_],
+[id*=accordion-section-xt_].control-section {
+
+	.customize-info .panel-title {
+		font-size: 16px;
+		color: #bd043d;
+	}
+
+	.panel-title.dashicons-before:before,
+	.customize-section-description-container h3.dashicons-before:before {
+		display: none;
+	}
+
+	> .accordion-section-title {
+		color: #bd043d !important;
+	}
+
+	.accordion-section-title {
+		color: #181818;
+
+		> .dashicons,
+		&:before {
+			margin-right: 10px;
+			color: #bd043d;
+			height: initial;
+		}
+	}
+}
+
+.control-section-xirki-default,
+[id*=sub-accordion-section-xt_] {
+	.customize-section-title .dashicons {
+		display: none;
+	}
+}
+
+.control-section-xirki-default {
+	.customize-control {
+		border-bottom: 1px solid #ddd !important;
+		border-top: 0 !important;
+		padding-bottom: 15px;
+		margin-bottom: 12px;
+		margin-top: 0px;
+
+		.screen-reader-text {
+			opacity: 0;
+		}
+
+		.customize-control-title {
+			display: block;
+			font-size: 14px;
+			line-height: 1.75;
+			font-weight: 600;
+			margin-bottom: 4px;
+			margin-top: initial;
+			text-transform: initial;
+
+			+ label {
+				margin-top: 10px;
+			}
+		}
+
+		&:last-child {
+			border-bottom: 0 !important;
+		}
+	}
+
+	.wp-full-overlay-sidebar-content {
+		z-index: 10000
+	}
+
+	.accordion-section-content,
+	.wp-full-overlay-sidebar-content {
+
+		&::-webkit-scrollbar {
+			width: 5px !important
+		}
+
+		&::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, .3) !important;
+			width: 20px !important
+		}
+
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0 !important;
+			background: #d8d8d8 !important
+		}
+
+		&::-webkit-thumb:window-inactive {
+			background: #fff !important
+		}
+	}
+
+	.accordion-section-content {
+		padding: 20px;
+		background-color: #fff !important;
+		border-bottom: 1px solid #ddd
+	}
+}
+
+.customize-control-xirki-color,
+.customize-control-xirki-typography {
+
+	.wp-picker-container,
+	.wp-picker-input-wrap {
+		width: 100%;
+		border-radius: 4px;
+		overflow: hidden
+	}
+
+	.wp-picker-container {
+
+		display: block;
+
+		span.color,
+		span.color-alpha {
+			height: 100% !important;
+			width:100% !important;
+		}
+
+		.iris-picker {
+			margin: 15px 0 0
+		}
+
+		.iris-palette-container,
+		.iris-square {
+			margin-left: -1px
+		}
+
+		.wp-picker-clear,
+		.wp-picker-default,
+		input[type=text].wp-color-picker {
+			width: 45% !important;
+			vertical-align: bottom;
+			margin-top: 10px;
+		}
+
+		&.wp-picker-active {
+
+			.wp-picker-input-wrap {
+
+				.wp-picker-clear,
+				.wp-picker-default {
+					display: inline-block !important;
+					margin-left: 10%
+				}
+			}
+		}
+
+		.wp-color-result.button {
+			width: 100%;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			box-shadow: inset 0 0 1px rgba(0, 0, 0, .5) !important;
+			-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, .5) !important;
+			border: 1px solid #eaeaea!important;
+			margin: 0;
+			height: 30px !important;
+			min-height: 32px !important;
+			border-radius: 5px!important;
+			padding: 0 0 0 40px !important;
+
+			&:focus:after,
+			&:hover,
+			&:hover:after {
+				color: #fff;
+				border: none
+			}
+
+			&:after {
+				background-color: rgba(0, 0, 0, .2);
+				color: #fff;
+				height: 30px;
+				line-height: 30px;
+				border: none;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+				font-size: 12px;
+				border-radius: 0 4px 4px 0;
+				padding: 0 15px;
+				content: 'Select Color';
+				display: block;
+				position: relative;
+				right: 0;
+				text-align: center;
+				top: 0;
+				text-transform: capitalize;
+				font-weight: 400;
+				z-index: 9
+			}
+
+			&.wp-picker-open:after {
+				content: 'Current Color';
+			}
+
+			+ .wp-picker-input-wrap {
+				input[type=text].wp-color-picker {
+					width: 100% !important;
+					text-align: center;
+				}
+
+				> label {
+					width: 45%
+				}
+			}
+
+			.wp-color-result-text {
+				display: none
+			}
+
+			.color-alpha {
+				z-index: 1;
+				border-radius: 3px
+			}
+		}
+	}
+
+}
+
+.customize-control-xirki-typography {
+	.wrapper {
+		border: 0;
+		padding: 0;
+	}
+}
+
+.customize-control-xirki-slider {
+	.wrapper {
+		.slider-reset:hover {
+			transform: scale(1.05);
+		}
+	}
+}
+
+.customize-control-xirki-radio-buttonset {
+	.buttonset {
+
+		.switch-label {
+			box-sizing: border-box;
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+			padding: 0.5em;
+			font-size: 12px;
+		}
+
+		.switch-input {
+
+			&[data-col="1"] + .switch-label {
+				width: 100%;
+			}
+
+			&[data-col="2"] + .switch-label {
+				width: 50%;
+			}
+
+			&[data-col="3"] + .switch-label {
+				width: 33.33333333333333%;
+			}
+
+			&[data-col="4"] + .switch-label {
+				width: 25%;
+			}
+		}
+	}
+}
+
+.customize-control-xirki-custom {
+
+	padding: 5px 0 5px!important;
+	box-sizing: border-box;
+	position: relative;
+
+	&:not([id*=-api_]) .customize-control-title{
+		font-size: 18px!important;
+	}
+
+	.xirki-code-input {
+
+		padding: 10px;
+		background-color: #ffffcc;
+		width: 100%;
+		border: 1px solid #dddddd;
+		outline: none;
+		font-weight: 500;
+	}
+}
+
+
+.customize-control-xt-premium {
+	.customize-control-title {
+		color: #d42d26;
+	}
+
+	.customize-control-description {
+		font-weight: 600;
+		font-size: 12px;
+		letter-spacing: -0.1px;
+	}
+
+	img {
+		border-top: 1px solid #e4e4e4;
+		margin-top: 10px;
+		padding-top: 15px;
+	}
+}
+
+.xt-jsapi {
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 0;
+	font-weight: 500;
+}
+
+.xirki-devices-wrapper {
+	float: right;
+}
+
+.xirki-devices {
+	position: relative;
+
+	button {
+		cursor: pointer;
+		background: transparent;
+		border: none;
+		padding: 0 3px;
+		margin: 0 0 0 -4px;
+		box-shadow: none;
+		border-top: 1px solid transparent;
+		border-bottom: 4px solid transparent;
+		transition: .15s color ease-in-out, .15s background-color ease-in-out, .15s border-color ease-in-out;
+
+		&:focus {
+			box-shadow: none;
+			outline: none;
+		}
+
+		&:before {
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 15px/1 "dashicons";
+			vertical-align: middle;
+			margin: 0;
+			padding: 2px 0 0 6px;
+			color: #656a6f;
+		}
+
+		.preview-desktop &.preview-desktop:before,
+		.preview-tablet &.preview-tablet:before,
+		.preview-mobile &.preview-mobile:before {
+			color: #0073aa;
+		}
+
+		&:hover:before,
+		&:focus:before {
+			color: #0073aa;
+		}
+	}
+
+	.preview-desktop:before {
+		content: "\f472";
+	}
+
+	.preview-tablet:before {
+		content: "\f471";
+	}
+
+	.preview-mobile:before {
+		content: "\f470";
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.xirki-devices {
+		display: none;
+	}
+}

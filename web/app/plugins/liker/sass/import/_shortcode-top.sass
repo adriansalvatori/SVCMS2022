@@ -1,0 +1,102 @@
+.mdp-liker-top
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+  .mdp-liker-post
+    margin-bottom: var( --mdp-liker-gutter )
+
+  .mdp-liker-post-image
+    display: flex
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+
+  h1.mdp-liker-post-title,
+  h2.mdp-liker-post-title,
+  h3.mdp-liker-post-title,
+  h4.mdp-liker-post-title,
+  h5.mdp-liker-post-title,
+  h6.mdp-liker-post-title
+    margin: var( --mdp-liker-gutter ) 0 0 0
+
+    a
+      text-decoration: none
+
+  .mdp-liker-post-rating
+    display: flex
+    align-items: center
+    font-size: var( --mdp-liker-size )
+    line-height: var( --mdp-liker-size )
+    margin: var( --mdp-liker-gutter ) 0 0 0
+
+    .dashicons
+      width: var( --mdp-liker-size )
+      height: var( --mdp-liker-size )
+      font-size: var( --mdp-liker-size )
+      line-height: var( --mdp-liker-size )
+      display: flex
+      align-items: center
+      color: #ff2128
+
+  .mdp-liker-post-value
+    font-size: var( --mdp-liker-size )
+    line-height: var( --mdp-liker-size )
+    margin: 0 calc( var( --mdp-liker-size ) / 2 )
+    white-space: nowrap
+
+.mdp-liker-cols-1 > div
+  flex-basis: 100%
+
+.mdp-liker-cols-2 > div
+  flex-basis: calc( 50% - var( --mdp-liker-gutter )/2 )
+
+.mdp-liker-cols-3 > div
+  flex-basis: calc( 33% - var( --mdp-liker-gutter )/3 )
+
+.mdp-liker-cols-4 > div
+  flex-basis: calc( 25% - var( --mdp-liker-gutter )/4 )
+
+.mdp-liker-cols-5 > div
+  flex-basis: calc( 20% - var( --mdp-liker-gutter )/5 )
+
+.mdp-liker-cols-6 > div
+  flex-basis: calc( 16% - var( --mdp-liker-gutter )/6 )
+
+.mdp-liker-cols-7 > div
+  flex-basis: calc( 14% - var( --mdp-liker-gutter )/7 )
+
+.mdp-liker-cols-8 > div
+  flex-basis: calc( 12% - var( --mdp-liker-gutter )/8 )
+
+.mdp-liker-cols-9 > div
+  flex-basis: calc( 11% - var( --mdp-liker-gutter )/9 )
+
+.mdp-liker-cols-10 > div
+  flex-basis: calc( 10% - var( --mdp-liker-gutter )/10 )
+
+.mdp-liker-cols-11 > div
+  flex-basis: calc( 9% - var( --mdp-liker-gutter )/11 )
+
+.mdp-liker-cols-12 > div
+  flex-basis: calc( 8% - var( --mdp-liker-gutter )/12 )
+
+@media (max-width: 767px)
+
+  .mdp-liker-top > div
+    width: 100%
+    max-width: 100%
+    flex-basis: 100%
+
+@media (max-width: 500px)
+
+  .mdp-liker-post
+    display: flex
+    flex-wrap: wrap
+
+  .mdp-liker-post-image
+    width: 100%
+    max-width: 100%
+
+  .mdp-liker-post-content
+    width: 100%

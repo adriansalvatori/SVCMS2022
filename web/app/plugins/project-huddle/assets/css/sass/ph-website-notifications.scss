@@ -1,0 +1,60 @@
+@import "~normalize.css";
+body {
+  height: fit-content;
+}
+.ph-notification {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  line-height: 1.4;
+  padding: 14px;
+  font-size: 13px;
+  height: auto;
+  min-width: 250px;
+  color: #fff;
+  border-radius: 3px;
+  background: #191d21;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  font-family: segoe ui, helvetica neue, Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  user-select: none;
+  transition: box-shadow 0.35s ease;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  }
+
+  &.alert-error {
+    background: #f23459;
+  }
+
+  button.close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 0;
+    cursor: pointer;
+
+    &:focus,
+    &:hover,
+    &:active {
+      outline: none;
+    }
+  }
+}
+
+.notification-enter-active,
+.notification-leave-active {
+  transition: all 0.5s;
+}
+
+.notification-enter,
+.notification-leave-to {
+  opacity: 0;
+  //   transform: translateX(-60px);
+}
+
+.notification-move {
+  transition: transform 0.2s;
+}

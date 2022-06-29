@@ -1,0 +1,29 @@
+$body-font-family: segoe ui, helvetica neue, Helvetica, Arial, sans-serif;
+$body-font-size: 13px;
+$body-line-height: 1.4em;
+
+$nav-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  Roboto !default;
+
+$button-font-size: 10px;
+$button-text-transform: uppercase;
+$button-letter-spacing: 0.1em;
+$button-font-weight: bold;
+
+$plugin-theme-color: #4353ff;
+$plugin-resolved-color: #5cb85c;
+$dark-type: #51595f;
+$border-color: #f3f3f3;
+$comment-margin-padding: 30px;
+
+$background: #23282d;
+
+$bubble-width: 400px;
+
+@mixin tiny-details() {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

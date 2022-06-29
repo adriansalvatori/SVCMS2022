@@ -1,0 +1,244 @@
+$second-dot: 16px;
+$last-dot: 32px;
+
+.ph-util-loading-dots {
+  text-align: center;
+
+  .ph-util-loading-dots__items {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    -webkit-animation: typing 1s linear infinite normal;
+    -moz-animation: typing 1s linear infinite normal;
+    animation: typing 1s linear infinite normal;
+    position: relative;
+    display: inline-block;
+    margin-left: -$last-dot;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+
+  &.light {
+    .ph-util-loading-dots__items {
+      background-color: rgba(0, 0, 0, 1);
+      box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+        $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+      -webkit-animation: typing-light 1s linear infinite normal;
+      -moz-animation: typing-light 1s linear infinite normal;
+      animation: typing-light 1s linear infinite normal;
+    }
+  }
+}
+
+@-webkit-keyframes typing {
+  0% {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  45% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 1),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+}
+
+@-moz-keyframes typing {
+  0% {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  45% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 1),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+}
+
+@keyframes typing {
+  0% {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  45% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 1),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(255, 255, 255, 0.2),
+      $last-dot 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+}
+
+@-webkit-keyframes typing-light {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  45% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 1),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 1);
+  }
+}
+
+@-moz-keyframes typing-light {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  45% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 1),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes typing-light {
+  0% {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  45% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 1),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  75% {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: $second-dot 0px 0px 0px rgba(0, 0, 0, 0.2),
+      $last-dot 0px 0px 0px rgba(0, 0, 0, 1);
+  }
+}
+
+@keyframes ph-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes ph-spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.ph-util-spinner-container {
+  position: relative;
+
+  .ph-util-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-top-color: rgba(0, 0, 0, 0.6);
+    animation: ph-spinner 0.6s linear infinite;
+    -webkit-animation: ph-spinner 0.6s linear infinite;
+
+    &.is-dark {
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-top-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.ph-util-loading-mask {
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 99999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+.ph-util-loading-spinner {
+  top: 50%;
+  margin-top: -21px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  animation: loading-rotate 2s linear infinite;
+
+  .ph-util-loading-path {
+    animation: loading-dash 1.5s ease-in-out infinite;
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: 0;
+    stroke-width: 2;
+    stroke: var(--ph-accent-color, #4353ff);
+    stroke-linecap: round;
+  }
+}
+
+@keyframes loading-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -40px;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -120px;
+  }
+}
+
+.ph-util-loading-fade-enter,
+.ph-util-loading-fade-leave-to {
+  opacity: 0;
+}
+
+// what the fuck is your problem firefox
+/* purgecss start ignore */
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-util-loading-fade-enter {
+    opacity: 1;
+  }
+  .ph-util-loading-fade-leave {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* purgecss end ignore */

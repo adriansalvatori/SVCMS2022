@@ -1,0 +1,459 @@
+.xtfw-admin-tabs-page {
+
+  #wpbody-content {
+
+    min-height: 600px;
+    opacity: 0;
+    animation-name: xtfw-fade-in;
+    animation-fill-mode: both;
+    animation-duration: .2s;
+    animation-delay: 0.25s;
+  }
+
+  .xtfw-admin-tabs-wrap {
+    max-width: 1600px;
+  }
+
+  .xtfw-admin-tabs-header {
+    position: relative;
+    margin: 35px 0 10px;
+
+    @media screen and (max-width: 782px) {
+
+      text-align: center;
+      display: flex;
+      flex-direction: column-reverse;
+
+      & .fs-notice,
+      & .updated{
+        text-align:left;
+      }
+    }
+
+    h1 {
+      font-size: 20px;
+      letter-spacing: -1px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0;
+    }
+
+    .xtfw-admin-tabs-logo {
+      margin: 15px 0 15px;
+      img {
+        max-width: 200px;
+        border: 0;
+
+        @media screen and (max-width: 782px) {
+          width: 250px;
+        }
+
+      }
+    }
+
+    .xtfw-logo{
+      width: 30px;
+      vertical-align: middle;
+      margin-top: -6px;
+      margin-right: 10px;
+    }
+
+    .xtfw-admin-tabs-description {
+      margin-top: 10px;
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 16px;
+      max-width: 70%;
+    }
+  }
+
+  .xtfw-badges {
+    float: right;
+    display: inline-block;
+    margin-top: 8px;
+
+    @media screen and (max-width: 782px) {
+
+        float: none;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+
+  .xtfw-badge {
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    float: right;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 11px;
+
+    &.xtfw-badge-version{
+      background: transparent;
+      border:1px solid transparent;
+      color:#242424;
+      font-weight:700;
+      font-size:18px;
+
+      @media screen and (max-width: 782px) {
+
+        background: #000;
+        color: #fff;
+        font-size:14px;
+      }
+    }
+
+    &.xtfw-badge-blue{
+      background: #1b95e0;
+      border:1px solid #1b95e0;
+    }
+
+    &.xtfw-badge-green{
+      background: #1f976d;
+      border:1px solid #1f976d;
+    }
+
+    &.xtfw-badge-grey{
+      background: #696969;
+      border:1px solid #696969;
+    }
+
+    @media screen and (max-width: 782px) {
+
+        font-size: 14px;
+        padding: 5px 10px;
+        position: relative;
+    }
+  }
+
+  .nav-tab-toggle {
+
+    display:none;
+
+    @media screen and (max-width: 782px) {
+
+      display:block;
+      position: relative;
+      padding: 13px 27px;
+      margin: 0 0 30px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #fdfdfd;
+      color: #000;
+      box-shadow: 0 0 10px rgb(24 24 24 / 15%) !important;
+      border-radius: 5px;
+      overflow: hidden;
+
+      .nav-tab{
+        padding:0 !important;
+        background: transparent!important;
+      }
+
+      &:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: dashicons;
+        display: inline-block;
+        line-height: 1;
+        font-weight: 400;
+        font-style: normal;
+        speak: never;
+        text-decoration: inherit;
+        text-transform: none;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        vertical-align: top;
+        text-align: center;
+        transition: color .1s ease;
+        color: #000;
+        cursor: pointer;
+      }
+
+      &:hover:after{
+        color: #1b95e0;
+      }
+
+      &.expanded {
+
+        &:after {
+          content: '\f335';
+        }
+
+        + .nav-tab-wrapper {
+
+          display: flex;
+
+          .nav-secondary-tabs {
+
+            padding: 7px;
+            display: flex;
+            flex-wrap: wrap;
+            background: #fff;
+            border-top: 1px solid #eaeaea;
+
+            a {
+              font-size: 12px;
+              flex: 1 0 33%;
+              border: 1px solid #eaeaea !important;
+              display: flex !important;
+              justify-content: center;
+              margin: 3px !important;;
+            }
+          }
+
+          .nav-tab {
+            display: inherit;
+            border-top: 1px solid #eaeaea;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-tab-wrapper {
+    border-bottom: 0;
+
+    @media screen and (max-width: 782px) {
+
+      display: none;
+      flex-direction: column;
+      margin-bottom: 25px;
+      margin-top: -10px;
+      box-shadow: 0 0 10px rgba(24, 24, 24, 0.15)!important;
+      padding: 0;
+      overflow:hidden;
+      border-radius: 5px;
+
+    }
+
+  }
+
+  @media screen and (min-width: 783px) {
+    .nav-secondary-tabs {
+      float: right;
+    }
+  }
+
+  .nav-tab {
+    position: relative;
+    padding: 5px 13px;
+    border: 0;
+    box-shadow: none !important;
+
+    &.fs-tab.pricing:not(.nav-tab-active){
+      @extend .nav-tab-featured;
+    }
+    @media screen and (max-width: 782px) {
+
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        background: #ffffff;
+        padding: 5px 27px;
+
+        &:focus,
+        &:hover,
+        &.nav-tab-active{
+          background-color: #f1f1f1;
+          color: #3c434a;
+        }
+    }
+
+    @media screen and (min-width: 783px) {
+      &.fs-tab,
+      &.secondary {
+        padding: 3px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+    }
+
+    .dashicons{
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .nav-tab-flashing-badge {
+      display: block;
+      vertical-align: top;
+      box-sizing: border-box;
+      margin: 1px 0 -1px 2px;
+      padding: 0 5px;
+      min-width: 10px;
+      height: 10px;
+      border-radius: 9px;
+      background-color: #d63638;
+      color: #fff;
+      font-size: 10px;
+      line-height: 1.6;
+      text-align: center;
+      z-index: 26;
+      position:absolute;
+      top:-5px;
+      right:-2px;
+      animation: xtfw-heartbeat .5s infinite alternate;
+      transform-origin: center;
+      opacity:0.7;
+    }
+  }
+
+  .nav-tab-title{
+
+    .update-plugins{
+      display: inline-block;
+      vertical-align: text-bottom;
+      box-sizing: border-box;
+      margin: 1px 0 -1px 2px;
+      padding: 0 5px;
+      min-width: 18px;
+      height: 18px;
+      border-radius: 9px;
+      background-color: #ca4a1f;
+      color: #fff;
+      font-size: 11px;
+      line-height: 1.6;
+      text-align: center;
+      z-index: 26;
+      margin-left:5px;
+    }
+  }
+
+  @media screen and (min-width: 783px) {
+
+    .nav-tab-active,
+    .nav-tab-active:hover,
+    .nav-tab-active:focus,
+    .nav-tab-active:focus:active {
+      border-bottom: 0;
+      background: #fdfdfd;
+      color: #000;
+    }
+  }
+
+  .nav-tab-featured {
+    background: #333;
+    color: greenyellow;
+  }
+
+  .nav-tab-has-title.nav-tab-has-icon {
+    .dashicons{
+      margin-right:3px;
+    }
+  }
+
+  @media screen and (max-width: 782px) {
+    .nav-tab-has-icon{
+      .dashicons{
+        display:none;
+      }
+    }
+  }
+
+  @media screen and (min-width: 783px) {
+
+    .nav-tab-hide-title {
+      .nav-tab-title {
+        display: none;
+      }
+    }
+  }
+
+  .xtfw-refresh-link {
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+
+    .dashicons {
+      font-size: 18px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .xtfw-admin-tabs-panel {
+    box-shadow: 0 0px 10px 0 rgba(24, 24, 24, 0.07);
+    background: #fdfdfd;
+    padding: 25px;
+    overflow: hidden;
+
+    .wrap{
+      margin:0;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 8px -0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    h3{
+      margin: 0 0 1.3em;
+      font-size: 18px;
+
+      &.xtfw-admin-tabs-panel-title{
+        font-size: 23px!important;
+      }
+    }
+    h4 {
+      margin-top: 0;
+    }
+    #poststuff {
+      padding: 0;
+      .inside{
+        margin:0;
+        padding:0;
+      }
+    }
+    .postbox {
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    &.xtfw-themes-tab  h3.xtfw-admin-tabs-panel-title {
+      margin-top:15px;
+      margin-bottom: 35px;
+      font-size: 20px !important;
+    }
+  }
+
+  &.rtl #wpbody-content .xtfw-badge {
+    float:left;
+  }
+
+  .xt-follow {
+    float: none;
+    margin: 20px auto;
+    display: table;
+    bottom: 0;
+
+    &:before {
+      display: none;
+    }
+
+    a {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

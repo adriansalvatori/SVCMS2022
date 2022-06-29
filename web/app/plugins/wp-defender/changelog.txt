@@ -1,0 +1,85 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.0
+
+Change Log:
+
+= 3.0.1 ( 2022-06-14 ) =
+
+- Fix: Beehive Pro plugin flagged issues
+
+= 3.0.0 ( 2022-06-06 ) =
+
+- New: Biometric Authentication
+- New: Giveaway Opt-in for Free version
+- Enhance: PHP version upgrade
+- Enhance: Compatibility with WordPress 6.0
+- Enhance: WP-CLI command to show Scan details
+- Enhance: Update SUI to the latest version
+- Fix: Audit events logged not showing after applying some date range
+
+= 2.8.3 ( 2022-05-11 ) =
+
+- Enhance: PHP upgrade notice
+- Fix: Defender country_iso_code column missing from Lockout table
+- Fix: Defender sets all country iso codes as NULL
+
+= 2.8.2 ( 2022-04-08 ) =
+
+- Fix: All site visitors are blocked
+
+= 2.8.1 ( 2022-04-07 ) =
+
+- Enhance: Hide write permissions error notices for Tweaks while applying config
+- Enhance: Update the default Auth method on the Users page
+- Enhance: Singular or plural translation in email templates
+- Enhance: Login Protection and 404 Detection Section Update
+- Enhance: Show country flags for country-based lockouts
+- Fix: Update Firewall's 404 Detection blocklist and allowlist information notice
+- Fix: Firewall not working when Country is added to whitelist
+- Fix: Updating plugins with known vulnerabilities
+- Fix: No passcode when Fallback Email is not the default method
+- Fix: 404 Exclusions Inconsistent Logging
+- Fix: 2FA token issue
+- Fix: Undefined array key "HTTP_HOST"
+- Fix: Duplicate key name 'country_iso_code'
+- Fix: Welcome modal when white-label enabled
+- Fix: Jquery issue on Def's 2FA TOTP page
+
+= 2.8.0 ( 2022-03-07 ) =
+
+- New: Backup codes
+- Enhance: Text version of 2FA code
+- Enhance: Add Update Old Security Keys settings to config
+- Enhance: Automatically check for MaxMind database updates
+- Enhance: WP-CLI command to delete Defender logs
+- Enhance: Delete security tweak settings during uninstallation
+- Fix: IP Lockout issue
+- Fix: Malware Scanning PHP 8.1 error
+- Fix: Native domain mapping doesn't work with login masking
+- Fix: Firewall log export doesn't include all entries
+- Fix: Duplicate configs
+- Fix: Geo DB downloaded to WP-Admin directory
+- Fix: Branda conflict – Update User listed twice in logs
+- Fix: Notifications user search missing some users
+- Fix: When Defender login masking is active, SmartCrawl report URL are broken
+- Fix: User filter dropdown count not updating dynamically
+- Fix: SSO not working with login masking on multisite
+
+= 2.7.1 ( 2022-02-02 ) =
+
+- New: Create new endpoints to toggle reCAPTCHA, 2FA modules from Hub
+- Enhance: Update SUI to latest version
+- Enhance: Refactor Firewall logs
+- Enhance: Update admin menu icon
+- Enhance: Remove deprecated hooks
+- Enhance: Unsubscribe link doesn't work for not logged in users
+- Fix: Fatal error on plugin activation with PHP 8.1
+- Fix: Display error on Dashboard and Tools pages for huge post data
+- Fix: Configure reCAPTCHA without WooCommerce options
+- Fix: Invite By Email doesn't check if recipient already added
+- Fix: Email text overflows on Notification page
+- Fix: Defender downgrade fails
+
+
+948198-1655258494-au

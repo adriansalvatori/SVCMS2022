@@ -1,0 +1,353 @@
+// use compass
+$base-line-height: 13px;
+$white: rgb(255, 255, 255);
+$off-white: rgba($white, 0.2);
+$spin-duration: 1s;
+$pulse-duration: 750ms;
+
+.wp-admin {
+  @import "@sass/global/_variables.scss";
+  @import "@sass/global/_mixins.scss";
+  @import "website/variables";
+  @import "@sass/global/_editor.scss";
+  @import "website/loading";
+  @import "website/assign";
+
+  #project_pages_container svg {
+    fill: currentColor;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .post-type-ph-website .updated {
+    display: none;
+  }
+  .ph-loading {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    width: $base-line-height;
+    height: $base-line-height;
+    border: 2px solid #ccc;
+    border-top-color: #999;
+    animation: spin $spin-duration infinite linear;
+    &--double {
+      border-style: double;
+      border-width: 0.5rem;
+    }
+  }
+
+  // select2
+  span.select-avatar {
+    span,
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    img {
+      border-radius: 99px;
+      margin-right: 5px;
+    }
+  }
+
+  /* Postbox */
+  #ph-website-website-notice.postbox {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 20px;
+
+    .hndle,
+    .inside {
+      padding: 0 !important;
+      margin: 0;
+    }
+    .hndle,
+    .handle-actions,
+    .handlediv,
+    .postbox-header {
+      display: none;
+    }
+    p {
+      font-size: 98%;
+      color: #999;
+      text-align: center;
+    }
+  }
+  #ph-website-website.postbox {
+    .hndle,
+    .handle-actions,
+    .handlediv,
+    .postbox-header {
+      display: none;
+    }
+    .ph_meta_box {
+      .spinner {
+        float: none;
+      }
+      p.form-field {
+        margin-bottom: 0;
+        border-bottom: none;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      input,
+      textarea {
+        margin-bottom: 8px;
+      }
+    }
+
+    .ph-installed {
+      color: #85ab85;
+      background: #d7efd7;
+      display: inline-block;
+      border-radius: 3px;
+      padding: 1px 4px;
+      vertical-align: baseline;
+
+      &.ph-error {
+        color: #7d5555;
+        background: #efd7d7;
+      }
+    }
+  }
+
+  a,
+  a:active,
+  a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+ 
+  #postbox-container-1 #ph-website-website {
+    .el-steps {
+      display: none;
+    }
+  }
+
+  /* make sure it cannot be hidden on main sortable */
+  .js #normal-sortables #ph-website-website.closed .inside {
+    display: block;
+  }
+
+  /* Meta Box Style */
+  #postbox-container-2 #ph-website-website {
+    background: none;
+    border: none;
+    box-shadow: none;
+
+    .el-steps--simple {
+      background: #fff;
+    }
+
+    .hndle,
+    .handlediv {
+      display: none;
+    }
+
+    .ph-step {
+      padding: 3%;
+      text-align: center;
+    }
+
+    .ph-url-step,
+    .ph-connect-step.has-url {
+      cursor: pointer;
+    }
+
+    #ph_website_js_code {
+      background: #fff;
+      padding: 20px;
+      display: block;
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+
+  .ph_meta_box {
+    #side-sortables & {
+      .ph-field.radio,
+      .ph-field.checkbox {
+        display: flex;
+        padding-top: 10px;
+      }
+
+      .ph-field.checkbox {
+        input {
+          margin-right: 10px;
+        }
+      }
+
+      .ph-field.radio {
+        flex-wrap: wrap;
+      }
+    }
+
+    .form-field {
+      &::after {
+        clear: both;
+        content: "";
+        display: table;
+      }
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      &:not(:last-of-type) {
+        border-bottom: 1px solid #eee;
+      }
+    }
+
+    label {
+      color: #555;
+      width: 150px;
+      margin-right: 20px;
+      float: left;
+    }
+    .ph-field {
+      float: left;
+
+      label {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+        float: none;
+        margin-bottom: 0;
+      }
+
+      &.radio label:not(:last-of-type) {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    p.form-field:last-of-type {
+      padding-bottom: 0;
+    }
+    #side-sortables & {
+      .ph-field::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      p.form-field:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  #update_options {
+    margin-top: 20px;
+  }
+
+  .js #update_options {
+    display: none;
+  }
+
+  /* Toggle Checkboxes by Schoberg.net */
+  div.tog {
+    display: block;
+    height: 34px;
+    width: 80px;
+    position: relative;
+    cursor: pointer;
+    font-size: 26px;
+    line-height: 12px;
+    font-family: "dashicons";
+    background: #ccc;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  div.tog:after {
+    content: "";
+    display: block;
+    height: 24px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  div.tog:before {
+    content: "\f335";
+    position: absolute;
+    right: 11px;
+    top: 12px;
+    color: #fff;
+  }
+  div.tog:hover:after {
+    left: 10px;
+  }
+  div.tog.on:before {
+    content: "\f147";
+    right: 50px;
+  }
+  div.tog.on {
+    background: #2ea2cc;
+  }
+  div.tog.on:after {
+    left: 45px;
+  }
+  div.tog.on:hover:after {
+    left: 40px;
+  }
+
+  /* Light fresh theme */
+  .admin-color-fresh div.tog.on {
+    background: #0074a2;
+  }
+  /* Light admin theme */
+  .admin-color-light div.tog.on {
+    background: #04a4cc;
+  }
+  /* Blue admin theme */
+  .admin-color-blue div.tog.on {
+    background: #4796b3;
+  }
+  /* Coffee admin theme */
+  .admin-color-coffee div.tog.on {
+    background: #c7a589;
+  }
+  /* Ectoplasm admin theme */
+  .admin-color-ectoplasm div.tog.on {
+    background: #a3b745;
+  }
+  /* Midnight admin theme */
+  .admin-color-midnight div.tog.on {
+    background: #e14d43;
+  }
+  /* Ocean admin theme */
+  .admin-color-ocean div.tog.on {
+    background: #9ebaa0;
+  }
+  /* Sunrise admin theme */
+  .admin-color-sunrise div.tog.on {
+    background: #dd823b;
+  }
+
+  .el-alert {
+    text-align: left;
+  }
+  
+}
+

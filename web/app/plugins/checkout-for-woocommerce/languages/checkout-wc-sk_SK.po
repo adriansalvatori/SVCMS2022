@@ -1,0 +1,1276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:50-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Pri prihlasovaní sa vyskytla chyba. Skontrolujte svoje prihlasovacie údaje a "
+"skúste to znova."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "E-mailová adresa obsahuje neplatný názov domény."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Zadajte platné %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Celé meno"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Číslo domu"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Názov ulice"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Pridať riadok s adresou 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Pridať novú spoločnosť"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Fakturačná adresa"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Prihláste sa pomocou služby PayPal. Pokračujte v objednávke nižšie."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Použiť"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "Máte promo kód? Kliknite tu."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Propagačný kód"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Zadajte propagačný kód"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Gratulujeme! Získate štandardnú dopravu zadarmo."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Ste %s od dopravy zadarmo!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Použite túto adresu"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "Overenie adresy"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Vami zadaná dodacia adresa sa nezhoduje s navrhovanou adresou z našej "
+"overovacej služby. Overte si prosím svoju adresu."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Vstúpili ste"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Navrhujeme"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "Prosíme, zadajte platné telefónne číslo."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Zadajte svoje meno a priezvisko."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Doručovacia adresa"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Zadajte nové množstvo:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"Trojciferný bezpečnostný kód sa zvyčajne nachádza na zadnej strane karty. "
+"Karty American Express majú 4-ciferný kód umiestnený na prednej strane."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Naozaj chcete odstrániť túto položku z košíka?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Zadajte prosím platné PSČ / ZIP."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Nie sú k dispozícii žiadne spôsoby dopravy"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Kompletná objednávka"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Platba"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Všetky transakcie sú zabezpečené a šifrované."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Vaša objednávka je bezplatná. Nevyžaduje sa žiadna platba."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Rovnaké ako dodacia adresa"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Odoslať na inú adresu"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Vrátiť sa do košíka"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Pokračujte v dodávke"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Pokračujte v platbe"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Skontrolovať objednávku"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Návrat k informáciám"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Návrat na prepravu"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Návrat k platbe"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Alebo"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Zníženie"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Prírastok"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Zobraziť zhrnutie objednávky"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Skryť zhrnutie objednávky"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Expresná pokladňa"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Informácie"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Kontrola objednávky"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "Už máte u nás účet?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Prihláste sa a získajte rýchlejší výber."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Vytvorte nákupný účet %s."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Ak nemáte účet, vytvoríme vám ho."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "Vitajte späť,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Odhlásiť sa."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "Vitajte späť"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Vyzerá to, že už máte účet. Zadajte prosím svoje prihlasovacie údaje nižšie."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr "Ak ste u nás už nakupovali, zadajte nižšie svoje prihlasovacie údaje."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Alebo pokračujte ako hosť"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Fakturačná a dodacia adresa"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Odoslať do"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Kontakt"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Zmeniť"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Metóda"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Spôsob dopravy"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Vyberte adresu, ktorá sa zhoduje s vašou kartou alebo spôsobom platby."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Propagačný kód"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Objednávka  %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Ďakujem ti %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Stav objednávky"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Aktualizácie objednávok"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Dostanete aktualizácie o dodávke a doručení e-mailom."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "İletişim bilgileri"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Doručenie"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Prihlásenie"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Recenzia"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Vaš košík je prázdny"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Košík"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "Krásne šablóny pokladní optimalizované pre prevod pre WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Vyberte krajinu"
+
+#~ msgid "Password"
+#~ msgstr "Heslo"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "Prihlásenie je voliteľné. Môžete pokračovať s objednávkou nižšie."
+
+#~ msgid "Address Required"
+#~ msgstr "Vyžaduje sa adresa"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : Na používanie služby CheckoutWC sa vyžaduje "
+#~ "PHP 7.0 alebo vyšší. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Novšie verzie PHP sú rýchlejšie a bezpečnejšie, takže aktualizácia bude "
+#~ "mať pozitívny vplyv na výkonnosť vašich stránok."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Aby sme predišli fatálnym chybám, načítali sme %s do <strong> %s</"
+#~ "strong> , čo deaktivuje všetky funkcie a funkcie. Vo väčšine prípadov "
+#~ "trvá aktualizácia len pár minút. Ďalšie informácie získate od "
+#~ "poskytovateľa hostingu."
+
+#~ msgid "safe mode"
+#~ msgstr "bezpečnostný mód"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Povoliť podporu Beaver Themer."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Nechajte Beaver Themer nahradiť záhlavie a pätu."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Povoliť podporu prvku Elementor Pro."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Nechajte Elementor Pro nahradiť záhlavie a pätu."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Editor polí pokladnice"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Povoliť prepísanie polí editora poľa pokladnice."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Povoľte editoru polí WooCommerce Checkout, aby upravoval polia "
+#~ "fakturačnej a dodacej adresy."
+
+#~ msgid "General"
+#~ msgstr "Všeobecné"
+
+#~ msgid "Premium Features"
+#~ msgstr "Premium vlastnosti"
+
+#~ msgid "Template"
+#~ msgstr "Šablóna"
+
+#~ msgid "Design"
+#~ msgstr "Dizajn"
+
+#~ msgid "Integrations"
+#~ msgstr "Integrácia"
+
+#~ msgid "Addons"
+#~ msgstr "Rozšírenia"
+
+#~ msgid "License"
+#~ msgstr "Licencia"
+
+#~ msgid "Tools"
+#~ msgstr "Nástroje"
+
+#~ msgid "Support"
+#~ msgstr "Podpora"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Doporučené rozšírenia"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout for WooCommerce poskytuje nádherné šablóny pokladní "
+#~ "optimalizované pre prevod pre WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Toto nastavenie je potlačené programom WooCommerce Checkout Field Editor."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Povoliť / zakázať"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Použite službu Checkout for WooCommerce Template"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Povolenie alebo zakázanie motívu Checkout for WooCommerce. (POZNÁMKA: "
+#~ "Téma je pre správcov vždy povolená.)"
+
+#~ msgid "Login Style"
+#~ msgstr "Štýl prihlásenia"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Vylepšené (odporúčané)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "Predvolené nastavenie WooCommerce"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Vylepšené: automaticky zobrazovať a skrývať prihlasovacie polia v "
+#~ "závislosti od toho, či sa zadaná e-mailová adresa zhoduje s účtom. "
+#~ "(Odporúča sa)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "Predvolené nastavenie WooCommerce: Zobrazte prihlasovacie pripomenutie v "
+#~ "pruhu nad formulárom platby."
+
+#~ msgid "Registration Style"
+#~ msgstr "Štýl registrácie"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Vylepšené: Automaticky vygeneruje používateľské meno a heslo a pošle ho e-"
+#~ "mailom zákazníkovi pomocou natívnej funkcie WooCommerce. (Odporúča sa)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "Predvolené nastavenie WooCommerce: Zákazníkovi je poskytnuté pole na "
+#~ "výber hesla. Neodporúčané."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Štýl poľa"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Plávajúce (odporúčané)"
+
+#~ msgid "Normal"
+#~ msgstr "Normálny"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Plávajúce: automaticky zobrazuje a skrýva štítky na základe toho, či má "
+#~ "pole hodnotu. (Odporúča sa)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Normálne: Štítky sa vždy zobrazujú nad každým poľom."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Štítok položky košíka"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Text (odporúčané)"
+
+#~ msgid "Link"
+#~ msgstr "Odkaz"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Text: neprepojujte položky košíka na jednu stránku produktu. (Odporúča sa)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Odkaz: Prepojte každú položku košíka so stránkou produktu."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Zobrazenie údajov o košíku"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Krátke (odporúčané)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Krátka zobrazuje iba hodnoty variácie. Napríklad Veľkosť: XL, Farba: "
+#~ "Červená sa zobrazuje ako XL / Red. (Odporúča sa)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "Pri použití predvoleného WooCommerce sa každá variácia zobrazuje na "
+#~ "samostatnom riadku pomocou tohto formátu: Label: Value "
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Vynechajte krok odoslania"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Vynechajte krok odoslania"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Povoliť skryť krok spôsobu doručenia. Je to užitočné, ak máte iba jednu "
+#~ "možnosť dopravy pre všetky objednávky."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Povoľte pole Poznámky k objednávke"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Povoliť alebo zakázať pole s poznámkami k objednávkam. V predvolenom "
+#~ "nastavení zakázané."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Pole pre mobilný kupón"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Zobraziť pole kupónu nad možnosťami platby na mobile."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Zobraziť pole kupónu nad platobnými bránami na mobilných zariadeniach. "
+#~ "Pomáha zákazníkom nájsť pole kupónu bez rozšírenia súhrnu košíka."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Logá mobilných kreditných kariet"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Povoľte logá kreditných kariet v mobilných zariadeniach"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Zobraziť logá kreditných kariet v mobile. Poznámka: Mnohé logá brány sa v "
+#~ "mobilnom zariadení nedajú správne vykresliť. Pred povolením sa odporúča "
+#~ "vyskúšať. Predvolená hodnota: Vypnutá"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Súhrnné označenie mobilného košíka"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Príklad: Zobraziť zhrnutie objednávky a kupóny"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Ak zostane prázdne, použije sa táto predvolená hodnota: "
+
+#~ msgid "Header Scripts"
+#~ msgstr "Záhlavie skriptov"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Tento kód bude vydaný bezprostredne pred koncovú značku <code>&lt;/"
+#~ "head&gt;</code> v zdroji dokumentu."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Päty skriptov"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Tento kód bude vydaný bezprostredne pred uzatváracou <code>&lt;/body&gt;</"
+#~ "code> značkou v zdroji dokumentu."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Povoliť sledovanie použitia"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr ""
+#~ "Povoliť službe Checkout for WooCommerce sledovať používanie doplnkov?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Prehliadač údajov zberu údajov"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Experimentálne integrácie"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Experimentálne integrácie nie sú podporované a neprechádzajú rovnakými "
+#~ "procesmi testovania ako naše odporúčané konfigurácie."
+
+#~ msgid "Template Loader"
+#~ msgstr "Loader šablón"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Portál bez rozptyľovania (odporúča sa)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "WordPress téma"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Portál bez rozptýlenia: Zobrazte šablóny služby CheckoutWC na portáli bez "
+#~ "rozptyľovania, ktorý nenačíta aktívnu tému alebo štýly WordPress. "
+#~ "(Odporúča sa)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "Téma WordPress: Načítajte šablóny CheckoutWC v aktívnej oblasti obsahu "
+#~ "témy WordPress."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Experimentálne - nepodporovaná konfigurácia"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Úpravy košíka"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Povoliť úpravy košíka."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Povolí alebo zakáže funkciu úpravy košíka. Umožňuje zákazníkovi odstrániť "
+#~ "alebo upraviť množstvo položiek košíka."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Úpravy košíku Presmerovanie prázdneho košíka"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL na presmerovanie, keď zákazník vyprázdni košík zo stránky pokladne."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr ""
+#~ "Ak ponecháte pole prázdne, bude zákazník presmerovaný na stránku košíka."
+
+#~ msgid "Order Pay"
+#~ msgstr "Platba objednávky"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Povoliť podporu pre stránku platenia objednávok."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Na stránku s platbami objednávkami použite šablónu platby."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Pokladňa na jednej stránke"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Povoliť platbu na jednej stránke."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Zobraziť všetky polia pokladnice na jednej karte. Užitočné pre digitálne "
+#~ "obchody alebo obchody, ktoré vynútia rovnakú fakturačnú a dodaciu adresu."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Ďakujeme Page"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Povoľte podporu pre stránku s poďakovaním."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Povoliť šablónu s poďakovaním za stránku / objednávku. Táto šablóna sa "
+#~ "používa aj pri prezeraní objednávok v mojom účte."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Stavy objednávok"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Stavy, ktoré sa majú zobraziť na stránke s poďakovaním."
+
+#~ msgid "Map Embed"
+#~ msgstr "Vloženie mapy"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Povoliť vkladanie máp."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Povoliť alebo zakázať vloženie mapy na stránku s poďakovaním. Vyžaduje sa "
+#~ "kľúč Google API."
+
+#~ msgid "My Account"
+#~ msgstr "Môj účet"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Na stránku s platbami objednávkami použite šablónu platby."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "Ak je toto políčko začiarknuté, pri prezeraní objednávok v mojom účte sa "
+#~ "použije šablóna stránky s poďakovaním."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Adresa Automatické dopĺňanie"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Povoliť automatické dopĺňanie adresy."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Povolí alebo zakáže funkciu automatického dopĺňania adresy. Vyžaduje sa "
+#~ "kľúč Google API."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API kľúč"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Kľúč rozhrania Google API. K dispozícii v <a target=\"_blank\" href="
+#~ "\"https://developers.google.com/places/web-service/get-api-key\">Konzole "
+#~ "platformy Google Cloud Platform</a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "Zhoda používateľov"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Vylepšené (odporúčané)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Povolené: Automaticky priraďuje objednávky hosťa k používateľským kontám "
+#~ "pri novom nákupe a pri registrácii nového používateľa. (Odporúča sa)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "Predvolené nastavenie WooCommerce: Zobrazte prihlasovacie pripomenutie v "
+#~ "pruhu nad formulárom platby."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "Úryvky z PHP"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Tu môžete pridať útržky PHP, aby ste mohli upraviť svoju stránku "
+#~ "pokladníc. Ak máte veľa útržkov, môžete zvážiť použitie útržkov <a target="
+#~ "\"_blank\" href=\"%s\">kódu</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Vyžaduje sa aktualizácia licencie"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Na povolenie týchto funkcií je potrebná licencia pre rast alebo vývojárov."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Svoju licenciu môžete inovovať na stránke <a target=\"_blank\" href=\"%1$s"
+#~ "\">Môj účet</a> . Ak potrebujete pomoc s aktualizáciou licencie, <a "
+#~ "target=\"_blank\" href=\"%2$s\">kliknite sem.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Nastavenie bolo prepísané"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "Toto nastavenie je momentálne programovo prepísané. Ak ju chcete povoliť, "
+#~ "odstráňte svoj vlastný kód."
+
+#~ msgid "Templates"
+#~ msgstr "Šablóny"
+
+#~ msgid "Active: "
+#~ msgstr "Aktívny: "
+
+#~ msgid "Activate"
+#~ msgstr "Aktivovať"
+
+#~ msgid "Global Settings"
+#~ msgstr "Globálne nastavenia"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Tieto nastavenia sa vzťahujú na všetky témy."
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload image"
+#~ msgstr "Nahrať obrázok"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Zmazať logo"
+
+#~ msgid "Footer Text"
+#~ msgstr "Text pätičky"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Ak zostane prázdne, zobrazí sa štandardné oznámenie o autorských právach. "
+#~ "Nastavením jedného priestoru prepíšete toto správanie."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Nastavenia špecifické pre tému"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Tieto nastavenia sa vzťahujú na vybratú tému. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Písmo"
+
+#~ msgid "Body Font"
+#~ msgstr "Písmo tela"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Zásobník systémových písiem"
+
+#~ msgid "Heading Font"
+#~ msgstr "Nadpis Písmo"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "V predvolenom nastavení služba CheckoutWC používa systémový balík písiem, "
+#~ "ktorý poskytuje najrýchlejší výkon. Môžete sa rozhodnúť použiť tu písmo "
+#~ "Google."
+
+#~ msgid "Color Settings"
+#~ msgstr "Nastavenia farieb v prednej časti"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Vlastné CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Pridajte vlastné pravidlá CSS, aby ste úplne kontrolovali vzhľad šablóny "
+#~ "pokladnice."
+
+#~ msgid "Export Settings"
+#~ msgstr "Export - nastavenia"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Stiahnite si záložný súbor s vašimi nastaveniami."
+
+#~ msgid "Import Settings"
+#~ msgstr "Importovať nastavenia"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Odovzdajte nastavenia súboru a importu"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Pred kontaktovaním podpory"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Odpoveď na väčšinu otázok nájdete v našej <a href=\"https://kb.checkoutwc."
+#~ "com\" target=\"_blank\">znalostnej báze</a> ."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Tu je niekoľko populárnych sprievodcov:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Stále potrebujete pomoc?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Ak po prehľadaní našej vedomostnej základne potrebujete pomoc, radi vám "
+#~ "pomôžeme."
+
+#~ msgid "Contact Support"
+#~ msgstr "Kontaktujte oddelenie podpory"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "Ekosystém WooCommerce je plný fantastických doplnkov. Tu je niekoľko, "
+#~ "ktoré skutočne fungujú v službe CheckoutWC, ktoré našim zákazníkom "
+#~ "srdečne odporúčame. (Niektoré z týchto odkazov môžu zahŕňať sledovanie "
+#~ "pridružených spoločností. Toto nemá vplyv na naše rozhodnutie zahrnúť "
+#~ "doplnok.)"
+
+#~ msgid "More Info"
+#~ msgstr "Viac informácií"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong> %s</strong> : Bolo zistené upozornenie na nekompatibilné doplnky!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "Deaktivujte tieto doplnky, aby ste predišli problémom s pokladňou!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Vaša licencia je platná a aktivovaná pre túto "
+#~ "webovú stránku, ale pre bežných používateľov je vaša šablóna zakázaná. Ak "
+#~ "chcete tento problém vyriešiť, prejdite na %s> %s> %s a skontrolujte "
+#~ "„ %s“."
+
+#~ msgid "Settings"
+#~ msgstr "Nastavenia"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Zdá sa, že platnosť vášho licenčného kľúča "
+#~ "vypršala. Ak chcete obnoviť úplnú funkčnosť, overte si, či je váš "
+#~ "licenčný kľúč platný, alebo <a target=\"_blank\" href=\"https://www."
+#~ "checkoutwc.com/checkout/?edd_license_key=%s\">obnovte svoju licenciu</a> ."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : Váš licenčný kľúč chýba alebo je neplatný. Overte "
+#~ "si, či je váš licenčný kľúč platný, alebo <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">si zakúpte licenciu</a> na obnovenie "
+#~ "plnej funkčnosti."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Ďakujeme vám za inštaláciu služby Checkout for WooCommerce! Ak chcete "
+#~ "začať, kliknite na <strong>licenciu</strong> nižšie a aktivujte svoj "
+#~ "licenčný kľúč!"
+
+#~ msgid "Phone"
+#~ msgstr "Telefón"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Nemožno importovať nastavenia. Vybrali ste súbor JSON, ktorý "
+#~ "chcete nahrať?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: Nastavenia boli úspešne importované."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Tieto nastavenia sa vzťahujú iba na aktuálne aktívnu šablónu. Ak prepnete "
+#~ "šablóny v prispôsobovači, tieto nastavenia nebudú k dispozícii, ale "
+#~ "uložením sa tu zverejnia všetky zmeny pred prepnutím šablón!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Aktivácia zlyhala: Aktivujte službu WooCommerce, aby ste mohli používať "
+#~ "službu Checkout for WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Farba pozadia"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Farba základného textu"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Farba pozadia hlavičky"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Vybrať farbu textu najvyššej hlavičky"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Farba pozadia na päte stránky"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Vybrať farbu textu päty"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Zhrnutie Farba pozadia"
+
+#~ msgid "Accent Color"
+#~ msgstr "Zvýraznená farba"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Farba pozadia primárneho tlačidla"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Farba textu primárneho tlačidla"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Farba pozadia umiestnenia primárneho tlačidla"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Farba umiestnenia textu primárneho tlačidla"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Farba pozadia sekundárneho tlačidla"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Farba textu sekundárneho tlačidla"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Farba umiestnenia pozadia sekundárneho tlačidla"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Farba umiestnenia textu sekundárneho tlačidla"
+
+#~ msgid "Link Color"
+#~ msgstr "Farba linku"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Košík Položka Množstvo Farba pozadia"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Farba Položka Košík Text"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Je dostupná nová verzia %1$s . %2$sZobrazená verzia %3$s podrobnosti %4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Je dostupná nová verzia %1$s . %2$s Zobraziť verziu %3$s detaily %4$s "
+#~ "alebo %5$s aktualizovať hneď %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Nemáte oprávnenie na aktualizáciu pluginu"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Povoliť službe Checkout for WooCommerce sledovať používanie doplnkov? "
+#~ "Pomôžte vylepšiť službu Checkout for WooCommerce."
+
+#~ msgid "Allow"
+#~ msgstr "Povoliť"
+
+#~ msgid "Do not allow"
+#~ msgstr "Nepovoliť"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Nie je vypočítané"
+
+#~ msgid "Not Available"
+#~ msgstr "Nedostupné"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Platíte za objednávku hosťa. Pokračujte v platbe, iba ak túto objednávku "
+#~ "poznáte."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Táto objednávka nemôže byť zaplatená. Ak potrebujete pomoc, kontaktujte "
+#~ "nás."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Stav tohto príkazu je &ldquo;%s&rdquo;&mdash;za ktorý nie je možné "
+#~ "zaplatiť. Ak potrebujete pomoc, kontaktujte nás."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Chyba pri spracovaní pokladnice. Prosím skúste znova."
+
+#~ msgid "Edit"
+#~ msgstr "Upraviť"
+
+#~ msgid "Remove"
+#~ msgstr "Odstrániť"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Zabudnuté heslo?"

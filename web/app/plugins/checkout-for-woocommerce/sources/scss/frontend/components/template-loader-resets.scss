@@ -1,0 +1,38 @@
+/**
+ * Resets to reduce conflicts when loading templates in theme
+ */
+.checkoutwc {
+    font-size: 16px;
+    line-height: 1.15;
+
+    table {
+        margin: 0;
+        border: none;
+
+        tr, th, td, tbody {
+            border: none;
+        }
+    }
+
+    .wc_payment_method input.input-radio[name=payment_method] {
+        display: block;
+    }
+
+    ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    input[type="button"] {
+        font-size: 1em;
+        text-transform: none;
+    }
+
+    label {
+        margin: 0;
+    }
+
+    section {
+        padding: 0;
+    }
+}

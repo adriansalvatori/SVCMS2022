@@ -1,0 +1,1245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:37-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 : "
+"3);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr "אירעה שגיאה בכניסה. בדוק את אישוריך ונסה שוב."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "כתובת האימייל מכילה שם דומיין לא חוקי."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "אנא הזן %s חוקי."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "שם מלא"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "מספר הבית"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "רחוב"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "הוסף שורת כתובת 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "הוסף חברה"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "כתובת חיוב"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "התחבר באמצעות PayPal. אנא המשך בהזמנה שלך למטה."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "‫CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "החל"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "יש לך קוד פרומו? לחץ כאן."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "קוד קופון"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "הכנס את קוד הזיכוי"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "מזל טוב! אתה מקבל משלוח סטנדרטי חינם."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "אתה %s רחוק ממשלוח חינם!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "תשתמש בכתובת הזו"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "אימות כתובת"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"כתובת המשלוח שמסרת אינה תואמת את הכתובת המוצעת משירות האימות שלנו. אנא אמת את "
+"הכתובת שלך."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "נכנסת"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "אנו מציעים"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "אנא הזן מספר טלפון תקין."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "נא להזין את שמך הפרטי ושם המשפחה."
+
+#: includes/Managers/AssetManager.php:437 sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "כתובת למשלוח"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "אנא הכנס כמות חדשה:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"קוד אבטחה בן 3 ספרות נמצא בדרך כלל בגב הכרטיס. בכרטיסי אמריקן אקספרס הקוד בן "
+"4 ספרות הממוקם בחזית."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "האם אתה בטוח שברצונך להסיר פריט זה מהעגלה שלך?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "אנא הזיני מיקוד חוקי."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "אין שיטות משלוח זמינות"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "הזמנה מלאה"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "תשלום"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "כל העסקאות מאובטחות ומוצפנות."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "ההזמנה שלך היא בחינם. אין צורך בתשלום."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "זהה לכתובת המשלוח"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "השתמש בכתובת חיוב שונה"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "חזרה לסל הקניות"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "המשך לבחירת משלוח"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "להמשיך לתשלום"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "בדוק את ההזמנה"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "חזור למידע"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "חזור למשלוחים"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "חזור לתשלום"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "או"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "ירידה"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "הגדלה"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "הצג סיכום הזמנה"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "הסתר סיכום הזמנות"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "קופה מהירה"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "מידע"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "סקירת הזמנה"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "כבר יש לך איתנו חשבון?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "התחבר לחווית קנייה מהירה יותר."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "צור חשבון קניות של %s."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "אם אין לך חשבון, אנו ניצור לך חשבון."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "ברוך הבא,%1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "התנתק"
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "שלום"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr "נראה שכבר יש לך חשבון. אנא הכנס את פרטי הכניסה שלך למטה."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr "אם קניתם איתנו בעבר, אנא הכנס את פרטי הכניסה שלך למטה."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "או להמשיך כאורח"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "כתובת לחיוב ומשלוח"
+
+#: sources/php/template-functions.php:903 sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "שלח אל"
+
+#: sources/php/template-functions.php:926 sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "צור קשר"
+
+#: sources/php/template-functions.php:934 sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "שנה"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "שיטה"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "שיטת המשלוח"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "בחר את הכתובת התואמת  לכרטיס או לשיטת התשלום שלך."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "קוד קופון"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "הזמנה %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "תודה %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "סטטוס ההזמנה"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "עדכוני הזמנה"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "תקבל עדכוני משלוח ומשלוח באמצעות הדוא\"ל."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "פרטי התקשרות"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "משלוח"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "התחבר"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "חוות דעת"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "העגלה שלך ריקה"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "סל  קניות"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "‫https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "תבניות קופה אופטימיזציה להמרה יפה עבור WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "אובייקטיבי"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "‫https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "בחר ארץ"
+
+#~ msgid "Password"
+#~ msgstr "סיסמה"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "הכניסה היא לא חובה. אתה יכול להמשיך בהזמנה שלך למטה."
+
+#~ msgid "Address Required"
+#~ msgstr "כתובת חובה"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "‫<h3 style=\";text-align:right;direction:rtl\"> <strong> %s</strong> : PHP "
+#~ "7.0 ומעלה נדרש כדי להשתמש ב- CheckoutWC. </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "גרסאות חדשות יותר של PHP הן מהירות והן מאובטחות יותר, כך לעדכון ישפיע "
+#~ "לטובה על ביצועי האתר שלך."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, which "
+#~ "disables all features and functionality. In most cases, upgrading only "
+#~ "takes a few minutes. Contact your hosting provider for more information."
+#~ msgstr ""
+#~ "כדי למנוע שגיאות קטלניות, העמסנו %s ל- <strong> %s</strong> , מה שמבטל את "
+#~ "כל התכונות והפונקציונליות. ברוב המקרים, השדרוג אורך מספר דקות בלבד. צור "
+#~ "קשר עם ספק האירוח שלך לקבלת מידע נוסף."
+
+#~ msgid "safe mode"
+#~ msgstr "מצב בטוח"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "‫Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "אפשר תמיכה ב- Beaver Themer."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "אפשר לביבר תמר להחליף כותרת עליונה ותחתונה."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "אפשר תמיכה ב- Elementor Pro."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "אפשר ל- Elementor Pro להחליף כותרת עליונה ותחתונה."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "עורך שדות צ'קאאוט"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "אפשר ביטול שדה כתובת של עורך שדות Checkout."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "אפשר ל- WooCommerce Checkout Editor לשנות את שדות החיוב והכתובת למשלוח."
+
+#~ msgid "General"
+#~ msgstr "כללי"
+
+#~ msgid "Premium Features"
+#~ msgstr "תכונות בגרסת הפרימיום"
+
+#~ msgid "Template"
+#~ msgstr "תבנית"
+
+#~ msgid "Design"
+#~ msgstr "עיצוב"
+
+#~ msgid "Integrations"
+#~ msgstr "אינטגרציות"
+
+#~ msgid "Addons"
+#~ msgstr "הרחבות"
+
+#~ msgid "License"
+#~ msgstr "רישיון"
+
+#~ msgid "Tools"
+#~ msgstr "כלים"
+
+#~ msgid "Support"
+#~ msgstr "תמיכה"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "תוספים מומלצים"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized checkout "
+#~ "templates for WooCommerce."
+#~ msgstr ""
+#~ "Checkout ל- WooCommerce מספק תבניות Checkout יפה ומעודדות להמרה עבור "
+#~ "WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "עורך השדה של Checkout WooCommerce Checkout עובר על הגדרה זו."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "הפעל / השבת"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "השתמש ב- Checkout לתבנית WooCommerce"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "הפעל או השבת את Checkout לנושא WooCommerce. (הערה: נושא תמיד מופעל עבור "
+#~ "משתמשי מנהל.)"
+
+#~ msgid "Login Style"
+#~ msgstr "סגנון כניסה"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "משופר (מומלץ)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce ברירת מחדל"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "משופר: הצגה והסתרה אוטומטית של שדות התחברות, תלוי אם כתובת הדוא\"ל שהוזנה "
+#~ "תואמת לחשבון. (מומלץ)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr "WooCommerce ברירת מחדל: הצג תזכורת כניסה באנר מעל טופס התשלום."
+
+#~ msgid "Registration Style"
+#~ msgstr "סגנון רישום"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "משופר: צור אוטומטית שם משתמש וסיסמא ושלח אותו בדוא\"ל ללקוח באמצעות "
+#~ "הפונקציונליות המקורית של WooCommerce. (מומלץ)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce ברירת מחדל: הלקוח מספק שדה סיסמא כדי לבחור את הסיסמה שלו. לא "
+#~ "מומלץ."
+
+#~ msgid "Field Label Style"
+#~ msgstr "סגנון תווית שדה"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "צף (מומלץ)"
+
+#~ msgid "Normal"
+#~ msgstr "רגיל"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr "צף: הצגה והסתרה אוטומטית של תוויות בהתבסס על האם לשדה ערך. (מומלץ)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "רגיל: תוויות מופיעות מעל כל שדה בכל עת."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "תווית פריט לעגלה"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "טקסט (מומלץ)"
+
+#~ msgid "Link"
+#~ msgstr "קישור"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr "טקסט: אל תקשר פריטי עגלה לדף מוצר יחיד. (מומלץ)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "קישור: קשר כל פריט לעגלה לדף המוצר."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "תצוגת נתוני פריט לעגלה"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "קצר (מומלץ)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red is "
+#~ "displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "קצר מציג רק ערכי וריאציה. לדוגמה, גודל: XL, צבע: אדום מוצג כ- XL / אדום. "
+#~ "(מומלץ)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "בעת שימוש ב- WooCommerce ברירת מחדל, כל גרסה מוצגת בשורה נפרדת באמצעות "
+#~ "פורמט זה: תווית: ערך"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "דלג על שלב המשלוח"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "דלג על שלב המשלוח"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "אפשר להסתיר את שלב שיטת המשלוח. שימושי אם יש לך אפשרות משלוח אחת בלבד לכל "
+#~ "ההזמנות."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "אפשר שדה הערות הזמנה"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr "הפעל או השבת את שדה הערות ההזמנה. מושבת כברירת מחדל."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "שדה קופון נייד"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "הצג שדה קופון מעל אפשרויות התשלום בנייד."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "הצג שדה קופונים מעל לשערי התשלום במכשירים ניידים. עוזר ללקוחות למצוא את "
+#~ "שדה הקופונים מבלי להרחיב את סיכום העגלה."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "סמלי כרטיסי אשראי ניידים"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "אפשר סמלי כרטיסי אשראי בנייד"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "הצג את סמלי כרטיסי האשראי בנייד. הערה: לא ניתן להעלות כראוי סמלי לוגו של "
+#~ "שערים בנייד. מומלץ לבצע בדיקה לפני ההפעלה. ברירת מחדל: כבויה"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "תווית הסל של הסל"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "דוגמה: הצג סיכום הזמנות וקופונים"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "אם יישאר ריק, ברירת מחדל זו תשתמש:"
+
+#~ msgid "Header Scripts"
+#~ msgstr "תסריטים לכותרות"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "קוד זה ייצא מייד לפני תג הסגירה <code>&lt;/head&gt;</code> במקור המסמך."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "תסריטים לתחתית כותרת תחתונה"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "קוד זה ייצא מיד לפני תג הסגירה <code>&lt;/body&gt;</code> במקור המסמך."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "אפשר מעקב אחר שימוש"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "האם לאפשר ל- Checkout ל- WooCommerce לעקוב אחר השימוש בתוספים?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "מציג נתוני אוסף נתונים"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "שילובים ניסויים"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the same "
+#~ "testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "שילובים ניסיוניים אינם נתמכים ואינם עוברים את אותם תהליכי בדיקה כמו "
+#~ "התצורות המומלצות שלנו."
+
+#~ msgid "Template Loader"
+#~ msgstr "מטעין תבניות"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "פורטל חינם עם הסחת דעת (מומלץ)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "נושא וורדפרס"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "פורטל חינם להסיחות דעת: הצגת תבניות CheckoutWC בפורטל ללא הסחת דעת אשר "
+#~ "אינו טוען את הנושא או הסגנונות הפעילים של וורדפרס. (מומלץ)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "נושא וורדפרס: טען תבניות של CheckoutWC בתוך תחום תוכן נושא פעיל של "
+#~ "WordPress."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "ניסיוני - תצורה לא נתמכת"
+
+#~ msgid "Cart Editing"
+#~ msgstr "עריכת עגלה"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "אפשר עריכת עגלה."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "הפעל או השבת את תכונת עריכת העגלה. מאפשר ללקוח להסיר או להתאים את כמות "
+#~ "פריטי העגלה."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "עריכת סל לעגלה הפניה מחדש של עגלה"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr "כתובת אתר להפניה מחדש כאשר הלקוח מרוקן את העגלה מדף הקופה."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "אם יישאר ריק, הלקוח יופנה לדף העגלה."
+
+#~ msgid "Order Pay"
+#~ msgstr "שכר הזמנה"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "אפשר תמיכה לדף תשלום שכר הזמנה."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "השתמש בתבנית לקופה לדף תשלום הזמנה."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "Checkout עמוד אחד"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "אפשר קופת דף אחת."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "הצג את כל שדות התשלום בכרטיסייה אחת. שימושי עבור חנויות דיגיטליות או "
+#~ "חנויות שמאלצות את כתובת החיוב והמשלוח להיות זהות."
+
+#~ msgid "Thank You Page"
+#~ msgstr "עמוד תודה"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "אפשר תמיכה לדף תודה."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "אפשר תבנית תודה / הזמנה שהתקבלה. תבנית זו משמשת גם בעת הצגת הזמנות בחשבון "
+#~ "שלי."
+
+#~ msgid "Order Statuses"
+#~ msgstr "מצבי הזמנות"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "הסטטוסים שיוצגו בדף התודה."
+
+#~ msgid "Map Embed"
+#~ msgstr "שבץ מפה"
+
+#~ msgid "Enable map embed."
+#~ msgstr "אפשר הטמעת מפה."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr "הפעל או השבת מפה המוטמעת בדף תודה. נדרש מפתח API של Google."
+
+#~ msgid "My Account"
+#~ msgstr "החשבון שלי"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "השתמש בתבנית לקופה לדף תשלום הזמנה."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr "כשתבדוק, הצגת הזמנות בחשבון שלי תשתמש בתבנית דף תודה."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "השלמה אוטומטית של כתובת"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "אפשר השלמה אוטומטית של כתובת."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "הפעל או השבת את תכונת ההשלמה האוטומטית של הכתובת. נדרש מפתח API של Google."
+
+#~ msgid "Google API Key"
+#~ msgstr "מפתח API של גוגל"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "מפתח API של גוגל. זמין <a target=\"_blank\" href=\"https://developers."
+#~ "google.com/places/web-service/get-api-key\">במסוף פלטפורמת הענן של גוגל</"
+#~ "a> ."
+
+#~ msgid "User Matching"
+#~ msgstr "התאמת משתמשים"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "משופר (מומלץ)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "מופעל: מתאים באופן אוטומטי הזמנות אורח לחשבונות משתמש ברכישה חדשה וכן "
+#~ "ברישום של משתמש חדש. (מוּמלָץ)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr "‫WooCommerce ברירת מחדל: הצג תזכורת כניסה באנר מעל טופס התשלום."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "קטעי PHP"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "הוסף כאן קטעי PHP כדי לשנות את דף הקופה שלך. אם יש לך הרבה קטעי טקסט, "
+#~ "מומלץ לשקול להשתמש <a target=\"_blank\" href=\"%s\">בקטעי קוד</a> ."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "חובה לשדרג רישיון"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr "רישיון צמיחה או מפתחים נדרש כדי לאפשר תכונות אלה."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "אתה יכול לשדרג את הרישיון <a target=\"_blank\" href=\"%1$s\">בחשבון שלי</"
+#~ "a> . לעזרה בשדרוג הרישיון שלך, <a target=\"_blank\" href=\"%2$s\">לחץ כאן."
+#~ "</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "הגדרת עקיפה"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it remove "
+#~ "your custom code."
+#~ msgstr ""
+#~ "הגדרה זו מוגבלת כרגע באופן תכנותי. כדי לאפשר אותו הסר את הקוד המותאם אישית "
+#~ "שלך."
+
+#~ msgid "Templates"
+#~ msgstr "תבניות"
+
+#~ msgid "Active: "
+#~ msgstr "מופעל?"
+
+#~ msgid "Activate"
+#~ msgstr "הפעל"
+
+#~ msgid "Global Settings"
+#~ msgstr "הגדרות כלליות"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "הגדרות אלה חלות על כל הנושאים."
+
+#~ msgid "Logo"
+#~ msgstr "לוגו"
+
+#~ msgid "Upload image"
+#~ msgstr "העלאת תמונה"
+
+#~ msgid "Clear Logo"
+#~ msgstr "לוגו ברור"
+
+#~ msgid "Footer Text"
+#~ msgstr "טקסט פוטר"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "אם תשאיר ריק, תוצג הודעה על זכויות יוצרים רגילה. הגדר לחלל בודד כדי לעקוף "
+#~ "התנהגות זו."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "הגדרות ספציפיות לנושא"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "הגדרות אלה חלות על הנושא שבחרת. ( %s)"
+
+#~ msgid "Fonts"
+#~ msgstr "פונטים"
+
+#~ msgid "Body Font"
+#~ msgstr "גופן הגוף"
+
+#~ msgid "System Font Stack"
+#~ msgstr "ערימת גופני מערכת"
+
+#~ msgid "Heading Font"
+#~ msgstr "כותרת גופן"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "כברירת מחדל, CheckoutWC משתמש בערימת גופני מערכת, שמניבה את הביצועים "
+#~ "המהירים ביותר. תוכל לבחור להשתמש בגופן של גוגל כאן."
+
+#~ msgid "Color Settings"
+#~ msgstr "הגדרת צבעים"
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS מותאם אישית"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "הוסף כללי CSS מותאמים אישית כדי לשלוט במלואם על המראה של תבנית התשלום."
+
+#~ msgid "Export Settings"
+#~ msgstr "יצאו הגדרות"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "הורד קובץ גיבוי של ההגדרות שלך."
+
+#~ msgid "Import Settings"
+#~ msgstr "הגדרות ייבוא"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "העלה קובץ וייבא הגדרות"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "לפני יצירת קשר עם התמיכה"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "אתה יכול למצוא את התשובה לרוב השאלות <a href=\"https://kb.checkoutwc.com\" "
+#~ "target=\"_blank\">בבסיס הידע</a> שלנו."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "להלן מספר מדריכים פופולריים:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "עדיין צריך עזרה?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "אם אתה עדיין זקוק לעזרה לאחר חיפוש בסיס הידע שלנו, נשמח לעמוד לרשותך."
+
+#~ msgid "Contact Support"
+#~ msgstr "צור קשר עם תמיכה"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "המערכת האקולוגית WooCommerce מלאה בתוספים פנטסטיים. הנה כמה שעובדים ממש "
+#~ "טוב עם CheckoutWC שאנו ממליצים להם בלב שלם ללקוחות שלנו. (כמה מקישורים אלו "
+#~ "עשויים לכלול מעקב אחר גורמים שותפים. זה לא משפיע על החלטתנו לכלול תוסף.)"
+
+#~ msgid "More Info"
+#~ msgstr "מידע נוסף"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "<strong> %s</strong> : זוהו תוספים לא תואמים!"
+
+#~ msgid "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "בטל את הפלאגינים הללו כדי למנוע בעיות בקופה שלך!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site but "
+#~ "your template is disabled for normal users. To fix this, go to %s > %s > "
+#~ "%s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : הרישיון שלך תקף ומופעל באתר זה אך התבנית שלך מושבתת "
+#~ "למשתמשים רגילים. כדי לתקן זאת, עבור אל %s> %s> %s ובדוק \" %s\"."
+
+#~ msgid "Settings"
+#~ msgstr "הגדרות"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : נראה כי מפתח הרישיון פג. אנא ודא שמפתח הרישיון שלך "
+#~ "תקף או <a target=\"_blank\" href=\"https://www.checkoutwc.com/checkout/?"
+#~ "edd_license_key=%s\">חידוש את הרישיון שלך עכשיו</a> כדי לשחזר את "
+#~ "הפונקציונליות המלאה."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please verify "
+#~ "that your license key is valid or <a target=\"_blank\" href=\"https://www."
+#~ "checkoutwc.com/\">purchase a license</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : מפתח הרישיון שלך חסר או לא חוקי. אנא ודא שמפתח "
+#~ "הרישיון שלך תקף או <a target=\"_blank\" href=\"https://www.checkoutwc.com/"
+#~ "\">רכוש רישיון</a> לשחזור הפונקציונליות המלאה."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "תודה שהתקנת את Checkout ל- WooCommerce! כדי להתחיל, לחץ על "
+#~ "<strong>הרישיון</strong> למטה והפעל את מפתח הרישיון שלך!"
+
+#~ msgid "Phone"
+#~ msgstr "טלפון"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr "‫CheckoutWC: לא ניתן לייבא הגדרות. בחרת קובץ JSON להעלאה?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "‫CheckoutWC: הגדרות מיובאות בהצלחה."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "הגדרות אלה חלות רק על התבנית הפעילה כרגע. אם אתה מחליף תבניות בהתאמה "
+#~ "אישית, הגדרות אלה יהפכו ללא זמינות אך החיסכון יפרסם כאן כל שינוי לפני "
+#~ "שתחלף תבניות!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "ההפעלה נכשלה: אנא הפעל את WooCommerce כדי להשתמש ב- Checkout עבור "
+#~ "WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "צבע רקע הגוף"
+
+#~ msgid "Body Text Color"
+#~ msgstr "צבע טקסט גוף"
+
+#~ msgid "Header Background Color"
+#~ msgstr "צבע רקע הדר"
+
+#~ msgid "Header Text Color"
+#~ msgstr "צבע הטקסט בסרגל העליון של האתר"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "צבע רקע שול פוטר"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "צבע טקסט הפוטר"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "צבע רקע סיכום"
+
+#~ msgid "Accent Color"
+#~ msgstr "צבע הדגשה"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "צבע רקע כפתור ראשי"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "צבע טקסט כפתור ראשי"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "צבע הרקע לשימוש בזמן ריחוף מעל הכפתורים הראשיים"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "צבע ריחוף של טקסט כפתור ראשי"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "צבע רקע לחצן משני"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "צבע הטקסט של הכפתורים המשניים"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "ריחוף צבע כפתור משני"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "צבע ריחוף על טקסט כפתור משני"
+
+#~ msgid "Link Color"
+#~ msgstr "צבע קישור"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "כמות פריט לעגלה צבע רקע"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "צבע טקסט פריט לעגלה"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "יש גרסה חדשה של %1$s שזמינה להורדה. ניתן %2$sלצפות בפרטי%4$s הגרסה %3$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "יש גרסה חדשה של %1$s שזמינה להורדה. ניתן %2$sלצפות בפרטי%4$s הגרסה %3$s או "
+#~ "%5$sלעדכן עכשיו%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "אין לך הרשאה להתקין עדכוני תוסף"
+
+#~ msgid "Error"
+#~ msgstr "שגיאה"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "האם לאפשר ל- Checkout ל- WooCommerce לעקוב אחר השימוש בתוספים? עזור לשפר "
+#~ "את Checkout ל- WooCommerce."
+
+#~ msgid "Allow"
+#~ msgstr "לאפשר"
+
+#~ msgid "Do not allow"
+#~ msgstr "אל תאפשר"
+
+#~ msgid "Not Calculated"
+#~ msgstr "לא מחושב"
+
+#~ msgid "Not Available"
+#~ msgstr "לא להורדה"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if you "
+#~ "recognize this order."
+#~ msgstr "אתה משלם עבור הזמנת אורח. המשך עם התשלום רק אם אתה מזהה הזמנה זו."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr "לא ניתן לשלם עבור הזמנה זו. אנא צור קשר במידה ואתה זקוק לסיוע נוסף."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid for. "
+#~ "Please contact us if you need assistance."
+#~ msgstr ""
+#~ "סטטוס ההזמנה הזה הוא & ldquo; %s & rdquo; & mdash; לא ניתן לשלם עבורו. אנא "
+#~ "צור איתנו קשר אם אתה זקוק לעזרה."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "שגיאה בעיבוד הקופה. בבקשה נסה שוב."
+
+#~ msgid "Edit"
+#~ msgstr "ערוך"
+
+#~ msgid "Remove"
+#~ msgstr "הסר"
+
+#~ msgid "Lost your password?"
+#~ msgstr "איפוס סיסמה?"
+
+#~ msgid "Customer information"
+#~ msgstr "מידע ללקוחות"
+
+#~ msgid "Select a shipping method:"
+#~ msgstr "בחר שיטת משלוח:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "‫Checkout for WooCommerce"
+
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "תמיכה מצוינת נמצאת ב- DNA שלנו."
+
+#~ msgid "First Name"
+#~ msgstr "שם פרטי"
+
+#~ msgid "Last Name"
+#~ msgstr "שם משפחה"
+
+#~ msgid "Email"
+#~ msgstr "אימייל"

@@ -1,0 +1,1218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:28-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid "There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"লগ ইন করার সময় একটি ত্রুটি হয়েছে Please দয়া করে আপনার শংসাপত্রগুলি পরীক্ষা করুন এবং আবার "
+"চেষ্টা করুন"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "ইমেল ঠিকানায় অবৈধ ডোমেন নাম রয়েছে।"
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "দয়া করে একটি বৈধ %s লিখুন৷."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "পুরো নাম"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "বাড়ির নম্বর"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "রাস্তার নাম"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "ঠিকানা লাইন 2 যোগ করুন"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "কোম্পানি যোগ করুন"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692 sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "বিলিংয়ের ঠিকানা"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "পেপাল দিয়ে লগ ইন। নীচে আপনার ক্রম চালিয়ে যান।"
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "আবেদন"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "একটি প্রচার কোড আছে? এখানে ক্লিক করুন."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "প্রচার কোড"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "প্রচার কোড লিখুন"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "অভিনন্দন! আপনি বিনামূল্যে স্ট্যান্ডার্ড শিপিং পাবেন।"
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "আপনি বিনামূল্যে শিপিং থেকে %s দূরে!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "এই ঠিকানাটি ব্যবহার করুন"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "ঠিকানা যাচাই"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from our "
+"verification service. Please verify your address."
+msgstr ""
+"আপনার সরবরাহিত শিপিং ঠিকানাটি আমাদের যাচাইকরণ পরিষেবা থেকে প্রস্তাবিত ঠিকানার সাথে মেলে "
+"না। আপনার ঠিকানা যাচাই করুন।"
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "তুমি প্রবেশ করেছিলে"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "আমরা বলছি"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "একটি বৈধ ফোন নম্বর লিখুন দয়া করে।"
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "একটি বৈধ ফোন নম্বর লিখুন দয়া করে।"
+
+#: includes/Managers/AssetManager.php:437 sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "প্রেরণের ঠিকানা"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "দয়া করে একটি নতুন পরিমাণ লিখুন:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American Express cards "
+"have a 4-digit code located on the front."
+msgstr ""
+"3-সংখ্যার সুরক্ষা কোডটি সাধারণত আপনার কার্ডের পিছনে পাওয়া যায়। আমেরিকান এক্সপ্রেস কার্ডগুলির "
+"সামনে একটি 4-অঙ্কের কোড থাকে।"
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "আপনি কি নিশ্চিত যে আপনি এই আইটেমটি আপনার কার্ট থেকে সরাতে চান?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "একটি বৈধ ফোন নম্বর লিখুন দয়া করে।"
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "কোন শিপিং পদ্ধতি উপলব্ধ"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "সম্পূর্ণ আদেশ"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006 sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "পেমেন্ট"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "সমস্ত লেনদেন নিরাপদ এবং এনক্রিপ্ট করা হয়।"
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "আপনার অর্ডার বিনামূল্যে। কোনও অর্থ প্রদানের প্রয়োজন নেই।"
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "যথোপযুক্ত সৃষ্টিকর্তা"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "একটি ভিন্ন বিলিং ঠিকানা ব্যবহার করুন"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "গাড়িতে ফিরুন"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "শিপিং পদ্ধতিতে চালিয়ে যান"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "প্রদান পদ্ধতিতে চালিয়ে যান"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "পর্যালোচনা আদেশ"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "গ্রাহকের তথ্য ফিরে"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "শিপিং তথ্য ফিরে"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "পেমেন্টে ফিরুন"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "অথবা"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "হ্রাস"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "বৃদ্ধি"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "অর্ডার সংক্ষিপ্তসার প্রদর্শন করুন"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "অর্ডার সারাংশ লুকান"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "এক্সপ্রেস চেকআউট"
+
+#: sources/php/template-functions.php:295 sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "তথ্য"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "আদেশ পর্যালোচনা"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "ইতিমধ্যে আমাদের সাথে একটি অ্যাকাউন্ট আছে?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "একটি দ্রুত চেকআউট অভিজ্ঞতার জন্য লগ ইন করুন।"
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "%s শপিং অ্যাকাউন্ট তৈরি করুন।"
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "আপনার যদি অ্যাকাউন্ট না থাকে তবে আমরা আপনার জন্য একটি তৈরি করব।"
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "স্বাগতম,%1$s (%2$s)।"
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "প্রস্থান."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "ফিরে আসার জন্য স্বাগতম"
+
+#: sources/php/template-functions.php:576
+msgid "It looks like you already have an account. Please enter your login details below."
+msgstr ""
+"দেখে মনে হচ্ছে আপনার ইতিমধ্যেই একটি অ্যাকাউন্ট আছে৷ নিচে আপনার লগইন বিবরণ এখানে ক্লিক করুন।"
+
+#: sources/php/template-functions.php:579
+msgid "If you have shopped with us before, please enter your login details below."
+msgstr "আপনি যদি আগে আমাদের সাথে কেনাকাটা করে থাকেন, অনুগ্রহ করে নিচে আপনার লগইন বিশদ লিখুন।"
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "অথবা অতিথি হিসাবে চালিয়ে যান"
+
+#: sources/php/template-functions.php:682 sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "বিলিং এবং শিপিংয়ের ঠিকানা"
+
+#: sources/php/template-functions.php:903 sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "প্রেরণ"
+
+#: sources/php/template-functions.php:926 sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "আমাদের সাথে যোগাযোগ করুন "
+
+#: sources/php/template-functions.php:934 sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994 sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025 sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083 sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "পরিবর্তন"
+
+#: sources/php/template-functions.php:1017 sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "পদ্ধতি"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "পাঠানোর পদ্ধতি"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "আপনার কার্ড বা অর্থ প্রদান পদ্ধতির সাথে মেলে এমন ঠিকানাটি নির্বাচন করুন।"
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "প্রচার কোড"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "অর্ডার %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "আপনাকে %s ধন্যবাদ!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "অর্ডারের অবস্থা"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "অর্ডার আপডেট"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "আপনি ইমেল দ্বারা শিপিং এবং বিতরণ আপডেট পাবেন।"
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "যোগাযোগের তথ্য"
+
+#: sources/php/template-functions.php:2054 sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "ডেলিভারি"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "লগইন"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "পর্যালোচনা করুন"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "তোমার থলে তো খালি"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "আপনার কার্ট"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr "WooCommerce এর জন্য সুন্দর, রূপান্তর অনুকূলিতকরণের চেকআউট টেম্পলেটগুলি।"
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "required"
+#~ msgstr "আপনার অর্ডার বিনামূল্যে। কোনও অর্থ প্রদানের প্রয়োজন নেই।"
+
+#~ msgid "optional"
+#~ msgstr "ঐচ্ছিক"
+
+#~ msgid "Select a country"
+#~ msgstr "একটি দেশ নির্বাচন করুন"
+
+#~ msgid "Password"
+#~ msgstr "পাসওয়ার্ড"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr "লগইন .চ্ছিক। আপনি নীচে আপনার আদেশ দিয়ে চালিয়ে যেতে পারেন।"
+
+#, php-format
+#~ msgid "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC.</h3>"
+#~ msgstr ""
+#~ "<h3> <strong> %s</strong> : পিএইচপি 7.0 বা তার বেশি এর জন্য চেকআউটডব্লিউসি ব্যবহার করতে "
+#~ "হবে। </h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will have a "
+#~ "positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "পিএইচপি এর নতুন সংস্করণগুলি দ্রুত এবং আরও সুরক্ষিত উভয়ই তাই আপডেট করা আপনার সাইটের "
+#~ "কর্মক্ষমতাতে ইতিবাচক প্রভাব ফেলবে।"
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, which disables "
+#~ "all features and functionality. In most cases, upgrading only takes a few minutes. "
+#~ "Contact your hosting provider for more information."
+#~ msgstr ""
+#~ "মারাত্মক ত্রুটিগুলি রোধ করতে আমরা %s কে <strong> %s এ</strong> লোড করেছি যা সমস্ত বৈশিষ্ট্য "
+#~ "এবং কার্যকারিতা অক্ষম করে। বেশিরভাগ ক্ষেত্রে, আপগ্রেড করতে কয়েক মিনিট সময় লাগে। আরও তথ্যের "
+#~ "জন্য আপনার হোস্টিং সরবরাহকারীর সাথে যোগাযোগ করুন।"
+
+#~ msgid "safe mode"
+#~ msgstr "নিরাপদ ভাবে"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "বিভার থিমার সমর্থন সক্ষম করুন।"
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "বিভার থেইমারকে শিরোলেখ এবং পাদলেখ প্রতিস্থাপনের অনুমতি দিন।"
+
+#~ msgid "Elementor Pro"
+#~ msgstr "এলিমেন্টর প্রো"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "এলিমেন্টর প্রো সমর্থন সক্ষম করুন।"
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "এলিমেন্টার প্রোকে শিরোনাম এবং পাদচরণ প্রতিস্থাপনের অনুমতি দিন।"
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "চেকআউট ফিল্ড সম্পাদক"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "চেকআউট ফিল্ড সম্পাদক ঠিকানা ক্ষেত্র ওভাররাইড সক্ষম করুন।"
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping address "
+#~ "fields."
+#~ msgstr ""
+#~ "WooCommerce চেকআউট ফিল্ড সম্পাদককে বিলিং এবং শিপিং ঠিকানা ক্ষেত্রগুলি পরিবর্তন করতে অনুমতি "
+#~ "দিন।"
+
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+#~ msgid "Premium Features"
+#~ msgstr "প্রিমিয়াম বৈশিষ্ট্য"
+
+#~ msgid "Template"
+#~ msgstr "টেমপ্লেট"
+
+#~ msgid "Design"
+#~ msgstr "নকশা"
+
+#~ msgid "Integrations"
+#~ msgstr "ঐক্যবদ্ধতা"
+
+#~ msgid "Addons"
+#~ msgstr "অ্যাডঅনস"
+
+#~ msgid "License"
+#~ msgstr "লাইসেন্স"
+
+#~ msgid "Tools"
+#~ msgstr "সরঞ্জামসমূহ"
+
+#~ msgid "Support"
+#~ msgstr "সমর্থন"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "প্রস্তাবিত প্লাগইনস"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized checkout templates "
+#~ "for WooCommerce."
+#~ msgstr "WooCommerce জন্য চেকআউট WooCommerce জন্য রূপান্তর অনুকূলিতকরণ চেকআউট টেমপ্লেট উপলব্ধ।"
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr "এই সেটিংটি WooCommerce চেকআউট ফিল্ড সম্পাদক দ্বারা ওভাররাইড করা হয়েছে।"
+
+#~ msgid "Enable / Disable"
+#~ msgstr "চালু অচল"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "WooCommerce টেম্পলেট জন্য চেকআউট ব্যবহার করুন"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always enabled for "
+#~ "admin users.)"
+#~ msgstr ""
+#~ "WooCommerce থিমের জন্য চেকআউট সক্ষম বা অক্ষম করুন। (দ্রষ্টব্য: থিম সর্বদা অ্যাডমিন "
+#~ "ব্যবহারকারীদের জন্য সক্ষম থাকে))"
+
+#~ msgid "Login Style"
+#~ msgstr "লগইন স্টাইল"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "বর্ধিত (প্রস্তাবিত)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce ডিফল্ট"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether the entered "
+#~ "email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "বর্ধিত: প্রবেশ করা ইমেল ঠিকানা কোনও অ্যাকাউন্টের সাথে মেলে কিনা তার উপর নির্ভর করে লগইন "
+#~ "ক্ষেত্রগুলি স্বয়ংক্রিয়ভাবে প্রদর্শন এবং লুকান। (প্রস্তাবিত)"
+
+#~ msgid "WooCommerce Default: Show a login reminder in a banner above the checkout form."
+#~ msgstr "WooCommerce Default: চেকআউট ফর্মের উপরে একটি ব্যানারে একটি লগইন অনুস্মারক দেখান।"
+
+#~ msgid "Registration Style"
+#~ msgstr "নিবন্ধকরণ শৈলী"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to the "
+#~ "customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "বর্ধিত: স্বয়ংক্রিয়ভাবে একটি ব্যবহারকারীর নাম এবং পাসওয়ার্ড উত্পন্ন করুন এবং স্থানীয় "
+#~ "WooCommerce কার্যকারিতা ব্যবহার করে গ্রাহককে এটি ইমেল করুন। (প্রস্তাবিত)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to select their "
+#~ "own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce Default: গ্রাহকের নিজস্ব পাসওয়ার্ড নির্বাচন করার জন্য একটি পাসওয়ার্ড ক্ষেত্র "
+#~ "সরবরাহ করা হয়। প্রস্তাবিত নয়।"
+
+#~ msgid "Field Label Style"
+#~ msgstr "ফিল্ড লেবেল স্টাইল"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "ভাসমান (প্রস্তাবিত)"
+
+#~ msgid "Normal"
+#~ msgstr "সাধারণ"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field has a value. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "ভাসমান: ক্ষেত্রটির কোনও মূল্য আছে কিনা তার উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে লেবেলগুলি প্রদর্শন "
+#~ "করুন এবং লুকান। (প্রস্তাবিত)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "সাধারণ: প্রতিটি ক্ষেত্রের উপরে লেবেলগুলি সর্বদা উপস্থিত হয়।"
+
+#~ msgid "Cart Item Label"
+#~ msgstr "কার্ট আইটেম লেবেল"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "পাঠ্য (প্রস্তাবিত)"
+
+#~ msgid "Link"
+#~ msgstr "লিঙ্ক"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr "পাঠ্য: কার্ট আইটেমগুলিকে একক পণ্য পৃষ্ঠায় লিঙ্ক করবেন না। (প্রস্তাবিত)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "লিঙ্ক: প্রতিটি কার্ট আইটেম পণ্য পৃষ্ঠাতে লিঙ্ক করুন।"
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "কার্ট আইটেম ডেটা প্রদর্শন"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "সংক্ষিপ্ত (প্রস্তাবিত)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red is displayed "
+#~ "as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "সংক্ষিপ্ততা শুধুমাত্র প্রকরণের মান প্রদর্শন করে। উদাহরণস্বরূপ, আকার: এক্সএল, রঙ: লাল এক্সএল / "
+#~ "লাল হিসাবে প্রদর্শিত হয়। (প্রস্তাবিত)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate line using "
+#~ "this format: Label: Value "
+#~ msgstr ""
+#~ "WooCommerce ডিফল্ট ব্যবহার করার সময়, প্রতিটি প্রকরণ এই বিন্যাসটি ব্যবহার করে একটি পৃথক "
+#~ "লাইনে প্রদর্শিত হবে: লেবেল: মান"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "ডেলিভারি"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "শিপিংয়ের ঠিকানা সম্পাদনা করুন"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one shipping option "
+#~ "for all orders."
+#~ msgstr ""
+#~ "শিপিং পদ্ধতির পদক্ষেপটি আড়াল করতে সক্ষম করুন। আপনার কাছে সমস্ত আদেশের জন্য কেবল একটি শিপিং "
+#~ "বিকল্প থাকলে দরকারী।"
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "অর্ডার নোট ক্ষেত্র সক্ষম করুন"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr "অর্ডার নোট ক্ষেত্র সক্ষম বা অক্ষম করুন। ডিফল্টরূপে অক্ষম করা হয়েছে।"
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "মোবাইল কুপন ক্ষেত্র"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "মোবাইলে অর্থ প্রদানের বিকল্পগুলির উপরে কুপন ক্ষেত্রটি দেখান।"
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps customers find the "
+#~ "coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "মোবাইল ডিভাইসে পেমেন্ট গেটওয়ের উপরে কুপন ক্ষেত্রটি দেখান। গ্রাহকদের কার্টের সারাংশটি "
+#~ "প্রসারিত না করে কুপন ক্ষেত্র সন্ধানে সহায়তা করে।"
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "মোবাইল ক্রেডিট কার্ড লোগো"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "মোবাইলে ক্রেডিট কার্ড লোগো সক্ষম করুন"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be rendered "
+#~ "properly on mobile. It is recommended you test before enabling. Default: Off"
+#~ msgstr ""
+#~ "মোবাইলে ক্রেডিট কার্ড লোগো প্রদর্শন করুন। দ্রষ্টব্য: অনেক গেটওয়ে লোগো মোবাইলে সঠিকভাবে "
+#~ "রেন্ডার করা যায় না। এটি সক্ষম করার আগে আপনাকে পরীক্ষা করার পরামর্শ দেওয়া হয়। ডিফল্ট: বন্ধ"
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "কার্টের সারাংশ মোবাইল লেবেল"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "উদাহরণ: অর্ডার সংক্ষিপ্তসার এবং কুপন প্রদর্শন করুন"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "যদি ফাঁকা রাখা হয়, তবে এই ডিফল্টটি ব্যবহৃত হবে:"
+
+#~ msgid "Header Scripts"
+#~ msgstr "শিরোনাম স্ক্রিপ্ট"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</code> tag "
+#~ "in the document source."
+#~ msgstr ""
+#~ "এই কোডটি দস্তাবেজ উত্সে <code>&lt;/head&gt;</code> ট্যাগটি বন্ধ হওয়ার আগেই আউটপুট হবে।"
+
+#~ msgid "Footer Scripts"
+#~ msgstr "পাদলেখ স্ক্রিপ্ট"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</code> tag "
+#~ "in the document source."
+#~ msgstr ""
+#~ "এই কোডটি দস্তাবেজ উত্সে <code>&lt;/body&gt;</code> ট্যাগটি বন্ধ হওয়ার আগেই আউটপুট হবে।"
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "ব্যবহারের ট্র্যাকিং সক্ষম করুন"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr "প্লাগইন ব্যবহার ট্র্যাক করতে WooCommerce এর জন্য চেকআউটকে অনুমতি দেবেন?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "স্ট্যাটাস সংগ্রহ ডেটা ভিউয়ার"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "পরীক্ষামূলক সংহতকরণ"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the same testing "
+#~ "processes as our recommended configurations."
+#~ msgstr ""
+#~ "পরীক্ষামূলক সংহতগুলি সমর্থিত নয় এবং আমাদের প্রস্তাবিত কনফিগারেশনের মতো একই পরীক্ষামূলক "
+#~ "প্রক্রিয়াগুলির মধ্য দিয়ে যাবেন না।"
+
+#~ msgid "Template Loader"
+#~ msgstr "টেমপ্লেট লোডার"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "বিক্ষিপ্ত ফ্রি পোর্টাল (প্রস্তাবিত)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "ওয়ার্ডপ্রেস থিম"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction free portal "
+#~ "which does not load the active WordPress theme or styles. (Recommended)"
+#~ msgstr ""
+#~ "বিক্ষিপ্ত ফ্রি পোর্টাল: সক্রিয় ওয়ার্ডপ্রেস থিম বা শৈলী লোড না করে যা একটি বিচ্যুতি মুক্ত "
+#~ "পোর্টালে CheckoutWC টেমপ্লেট প্রদর্শন করুন। (প্রস্তাবিত)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme content "
+#~ "area."
+#~ msgstr ""
+#~ "ওয়ার্ডপ্রেস থিম: সক্রিয় ওয়ার্ডপ্রেস থিম সামগ্রী অঞ্চলের মধ্যে চেকআউটডাব্লুসি টেম্পলেটগুলি লোড "
+#~ "করুন।"
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "পরীক্ষামূলক - অসমর্থিত কনফিগারেশন"
+
+#~ msgid "Cart Editing"
+#~ msgstr "কার্ট সম্পাদনা"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "কার্ট সম্পাদনা সক্ষম করুন।"
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or adjust quantity "
+#~ "of cart items."
+#~ msgstr ""
+#~ "কার্ট সম্পাদনা বৈশিষ্ট্য সক্ষম বা অক্ষম করুন। গ্রাহককে কার্ট আইটেমগুলির পরিমাণ অপসারণ বা সমন্বয় "
+#~ "করার অনুমতি দেয়।"
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "কার্ট সম্পাদনা খালি কার্ট পুনর্নির্দেশ"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr "যখন গ্রাহক চেকআউট পৃষ্ঠা থেকে কার্ট খালি করে তখন পুনর্নির্দেশের URL irect"
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr "যদি খালি ছেড়ে যায় তবে গ্রাহককে কার্ট পৃষ্ঠায় পুনর্নির্দেশ করা হবে।"
+
+#~ msgid "Order Pay"
+#~ msgstr "অর্ডার পে"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "অর্ডার পে পৃষ্ঠার জন্য সমর্থন সক্ষম করুন।"
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "অর্ডার পে পৃষ্ঠার জন্য চেকআউট টেম্পলেট ব্যবহার করুন।"
+
+#~ msgid "One Page Checkout"
+#~ msgstr "ওয়ান পেজ চেকআউট"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "একটি পৃষ্ঠার চেকআউট সক্ষম করুন।"
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores that force "
+#~ "the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "একটি ট্যাবে সমস্ত চেকআউট ক্ষেত্রগুলি দেখান। ডিজিটাল স্টোর বা স্টোরগুলির জন্য দরকারী যা বিলিং "
+#~ "এবং শিপিংয়ের ঠিকানা একই হতে বাধ্য করে।"
+
+#~ msgid "Thank You Page"
+#~ msgstr "থ্যাঙ্ক ইউ পেজ"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "ধন্যবাদ পৃষ্ঠার জন্য সমর্থন সক্ষম করুন।"
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also used when "
+#~ "viewing orders in My Account."
+#~ msgstr ""
+#~ "ধন্যবাদ পাতা / অর্ডার প্রাপ্ত টেম্পলেটকে সক্ষম করুন। আমার অ্যাকাউন্টে অর্ডার দেখার সময় এই "
+#~ "টেমপ্লেটটিও ব্যবহৃত হয়।"
+
+#~ msgid "Order Statuses"
+#~ msgstr "অর্ডার স্ট্যাটাস"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "ধন্যবাদ পৃষ্ঠায় দেখানোর স্ট্যাটাসগুলি।"
+
+#~ msgid "Map Embed"
+#~ msgstr "মানচিত্র এম্বেড"
+
+#~ msgid "Enable map embed."
+#~ msgstr "মানচিত্র এম্বেড সক্ষম করুন।"
+
+#~ msgid "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr "ধন্যবাদ পৃষ্ঠাতে এম্বেড থাকা মানচিত্র সক্ষম বা অক্ষম করুন। গুগল এপিআই কী প্রয়োজন।"
+
+#~ msgid "My Account"
+#~ msgstr "আমার অ্যাকাউন্ট"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "আমার অ্যাকাউন্টে অর্ডার দেখার জন্য আপনাকে ধন্যবাদ টেম্পলেট ব্যবহার করুন।"
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page template."
+#~ msgstr "চেক করা হলে, আমার অ্যাকাউন্টে অর্ডারগুলি দেখার জন্য ধন্যবাদ পৃষ্ঠাগুলি ব্যবহার করবে।"
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "ঠিকানা স্বতঃসিদ্ধ"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "ঠিকানা স্বতঃপূরণ সক্ষম করুন।"
+
+#~ msgid "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr "ঠিকানা স্বতঃপূরণ বৈশিষ্ট্য সক্ষম বা অক্ষম করুন। গুগল এপিআই কী প্রয়োজন।"
+
+#~ msgid "Google API Key"
+#~ msgstr "গুগল এপিআই কী"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://developers."
+#~ "google.com/places/web-service/get-api-key\">Google Cloud Platform Console</a>."
+#~ msgstr ""
+#~ "গুগল এপিআই কী। <a target=\"_blank\" href=\"https://developers.google.com/places/web-"
+#~ "service/get-api-key\">গুগল ক্লাউড প্ল্যাটফর্ম কনসোলে উপলব্ধ</a> ।"
+
+#~ msgid "User Matching"
+#~ msgstr "ব্যবহারকারী মিলছে"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "বর্ধিত (প্রস্তাবিত)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new purchase as well "
+#~ "as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "সক্ষম করা: নতুন ক্রয়ের পাশাপাশি নতুন ব্যবহারকারীর নিবন্ধকরণের জন্য ব্যবহারকারীর অ্যাকাউন্টগুলির "
+#~ "সাথে অতিথি আদেশগুলি স্বয়ংক্রিয়ভাবে মেলে। (প্রস্তাবিত)"
+
+#~ msgid "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr "WooCommerce Default: চেকআউট ফর্মের উপরে একটি ব্যানারে একটি লগইন অনুস্মারক দেখান।"
+
+#~ msgid "PHP Snippets"
+#~ msgstr "পিএইচপি স্নিপেটস"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of snippets, "
+#~ "you may want to consider using <a target=\"_blank\" href=\"%s\">Code Snippets</a>."
+#~ msgstr ""
+#~ "আপনার চেকআউট পৃষ্ঠাটি এখানে পরিবর্তন করতে পিএইচপি স্নিপেট যুক্ত করুন। আপনার যদি প্রচুর স্নিপেট "
+#~ "থাকে তবে আপনি <a target=\"_blank\" href=\"%s\">কোড স্নিপেটগুলি</a> ব্যবহার করে বিবেচনা "
+#~ "করতে পারেন।"
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "লাইসেন্স আপগ্রেড প্রয়োজনীয়"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr "এই বৈশিষ্ট্যগুলি সক্ষম করতে গ্রোথ বা বিকাশকারী লাইসেন্স প্রয়োজন।"
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My Account</a>. "
+#~ "For help upgrading your license, <a target=\"_blank\" href=\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "আপনি <a target=\"_blank\" href=\"%1$s\">আমার অ্যাকাউন্টে</a> আপনার লাইসেন্স আপগ্রেড করতে "
+#~ "পারেন। আপনার লাইসেন্স আপগ্রেড সাহায্যের জন্য, <a target=\"_blank\" href=\"%2$s\">এখানে "
+#~ "ক্লিক করুন।</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "ওভাররাইড সেট করা হচ্ছে"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it remove your "
+#~ "custom code."
+#~ msgstr ""
+#~ "এই সেটিংটি বর্তমানে প্রোগ্রামগতভাবে ওভাররাইড করা হয়েছে। এটি সক্ষম করতে আপনার কাস্টম কোডটি "
+#~ "সরান।"
+
+#~ msgid "Templates"
+#~ msgstr "টেমপ্লেট"
+
+#~ msgid "Active: "
+#~ msgstr "সক্রিয়:"
+
+#~ msgid "Activate"
+#~ msgstr "সক্রিয় করা"
+
+#~ msgid "Global Settings"
+#~ msgstr "গ্লোবাল সেটিংস"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "এই সেটিংস সমস্ত থিমের জন্য প্রযোজ্য।"
+
+#~ msgid "Logo"
+#~ msgstr "লোগো"
+
+#~ msgid "Upload image"
+#~ msgstr "চিত্র আপলোড করুন"
+
+#~ msgid "Clear Logo"
+#~ msgstr "সাফ লোগো"
+
+#~ msgid "Footer Text"
+#~ msgstr "পাদচরণ"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a single space "
+#~ "to override this behavior."
+#~ msgstr ""
+#~ "যদি ফাঁকা রেখে যায়, একটি মানক কপিরাইট বিজ্ঞপ্তি প্রদর্শিত হবে। এই আচরণটি ওভাররাইড করতে "
+#~ "একটি একক স্থানে সেট করুন।"
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "থিম নির্দিষ্ট সেটিংস"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "এই সেটিংসটি আপনার নির্বাচিত থিমের জন্য প্রযোজ্য। (%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "ফন্ট"
+
+#~ msgid "Body Font"
+#~ msgstr "দেহ ফন্ট"
+
+#~ msgid "System Font Stack"
+#~ msgstr "সিস্টেম ফন্ট স্ট্যাক"
+
+#~ msgid "Heading Font"
+#~ msgstr "শিরোনাম হরফ"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "ডিফল্টরূপে, চেকআউটডব্লিউসি একটি সিস্টেম ফন্ট স্ট্যাক ব্যবহার করে, যা দ্রুত সম্পাদন করে। আপনি "
+#~ "এখানে একটি গুগল ফন্ট ব্যবহার করতে পারেন।"
+
+#~ msgid "Color Settings"
+#~ msgstr "রঙিন সেটিংস"
+
+#~ msgid "Custom CSS"
+#~ msgstr "কাস্টম CSS"
+
+#~ msgid "Add Custom CSS rules to fully control the appearance of the checkout template."
+#~ msgstr "চেকআউট টেম্পলেটটির উপস্থিতি পুরোপুরি নিয়ন্ত্রণ করতে কাস্টম সিএসএস বিধি যুক্ত করুন।"
+
+#~ msgid "Export Settings"
+#~ msgstr "রঙিন সেটিংস"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "আপনার সেটিংসের একটি ব্যাকআপ ফাইল ডাউনলোড করুন।"
+
+#~ msgid "Import Settings"
+#~ msgstr "রঙিন সেটিংস"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "ফাইল এবং আমদানি সেটিংস আপলোড করুন"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "সহায়তার সাথে যোগাযোগ করার আগে"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb.checkoutwc.com"
+#~ "\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "আপনি আমাদের <a href=\"https://kb.checkoutwc.com\" target=\"_blank\">জ্ঞানের ভিত্তিতে</"
+#~ "a> বেশিরভাগ প্রশ্নের উত্তর পেতে পারেন।"
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "এখানে কয়েকটি জনপ্রিয় গাইড রয়েছে:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "এখনও সাহায্য দরকার?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be happy to "
+#~ "assist you."
+#~ msgstr ""
+#~ "আমাদের জ্ঞান ভিত্তিক সন্ধানের পরেও যদি আপনার সাহায্যের প্রয়োজন হয় তবে আমরা আপনাকে সহায়তা "
+#~ "করে খুশি হব।"
+
+#~ msgid "Contact Support"
+#~ msgstr "যোগাযোগ সমর্থন"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few that work "
+#~ "really well with CheckoutWC that we wholeheartedly recommend to our customers. (A "
+#~ "few of these links may include affiliate tracking. This does not impact our decision "
+#~ "to include a plugin.)"
+#~ msgstr ""
+#~ "WooCommerce ইকোসিস্টেম চমত্কার প্লাগইন পূর্ণ। এখানে কয়েকটি এমন রয়েছে যা চেকআউটডব্লিউসি-র "
+#~ "সাথে সত্যই ভাল কাজ করে যা আমরা আমাদের গ্রাহকদের আন্তরিকভাবে সুপারিশ করি। (এই লিঙ্কগুলির "
+#~ "কয়েকটিতে অনুমোদিত ট্র্যাকিং অন্তর্ভুক্ত থাকতে পারে This এটি প্লাগিন অন্তর্ভুক্ত করার আমাদের "
+#~ "সিদ্ধান্তকে প্রভাবিত করে না))"
+
+#~ msgid "More Info"
+#~ msgstr "অধিক তথ্য"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr "<strong> %s</strong> : সতর্কতা বেমানান প্লাগইন সনাক্ত!"
+
+#~ msgid "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr "আপনার চেকআউটে সমস্যা এড়াতে দয়া করে এই প্লাগইনগুলি নিষ্ক্রিয় করুন!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site but your "
+#~ "template is disabled for normal users. To fix this, go to %s > %s > %s and check \"%s"
+#~ "\"."
+#~ msgstr ""
+#~ "<strong> %s</strong> : আপনার লাইসেন্সটি এই সাইটের জন্য বৈধ এবং সক্রিয় তবে আপনার "
+#~ "টেম্পলেটটি সাধারণ ব্যবহারকারীর জন্য অক্ষম। এটি ঠিক করতে, %s> %s> %s এ যান এবং \" %s\" "
+#~ "পরীক্ষা করুন।"
+
+#~ msgid "Settings"
+#~ msgstr "বিন্যাস সমূহ"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please verify that "
+#~ "your license key is valid or <a target=\"_blank\" href=\"https://www.checkoutwc.com/"
+#~ "checkout/?edd_license_key=%s\">renew your license now</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : আপনার লাইসেন্স কীটির মেয়াদ শেষ হয়ে গেছে বলে মনে হচ্ছে। সম্পূর্ণ "
+#~ "কার্যকারিতা পুনরুদ্ধার করতে দয়া করে আপনার লাইসেন্স কীটি বৈধ কিনা তা <a target=\"_blank\" "
+#~ "href=\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">এখনই আপনার "
+#~ "লাইসেন্সটি নবায়ন করুন verify</a>"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please verify that your "
+#~ "license key is valid or <a target=\"_blank\" href=\"https://www.checkoutwc.com/"
+#~ "\">purchase a license</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong> %s</strong> : আপনার লাইসেন্স কীটি অনুপস্থিত বা অবৈধ। আপনার লাইসেন্স কীটি বৈধ "
+#~ "কিনা তা যাচাই করুন বা সম্পূর্ণ কার্যকারিতা পুনরুদ্ধার করার জন্য <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">একটি লাইসেন্স কিনুন</a> ।"
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click on "
+#~ "<strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "WooCommerce জন্য চেকআউট ইনস্টল করার জন্য আপনাকে ধন্যবাদ! শুরু করতে, নীচের "
+#~ "<strong>লাইসেন্সে</strong> ক্লিক করুন এবং আপনার লাইসেন্স কীটি সক্রিয় করুন!"
+
+#~ msgid "Phone"
+#~ msgstr "মোবাইল"
+
+#~ msgid "CheckoutWC: Unable to import settings. Did you select a JSON file to upload?"
+#~ msgstr ""
+#~ "চেকআউটডব্লিউসি: সেটিংস আমদানি করতে অক্ষম। আপনি আপলোড করার জন্য একটি JSON ফাইল নির্বাচন "
+#~ "করেছেন?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "চেকআউটডব্লিউসি: সফলভাবে সেটিংস আমদানি করা হয়েছে।"
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch templates "
+#~ "in the customizer, these settings will become unavailable but saving will publish "
+#~ "any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "এই সেটিংসটি বর্তমানে সক্রিয় টেম্পলেটটিতে প্রয়োগ হয়। আপনি যদি কাস্টমাইজারে টেম্পলেটগুলি স্যুইচ "
+#~ "করেন তবে এই সেটিংসটি অনুপলব্ধ হয়ে যাবে তবে সংরক্ষণগুলি টেমপ্লেট স্যুইচ করার আগে এখানে কোনও "
+#~ "পরিবর্তন প্রকাশ করবে!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout for "
+#~ "WooCommerce"
+#~ msgstr ""
+#~ "অ্যাক্টিভেশন ব্যর্থ হয়েছে: WooCommerce জন্য চেকআউট ব্যবহার করতে দয়া করে WooCommerce সক্রিয় "
+#~ "করুন"
+
+#~ msgid "Body Background Color"
+#~ msgstr "বডি ব্যাকগ্রাউন্ড রঙ"
+
+#~ msgid "Body Text Color"
+#~ msgstr "শিরোনাম পাঠ্যের রঙ"
+
+#~ msgid "Header Background Color"
+#~ msgstr "শিরোনামের পটভূমির রঙ"
+
+#~ msgid "Header Text Color"
+#~ msgstr "শিরোনাম পাঠ্যের রঙ"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "পাদদেশের পটভূমির রঙ"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "পাদলেখের পাঠ্যের রঙ"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "সংক্ষিপ্ত পটভূমির রঙ"
+
+#~ msgid "Accent Color"
+#~ msgstr "সুরের ধাপের রঙ"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "প্রাথমিক বোতাম পটভূমির রঙ"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "প্রাথমিক বোতাম পাঠ্যের রঙ"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "প্রাথমিক বোতামের পটভূমিতে হোভার রঙ"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "প্রাথমিক বোতাম পাঠ্যের রঙ"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "মাধ্যমিক বোতামের পটভূমি রঙ Color"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "মাধ্যমিক বোতামের পাঠ্য রঙ"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "মাধ্যমিক বোতামের পাঠ্য রঙ"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "মাধ্যমিক বোতামের পাঠ্য রঙ"
+
+#~ msgid "Link Color"
+#~ msgstr "লিঙ্কের রং"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "সংক্ষিপ্ত পটভূমির রঙ"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "প্রাথমিক বোতাম পাঠ্যের রঙ"
+
+#, php-format
+#~ msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+#~ msgstr "%1$s এর একটি নতুন সংস্করণ উপলব্ধ। %2$s সংস্করণ দেখুন%3$s বিশদ%4$s।"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details%4$s or "
+#~ "%5$supdate now%6$s."
+#~ msgstr ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details%4$s or "
+#~ "%5$supdate now%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "আপনার কাছে প্লাগইন আপডেট ইনস্টল করার অনুমতি নেই"
+
+#~ msgid "Error"
+#~ msgstr "ত্রুটি"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout for "
+#~ "WooCommerce better."
+#~ msgstr ""
+#~ "প্লাগইন ব্যবহার ট্র্যাক করতে WooCommerce এর জন্য চেকআউটকে অনুমতি দেবেন? WooCommerce এর জন্য "
+#~ "চেকআউটটি আরও উন্নত করতে সহায়তা করুন।"
+
+#~ msgid "Allow"
+#~ msgstr "মঞ্জুর"
+
+#~ msgid "Do not allow"
+#~ msgstr "অনুমতি বাদ দিন"
+
+#~ msgid "Not Calculated"
+#~ msgstr "গণনা করা হয় না"
+
+#~ msgid "Not Available"
+#~ msgstr "পাওয়া যায় না"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if you recognize "
+#~ "this order."
+#~ msgstr ""
+#~ "আপনি কোনও অতিথির অর্ডারের জন্য অর্থ প্রদান করছেন। আপনি যদি এই আদেশটি স্বীকৃত হন তবে দয়া "
+#~ "করে অর্থ প্রদানের সাথে চালিয়ে যান।"
+
+#~ msgid "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "এই আদেশের জন্য অর্থ প্রদান করা যাবে না। আপনার সহায়তার প্রয়োজন হলে আমাদের সাথে যোগাযোগ "
+#~ "করুন।"
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid for. Please "
+#~ "contact us if you need assistance."
+#~ msgstr ""
+#~ "এই আদেশের স্থিতি হল & ldquo; %s & rdquo; & mdash; এটির জন্য অর্থ প্রদান করা যাবে না। "
+#~ "আপনার সহায়তার প্রয়োজন হলে আমাদের সাথে যোগাযোগ করুন।"
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "চেকআউট প্রক্রিয়া করার সময় ত্রুটি। আবার চেষ্টা করুন."
+
+#~ msgid "Edit"
+#~ msgstr "সম্পাদনা"
+
+#~ msgid "Remove"
+#~ msgstr "অপসারণ"
+
+#~ msgid "Lost your password?"
+#~ msgstr "আপনার পাসওয়ার্ড হারিয়েছেন?"
+
+#, fuzzy
+#~ msgid "Customer information"
+#~ msgstr "গ্রাহকের তথ্য"
+
+#, fuzzy
+#~ msgid "Select a shipping method:"
+#~ msgstr "একটি শিপিং পদ্ধতি নির্বাচন করুন:"
+
+#~ msgid "Checkout for WooCommerce"
+#~ msgstr "Checkout for WooCommerce"
+
+#, fuzzy
+#~ msgid "Excellent support is in our DNA."
+#~ msgstr "আমাদের ডিএনএতে দুর্দান্ত সমর্থন।"

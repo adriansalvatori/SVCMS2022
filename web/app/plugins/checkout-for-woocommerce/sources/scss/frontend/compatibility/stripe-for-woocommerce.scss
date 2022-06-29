@@ -1,0 +1,56 @@
+#cfw-payment-request-buttons .wc-stripe-banner-checkout.active {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0;
+    max-width: 100% !important;
+    margin-right: 0 !important;
+
+    .banner-title {
+        display: none;
+    }
+
+    ul.wc_stripe_checkout_banner_gateways {
+        display: flex;
+
+        .wc-stripe-checkout-banner-gateway {
+            overflow: hidden;
+        }
+    }
+
+    ul.wc_stripe_checkout_banner_gateways {
+        margin-right: 7px !important;
+
+        li.wc-stripe-checkout-banner-gateway {
+            margin-right: 7px !important;
+            margin-bottom: 0;
+
+            > div {
+                @include cfw-payment-request-button();
+                margin-right: 0px !important;
+            }
+
+            &:last-child {
+                margin-right: 0px !important;
+            }
+        }
+    }
+
+    li.wc-stripe-checkout-banner-gateway {
+        button {
+            max-height: 35px !important;
+            min-height: 35px !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+
+main.checkoutwc {
+    .gpay-button {
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    .wc-stripe-paymentRequest-icons-container {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+/*!
+  Template Name:   	Copify
+  Author:           Brandon Tassone
+  Author URI:       https://objectiv.co/
+  Description:  	A theme inspired by Shopify.
+  Version:      	3.0.0
+  Supports:         summary-background, order-pay, order-received, breadcrumb-colors
+ */
+
+$grid-gutter-width: 10px;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+) !default;
+
+@import "~bootstrap/scss/mixins/breakpoints";
+
+@import "template/content";
+@import "template/header";

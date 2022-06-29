@@ -1,0 +1,10 @@
+.xtfw-highlight {
+	animation: xtfw-highlight 0.8s;
+	animation-iteration-count: 3;
+}
+
+@keyframes xtfw-highlight {
+	50% {
+		background-color: #fbfbac;
+	}
+}

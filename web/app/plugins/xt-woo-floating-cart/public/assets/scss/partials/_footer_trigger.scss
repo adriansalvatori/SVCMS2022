@@ -1,0 +1,197 @@
+.xt_woofc-trigger {
+	/* button that triggers the cart content */
+	z-index: calc(var(--xt-woofc-zindex) + 2);
+	height: var(--xt-woofc-trigger-size);
+	width: var(--xt-woofc-trigger-size);
+	color: transparent;
+	white-space: nowrap;
+	outline: none !important;
+	border-radius: var(--xt-woofc-radius);
+	background: var(--xt-woofc-trigger-bg-color);
+
+	.xt_woofc-empty.xt_woofc-cart-closed:not(.xt_woofc-force-visible) &{
+		display: none;
+	}
+
+	.xt_woofc-hide-trigger & {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.xt_woofc-cart-open & {
+
+		background: var(--xt-woofc-trigger-bg-active-color);
+	}
+
+	.xt_woofc-trigger-close-icon,
+	.xt_woofc-trigger-cart-icon {
+		/* used to create the cart/'X' icon */
+		position: absolute;
+		@include center;
+		height: 100%;
+		width: 100%;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		background-size: contain;
+		transition: opacity .3s .2s, transform .3s .2s;
+	}
+
+	.xt_woofc-trigger-close-icon {
+		color: var(--xt-woofc-trigger-close-icon-color);
+		opacity: 0;
+		transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	}
+
+	&.xt_woofc-icontype-image .xt_woofc-trigger-cart-icon {
+		background-image: url(../img/open.svg);
+	}
+
+	&.xt_woofc-icontype-image .xt_woofc-trigger-close-icon {
+		background-image: url(../img/close.svg);
+	}
+
+	&.xt_woofc-icontype-font {
+		.xt_woofc-trigger-cart-icon:before,
+		.xt_woofc-trigger-close-icon:before {
+			position: absolute;
+			font-size: calc(var(--xt-woofc-trigger-size) * 0.55);
+			line-height: var(--xt-woofc-trigger-size);
+			width: 100%;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.xt_woofc-trigger-cart-icon:before {
+			color: var(--xt-woofc-trigger-cart-icon-color);
+		}
+
+		.xt_woofc-trigger-close-icon:before {
+			color: var(--xt-woofc-trigger-close-icon-color);
+		}
+	}
+
+	.xt_woofc-count {
+		/* number of items indicator */
+		position: absolute;
+		height: var(--xt-woofc-counter-size);
+		width: var(--xt-woofc-counter-size);
+		background-color: var(--xt-woofc-counter-bg-color);
+		color: var(--xt-woofc-counter-color);
+		font-size: var(--xt-woofc-counter-font-size);
+		font-weight: 700;
+		line-height: 0;
+		border-radius: 50%;
+		text-indent: 0;
+		opacity: 0;
+		padding: 0;
+		margin: 0;
+		transition: opacity .2s .4s, width .2s, height .2s, transform .2s 0.4s ease;
+		list-style: none;
+		will-change: width, height;
+		backface-visibility: hidden;
+
+		&.xt_woofc-count-big {
+			height: calc(var(--xt-woofc-counter-size) * 1.3);
+			width: calc(var(--xt-woofc-counter-size) * 1.3);
+		}
+
+		&.xt_woofc-count-bigger {
+			height: calc(var(--xt-woofc-counter-size) * 1.7);
+			width: calc(var(--xt-woofc-counter-size) * 1.7);
+		}
+
+		.xt_woofc-ready .xt_woofc:not(.xt_woofc-cart-open) & {
+			opacity: 1;
+		}
+
+		.xt_woofc-cart-open &,
+		.xt_woofc:not(.xt_woofc-cart-opened) & {
+			transition: opacity .1s, transform .1s ease;
+		}
+
+		.xt_woofc-cart-open.xt_woofc-modal & {
+			transition: none;
+		}
+
+		.xt_woofc-is-desktop .xt_woofc-counter-pos-top-left &,
+		.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-top-left &,
+		.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-top-left & {
+			top: 0;
+			left: 0;
+			transform: scale(0) translateY(-50%) translateX(-50%);
+			transform-origin: top left;
+		}
+
+		.xt_woofc-is-desktop .xt_woofc-counter-pos-top-right &,
+		.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-top-right &,
+		.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-top-right & {
+			top: 0;
+			right: 0;
+			transform: scale(0) translateY(-50%) translateX(50%);
+			transform-origin: top right;
+		}
+
+		.xt_woofc-is-desktop .xt_woofc-counter-pos-bottom-left &,
+		.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-bottom-left &,
+		.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-bottom-left & {
+			bottom: 0;
+			left: 0;
+			transform: scale(0) translateY(50%) translateX(-50%);
+			transform-origin: bottom left;
+		}
+
+		.xt_woofc-is-desktop .xt_woofc-counter-pos-bottom-right &,
+		.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-bottom-right &,
+		.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-bottom-right & {
+			bottom: 0;
+			right: 0;
+			transform: scale(0) translateY(50%) translateX(50%);
+			transform-origin: bottom right;
+		}
+
+		.xt_woofc-ready.xt_woofc-is-desktop .xt_woofc-counter-pos-top-left:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-top-left:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-top-left:not(.xt_woofc-cart-open) & {
+			transform: scale(1) translateY(-50%) translateX(-50%);
+		}
+
+		.xt_woofc-ready.xt_woofc-is-desktop .xt_woofc-counter-pos-top-right:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-top-right:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-top-right:not(.xt_woofc-cart-open) & {
+			transform: scale(1) translateY(-50%) translateX(50%);
+		}
+
+		.xt_woofc-ready.xt_woofc-is-desktop .xt_woofc-counter-pos-bottom-left:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-bottom-left:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-bottom-left:not(.xt_woofc-cart-open) & {
+			transform: scale(1) translateY(50%) translateX(-50%);
+		}
+
+		.xt_woofc-ready.xt_woofc-is-desktop .xt_woofc-counter-pos-bottom-right:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-tablet .xt_woofc-counter-tablet-pos-bottom-right:not(.xt_woofc-cart-open) &,
+		.xt_woofc-ready.xt_woofc-is-mobile .xt_woofc-counter-mobile-pos-bottom-right:not(.xt_woofc-cart-open) & {
+			transform: scale(1) translateY(50%) translateX(50%);
+		}
+
+		li {
+			/* this is the number of items in the cart */
+			list-style: none;
+			position: absolute;
+			margin: 0;
+			line-height: 1;
+			@include center;
+
+			&:last-of-type {
+				visibility: hidden;
+			}
+		}
+
+		&.xt_woofc-update-count li:last-of-type {
+			animation: xt_woofc-qty-enter .15s linear 0s 1 forwards;
+		}
+
+		&.xt_woofc-update-count li:first-of-type {
+			animation: xt_woofc-qty-leave .15s linear 0s 1 forwards;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.elementor-location-header, .elementor-location-footer {
+    position: relative;
+}
+
+.elementor-location-header {
+    z-index: 2000;
+}
+
+.elementor-location-footer {
+    z-index: 1000;
+}
+
+.elementor-location-header {
+    margin-bottom: 2em;
+}
+
+.elementor-location-footer {
+    margin-top: 2em;
+}

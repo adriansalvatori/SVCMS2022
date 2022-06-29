@@ -1,0 +1,117 @@
+/* License Activation */
+
+.xt-license-activation {
+  display: block;
+  width: inherit!important;
+  text-align: center;
+  width: calc(100% - 33px);
+
+  .xt-license-hide{
+    display:none;
+  }
+
+  table{
+    max-width: 700px;
+    text-align: left;
+    margin:0 auto;
+    border:0;
+
+    span{
+      color: green;
+      font-weight: bold;
+    }
+
+    th{
+      font-weight: bold;
+      width: 170px;
+      border-right: 1px solid #eaeaea;
+    }
+
+    th,td{
+      padding-left: 15px;
+    }
+  }
+
+  .xt-license-status{
+    margin-bottom:20px;
+  }
+
+  .xt-license-msg{
+    font-size:24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .xt-license-submsg{
+    font-size:16px;
+    line-height: 22px;
+    color: #797979;
+    display: block;
+    margin-top: 10px;
+  }
+  .xt-license-migrate {
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 14px!important;
+  }
+  .xt-license-invalid{
+    color:red;
+  }
+  .xt-license-valid{
+    color:green;
+  }
+
+  .xt-license-revoke-info {
+    font-size: 20px;
+    margin: 30px;
+    color: green;
+
+    &:empty{
+      display:none;
+    }
+  }
+
+
+  .xt-license-info{
+
+    &:empty{
+      display:none;
+    }
+  }
+
+  .xt-license-timer{
+    display:block;
+    margin:20px auto;
+    color: #777;
+    font-size:40px;
+  }
+
+  .xt-license-form{
+    margin-top:30px;
+    input.regular-text{
+      min-width: 450px;
+      display: block;
+      margin: 35px auto 10px;
+      height: 50px;
+      padding: 20px;
+      border-radius: 3px;
+      box-shadow: 0 0 10px rgba(24,24,24,0.1);
+      border: 0;
+
+      @media screen and (max-width: 450px){
+        &{
+          min-width:100%;
+          width: 100%;
+        }
+      }
+    }
+    .button{
+      display: inline-block;
+      margin: 20px 5px;
+      font-size:20px;
+      padding:10px 20px;
+      height:inherit;
+    }
+  }
+}

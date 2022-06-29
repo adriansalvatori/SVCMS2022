@@ -1,0 +1,113 @@
+
+.xt_woofc-header {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	top: 0;
+	padding: 0 0 0 1.4em;
+	transition: opacity .2s 0s, border-radius 0.5s;
+	background: var(--xt-woofc-header-bg-color);
+	height: var(--xt-woofc-header-height);
+	line-height: var(--xt-woofc-header-height);
+	border-bottom: var(--xt-woofc-border-width) var(--xt-woofc-border-style) var(--xt-woofc-header-border-color);
+	border-radius: var(--xt-woofc-radius) var(--xt-woofc-radius) 0 0;
+	overflow: hidden;
+
+	@include clearfix;
+
+	/* fixes weird 1px space below header */
+	.xt_woofc-modal & {
+		top: 1px;
+	}
+}
+.xt_woofc-header-left {
+	flex: 1;
+}
+.xt_woofc-header-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.xt_woofc-title {
+	position: absolute;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: var(--xt-woofc-header-title-color);
+	white-space: nowrap;
+	transition: opacity 0.3s, transform 0.3s;
+
+	svg {
+		display: inline-block;
+		transform: rotate(180deg);
+		margin-right: 8px;
+		height: 40px;
+		vertical-align: top;
+		width: 20px;
+
+		* {
+			stroke: var(--xt-woofc-header-title-color);
+		}
+	}
+}
+
+.xt_woofc-header-action {
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0 12px;
+	border-left: var(--xt-woofc-border-width) var(--xt-woofc-border-style) var(--xt-woofc-header-border-color);
+
+}
+
+.xt_woofc-header-clear{
+
+	transition: width 0.3s, padding 0.3s;
+	overflow: hidden;
+
+	.xt_woofc-empty &{
+		visibility: hidden;
+		width: 0;
+		opacity: 0;
+		padding: 0;
+		font-size: 0;
+	}
+
+	&:before {
+		transition: transform .25s, color 0.25s;
+		color: var(--xt-woofc-header-clear-color);
+		display: inline-block;
+	}
+
+	&:hover:before{
+		transform: scale(1.2);
+		color: var(--xt-woofc-header-clear-hover-color);
+	}
+}
+
+.xt_woofc-header-clear-confirm {
+	margin-left: 8px;
+}
+
+.xt_woofc-header-close {
+
+	&:before {
+		transition: transform 0.5s;
+		color: var(--xt-woofc-header-close-color);
+	}
+
+	&[class*=xt_woofcicon-close]:hover:before,
+	&[class*=xt_woofcicon-delete]:hover:before,
+	&[class*=xt_woofcicon-cross]:hover:before,
+	&[class*=xt_woofcicon-circle]:hover:before {
+		transform: scale(1.2) rotate(360deg);
+	}
+
+	&[class*=xt_woofcicon-arrow]:hover:before {
+		transform: scale(1.2);
+	}
+}

@@ -1,0 +1,1515 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Variation Swatches Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-13 04:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:368
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:384
+msgid "%"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:324
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:484
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:437
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:793
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:941
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1454
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:97
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:470
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:606
+msgid "Action"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:216
+msgid "Add"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:218
+msgid "Add new"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1107
+msgid "Add To Cart"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1274
+msgid "After cart"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1265
+msgid "After price"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1268
+msgid "After price(alternative)"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1256
+msgid "After title"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:914
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1048
+msgid "Ajax variation threshold"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:174
+msgid "and"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1429
+msgid "Apply these settings for attributes that match conditions"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1208
+msgid "Assign page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:340
+msgid "Attribute image size"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1433
+msgid "Attribute name"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:804
+msgid "Attribute value for Color/Image type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:112
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:201
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:399
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:514
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:589
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1557
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:145
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:371
+msgid "Auto detect variation image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1586
+msgid "Auto Update Key"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:196
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:230
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:264
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:327
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:403
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:446
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:597
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:700
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:892
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:171
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:207
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:236
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:280
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:335
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:373
+msgid "Background"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:404
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:506
+msgid "Background color"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:387
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:518
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:765
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:913
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:75
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:447
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:583
+msgid "Basic diagonal left"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:390
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:521
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:768
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:916
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:78
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:450
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:586
+msgid "Basic diagonal right"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:381
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:512
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:759
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:907
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:69
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:441
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:577
+msgid "Basic horizontal"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:384
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:515
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:762
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:910
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:72
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:444
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:580
+msgid "Basic vertical"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1271
+msgid "Before cart"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1259
+msgid "Before price"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1262
+msgid "Before price(alternative)"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1253
+msgid "Before title"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:478
+msgid "Blur"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:134
+msgid "Blur out backorders"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:481
+msgid "Blur with icon"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:330
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:406
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:449
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:413
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:515
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:606
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:709
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:287
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:342
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:380
+msgid "Border color"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:426
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:528
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:619
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:753
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:311
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:349
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:387
+msgid "Border radius"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:370
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:409
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:452
+msgid "Border radius(px)"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:367
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:441
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:543
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:634
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:304
+msgid "Border width"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:738
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:831
+msgid "Bottom"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:199
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:233
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:267
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:458
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:560
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:651
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:178
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:214
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:243
+msgid "Box shadow color"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:108
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:84
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:120
+msgid "Button"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1884
+msgid "Can not remove all Countdown timer settings."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:245
+msgid "Cancel"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1011
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1231
+msgid "Center"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:98
+msgid ""
+"Change  'Display type' on Widget settings to  'List' to use the below "
+"settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:106
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:193
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:394
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:431
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1451
+msgid "Change product image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:569
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:660
+msgid "Change the size of attribute items"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:353
+msgid "Change the size of attribute items on"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:111
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:200
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:398
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:513
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:588
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1556
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:144
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:370
+msgid "Change to image set for attribute"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:439
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:560
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:735
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1015
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:55
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:428
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:563
+msgid "Choose an image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:152
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:161
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:268
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:363
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:891
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1287
+msgid "Choose an option"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:98
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:324
+msgid "Choose display style"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:112
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:338
+msgid "Choose display type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:127
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:353
+msgid "Choose swatches profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1392
+msgid ""
+"Choose type of the attribute to convert to slider. Leave blank to apply for "
+"Image,Variation Image, Color type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:946
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1172
+msgid "Clear on Reselect"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:163
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:166
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:169
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:172
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:175
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:2006
+msgid "Click to copy"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:18
+msgid "Click to toggle"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:339
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:358
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:494
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:530
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:605
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:808
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:829
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:956
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:977
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:259
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1567
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:112
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:134
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:395
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:485
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:506
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:532
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:617
+msgid "Clone"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:342
+msgid "Close"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:111
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:193
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:227
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:261
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:324
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:400
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:443
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:85
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:318
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:323
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:478
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:483
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:742
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:787
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:792
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:935
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:940
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1381
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:164
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:200
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:229
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:273
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:328
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:366
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:61
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:96
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:434
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:469
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:569
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:605
+msgid "Color"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:374
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:506
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:752
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:900
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:64
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:437
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:573
+msgid "Color separator"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1428
+msgid "Conditions(AND)"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:2007
+msgid "Copied to clipboard!"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:185
+msgid "Current Page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:147
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:303
+msgid "Custom"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1481
+msgid "Custom attribute name"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:100
+msgid "Custom Attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:147
+msgid "Custom css"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1286
+msgid "Custom position"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1277
+msgid "Custom position only"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:852
+msgid "Cut off long text"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:145
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:301
+msgid "Default"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:321
+msgid "Default design"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:110
+msgid "Default display type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:248
+msgid "Default profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:160
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:317
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:265
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:149
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:260
+msgid "Default styling"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:144
+msgid "Design attribute"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:139
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:159
+msgid "Design attribute details"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:295
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:316
+msgid "Design product count"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:145
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:248
+msgid "Design profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:411
+msgid "Design with Product category"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:927
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1061
+msgid "Disable 'out of stock' variation items"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:75
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:301
+msgid ""
+"Disable option 'Enable add to cart' in Swatches on Product List tab  to do "
+"display setting for the attribute on Product List pages"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:178
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:153
+msgid "Display attribute label for color and image type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:86
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:132
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:231
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:349
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:434
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1445
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:126
+msgid "Display style"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:996
+msgid "Display the selected item beside attribute title on single product page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:102
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:363
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:422
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1439
+msgid "Display type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:472
+msgid "Do not change"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:20
+msgid "Drag and drop to set admin attribute order"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1212
+msgid "eg: !is_page(array(34,98,73))"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:294
+msgid "eg: 3px 5px"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:321
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:679
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:811
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1031
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1326
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1364
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:105
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:265
+msgid "Enable"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1079
+msgid "Enable add to cart"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:965
+msgid "Enable attribute title"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1139
+msgid "Enable product quantity"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:125
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:222
+msgid "Enable this if you want this attribute to show in product list."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1166
+msgid "Enable to show the attribute name on the product list"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1191
+msgid "Enable tooltip"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:339
+msgid "Expand"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1623
+msgid "Export Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1747
+msgid "File is empty."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1729
+msgid ""
+"File is empty. Please upload something more substantial. This error could "
+"also be caused by uploads being disabled in your php.ini or by post_max_size "
+"being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1734
+msgid "File is error."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:157
+msgid "First Page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:869
+msgid "Font scale"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:324
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:768
+msgid "Font size"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:178
+msgid ""
+"For Color/Image type, you are now be able to display the attribute value "
+"along with color or image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1420
+msgid ""
+"For each rule, if a custom attribute has the same name(case-insensitive) as "
+"field \"Attribute name\" and products that contain this custom attribute "
+"belongs to one of selected \"Product category\", the swatches settings of "
+"current rule will be applied to that custom attribute"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:99
+msgid ""
+"For special taxonomy, please go to 'Global Attributes' to set display type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:92
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:80
+msgid "General Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1598
+msgid "Get Key"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:97
+msgid "Global Attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:143
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:369
+msgid "Global Change product image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:86
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:312
+msgid "Global Product list visibility"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:129
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:355
+msgid "Global Profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:100
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:326
+msgid "Global Style"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:114
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:340
+msgid "Global Type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:399
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:530
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:777
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:925
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:87
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:459
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:595
+msgid "Hard lines diagonal left"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:402
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:533
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:780
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:928
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:90
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:462
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:598
+msgid "Hard lines diagonal right"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:393
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:524
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:771
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:919
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:81
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:453
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:589
+msgid "Hard lines horizontal"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:396
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:527
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:774
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:922
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:84
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:456
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:592
+msgid "Hard lines vertical"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:298
+msgid "Height"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:475
+msgid "Hide"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:92
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:318
+msgid "Hide in product list"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:92
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:139
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:240
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:357
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:524
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:599
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1540
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:132
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:106
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:332
+msgid "Horizontal"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:223
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:396
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:490
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:195
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:323
+msgid "Hover styling"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://villatheme.com/extensions/woocommerce-product-variations-swatches/"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1422
+msgid ""
+"If \"Enable add to cart\" option(Swatches on Product List) is ON, \"Show in "
+"product list\" option cannot be changed"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1293
+msgid ""
+"If none of the above positions work, you can enter a specific hook here. "
+"It's technical so you should ask a theme or plugin developer about the "
+"needed hook."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1421
+msgid ""
+"If Product category of a rule is empty, this rule will be applied to "
+"products from all categories"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:121
+msgid "If set to 0, all terms will be shown by default."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:114
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:86
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:424
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:549
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:716
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:999
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1384
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:38
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:410
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:546
+msgid "Image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:39
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:411
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:547
+msgid ""
+"Image can also be used for \"Change product image\" option if attribute type "
+"is not Image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1635
+msgid "Import"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1619
+msgid "Import Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:222
+msgid "Last Page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:741
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1014
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1234
+msgid "Left"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:666
+msgid "Loading"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:116
+msgid "Max items"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1300
+msgid "Maximum attribute items"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:120
+msgid ""
+"Maximum items shown by default. There will be a \"Show more\" button if the "
+"number of attributes is greater than this value."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:286
+msgid "Millisecond"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1400
+msgid "Minimum attribute items"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:375
+msgid "Mobile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:269
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:40
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:272
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:401
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:537
+msgid "Name"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1889
+msgid "Names are unique."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1895
+msgid "Names can not be empty."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:205
+msgid "Next Page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:627
+msgid "No attributes currently exist."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:117
+msgid "No change"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1104
+msgid "No taxonomy found."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:110
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:199
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:397
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:512
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:587
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1555
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:146
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:372
+msgid "Not change"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:126
+msgid "Number of items per page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:190
+msgid "of"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:486
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:244
+msgid "OK"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1184
+msgid "On Product list, clicking on a selected attribute will deselect it"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:958
+msgid ""
+"On single product page, clicking on a selected attribute will deselect it"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:467
+msgid "Out of stock"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:167
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:364
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:291
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:185
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:297
+msgid "Padding"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/woo-widget.php:168
+msgid "Please change 'Display type' to 'List' to use swatches style"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1602
+msgid ""
+"Please fill your key what you get from <a target=\"_blank\" href=\"https:"
+"//villatheme.com/my-download\">https://villatheme.com/my-download</a>. You "
+"can auto update WooCommerce Product Variations Swatches plugin. See <a "
+"target=\"_blank\" href=\"https://villatheme.com/knowledge-base/how-to-use-"
+"auto-update-feature/\">guide</a>"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches.php:49
+msgid ""
+"Please install and activate WooCommerce to use WooCommerce Product "
+"Variations Swatches."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1741
+msgid "Please select the csv file"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:733
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1245
+msgid "Position"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:176
+msgid "Previous Page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:419
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1436
+msgid "Product category"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:255
+msgid "Product count"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:359
+msgid "Product list"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:306
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:319
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:332
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:435
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:450
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:537
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:552
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:628
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:643
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:762
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:777
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:792
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:846
+msgid "Px"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:88
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:123
+msgid "Radio"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:342
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:361
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:497
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:533
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:608
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:811
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:832
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:959
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:980
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:260
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1571
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:25
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:115
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:137
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:16
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:396
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:488
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:509
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:533
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:620
+msgid "Remove"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:366
+msgid "Remove this attribute?"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1626
+msgid "Reset Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:744
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1017
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1237
+msgid "Right"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1419
+msgid ""
+"Rules are checked from top to bottom and will stop if the attribute matches "
+"a rule"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1417
+msgid "Rules for Custom Attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:314
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1612
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:401
+msgid "Save"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1616
+msgid "Save & Check Key"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:142
+msgid "Save All"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:141
+msgid "Save all"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1103
+msgid "Save all settings of the attribute taxonomies on this page?"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:346
+msgid "Save attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:237
+msgid "Search attribute"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:590
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:592
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:664
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:666
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:751
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:753
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:807
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:809
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:881
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:883
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:956
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1022
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1024
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1089
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1091
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1153
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1155
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1206
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1208
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1277
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1279
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/frontend.php:1348
+msgid "See More"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:211
+msgid "Select all"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:214
+msgid "Select none"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:226
+msgid "Select term"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:257
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:439
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:581
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:224
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:361
+msgid "Selected styling"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/admin.php:21
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/admin.php:22
+msgid "Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:96
+msgid "Settings the Swatches for 'Filter Products by Attribute' WooCommerce: "
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1367
+msgid ""
+"Show all items of the attribute in a slider. The tooltip will hide on slider."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:164
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:154
+msgid "Show attribute label"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1155
+msgid "Show attribute name"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:977
+msgid "Show attribute title on single product page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:123
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:212
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:329
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:428
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1448
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:77
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:83
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:89
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:303
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:310
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:315
+msgid "Show in product list"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:633
+msgid "Show more"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1314
+msgid "Show more link"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:984
+msgid "Show selected attribute item"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1091
+msgid ""
+"Show the Add to cart button after selecting variation swatches on the "
+"product list. All attributes of a product are displayed on Product List page "
+"when enabling this option"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1202
+msgid ""
+"Show tooltip on the product list if this tooltip is enabled on swatches "
+"profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1042
+msgid "Show variation swatches on the product list"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1003
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1223
+msgid "Swatches align"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:98
+msgid "Swatches on Product List"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:96
+msgid "Swatches on Single page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:94
+msgid "Swatches Profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:124
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:378
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:425
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1442
+msgid "Swatches profile"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:64
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:70
+msgid "Swatches Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:102
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:186
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:312
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:417
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:474
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:545
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:585
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:586
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:605
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:64
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:290
+msgid "Swatches settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:96
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:257
+msgid "Swatches Settings for Global Attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:370
+msgid "Swatches settings for global attributes"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:19
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:73
+msgid "Swatches Settings for WooCommerce Filter Widget"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1355
+msgid "Swatches slider"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1374
+msgid "Swatches slider for attribute type"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:674
+msgid "Term"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:675
+msgid "Term Settings"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:395
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:497
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:588
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:691
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:883
+msgid "Text color"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1098
+msgid "Text of 'add to cart' button"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1337
+msgid "Text of more link"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1347
+msgid "The icon of more link"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1307
+msgid ""
+"The maximum number of items of an attribute can be displayed. Set to 0 to "
+"not limit this."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1408
+msgid "The maximum number of items of an attribute to convert to slider"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1280
+msgid ""
+"The position of variation on shop page, category page and other product list "
+"pages"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:89
+msgid "Theme Default"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:117
+msgid "Theme default"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1752
+msgid "There isn't Swatches Settings. Please select the another"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:939
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1073
+msgid ""
+"This function does not work for products whose number of variations is "
+"greater than the \"Ajax variation threshold\""
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:127
+msgid "This is used if an attribute is not config yet or no rules are applied"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:342
+msgid ""
+"This option cannot be disabled because 'Enable add to cart' option in "
+"Swatches on Product List tab is currently enabled"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1330
+msgid ""
+"This option is used when total items of an attribute is greater than the "
+"Maximum attribute items above"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:259
+msgid ""
+"This page allows you to customize all WooCommerce global attributes rapidly"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:721
+msgid "Tooltip content"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:162
+msgid ""
+"Tooltip content can now be editable. Useful shortcodes can be used in "
+"tooltip content are: "
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:783
+msgid "Tooltip image width"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:672
+msgid "Tooltip styling"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:747
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:828
+msgid "Top"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:277
+msgid "Transition Duration"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:102
+msgid "Update"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:436
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:558
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:732
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1012
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-global-attribute-item.php:52
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:425
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:560
+msgid "Upload/Add an image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:60
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:286
+msgid "Used for variations"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/loop-product-swatches.php:786
+msgid "Value must be greater than or equal to"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/frontend/loop-product-swatches.php:785
+msgid "Value must be less than or equal to"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:87
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1387
+msgid "Variation Image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:27
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:28
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:36
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:37
+msgid "Variation Swatches"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/class-wc-widget-layered-nav.php:95
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:136
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:237
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:354
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:521
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:596
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1537
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:135
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:103
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:329
+msgid "Vertical"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:837
+msgid "Vertical offset"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:823
+msgid "Vertical position"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:53
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:280
+msgid "Visible on the product page"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:114
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:203
+msgid ""
+"When selecting an attribute value, change product image according to "
+"attribute/variation image"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:149
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/templates/html-product-attribute.php:375
+msgid ""
+"When selecting an attribute value, change product image according to "
+"attribute/variation image(Only use for Image/Variation image type)"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:311
+msgid "Width"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/woo-widget.php:20
+msgid "Woo Filter Widget"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:84
+msgid "WooCommerce Product Variations Swatches"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Product Variations Swatches is a professional plugin that allows "
+"you to show and select attributes for variation products. The plugin "
+"displays variation select options of the products under colors, buttons, "
+"images, variation images, radio so it helps the customers observe the "
+"products they need more visually, save time to find the wanted products than "
+"dropdown type for variations of a variable product."
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Product Variations Swatches Premium"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:367
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:587
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1101
+msgid "Would you want to remove this?"
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/custom-attribute.php:368
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/global-attributes.php:588
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/setting-global-attrs.php:1102
+msgid "You can not remove the last item."
+msgstr ""
+
+#: E:/Git/master/woocommerce-product-variations-swatches/woocommerce-product-variations-swatches/includes/admin/settings.php:1217
+msgid ""
+"You can use WP's <a href=\"https://villatheme.com/knowledge-base/conditional-"
+"tags/\" target=\"_blank\">Conditional tags</a> to enable/disable swatches of "
+"product list on specific pages."
+msgstr ""

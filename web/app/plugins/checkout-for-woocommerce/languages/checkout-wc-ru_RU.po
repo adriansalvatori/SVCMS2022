@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout for WooCommerce\n"
+"POT-Creation-Date: 2022-02-25 16:24-0500\n"
+"PO-Revision-Date: 2022-02-25 16:50-0500\n"
+"Last-Translator: Clifton Griffin <clif@checkoutwc.com>\n"
+"Language-Team: support@checkoutwc.com\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: checkout-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: includes/Action/LogInAction.php:38
+msgid ""
+"There was an error logging in. Please check your credentials and try again."
+msgstr ""
+"Произошла ошибка при входе в систему. Пожалуйста, проверьте свои учетные "
+"данные и попробуйте еще раз."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidateEmailDomainAction.php:36
+msgid "Email address contains invalid domain name."
+msgstr "Адрес электронной почты содержит недопустимое доменное имя."
+
+#. translators: %s is the postcode field label
+#: includes/Action/ValidatePostcodeAction.php:34
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "Пожалуйста, введите правильный %s."
+
+#: includes/AddressFieldsAugmenter.php:102
+msgid "Full name"
+msgstr "Полное имя"
+
+#: includes/AddressFieldsAugmenter.php:155
+msgid "House number"
+msgstr "Номер дома"
+
+#: includes/AddressFieldsAugmenter.php:167
+msgid "Street name"
+msgstr "Улица"
+
+#: includes/AddressFieldsAugmenter.php:193
+msgid "Add Address Line 2"
+msgstr "Добавить адресную строку 2"
+
+#: includes/AddressFieldsAugmenter.php:208
+msgid "Add Company"
+msgstr "Добавить компанию"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:120
+#: sources/php/template-functions.php:692
+#: sources/php/template-functions.php:1323
+#: sources/php/template-functions.php:2041
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+#: includes/Compatibility/Gateways/PayPalForWooCommerce.php:283
+msgid "Logged in with PayPal. Please continue your order below."
+msgstr "Вход в систему PayPal. Пожалуйста, продолжайте Ваш заказ ниже."
+
+#. Plugin Name of the plugin/theme
+#: includes/Compatibility/Plugins/CartFlows.php:61
+msgid "CheckoutWC"
+msgstr "CheckoutWC"
+
+#: includes/Features/SideCart.php:200 sources/php/template-functions.php:1546
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/Features/SideCart.php:214 sources/php/template-functions.php:1575
+msgid "Have a promo code? Click here."
+msgstr "У тебя есть промо-код? Нажми сюда."
+
+#: includes/Features/SideCart.php:235 sources/php/template-functions.php:1596
+msgid "Promo Code"
+msgstr "Промо код"
+
+#: includes/Features/SideCart.php:243 sources/php/template-functions.php:1604
+msgid "Enter Promo Code"
+msgstr "Код купона"
+
+#: includes/Features/SideCart.php:429
+msgid "Congrats! You get free standard shipping."
+msgstr "Поздравляем! Вы получаете бесплатную стандартную доставку."
+
+#. translators: %s is the amount remaining for free shipping
+#: includes/Features/SideCart.php:434
+#, php-format
+msgid "You're %s away from free shipping!"
+msgstr "Вы находитесь на расстоянии %s от бесплатной доставки!"
+
+#: includes/Features/SmartyStreets.php:69
+msgid "Use This Address"
+msgstr "Используйте этот адрес"
+
+#: includes/Features/SmartyStreets.php:73
+msgid "Address Verification"
+msgstr "проверка адреса"
+
+#: includes/Features/SmartyStreets.php:76
+msgid ""
+"The shipping address you provided does not match the suggested address from "
+"our verification service. Please verify your address."
+msgstr ""
+"Указанный вами адрес доставки не совпадает с предложенным адресом нашей "
+"службы проверки. Пожалуйста, проверьте ваш адрес."
+
+#: includes/Features/SmartyStreets.php:84
+msgid "You Entered"
+msgstr "Вы вошли"
+
+#: includes/Features/SmartyStreets.php:98
+msgid "We Suggest"
+msgstr "Мы предлагаем"
+
+#: includes/Managers/AssetManager.php:435
+msgid "Please enter a valid phone number."
+msgstr "﻿Введите правильный номер телефона."
+
+#: includes/Managers/AssetManager.php:436
+msgid "Please enter your first and last name."
+msgstr "Пожалуйста, введите ваше имя и фамилию."
+
+#: includes/Managers/AssetManager.php:437
+#: sources/php/template-functions.php:702
+#: sources/php/template-functions.php:2025
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: includes/Managers/AssetManager.php:438
+msgid "Please enter a new quantity:"
+msgstr "Пожалуйста, введите новое количество:"
+
+#: includes/Managers/AssetManager.php:439
+msgid ""
+"3-digit security code usually found on the back of your card. American "
+"Express cards have a 4-digit code located on the front."
+msgstr ""
+"3-значный код безопасности, обычно находящийся на обратной стороне вашей "
+"карты. Карты American Express имеют 4-значный код, расположенный на лицевой "
+"стороне."
+
+#: includes/Managers/AssetManager.php:440
+msgid "Are you sure you want to remove this item from your cart?"
+msgstr "Вы уверены, что хотите удалить этот пункт из вашей корзины?"
+
+#: includes/Managers/AssetManager.php:445
+msgid "Please enter a valid postcode / ZIP."
+msgstr "Пожалуйста, введите действительный почтовый индекс / Индекс."
+
+#: sources/php/functions.php:930
+msgid "No shipping methods available"
+msgstr "Методы доставки отсутствуют"
+
+#: sources/php/functions.php:1101
+msgid "Complete Order"
+msgstr "Завершить заказ"
+
+#: sources/php/functions.php:1161 sources/php/template-functions.php:1107
+#: sources/php/template-functions.php:2006
+#: sources/php/template-functions.php:2310
+msgid "Payment"
+msgstr "Оплата"
+
+#: sources/php/functions.php:1186
+msgid "All transactions are secure and encrypted."
+msgstr "Все операции защищены и зашифрованы."
+
+#: sources/php/functions.php:1207
+msgid "Your order is free. No payment is required."
+msgstr "Ваш заказ бесплатный. Оплата не требуется."
+
+#: sources/php/functions.php:1252
+msgid "Same as shipping address"
+msgstr "Тот же, что адрес доставки"
+
+#: sources/php/functions.php:1272
+msgid "Use a different billing address"
+msgstr "Использовать другой адрес для выставления счетов"
+
+#: sources/php/functions.php:1444
+msgid "Return to cart"
+msgstr "Вернуться в корзину"
+
+#: sources/php/functions.php:1481
+msgid "Continue to shipping"
+msgstr "Продолжить отгрузку"
+
+#: sources/php/functions.php:1518
+msgid "Continue to payment"
+msgstr "Перейти к оплате"
+
+#: sources/php/functions.php:1538
+msgid "Review order"
+msgstr "Просмотр заказа"
+
+#: sources/php/functions.php:1558
+msgid "Return to information"
+msgstr "Вернуться к информации"
+
+#: sources/php/functions.php:1578
+msgid "Return to shipping"
+msgstr "Возврат к отгрузке"
+
+#: sources/php/functions.php:1598
+msgid "Return to payment"
+msgstr "Возврат к оплате"
+
+#: sources/php/functions.php:2093
+msgid "Or"
+msgstr "Или"
+
+#: sources/php/functions.php:2259
+msgid "Decrement"
+msgstr "Уменьшение"
+
+#: sources/php/functions.php:2265
+msgid "Increment"
+msgstr "Шаг"
+
+#: sources/php/template-functions.php:100
+msgid "Show order summary"
+msgstr "Показывать сводку по заказу"
+
+#: sources/php/template-functions.php:117
+msgid "Hide order summary"
+msgstr "Скрыть сводку заказов"
+
+#: sources/php/template-functions.php:263
+msgid "Express checkout"
+msgstr "Экспресс-оформление"
+
+#: sources/php/template-functions.php:295
+#: sources/php/template-functions.php:1988
+#: sources/php/template-functions.php:2281
+msgid "Information"
+msgstr "Информация"
+
+#: sources/php/template-functions.php:314
+msgid "Order review"
+msgstr "Обзор заказа"
+
+#: sources/php/template-functions.php:382
+msgid "Already have an account with us?"
+msgstr "У вас уже есть учетная запись?"
+
+#: sources/php/template-functions.php:394
+msgid "Log in for a faster checkout experience."
+msgstr "Авторизуйтесь для более быстрого оформления заказа."
+
+#. translators: %s: site name
+#: sources/php/template-functions.php:500
+#, php-format
+msgid "Create %s shopping account."
+msgstr "Создайте аккаунт для покупок в %s."
+
+#: sources/php/template-functions.php:512
+msgid "If you do not have an account, we will create one for you."
+msgstr "Если у вас нет учетной записи, мы создадим ее для вас."
+
+#. translators: %1 is the customer's name, %2 is their email address
+#: sources/php/template-functions.php:544
+#, php-format
+msgid "Welcome back, %1$s (%2$s)."
+msgstr "С возвращением, %1$s (%2$s)."
+
+#: sources/php/template-functions.php:554
+msgid "Log out."
+msgstr "Выходите."
+
+#: sources/php/template-functions.php:572
+msgid "Welcome back"
+msgstr "С возвращением"
+
+#: sources/php/template-functions.php:576
+msgid ""
+"It looks like you already have an account. Please enter your login details "
+"below."
+msgstr ""
+"Похоже, что у вас уже есть учетная запись. Пожалуйста, введите свои данные "
+"для входа в систему ниже."
+
+#: sources/php/template-functions.php:579
+msgid ""
+"If you have shopped with us before, please enter your login details below."
+msgstr ""
+"Если вы уже делали у нас покупки, введите свои данные для входа в систему "
+"ниже."
+
+#: sources/php/template-functions.php:632
+msgid "Or continue as guest"
+msgstr "Или продолжить в качестве гостя"
+
+#: sources/php/template-functions.php:682
+#: sources/php/template-functions.php:2018
+msgid "Billing and Shipping address"
+msgstr "Адрес выставления счета и доставки"
+
+#: sources/php/template-functions.php:903
+#: sources/php/template-functions.php:963
+#: sources/php/template-functions.php:1036
+msgid "Ship to"
+msgstr "Доставка в"
+
+#: sources/php/template-functions.php:926
+#: sources/php/template-functions.php:986
+#: sources/php/template-functions.php:1059
+msgid "Contact"
+msgstr "Контакты"
+
+#: sources/php/template-functions.php:934
+#: sources/php/template-functions.php:950
+#: sources/php/template-functions.php:994
+#: sources/php/template-functions.php:1010
+#: sources/php/template-functions.php:1025
+#: sources/php/template-functions.php:1067
+#: sources/php/template-functions.php:1083
+#: sources/php/template-functions.php:1098
+#: sources/php/template-functions.php:1114
+msgid "Change"
+msgstr "Изменить"
+
+#: sources/php/template-functions.php:1017
+#: sources/php/template-functions.php:1090
+msgid "Method"
+msgstr "Метод"
+
+#: sources/php/template-functions.php:1246
+msgid "Shipping method"
+msgstr "Способ доставки"
+
+#: sources/php/template-functions.php:1344
+msgid "Select the address that matches your card or payment method."
+msgstr "Выберите адрес, соответствующий Вашей карте или способу оплаты."
+
+#: sources/php/template-functions.php:1559
+msgid "Promo code"
+msgstr "Промо код"
+
+#. translators: %s is the order number
+#: sources/php/template-functions.php:1762
+#, php-format
+msgid "Order %s"
+msgstr "Заказ %s"
+
+#. translators: %s is the billing first name
+#: sources/php/template-functions.php:1775
+#, php-format
+msgid "Thank you %s!"
+msgstr "Спасибо, %s!"
+
+#: sources/php/template-functions.php:1879
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: sources/php/template-functions.php:1910
+msgid "Order updates"
+msgstr "Обновления заказа"
+
+#: sources/php/template-functions.php:1919
+msgid "You’ll get shipping and delivery updates by email."
+msgstr "Обновления о доставке и доставке вы получите по электронной почте."
+
+#: sources/php/template-functions.php:2002
+msgid "Contact information"
+msgstr "Контактная информация"
+
+#: sources/php/template-functions.php:2054
+#: sources/php/template-functions.php:2296
+msgid "Shipping"
+msgstr "Доставка"
+
+#: sources/php/template-functions.php:2154
+msgid "Login"
+msgstr "Войти"
+
+#: sources/php/template-functions.php:2382
+msgid "Review"
+msgstr "Обзор"
+
+#: sources/php/template-functions.php:2441
+msgid "Your Cart is Empty"
+msgstr "Ваша корзина пуста"
+
+#: templates/futurist/functions.php:17 templates/glass/functions.php:38
+msgid "Your Cart"
+msgstr "Ваша корзина"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.CheckoutWC.com"
+msgstr "https://www.CheckoutWC.com"
+
+#. Description of the plugin/theme
+msgid "Beautiful, conversion optimized checkout templates for WooCommerce."
+msgstr ""
+"Красивые, оптимизированные для преобразования шаблоны оформления заказа для "
+"WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Objectiv"
+msgstr "Objectiv"
+
+#. Author URI of the plugin/theme
+msgid "https://objectiv.co"
+msgstr "https://objectiv.co"
+
+#~ msgid "Select a country"
+#~ msgstr "Выберите страну"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Login is optional. You may continue with your order below."
+#~ msgstr ""
+#~ "Вход необязателен. Вы можете продолжить выполнение заказа, указанного "
+#~ "ниже."
+
+#~ msgid "Address Required"
+#~ msgstr "Адрес Требуется"
+
+#, php-format
+#~ msgid ""
+#~ "<h3><strong>%s</strong>: PHP 7.0 or greater is required to use CheckoutWC."
+#~ "</h3>"
+#~ msgstr ""
+#~ "<h3><strong>%</strong>s: PHP 7.0 или выше требуется для использования "
+#~ "CheckoutWC.</h3>"
+
+#~ msgid ""
+#~ "Newer versions of PHP are both faster and more secure, so updating will "
+#~ "have a positive effect on your site&#8217;s performance."
+#~ msgstr ""
+#~ "Более новые версии PHP одновременно быстрее и безопаснее, поэтому "
+#~ "обновление положительно скажется на производительности вашего сайта."
+
+#, php-format
+#~ msgid ""
+#~ "To prevent fatal errors, we have loaded %s into <strong>%s</strong>, "
+#~ "which disables all features and functionality. In most cases, upgrading "
+#~ "only takes a few minutes. Contact your hosting provider for more "
+#~ "information."
+#~ msgstr ""
+#~ "Для предотвращения фатальных ошибок мы загрузили %s в <strong>%s</"
+#~ "strong>, что отключает все возможности и функциональность. В большинстве "
+#~ "случаев обновление занимает всего несколько минут. Свяжитесь с вашим "
+#~ "хостинг-провайдером для получения более подробной информации."
+
+#~ msgid "safe mode"
+#~ msgstr "безопасный режим"
+
+#~ msgid "Beaver Themer"
+#~ msgstr "Beaver Themer"
+
+#~ msgid "Enable Beaver Themer support."
+#~ msgstr "Включите поддержку Бобра Тера."
+
+#~ msgid "Allow Beaver Themer to replace header and footer."
+#~ msgstr "Позвольте Beaver Themer заменить заголовок и нижний колонтитул."
+
+#~ msgid "Elementor Pro"
+#~ msgstr "Elementor Pro"
+
+#~ msgid "Enable Elementor Pro support."
+#~ msgstr "Включите поддержку Elementor Pro."
+
+#~ msgid "Allow Elementor Pro to replace header and footer."
+#~ msgstr "Позвольте Elementor Pro заменить заголовок и нижний колонтитул."
+
+#~ msgid "Checkout Field Editor"
+#~ msgstr "Checkout Field Editor"
+
+#~ msgid "Enable Checkout Field Editor address field overrides."
+#~ msgstr "Включить Checkout Field Editor (редактор полей оформления заказа)."
+
+#~ msgid ""
+#~ "Allow WooCommerce Checkout Field Editor to modify billing and shipping "
+#~ "address fields."
+#~ msgstr ""
+#~ "Разрешите редактору полей для выставления счетов WooCommerce Checkout "
+#~ "Field Editor изменить поля для выставления счетов и адреса доставки."
+
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgid "Premium Features"
+#~ msgstr "Премиум-функции"
+
+#~ msgid "Template"
+#~ msgstr "Шаблон"
+
+#~ msgid "Design"
+#~ msgstr "Дизайн"
+
+#~ msgid "Integrations"
+#~ msgstr "Интеграции"
+
+#~ msgid "Addons"
+#~ msgstr "Дополнения"
+
+#~ msgid "License"
+#~ msgstr "Лицензия"
+
+#~ msgid "Tools"
+#~ msgstr "Инструменты"
+
+#~ msgid "Support"
+#~ msgstr "Поддержка"
+
+#~ msgid "Recommended Plugins"
+#~ msgstr "Рекомендуемые плагины"
+
+#~ msgid ""
+#~ "Checkout for WooCommerce provides beautiful, conversion optimized "
+#~ "checkout templates for WooCommerce."
+#~ msgstr ""
+#~ "Оформление заказа для WooCommerce обеспечивает красивые, оптимизированные "
+#~ "для преобразования шаблоны оформления заказа для WooCommerce."
+
+#~ msgid "This setting is overridden by WooCommerce Checkout Field Editor."
+#~ msgstr ""
+#~ "Эта настройка переопределена редактором полей проверки в WooCommerce "
+#~ "Checkout Field Editor."
+
+#~ msgid "Enable / Disable"
+#~ msgstr "Включить/ Выключить"
+
+#~ msgid "Use Checkout for WooCommerce Template"
+#~ msgstr "Используйте для WooCommerce"
+
+#~ msgid ""
+#~ "Enable or disable Checkout for WooCommerce theme. (NOTE: Theme is always "
+#~ "enabled for admin users.)"
+#~ msgstr ""
+#~ "Включить или отключить. (Примечание: всегда включено для администратора)"
+
+#~ msgid "Login Style"
+#~ msgstr "Стиль входа"
+
+#~ msgid "Enhanced (Recommended)"
+#~ msgstr "Расширенный (рекомендуемый)"
+
+#~ msgid "WooCommerce Default"
+#~ msgstr "WooCommerce по умолчанию"
+
+#~ msgid ""
+#~ "Enhanced: Automatically show and hide login fields depending on whether "
+#~ "the entered email address matches an account. (Recommended)"
+#~ msgstr ""
+#~ "Улучшенный: Автоматическое отображение и скрытие полей входа в систему в "
+#~ "зависимости от того, совпадает ли введенный адрес электронной почты с "
+#~ "учетной записью. (Рекомендуется)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Show a login reminder in a banner above the checkout "
+#~ "form."
+#~ msgstr ""
+#~ "WooCommerce Default: Показывать напоминание о входе в систему в баннере "
+#~ "над формой оформления заказа."
+
+#~ msgid "Registration Style"
+#~ msgstr "Регистрационный стиль"
+
+#~ msgid ""
+#~ "Enhanced: Automatically generate a username and password and email it to "
+#~ "the customer using the native WooCommerce functionality. (Recommended)"
+#~ msgstr ""
+#~ "Улучшенный: Автоматическая генерация имени пользователя и пароля и "
+#~ "отправка его по электронной почте клиенту с использованием родной "
+#~ "функциональности WooCommerce. (Рекомендуется)"
+
+#~ msgid ""
+#~ "WooCommerce Default: A password field is provided for the customer to "
+#~ "select their own password. Not recommended."
+#~ msgstr ""
+#~ "WooCommerce Default: Поле пароля предоставляется заказчику для выбора "
+#~ "собственного пароля. Не рекомендуется."
+
+#~ msgid "Field Label Style"
+#~ msgstr "Стиль \"Полевая этикетка"
+
+#~ msgid "Floating (Recommended)"
+#~ msgstr "Плавающий (рекомендуемый)"
+
+#~ msgid "Normal"
+#~ msgstr "Нормальный"
+
+#~ msgid ""
+#~ "Floating: Automatically show and hide labels based on whether the field "
+#~ "has a value. (Recommended)"
+#~ msgstr ""
+#~ "Плавучий: Автоматически показывает и скрывает метки в зависимости от "
+#~ "того, имеет ли поле значение. (Рекомендуется)"
+
+#~ msgid "Normal: Labels appear above each field at all times."
+#~ msgstr "Нормально: Над каждым полем постоянно появляются метки."
+
+#~ msgid "Cart Item Label"
+#~ msgstr "Маркировка товара в корзине"
+
+#~ msgid "Text (Recommended)"
+#~ msgstr "Текст (Рекомендуется)"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Text: Do not link cart items to single product page. (Recommended)"
+#~ msgstr ""
+#~ "Текст: Не связывайте элементы корзины с одной страницей продукта. "
+#~ "(Рекомендуется)"
+
+#~ msgid "Link: Link each cart item to product page."
+#~ msgstr "Связь: Соедините каждый элемент корзины со страницей продукта."
+
+#~ msgid "Cart Item Data Display"
+#~ msgstr "Отображение данных о товарах в корзине"
+
+#~ msgid "Short (Recommended)"
+#~ msgstr "Короткий (рекомендуемый)"
+
+#~ msgid ""
+#~ "Short displays only variation values. For example, Size: XL, Color: Red "
+#~ "is displayed as XL / Red. (Recommended)"
+#~ msgstr ""
+#~ "Коротко отображаются только значения вариаций. Например, Размер: XL, "
+#~ "Цвет: Красный отображается как XL / Красный. (Рекомендуется)"
+
+#~ msgid ""
+#~ "When using WooCommerce Default, each variation is displayed on a separate "
+#~ "line using this format: Label: Value "
+#~ msgstr ""
+#~ "При использовании WooCommerce Default каждый вариант отображается "
+#~ "отдельной строкой в этом формате: Ярлык: Значение"
+
+#~ msgid "Skip Shipping Step"
+#~ msgstr "Пропустить этап доставки"
+
+#~ msgid "Skip shipping step"
+#~ msgstr "Пропустить этап доставки"
+
+#~ msgid ""
+#~ "Enable to hide the shipping method step. Useful if you only have one "
+#~ "shipping option for all orders."
+#~ msgstr ""
+#~ "Позволяет скрыть шаг способа доставки. Полезно, если у вас есть только "
+#~ "один способ доставки для всех заказов."
+
+#~ msgid "Enable Order Notes field"
+#~ msgstr "Включить поле \"Примечания к заказу"
+
+#~ msgid "Enable or disable order notes field. Disabled by default."
+#~ msgstr ""
+#~ "Включите или выключите поле \"Примечания к заказу\". По умолчанию "
+#~ "отключено."
+
+#~ msgid "Mobile Coupon Field"
+#~ msgstr "Мобильный купон Поле"
+
+#~ msgid "Show coupon field above payment options on mobile."
+#~ msgstr "Покажите поле купона над платежными опциями на мобильном телефоне."
+
+#~ msgid ""
+#~ "Show coupon field above payment gateways on mobile devices. Helps "
+#~ "customers find the coupon field without expanding the cart summary."
+#~ msgstr ""
+#~ "Показывать поле купона над платежными шлюзами на мобильных устройствах. "
+#~ "Помогает клиентам найти поле купона, не расширяя сводку корзины."
+
+#~ msgid "Mobile Credit Card Logos"
+#~ msgstr "Логотипы мобильных кредитных карт"
+
+#~ msgid "Enable credit card logos on mobile"
+#~ msgstr "Включить логотипы кредитных карт на мобильном телефоне"
+
+#~ msgid ""
+#~ "Show the credit card logos on mobile. Note: Many gateway logos cannot be "
+#~ "rendered properly on mobile. It is recommended you test before enabling. "
+#~ "Default: Off"
+#~ msgstr ""
+#~ "Показывать логотипы кредитных карт на мобильном телефоне. Примечание: "
+#~ "Многие логотипы шлюзов не могут быть правильно отображены на мобильном "
+#~ "телефоне. Рекомендуется протестировать перед включением. По умолчанию: По "
+#~ "умолчанию: "
+
+#~ msgid "Cart Summary Mobile Label"
+#~ msgstr "Резюме корзины Мобильная этикетка"
+
+#~ msgid "Example: Show order summary and coupons"
+#~ msgstr "Пример: Показывать сводку заказов и купоны"
+
+#~ msgid "If left blank, this default will be used: "
+#~ msgstr "Если оставить пустым, будет использована эта настройка по умолчанию"
+
+#~ msgid "Header Scripts"
+#~ msgstr "Скрипты заголовков"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/head&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Этот код будет выведен непосредственно перед закрывающим <code>тегом &lt;/"
+#~ "head&gt;</code> в исходном тексте документа."
+
+#~ msgid "Footer Scripts"
+#~ msgstr "Скрипты нижнего колонтитула"
+
+#~ msgid ""
+#~ "This code will output immediately before the closing <code>&lt;/body&gt;</"
+#~ "code> tag in the document source."
+#~ msgstr ""
+#~ "Этот код будет выведен непосредственно перед закрытием <code>тега &lt;/"
+#~ "body&gt;</code> в исходном тексте документа."
+
+#~ msgid "Enable Usage Tracking"
+#~ msgstr "Включить отслеживание использования"
+
+#~ msgid "Allow Checkout for WooCommerce to track plugin usage?"
+#~ msgstr ""
+#~ "Разрешить выезд для WooCommerce для отслеживания использования плагина?"
+
+#~ msgid "Stat Collection Data Viewer"
+#~ msgstr "Средство просмотра данных по сбору данных"
+
+#~ msgid "Experimental Integrations"
+#~ msgstr "Экспериментальные интеграции"
+
+#~ msgid ""
+#~ "Experimental integrations are not supported and do not go through the "
+#~ "same testing processes as our recommended configurations."
+#~ msgstr ""
+#~ "Экспериментальные интеграции не поддерживаются и не проходят те же "
+#~ "процессы тестирования, что и рекомендуемые нами конфигурации."
+
+#~ msgid "Template Loader"
+#~ msgstr "Погрузчик шаблонов"
+
+#~ msgid "Distraction Free Portal (Recommended)"
+#~ msgstr "Отвлекающий портал (Рекомендуется)"
+
+#~ msgid "WordPress Theme"
+#~ msgstr "Тема Wordpress"
+
+#~ msgid ""
+#~ "Distraction Free Portal: Display CheckoutWC templates in a distraction "
+#~ "free portal which does not load the active WordPress theme or styles. "
+#~ "(Recommended)"
+#~ msgstr ""
+#~ "Отвлекающий бесплатный портал: Отображение шаблонов CheckoutWC в "
+#~ "отвлекающий бесплатный портал, который не загружает активную тему "
+#~ "WordPress или стили. (Рекомендуется)"
+
+#~ msgid ""
+#~ "WordPress Theme: Load CheckoutWC templates within active WordPress theme "
+#~ "content area."
+#~ msgstr ""
+#~ "Тема WordPress: Загрузить шаблоны CheckoutWC в активной области контента "
+#~ "темы WordPress."
+
+#~ msgid "Experimental - Unsupported Configuration"
+#~ msgstr "Экспериментальный - Безподдерживаемая конфигурация"
+
+#~ msgid "Cart Editing"
+#~ msgstr "Редактирование корзин"
+
+#~ msgid "Enable cart editing."
+#~ msgstr "Включите редактирование корзины."
+
+#~ msgid ""
+#~ "Enable or disable cart editing feature. Allows customer to remove or "
+#~ "adjust quantity of cart items."
+#~ msgstr ""
+#~ "Включите или отключите функцию редактирования корзины. Позволяет клиенту "
+#~ "удалять или регулировать количество элементов корзины."
+
+#~ msgid "Cart Editing Empty Cart Redirect"
+#~ msgstr "Редактирование корзины Пустая корзина Перенаправление"
+
+#~ msgid "URL to redirect to when customer empties cart from checkout page."
+#~ msgstr ""
+#~ "URL для переадресации, когда клиент опустошает корзину со страницы "
+#~ "оформления заказа."
+
+#~ msgid "If left blank, customer will be redirected to the cart page."
+#~ msgstr ""
+#~ "Если оставить пустым, клиент будет перенаправлен на страницу корзины."
+
+#~ msgid "Order Pay"
+#~ msgstr "Оплата заказа"
+
+#~ msgid "Enable support for order pay page."
+#~ msgstr "Включить поддержку для оплаты заказа страницы."
+
+#~ msgid "Use checkout template for order pay page."
+#~ msgstr "Используйте шаблон оформления заказа для страницы оплаты заказа."
+
+#~ msgid "One Page Checkout"
+#~ msgstr "One Page Checkout"
+
+#~ msgid "Enable one page checkout."
+#~ msgstr "Включите одну страницу оформления заказа."
+
+#~ msgid ""
+#~ "Show all checkout fields on one tab. Useful for digital stores or stores "
+#~ "that force the billing and shipping address to be the same."
+#~ msgstr ""
+#~ "Показывать все поля оформления заказа на одной вкладке. Полезно для "
+#~ "цифровых магазинов или магазинов, которые заставляют адрес для "
+#~ "выставления счета и доставки совпадать."
+
+#~ msgid "Thank You Page"
+#~ msgstr "Страница благодарности"
+
+#~ msgid "Enable support for thank you page."
+#~ msgstr "Включите поддержку для страницы благодарности."
+
+#~ msgid ""
+#~ "Enable thank you page / order received template. This template is also "
+#~ "used when viewing orders in My Account."
+#~ msgstr ""
+#~ "Включите страницу благодарности/заказ полученного шаблона. Данный шаблон "
+#~ "также используется при просмотре ордеров в Личном кабинете."
+
+#~ msgid "Order Statuses"
+#~ msgstr "Статусы заказа"
+
+#~ msgid "The statuses to show on the thank you page."
+#~ msgstr "Статусы для отображения на странице \"Благодарность\"."
+
+#~ msgid "Map Embed"
+#~ msgstr "Встроенная карта"
+
+#~ msgid "Enable map embed."
+#~ msgstr "Включить встраивание карты."
+
+#~ msgid ""
+#~ "Enable or disable map embed on thank you page. Requires Google API key."
+#~ msgstr ""
+#~ "Включить или отключить встраивание карты на странице благодарности. "
+#~ "Требуется ключ Google API."
+
+#~ msgid "My Account"
+#~ msgstr "Мой аккаунт"
+
+#~ msgid "Use thank you template for viewing orders in My Account."
+#~ msgstr "Используйте шаблон оформления заказа для страницы оплаты заказа."
+
+#~ msgid ""
+#~ "When checked, viewing orders in My Account will use the thank you page "
+#~ "template."
+#~ msgstr ""
+#~ "При установке галочки, просмотр ордеров в Личном кабинете будет "
+#~ "использовать шаблон страницы благодарности."
+
+#~ msgid "Address Autocomplete"
+#~ msgstr "Автозаполнение адреса"
+
+#~ msgid "Enable address autocomplete."
+#~ msgstr "Включите автозаполнение адреса."
+
+#~ msgid ""
+#~ "Enable or disable address autocomplete feature. Requires Google API key."
+#~ msgstr ""
+#~ "Включение или выключение функции автозаполнения адресов. Требуется ключ "
+#~ "Google API."
+
+#~ msgid "Google API Key"
+#~ msgstr "Google API Key"
+
+#~ msgid ""
+#~ "Google API Key. Available in the <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">Google Cloud "
+#~ "Platform Console</a>."
+#~ msgstr ""
+#~ "Ключ Google API. Доступен в <a target=\"_blank\" href=\"https://"
+#~ "developers.google.com/places/web-service/get-api-key\">консоли Облачной "
+#~ "платформы Google</a>."
+
+#~ msgid "User Matching"
+#~ msgstr "Сопоставление с пользователем"
+
+#~ msgid "Enabled (Recommended)"
+#~ msgstr "Расширенный (рекомендуемый)"
+
+#~ msgid ""
+#~ "Enabled: Automatically matches guest orders to user accounts on new "
+#~ "purchase as well as on registration of a new user. (Recommended)"
+#~ msgstr ""
+#~ "Включено: Автоматическое сопоставление гостевых заказов с учетными "
+#~ "записями пользователей при новой покупке, а также при регистрации нового "
+#~ "пользователя. (Рекомендуется)"
+
+#~ msgid ""
+#~ "WooCommerce Default: Guest orders will not be linked to matching accounts."
+#~ msgstr ""
+#~ "WooCommerce Default: Показывать напоминание о входе в систему в баннере "
+#~ "над формой оформления заказа."
+
+#~ msgid "PHP Snippets"
+#~ msgstr "фрагменты PHP"
+
+#, php-format
+#~ msgid ""
+#~ "Add PHP snippets to modify your checkout page here. If you have lots of "
+#~ "snippets, you may want to consider using <a target=\"_blank\" href=\"%s"
+#~ "\">Code Snippets</a>."
+#~ msgstr ""
+#~ "Добавьте фрагменты PHP, чтобы изменить вашу страницу оформления заказа "
+#~ "здесь. Если у вас много фрагментов, вы можете рассмотреть возможность "
+#~ "использования <a target=\"_blank\" href=\"%s\">Code Snippets</a>."
+
+#~ msgid "License Upgrade Required"
+#~ msgstr "Обновление лицензии Требуется"
+
+#~ msgid "A Growth or Developer License is required to enable these features."
+#~ msgstr ""
+#~ "Для включения этих функций необходима лицензия Growth или Developer "
+#~ "License."
+
+#, php-format
+#~ msgid ""
+#~ "You can upgrade your license in <a target=\"_blank\" href=\"%1$s\">My "
+#~ "Account</a>. For help upgrading your license, <a target=\"_blank\" href="
+#~ "\"%2$s\">click here.</a>"
+#~ msgstr ""
+#~ "Вы можете обновить лицензию в <a target=\"_blank\" href=\"%1$s\">Личном "
+#~ "кабинете</a>. Чтобы получить помощь в обновлении лицензии, <a target="
+#~ "\"_blank\" href=\"%2$s\">нажмите здесь.</a>"
+
+#~ msgid "Setting Overridden"
+#~ msgstr "Установка переопределена"
+
+#~ msgid ""
+#~ "This setting is currently programmatically overridden. To enable it "
+#~ "remove your custom code."
+#~ msgstr ""
+#~ "В настоящее время эта настройка программно отменена. Чтобы включить ее, "
+#~ "удалите свой пользовательский код."
+
+#~ msgid "Templates"
+#~ msgstr "Шаблоны"
+
+#~ msgid "Active: "
+#~ msgstr "Активный:"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Global Settings"
+#~ msgstr "Глобальные настройки"
+
+#~ msgid "These settings apply to all themes."
+#~ msgstr "Эти настройки применяются ко всем темам."
+
+#~ msgid "Logo"
+#~ msgstr "Логотип"
+
+#~ msgid "Upload image"
+#~ msgstr "Загрузить изображение"
+
+#~ msgid "Clear Logo"
+#~ msgstr "Удалить логотип"
+
+#~ msgid "Footer Text"
+#~ msgstr "Текст футера"
+
+#~ msgid ""
+#~ "If left blank, a standard copyright notice will be displayed. Set to a "
+#~ "single space to override this behavior."
+#~ msgstr ""
+#~ "Если оставить пустым, будет отображено стандартное уведомление об "
+#~ "авторских правах. Установите единственное место, чтобы отменить такое "
+#~ "поведение."
+
+#~ msgid "Theme Specific Settings"
+#~ msgstr "Конкретные тематические настройки"
+
+#, php-format
+#~ msgid "These settings apply to your selected theme. (%s)"
+#~ msgstr "Эти настройки применяются к выбранной теме. (%s)"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифты"
+
+#~ msgid "Body Font"
+#~ msgstr "Шрифт тела"
+
+#~ msgid "System Font Stack"
+#~ msgstr "Стек системных шрифтов"
+
+#~ msgid "Heading Font"
+#~ msgstr "Шрифт заголовка"
+
+#~ msgid ""
+#~ "By default, CheckoutWC uses a System Font Stack, which yields the fastest "
+#~ "performance. You may choose to use a Google Font here."
+#~ msgstr ""
+#~ "По умолчанию CheckoutWC использует Стек системных шрифтов, который дает "
+#~ "самую быструю производительность. Вы можете выбрать использование Шрифта "
+#~ "Google здесь."
+
+#~ msgid "Color Settings"
+#~ msgstr "Настройки цвета"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Пользовательский CSS"
+
+#~ msgid ""
+#~ "Add Custom CSS rules to fully control the appearance of the checkout "
+#~ "template."
+#~ msgstr ""
+#~ "Добавьте пользовательские CSS правила, чтобы полностью контролировать "
+#~ "внешний вид шаблона проверки."
+
+#~ msgid "Export Settings"
+#~ msgstr "Экспорт настроек"
+
+#~ msgid "Download a backup file of your settings."
+#~ msgstr "Скачайте резервный файл настроек."
+
+#~ msgid "Import Settings"
+#~ msgstr "Импорт настроек"
+
+#~ msgid "Upload File and Import Settings"
+#~ msgstr "Загрузка файла и настройки импорта"
+
+#~ msgid "Before Contacting Support"
+#~ msgstr "Перед обращением в службу поддержки"
+
+#~ msgid ""
+#~ "You can find the answer to most questions in our <a href=\"https://kb."
+#~ "checkoutwc.com\" target=\"_blank\">knowledge base</a>."
+#~ msgstr ""
+#~ "Ответы на большинство вопросов Вы можете найти в нашей <a href=\"https://"
+#~ "kb.checkoutwc.com\" target=\"_blank\">базе знаний</a>."
+
+#~ msgid "Here are some popular guides:"
+#~ msgstr "Вот несколько популярных путеводителей:"
+
+#~ msgid "Still Need Help?"
+#~ msgstr "Все еще нужна помощь?"
+
+#~ msgid ""
+#~ "If you still need help after searching our knowledge base, we would be "
+#~ "happy to assist you."
+#~ msgstr ""
+#~ "Если вы все еще нуждаетесь в помощи после поиска в нашей базе знаний, мы "
+#~ "будем рады помочь вам."
+
+#~ msgid "Contact Support"
+#~ msgstr "Связаться с поддержкой"
+
+#~ msgid ""
+#~ "The WooCommerce ecosystem is full of fantastic plugins. Here are a few "
+#~ "that work really well with CheckoutWC that we wholeheartedly recommend to "
+#~ "our customers. (A few of these links may include affiliate tracking. This "
+#~ "does not impact our decision to include a plugin.)"
+#~ msgstr ""
+#~ "Экосистема Вукоммерции полна фантастических плагинов. Вот несколько из "
+#~ "них, которые действительно хорошо работают с CheckoutWC, которые мы "
+#~ "искренне рекомендуем нашим клиентам. (Некоторые из этих ссылок могут "
+#~ "включать в себя партнерское отслеживание. Это не влияет на наше решение "
+#~ "включить плагин)"
+
+#~ msgid "More Info"
+#~ msgstr "Больше информации"
+
+#, php-format
+#~ msgid "<strong>%s</strong>: Warning incompatible plugins detected!"
+#~ msgstr ""
+#~ "<strong>%</strong>s: Обнаружены предупреждающие несовместимые плагины!"
+
+#~ msgid ""
+#~ "Please deactivate these plugins to avoid problems with your checkout!"
+#~ msgstr ""
+#~ "Пожалуйста, деактивируйте эти плагины, чтобы избежать проблем с кассе!"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license is valid and activated for this site "
+#~ "but your template is disabled for normal users. To fix this, go to %s > "
+#~ "%s > %s and check \"%s\"."
+#~ msgstr ""
+#~ "<strong>%</strong>s: Ваша лицензия действительна и активирована для этого "
+#~ "сайта, но ваш шаблон отключен для обычных пользователей. Чтобы исправить "
+#~ "это, перейдите в %s &gt; %s &gt; %s и проверьте \"%s\"."
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key appears to have expired. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/checkout/?edd_license_key=%s\">renew your "
+#~ "license now</a> to restore full functionality."
+#~ msgstr ""
+#~ "<strong>%</strong>s: Ваш лицензионный ключ, похоже, истек. Пожалуйста, "
+#~ "убедитесь, что ваш лицензионный ключ действителен, или <a target=\"_blank"
+#~ "\" href=\"https://www.checkoutwc.com/checkout/?edd_license_key=%s"
+#~ "\">обновите вашу лицензию сейчас</a>, чтобы восстановить полную "
+#~ "функциональность."
+
+#, php-format
+#~ msgid ""
+#~ "<strong>%s</strong>: Your license key is missing or invalid. Please "
+#~ "verify that your license key is valid or <a target=\"_blank\" href="
+#~ "\"https://www.checkoutwc.com/\">purchase a license</a> to restore full "
+#~ "functionality."
+#~ msgstr ""
+#~ "<strong>%</strong>s: Ваш лицензионный ключ отсутствует или "
+#~ "недействителен. Пожалуйста, убедитесь, что ваш лицензионный ключ "
+#~ "действителен, или <a target=\"_blank\" href=\"https://www.checkoutwc.com/"
+#~ "\">приобретите лицензию</a> для восстановления полной функциональности."
+
+#~ msgid ""
+#~ "Thank you for installing Checkout for WooCommerce! To get started, click "
+#~ "on <strong>License</strong> below and activate your license key!"
+#~ msgstr ""
+#~ "Спасибо за установку кассы для WooCommerce! Для начала нажмите на "
+#~ "<strong>Лицензию</strong> ниже и активируйте Ваш лицензионный ключ!"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid ""
+#~ "CheckoutWC: Unable to import settings. Did you select a JSON file to "
+#~ "upload?"
+#~ msgstr ""
+#~ "CheckoutWC: Невозможно импортировать настройки. Вы выбрали JSON файл для "
+#~ "загрузки?"
+
+#~ msgid "CheckoutWC: Successfully imported settings."
+#~ msgstr "CheckoutWC: успешно импортированные настройки."
+
+#~ msgid ""
+#~ "These settings only apply to the currently active template. If you switch "
+#~ "templates in the customizer, these settings will become unavailable but "
+#~ "saving will publish any changes here prior to switching templates!"
+#~ msgstr ""
+#~ "Эти настройки применяются только к активному в данный момент шаблону. При "
+#~ "переключении шаблонов в кастомизаторе эти настройки будут недоступны, но "
+#~ "при сохранении здесь будут опубликованы все изменения перед переключением "
+#~ "шаблонов!"
+
+#~ msgid ""
+#~ "Activation failed: Please activate WooCommerce in order to use Checkout "
+#~ "for WooCommerce"
+#~ msgstr ""
+#~ "Активация не прошла: Пожалуйста, активируйте WooCommerce, чтобы "
+#~ "воспользоваться услугой Оформить заказ для WooCommerce"
+
+#~ msgid "Body Background Color"
+#~ msgstr "Цвет заднего фона"
+
+#~ msgid "Body Text Color"
+#~ msgstr "Цвет текста тела"
+
+#~ msgid "Header Background Color"
+#~ msgstr "Цвет фона заголовка"
+
+#~ msgid "Header Text Color"
+#~ msgstr "Цвет текста заголовка"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "Цвет фона футера"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "Цвет текста футера"
+
+#~ msgid "Summary Background Color"
+#~ msgstr "Краткое описание Цвет фона"
+
+#~ msgid "Accent Color"
+#~ msgstr "Цвет акцента"
+
+#~ msgid "Primary Button Background Color"
+#~ msgstr "Основной цвет фона кнопки"
+
+#~ msgid "Primary Button Text Color"
+#~ msgstr "Цвет текста основной кнопки"
+
+#~ msgid "Primary Button Background Hover Color"
+#~ msgstr "Цвет фона основной кнопки при наведении"
+
+#~ msgid "Primary Button Text Hover Color"
+#~ msgstr "Цвет основной кнопки навешивания текста"
+
+#~ msgid "Secondary Button Background Color"
+#~ msgstr "Цвет фона вторичной кнопки"
+
+#~ msgid "Secondary Button Text Color"
+#~ msgstr "Цвет текста вторичной кнопки"
+
+#~ msgid "Secondary Button Background Hover Color"
+#~ msgstr "Цвет фона при наведении Выпадающего меню"
+
+#~ msgid "Secondary Button Text Hover Color"
+#~ msgstr "Вторичная кнопка Цвет текста на воздушной подушке"
+
+#~ msgid "Link Color"
+#~ msgstr "Цвет ссылки"
+
+#~ msgid "Cart Item Quantity Background Color"
+#~ msgstr "Количество элементов корзины Цвет фона"
+
+#~ msgid "Cart Item Quantity Text Color"
+#~ msgstr "Количество элементов корзины Цвет текста"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr "Доступна новая версия %1$s. %2$sПосмотреть подробности %3$s%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Доступна новая версия %1$s. %2$sПосмотреть подробности %3$s%4$s или "
+#~ "%5$sобновить сейчас%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "У Вас нет прав на установку обновлений плагина"
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid ""
+#~ "Allow Checkout for WooCommerce to track plugin usage? Help make Checkout "
+#~ "for WooCommerce better."
+#~ msgstr ""
+#~ "Разрешить выезд для WooCommerce для отслеживания использования плагина? "
+#~ "Помогите сделать процесс оформления заказа для WooCommerce лучше."
+
+#~ msgid "Allow"
+#~ msgstr "Разрешить"
+
+#~ msgid "Do not allow"
+#~ msgstr "Не разрешать"
+
+#~ msgid "Not Calculated"
+#~ msgstr "Не Рассчитано"
+
+#~ msgid "Not Available"
+#~ msgstr "Недоступно"
+
+#~ msgid ""
+#~ "You are paying for a guest order. Please continue with payment only if "
+#~ "you recognize this order."
+#~ msgstr ""
+#~ "Вы оплачиваете гостевой заказ. Пожалуйста, продолжайте оплату, только "
+#~ "если вы узнаете этот заказ."
+
+#~ msgid ""
+#~ "This order cannot be paid for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Этот заказ не может быть оплачен. Пожалуйста, свяжитесь с нами, если вам "
+#~ "нужна помощь."
+
+#, php-format
+#~ msgid ""
+#~ "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid "
+#~ "for. Please contact us if you need assistance."
+#~ msgstr ""
+#~ "Статус заказа имеет неправильный статус и не может быть оплачен. "
+#~ "Пожалуйста, обратитесь к нам за помощью."
+
+#~ msgid "Error processing checkout. Please try again."
+#~ msgstr "Возникла ошибка! Повторите снова."
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Lost your password?"
+#~ msgstr "Забыли пароль?"

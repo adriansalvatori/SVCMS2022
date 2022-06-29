@@ -1,0 +1,159 @@
+.ywcdd_datepicker_content .form-row {
+  padding: 3px;
+  margin: 0 0 6px;
+
+  [placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease;
+    opacity: 0;
+  }
+
+  label {
+    line-height: 2;
+  }
+
+  label.hidden {
+    visibility: hidden;
+  }
+
+  label.inline {
+    display: inline;
+  }
+
+  .woocommerce-input-wrapper {
+
+    .description {
+      background: #1e85be;
+      color: #fff;
+      border-radius: 3px;
+      padding: 1em;
+      margin: 0.5em 0 0;
+      clear: both;
+      display: none;
+      position: relative;
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+        border: 0;
+        box-shadow: none;
+      }
+
+      &::before {
+        left: 50%;
+        top: 0%;
+        margin-top: -4px;
+        transform: translateX(-50%) rotate(180deg);
+        content: "";
+        position: absolute;
+        border-width: 4px 6px 0 6px;
+        border-style: solid;
+        border-color: #1e85be transparent transparent transparent;
+        z-index: 100;
+        display: block;
+      }
+    }
+  }
+
+  select {
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .required {
+    color: red;
+    font-weight: 700;
+    border: 0 !important;
+    text-decoration: none;
+    visibility: hidden; // Only show optional by default.
+  }
+
+  .optional {
+    visibility: visible;
+  }
+
+  .input-checkbox {
+    display: inline;
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  input.input-text,
+  textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background: #fff;
+    transition: all .2s ease;
+    color: #333;
+    padding: .80em .8em;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9 !important;
+    box-shadow: none;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.2s, 0s;
+    transition-property: all, width;
+    transition-timing-function: ease-out, ease;
+
+    &::placeholder {
+      color: #ccc;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 2px #c7c7c7;
+    }
+  }
+
+  textarea {
+    height: 4em;
+    line-height: 1.5;
+    display: block;
+    box-shadow: none;
+  }
+
+  .select2-container {
+    width: 100%;
+    line-height: 2em;
+  }
+
+  &.woocommerce-invalid {
+
+    label {
+      color: #a00;
+    }
+
+    .select2-container,
+    input.input-text,
+    select {
+      border-color: #a00;
+    }
+  }
+
+  &.woocommerce-validated {
+
+    .select2-container,
+    input.input-text,
+    select {
+      border-color: darken(#7ad03a, 5%);
+    }
+  }
+
+  ::-webkit-input-placeholder {
+    line-height: normal;
+  }
+
+  :-moz-placeholder {
+    line-height: normal;
+  }
+
+  :-ms-input-placeholder {
+    line-height: normal;
+  }
+}

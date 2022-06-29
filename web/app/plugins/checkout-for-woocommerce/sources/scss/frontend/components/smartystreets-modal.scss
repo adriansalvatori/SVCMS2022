@@ -1,0 +1,42 @@
+.checkoutwc {
+    .cfw-smartystreets-user-address, .cfw-smartystreets-suggested-address {
+        margin-bottom: 2em;
+    }
+
+    .cfw-smartystreets-option-wrap {
+        margin-top: 1em;
+    }
+
+    // Shipping step hidden
+    &.cfw-hide-shipping {
+        .cfw-smartystreets-user-address-button.cfw-continue-to-payment-btn,
+        .cfw-smartystreets-suggested-address-button.cfw-continue-to-payment-btn {
+            display: inline-block;
+        }
+
+        .cfw-smartystreets-user-address-button.cfw-continue-to-shipping-btn,
+        .cfw-smartystreets-suggested-address-button.cfw-continue-to-shipping-btn {
+            display: none;
+        }
+    }
+
+    // Shipping step NOT hidden
+    &:not(.cfw-hide-shipping) {
+        .cfw-smartystreets-user-address-button.cfw-continue-to-payment-btn,
+        .cfw-smartystreets-suggested-address-button.cfw-continue-to-payment-btn {
+            display: none;
+        }
+
+        .cfw-smartystreets-user-address-button.cfw-continue-to-shipping-btn,
+        .cfw-smartystreets-suggested-address-button.cfw-continue-to-shipping-btn {
+            display: inline-block;
+        }
+    }
+
+    .cfw-smartystreets-hide-buttons {
+        .cfw-smartystreets-button {
+            display: none !important;
+        }
+    }
+}
+

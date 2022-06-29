@@ -1,0 +1,14 @@
+.pakkeshop_dropdown {
+  th, td {
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  th {
+    &:after {
+      content: ":";
+    }
+  }
+}

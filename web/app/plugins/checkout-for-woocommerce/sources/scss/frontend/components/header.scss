@@ -1,0 +1,62 @@
+#cfw-header {
+    background: var(--cfw-header-background-color);
+    position: relative;
+    margin-bottom: var(--cfw-header-bottom-margin);
+
+    @include media-breakpoint-down(lg) {
+        margin-top: 0;
+    }
+}
+
+header {
+    margin-bottom: var(--cfw-header-bottom-margin);
+}
+
+.cfw-logo {
+    padding: 1em 0;
+
+    a {
+        color: var(--cfw-header-text-color) !important;
+        display: inline-block;
+        width: 100%;
+        max-width: 67%;
+        text-decoration: none;
+    }
+
+    a:not(.logo) {
+        font-size: 2em;
+        height: auto !important;
+        margin: 20px auto;
+    }
+
+    .logo {
+        background-color: var(--cfw-header-background-color);
+        background-image: var(--cfw-logo-url);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left center;
+        height: 4em;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .cfw-logo {
+        padding: 0;
+
+        a {
+            text-align: center;
+            margin: 1em auto;
+            display: block;
+        }
+    }
+
+    #cfw-logo-container {
+        text-align: center;
+    }
+
+    .checkout-wc .cfw-logo {
+        .logo {
+            background-position: center center;
+        }
+    }
+}

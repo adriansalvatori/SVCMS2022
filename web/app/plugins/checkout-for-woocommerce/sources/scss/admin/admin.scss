@@ -1,0 +1,320 @@
+@import "components/admin-page-header";
+@import "components/notices"; 
+@import "components/data-tooltip";
+
+.template_select_info_table_screen_shot_container {
+    display: flex;
+}
+
+.template_select_info_table_screen_shot_container .left-hand-column {
+    width: 30%;
+}
+
+.template_select_info_table_screen_shot_container .right-hand-column {
+    width: 70%;
+    padding-left: 2em;
+}
+
+.template_select_info_table_screen_shot_container .right-hand-column table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.template_select_info_table_screen_shot_container .right-hand-column table td {
+    padding: 0 0 1em 0;
+}
+
+.template_select_info_table_screen_shot_container .right-hand-column table td:first-child {
+    width: 150px;
+    font-weight: 700;
+}
+
+.template_select_info_table_screen_shot_container .left-hand-column img {
+    height: auto;
+    width: 100%;
+}
+
+.theme-preview-label-container, .theme-details-label-container {
+    margin-bottom: 1em;
+}
+
+.theme-preview-label, .theme-details-label {
+    font-weight: 700;
+}
+
+.theme-screenshot-img {
+    cursor: zoom-in;
+}
+
+.settings_page_cfw-settings #TB_window {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 75% !important;
+    height: 75% !important;
+    max-width: 1200px;
+    max-height: 900px;
+    margin: 0 !important;
+}
+
+.settings_page_cfw-settings #TB_ajaxContent {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+
+}
+
+.settings_page_cfw-settings #TB_ajaxContent img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+#thank_you_order_statuses {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media(max-width: 900px) {
+    .settings_page_cfw-settings #TB_window {
+        width: calc(100% - 60px) !important;
+        height: calc(100% - 60px) !important;
+    }
+}
+
+.cfw-notification-message {
+    background-color: #fff;
+    border: 0;
+    border-left: 4px solid #ffba00;
+    margin-bottom: 0;
+    margin-top: 15px;
+    border-radius: 0;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 10px 14px;
+    font-size: 13px;
+}
+
+.checkoutwc-support-tab-wrap > *:not(h3) {
+    font-size: 16px;
+}
+
+/* Code Editor */
+#wp-_cfw__settingphp_snippetsstring-wrap .CodeMirror-sizer:before {
+    content: "<?php";
+    color: #bbb;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.cfw_textarea_placeholder {
+    background: #ddd;
+    width: 100%;
+    height: 200px;
+    border: 1px #ccc solid;
+}
+
+/** Stop PayPal for WooCommerce Evilness **/
+.wp-admin hr {
+    color: none;
+    background: none;
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+}
+
+input[type=checkbox].cfw-toggle-checkbox {
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+label.cfw-toggle-checkbox-label {
+    font-size: 28px;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 2em;
+    height: 1em;
+    background: grey;
+    display: inline-block;
+    border-radius: 1em;
+    position: relative;
+}
+
+label.cfw-toggle-checkbox-label:after {
+    content: '';
+    position: absolute;
+    top: 0.05em;
+    left: 0.05em;
+    width: 0.9em;
+    height: 0.9em;
+    background: #fff;
+    border-radius: 0.9em;
+    transition: 0.3s;
+}
+
+input.cfw-toggle-checkbox:checked + label.cfw-toggle-checkbox-label {
+    background: #bada55;
+}
+
+input.cfw-toggle-checkbox:checked + label.cfw-toggle-checkbox-label:after {
+    left: calc(100% - .05em);
+    transform: translateX(-100%);
+}
+
+label.cfw-toggle-checkbox-label:active:after {
+    width: 1.3em;
+}
+
+.form-table .cfw-toggle-column-wrap {
+    padding-left: 0;
+}
+
+.cfw-admin-screen-general {
+    table {
+        margin-top: 0;
+    }
+
+    .cfw-toggle-container {
+        margin-top: 0;
+    }
+}
+
+.recommended-plugins {
+    .plugin-card {
+        width: 100%;
+        max-width: 575px;
+    }
+}
+
+.cfw-text-input-wrap {
+    input {
+        width: 100%;
+        max-width: 650px;
+    }
+}
+
+.cfw-no-padding-left {
+    padding-left: 0;
+}
+
+.cfw-admin-trust-badge-row td {
+    vertical-align: top;
+
+    > * {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+.cfw-admin-screen-general-wrap {
+    .plugin-card {
+        width: 100%;
+        max-width: 586px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:1000px) {
+    .cfw-admin-screen-general-wrap {
+        display:flex;
+        flex-wrap: wrap;
+
+        .cfw-admin-screen-general-content {
+            box-sizing: border-box;
+            padding-right: 2em;
+            width: 58%;
+
+            form {
+                //max-width: 700px;
+            }
+        }
+
+        .cfw-admin-screen-general-sidebar {
+            width: 42%;
+        }
+    }
+}
+
+.cfw-admin-trust-badge-template-row {
+    display: none;
+}
+
+label.error {
+    position: relative;
+    padding: .5rem 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    display: block;
+    width: max-content;
+}
+
+.cfw-admin-page {
+    h2:not(.nav-tab-wrapper) {
+        font-size: 1.6em;
+    }
+}
+
+.cfw-admin-field-horizontal-icon-radio-group {
+    svg {
+        width: 34px;
+    }
+}
+
+.cfw-save-inactive {
+    background: #f0f0f1 !important;
+    color: #3c434a !important;
+    animation: none !important;
+}
+
+.cfw-shake-animation {
+    animation: cfw_error_shake 0.5s 1 linear;
+}
+
+@keyframes cfw_error_shake {
+    0% { transform: translate(30px); }
+    20% { transform: translate(-30px); }
+    40% { transform: translate(15px); }
+    60% { transform: translate(-15px); }
+    80% { transform: translate(8px); }
+    100% { transform: translate(0px); }
+}
+
+.cfw-tw {
+    @import './tailwind';
+
+    input[type="checkbox"]:checked::before {
+        content: '';
+    }
+
+    input[type="radio"]:checked::before {
+        background-color: unset;
+    }
+
+    table {
+        border-collapse:separate;
+        border-spacing:1.25rem;
+    }
+}
+
+.cfw-theme-browser .theme {
+    form {
+        visibility: hidden;
+    }
+
+    &:hover {
+        form  {
+            visibility: visible;
+        }
+    }
+}
+
+.cfw-theme-browser .theme.active {
+    form {
+        visibility: hidden;
+    }
+}

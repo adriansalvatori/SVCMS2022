@@ -1,0 +1,67 @@
+#cfw_trust_badges {
+    position: relative;
+    border-top: 1px solid #e6e6e6;
+    font-size: 1rem;
+
+    h4 {
+        text-align: center;
+        font-size: 1rem;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%) translateZ(0);
+        background: var(--cfw-cart-summary-background-color);
+        padding: 0 1em;
+        font-weight: 400;
+        white-space: nowrap;
+
+        @include media-breakpoint-down(lg) {
+            background: var(--cfw-cart-summary-mobile-background-color);
+        }
+    }
+
+    &.cfw-trust-badges-position-below_checkout_form, &.cfw-trust-badges-position-in_footer {
+        margin-top: 3.6em;
+        padding: 0 20px;
+
+        h4 {
+            background: var(--cfw-body-background-color);
+        }
+
+        @include media-breakpoint-up(lg) {
+            padding: 0;
+
+            .cfw-trust-badges {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .row {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    &.cfw-trust-badges-position-in_footer {
+        h4 {
+            color: var(--cfw-footer-text-color);
+            background: var(--cfw-footer-background-color);
+        }
+    }
+
+    .cfw-badge {
+        margin-top: 1.5em;
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-size: 1em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

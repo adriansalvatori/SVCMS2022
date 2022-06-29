@@ -1,0 +1,114 @@
+/* purgecss start ignore */
+.ph-fade-enter-active,
+.ph-fade-leave-active {
+  transition: opacity 0.25s;
+}
+.ph-fade-enter, .ph-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.ph-fade-fast-enter-active,
+.ph-fade-fast-leave-active {
+  transition: opacity 0.1s;
+}
+.ph-fade-fast-enter, .ph-fade-fast-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.ph-shuffle-list-enter,
+.ph-shuffle-list-leave-to {
+  opacity: 0;
+  // transform: scale(0.95);
+}
+.ph-shuffle-list-leave-active {
+  position: absolute;
+}
+
+// what the fuck is your problem firefox
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-fade-enter {
+    opacity: 1;
+  }
+  .ph-fade-leave {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.ph-notification-enter-active,
+.ph-notification-leave-active {
+  transition: all 0.5s;
+}
+
+.ph-notification-enter,
+.ph-notification-leave-to {
+  opacity: 0;
+}
+
+// what the fuck is your problem firefox
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-notification-enter {
+    opacity: 1;
+  }
+  .ph-notification-leave {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.ph-notification-move {
+  transition: transform 0.2s;
+}
+
+.ph-slide-up-enter-active,
+.ph-slide-up-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.ph-slide-up-enter, .ph-slide-up-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  // opacity: 0;
+  transform: translateY(100%);
+}
+
+.ph-slide-leave-active,
+.ph-slide-enter-active {
+  transition: 0.25s ease;
+}
+.ph-slide-enter {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.ph-slide-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+.ph-slide-leave {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-slide-leave {
+    visibility: hidden;
+  }
+}
+
+.ph-slide-leave-to {
+  transform: translateX(100px);
+  opacity: 0;
+}
+.ph-slide-leave-active {
+  transition-delay: 0;
+}
+
+// fix shitty firefox bugs
+@media (min--moz-device-pixel-ratio: 0) {
+  .ph-slide-enter {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .ph-slide-leave {
+    opacity: 0;
+  }
+}
+/* purgecss end ignore */

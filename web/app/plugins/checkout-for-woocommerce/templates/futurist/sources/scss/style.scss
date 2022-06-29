@@ -1,0 +1,26 @@
+/*!
+  Template Name:   	Futurist
+  Author:           Brandon Tassone
+  Author URI:       https://objectiv.co/
+  Description:  	A modern twist on our classic theme.
+  Version:      	3.0.0
+  Supports:         header-background, footer-background, order-pay, order-received, summary-background, breadcrumb-colors
+ */
+
+$grid-gutter-width: 10px;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+) !default;
+
+@import "~bootstrap/scss/mixins/breakpoints";
+
+@import "template/header";
+@import "template/content";
+@import "template/order-bumps"

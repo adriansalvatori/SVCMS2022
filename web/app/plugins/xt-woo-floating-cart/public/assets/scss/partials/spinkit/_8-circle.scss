@@ -1,0 +1,61 @@
+/*
+ *  Usage:
+ *
+      <div class="xt_woofc-spinner-circle">
+        <div class="xt_woofc-spinner-circle1 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle2 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle3 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle4 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle5 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle6 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle7 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle8 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle9 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle10 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle11 xt_woofc-spinner-child"></div>
+        <div class="xt_woofc-spinner-circle12 xt_woofc-spinner-child"></div>
+      </div>
+ *
+ */
+
+.xt_woofc-spinner-circle {
+  $circleCount: 12;
+  $animationDuration: 1.2s;
+
+  margin: var(--xt-woofc-spinner-margin);
+  width: var(--xt-woofc-spinner-size);
+  height: var(--xt-woofc-spinner-size);
+  position: relative;
+
+  .xt_woofc-spinner-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .xt_woofc-spinner-child:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+    background-color: var(--xt-woofc-spinner-color);
+    border-radius: 100%;
+    animation: xt_woofc-spinner-circleBounceDelay $animationDuration infinite ease-in-out both;
+  }
+
+  @for $i from 2 through $circleCount {
+    .xt_woofc-spinner-circle#{$i} { transform: rotate(360deg / $circleCount * ($i - 1)); }
+  }
+
+  @for $i from 2 through $circleCount {
+    .xt_woofc-spinner-circle#{$i}:before { animation-delay: $animationDuration + $animationDuration / $circleCount * ($i - 1); }
+  }
+}
+
+@keyframes xt_woofc-spinner-circleBounceDelay {
+  0%, 80%, 100% { transform: scale(0) }
+  40% { transform: scale(1.0) }
+}
