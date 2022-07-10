@@ -10,7 +10,7 @@
   </a>
 
   <a href="https://packagist.org/packages/salvatori/svcms">
-    <img alt="Packagist" src="https://img.shields.io/packagist/v/adriansalvatori/svcms2022.svg?style=for-the-badge" />
+    <img alt="Packagist" src="https://img.shields.io/packagist/v/salvatori/svcms?include_prereleases&style=for-the-badge" />
   </a>
 
   <a href="https://github.com/roots/adriansalvatori/actions/workflows/ci.yml">
