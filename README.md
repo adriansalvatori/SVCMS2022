@@ -77,7 +77,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 1. Create a new project:
    ```sh
-   $ git clone https://github.com/adriansalvatori/SVCMS2022
+   $ composer create-project salvatori/svcms <project-name> dev-master
    ```
 2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
 
