@@ -6,19 +6,19 @@
 
 <p align="center">
   <a href="LICENSE.md">
-    <img alt="MIT License" src="https://img.shields.io/github/license/roots/bedrock?color=%23525ddc&style=flat-square" />
+    <img alt="MIT License" src="https://img.shields.io/github/license/adriansalvatori/SVCMS2022" />
   </a>
 
   <a href="https://packagist.org/packages/roots/bedrock">
     <img alt="Packagist" src="https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square" />
   </a>
 
-  <a href="https://github.com/roots/bedrock/actions/workflows/ci.yml">
+  <a href="https://github.com/roots/adriansalvatori/actions/workflows/ci.yml">
     <img alt="Build Status" src="https://img.shields.io/github/workflow/status/roots/bedrock/CI?style=flat-square" />
   </a>
 
-  <a href="https://twitter.com/rootswp">
-    <img alt="Follow Roots" src="https://img.shields.io/twitter/follow/rootswp.svg?style=flat-square&color=1da1f2" />
+  <a href="https://twitter.com/salvatori_dev">
+    <img alt="Follow Adrián Salvatori" src="https://img.shields.io/twitter/follow/rootswp.svg?style=flat-square&color=1da1f2" />
   </a>
 </p>
 
