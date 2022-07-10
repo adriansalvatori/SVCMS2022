@@ -1,28 +1,16 @@
 {
-  "name": "roots/bedrock",
+  "name": "salvatori/svcms",
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "homepage": "https://movidagrafica.co",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Adrián Salvatori",
+      "email": "adriansalvatori@gmail.com",
+      "homepage": "https://github.com/adriansalvatori"
     }
   ],
-  "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
-  ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
   "repositories": [
     {
       "type": "composer",
