@@ -72,6 +72,8 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 - PHP >= 7.4
 - Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+- If you're developing locally, you need a local domain *.mg.test for the recaptcha to let you in. 
+- If you're developing in a public domain (example.com) you need to ask for domain approval. You can mail adriansalvatori@gmail.com
 
 ## Installation
 
